@@ -1,4 +1,4 @@
-Código fuente del Máster de Innovación en Periodismo
+Info
 =====
 
 En este repositorio se encuentra alojada la web del Master de Innovación en Periodismo [MIP](http://mip.umh.es), un título oficial de postgrado de la Universidad Miguel Hernández (Elche, España) organizado por [Periodismo UMH](http://periodismo.umh/).
