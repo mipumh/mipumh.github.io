@@ -35,7 +35,7 @@
 
     </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".bs-docs-sidebar" data-offset="true">
       
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -56,8 +56,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-		  <a class="brand" href="http://mip.umh.es" data-bitly-type="bitly_hover_card">MIP</a>
-		<div class="nav-collapse">
+          <a class="brand" href="http://mip.umh.es" data-bitly-type="bitly_hover_card">MIP</a>
+		  <div class="nav-collapse">
             <ul class="nav">
               <li class="active"><a href="http://mip.umh.es/" data-bitly-type="bitly_hover_card">Home</a></li>
               <li><a href="./acerca.htm" data-bitly-type="bitly_hover_card">Acerca</a></li>
@@ -72,40 +72,6 @@
       </div>
     </div>
 
- <!-- Button trigger modal -->
-
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4 class="modal-title">Últimas plazas hasta el 26 de septiembre</h4>
-        </div>
-        <div class="modal-body">
-          <p>Si quieres inscribirte en el Máster, hemos extendido el período de preinscripción pero te recomendamos que lo hagas cuanto antes. Aunque en la web de la universidad se indica que el 10 de septiembre finalizaba el plazo, puedes apuntarte en este <a href="http://universite.umh.es/pop/preins_acceso.asp">formulario</a>. Estos son los pasos que debes seguir:</p>
-            <ol>
-              <li>Completar la información solicitada en dicha aplicación</li>
-              <li>Imprimir resguardo y entregarlo firmado junto con la documentación solicitada en el Registro General, dirigida al CEGECA Elche</li>
-              <li>La documentación a presentar es la siguiente</li>
-              <ul>
-                  <li>Resguardo de preinscripción, debidamente firmado</li>
-                  <li>DNI o Pasaporte en vigor (Original y fotocopia)</li>
-                  <li>Título o acreditación de haber solicitado el título y abonado las tasas de expedición (original o fotocopia compulsada)</li>
-                  <li>Certificado académico oficial de notas (original o fotocopia compulsada)</li>
-                  <li>Curriculum vitae</li>
-            </ul>
-            </ol>
-    <p>En el caso de no tener aun el título o el certificado de notas, puede presentarse una declaración jurada de que se está tramitando y que se adjuntará en cuanto lo reciba. Si tienes alguna duda, puedes escribirnos al <a href="mailto:mip@umh.es">correo electrónico</a> o llamarnos a este teléfono <abbr title="Phone">P:</abbr> 965 222 415.      
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-          <a href="http://universite.umh.es/pop/preins_acceso.asp" class="btn btn-success">Inscribirse</a>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-	
 <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="jumbotron masthead">
        <img class="masthead-img" src="./img/logo_tw.png">
@@ -140,6 +106,39 @@
   
     <a href="http://umh.us5.list-manage.com/subscribe/post?u=75b8bda4a5f5eae9a009046a2&amp;id=2c7d2b5847" class="btn btn-inverse btn-medium">Recibir noticias del MIP »</a>
     </div>
+      
+     <!-- Button trigger modal -->
+<!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Últimas plazas hasta el 26 de septiembre</h4>
+        </div>
+        <div class="modal-body">
+          <p>Si quieres inscribirte en el Máster, hemos extendido el período de preinscripción pero te recomendamos que lo hagas cuanto antes. Aunque en la web de la universidad se indica que el 10 de septiembre finalizaba el plazo, puedes apuntarte en este <a href="http://universite.umh.es/pop/preins_acceso.asp">formulario</a>. Estos son los pasos que debes seguir:</p>
+            <ol>
+              <li>Completar la información solicitada en dicha aplicación</li>
+              <li>Imprimir resguardo y entregarlo firmado junto con la documentación solicitada en el Registro General, dirigida al CEGECA Elche</li>
+              <li>La documentación a presentar es la siguiente</li>
+              <ul>
+                  <li>Resguardo de preinscripción, debidamente firmado</li>
+                  <li>DNI o Pasaporte en vigor (Original y fotocopia)</li>
+                  <li>Título o acreditación de haber solicitado el título y abonado las tasas de expedición (original o fotocopia compulsada)</li>
+                  <li>Certificado académico oficial de notas (original o fotocopia compulsada)</li>
+                  <li>Curriculum vitae</li>
+            </ul>
+            </ol>
+    <p>En el caso de no tener aun el título o el certificado de notas, puede presentarse una declaración jurada de que se está tramitando y que se adjuntará en cuanto lo reciba. Si tienes alguna duda, puedes escribirnos al <a href="mailto:mip@umh.es">correo electrónico</a> o llamarnos a este teléfono <abbr title="Phone">P:</abbr> 965 222 415.      
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+          <a href="http://universite.umh.es/pop/preins_acceso.asp" class="btn btn-success">Inscribirse</a>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
       
       
 <div class="container">
@@ -268,13 +267,13 @@
         </div>
             
         </footer>
-                  
-    
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/affix.js"></script>
+        <script src="js/application.js"></script>
         <script>
             var _gaq=[['_setAccount','UA-32796571-1'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
