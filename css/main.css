@@ -147,6 +147,26 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
   border-bottom: 1px solid #ddd;
   background-image: url('../img/grid-18px-masked.png');
 }
+
+/* Video Container (other pages)
+------------------------- */
+
+.video-container {
+    position: relative;
+    padding-bottom: 46.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%;
+    height: 85%;
+}
+
 .subhead h1 {
   font-size: 60px;
 }
