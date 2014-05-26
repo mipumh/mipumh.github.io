@@ -8,7 +8,6 @@
 body {
   position: relative;
   padding-top: 70px;
-  background-color: #fff;
 }
 
 
@@ -113,9 +112,16 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
 
 
 /* Masthead (docs home) */
+
 .masthead {
+  padding: 400px 0 80px;
+  color: #fff;
   margin-bottom: 10px;
-  background-image: url('../img/grid-18px-masked.png');    
+  background:url(../img/bg.jpg) no-repeat center center;
+  background-size:cover;
+  -webkit-box-shadow:inset 0 -1px 5px rgba(0,0,0,0.6);
+  -moz-box-shadow:inset 0 -1px 5px rgba(0,0,0,0.6);
+  box-shadow:inset 0 -1px 5px rgba(0,0,0,0.6)}
 }
 .masthead h1,
 .masthead p {
@@ -990,3 +996,21 @@ form.well {
     padding-bottom: 20px;
   }
 }
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 1o%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
