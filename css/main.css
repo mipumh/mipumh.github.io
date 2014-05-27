@@ -112,7 +112,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
   padding: 200px 0;
   text-align: center;
   color: #fff;
-  background:url(../img/bg.jpg) no-repeat center center;
+  background:url(../img/bag.png) no-repeat center center;
   background-size:cover;
 }
 .masthead h1,
