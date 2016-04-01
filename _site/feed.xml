@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Máster en Innovación en Periodismo</title>
+    <link>http://mip.umh.es</link>
+    <atom:link href="http://mip.umh.es/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Título oficial de la Universidad Miguel Hernández</description>
+    <language>en-us</language>
+    <pubDate>Fri, 01 Apr 2016 16:36:03 +0000</pubDate>
+    <lastBuildDate>Fri, 01 Apr 2016 16:36:03 +0000</lastBuildDate>
+    
+
+  </channel>
+</rss>
