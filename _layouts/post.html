@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+{% include _head.html %}
+
+<body class="layout-reverse">
+
+{% include _nav.html %}
+
+{% include _sidebar.html %}
+
+<div class="wrap">
+
+
+{% if page.cover_image %}
+<div class="article-cover">
+    <div>
+        <img src="{{ site.baseurl }}/images/{{ page.cover_image }}" class="image">
+    </div>
+</div>
+{% endif %}
+
+{% include _alert.html %}
+
+    <div class="bd-subheader">
+        <div class="container">
+        <h1>{{ page.title }}</h1>
+        <h3>{{ site.inc.title }}</h3>          
+        </div>
+    </div>    
+
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-xs-12">
+            <article>
+                <section>
+            {{ content }}
+                </section>
+            </article>
+
+        <div class="list-group bd-team">
+        {% for member in site.data.member %}        
+            <div class="list-group-item">
+              <a class="team-member" href="{{ member.twitter }}">
+                <img src="{{ member.imagen }}" width="32" height="32" alt="{{ member.nombre }}">
+                <strong>{{ member.nombre }}</strong> <small>{{ member.cargo }}</small> · <small class="muted">{{ member.company }}</small>
+              </a>
+            </div>
+        {% endfor %}            
+        </div>
+            </div>
+        
+        <div class="col-lg-4 col-xs-12">
+            {% include _form.html %}
+        </div>
+      </div>
+    </div>
+
+{% include _footer.html %}
+
+</div>
+    
+    {% include _scripts.html %}
+
+</body>
+</html>

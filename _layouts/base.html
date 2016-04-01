@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+{% include _head.html %}
+
+<body class="layout-reverse">
+
+{% include _nav.html %}
+
+{% include _sidebar.html %}
+
+<div class="wrap">
+    
+{% include _alert.html %}
+    
+{% include _hero.html %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-xs-12">
+                <p class="lead text-xs-center">Aprende las claves y las técnicas del periodismo más innovador</p>
+
+            <div class="card-deck-wrapper">
+                <div class="card-deck">
+                    <div class="card card-inverse" style="background-color: #040505; border-color: #333;">
+                        <div class="card-block">
+                            <p class="card-text text-xs-center">Modalidad presencial</p>
+                        </div>
+                        <ul class="list-group list-group-flush card-inverse">
+                        <li class="list-group-item">60 créditos ECTS, título oficial</li>
+                        <li class="list-group-item">Duración: 1 curso académico</li>
+                        <li class="list-group-item">Lugar: Campus Elche</li>
+                        <li class="list-group-item">Comienzo: octubre, 2016</li>
+                        </ul>
+                    </div>
+                    <div class="card card-inverse" style="background-color: #0275d8; border-color: #333;">
+                        <div class="card-block">
+                            <p class="card-text text-xs-center">Modalidad online</p>
+                        </div>
+                        <ul class="list-group list-group-flush card-inverse">
+                        <li class="list-group-item">60 créditos ECTS, título oficial</li>
+                        <li class="list-group-item">Duración: 1 curso académico</li>
+                        <li class="list-group-item"><a href="http://mipx.edx.umh.es/" target="_blank">Campus virtual</a>
+</li>
+                        <li class="list-group-item">Comienzo: noviembre, 2016</li>
+                        </ul>
+                    </div>                
+                </div>
+            </div>
+            
+            <hr>
+            
+            <article>
+                <section>
+                {{ content }}
+                </section>
+            </article>
+        
+    
+        </div>
+          
+        <div class="col-lg-4 col-xs-12">
+            {% include _form.html %}
+        </div>
+    </div>    
+</div>
+    
+{% include _footer.html %}
+
+</div>    
+
+{% include _scripts.html %}
+
+</body>
+</html>

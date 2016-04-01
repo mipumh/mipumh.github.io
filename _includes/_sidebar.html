@@ -1,0 +1,32 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>{{ site.description }}</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Inicio</a>
+
+    <a class="sidebar-nav-item" href="{{ site.baseurl }}/planestudios.html">Plan de estudios</a>
+    <a class="sidebar-nav-item" href="{{ site.baseurl }}/profesores.html">Profesores</a>
+    <a class="sidebar-nav-item" href="{{ site.baseurl }}/preinscripcion.html">Preinscripción</a>
+    <a class="sidebar-nav-item" href="{{ site.baseurl }}/blog/">Blog</a>
+    <span class="sidebar-nav-item"><a href="mailto:mip@umh.es">mip@umh.es</a></span>
+    <span class="sidebar-nav-item">  
+        <a href="http://facebook.com/{{ site.inc.facebook }}" title="Follow on Facebook" target="_blank" class="btn-social"><i class="fa fa-fw fa-facebook"></i></a>
+        <a href="https://plus.google.com/u/0/103906596485859350077/about" target="_blank" class="btn-social"><i class="fa fa-fw fa-google-plus"></i></a>
+        <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank" class="btn-social"><i class="fa fa-fw fa-twitter"></i></a>
+    
+    </span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; {{ site.time | date: '%Y' }}. Título Oficial de la Universidad Miguel Hernández.
+    </p>
+  </div>
+</div>
