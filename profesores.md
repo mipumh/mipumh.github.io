@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: team
 title: Profesores
 permalink: /profesores.html
 ---

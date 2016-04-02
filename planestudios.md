@@ -16,27 +16,27 @@ permalink: /planestudios.html
 * Will be replaced with the ToC, excluding the "Preguntas" header
 {:toc}
 
-##¿Qué es importante conocer?
+## ¿Qué es importante conocer?
 
-###Duración y calendario
+### Duración y calendario
 
 - Docencia presencial: desde octubre 2016 a mayo 2017.
 - Docencia online: desde noviembre 2016 a junio 2017.
 
-###Créditos e importe 
+### Créditos e importe 
 
 - El precio del curso 2015/16 ha sido de 46,20 €/crédito, según tasas oficiales. 
 - El título cuenta con 60 créditos ECTS (European Credit Transfer System).
 - Más información en el [servicio de matriculación](http://estudios.umh.es/acceso/masters/preinscripcion/).
 
-###Destinatarios 
+### Destinatarios 
 
 - Licenciados y/o profesionales del periodismo y comunicación.
 - Graduados y/o profesionales de cualquier sector. 
 - Periodistas que quieren renovar sus habilidades y competencias.
 - Profesionales con interés en emprender un proyecto periodístico.
 
-###Conocimientos previos recomendables
+### Conocimientos previos recomendables
 
 - Dominio de los fundamentos del periodismo y/o la comunicación.
 - Habilidad mínima en las herramientas y redes del ámbito digital. 
@@ -44,7 +44,7 @@ permalink: /planestudios.html
 - Disposición a comunicar en público y adaptarse al entorno profesional.
 - Inglés básico.
 
-###Salidas profesionales 
+### Salidas profesionales 
 
 La oferta formativa del máster puede concretarse en múltiples salidas profesionales:
 
@@ -61,44 +61,41 @@ La oferta formativa del máster puede concretarse en múltiples salidas profesio
 - Analista de audiencia y comportamiento de usuario.
 - Periodista especializado en marketing digital.
 
-###Orientación 
+### Orientación 
 
 - El máster está orientado al ámbito profesional. 
 - Como titulación oficial habilita para el **acceso al doctorado**.
 
-###Becas propias y ayudas  
+### Becas propias y ayudas  
 
 - El máster no ofrece becas ni ayudas propias. 
 - Si estás interesado, debes acudir a organismos públicas o privadas.
 
-##¿Cómo accederé?
+## ¿Cómo accederé?
 
-###Requisitos de acceso obligatorios 
+### Requisitos de acceso obligatorios 
 
 - **Título universitario oficial** español u otro expedido por una institución de educación superior perteneciente a otro Estado integrante del Espacio Europeo de Educación Superior que faculte en el mismo para el acceso a enseñanzas de Máster. 
+- También podrán acceder los titulados de sistemas educativos ajenos al Espacio Europeo de Educación Superior (EEES) sin necesidad de la homologación de sus títulos, **previa comprobación por la Universidad de que aquellos acreditan un nivel de formación equivalente** a los correspondientes títulos universitarios oficiales españoles.
+- Más [información sobre preinscripción y matrícula](http://estudios.umh.es/acceso/masters/preinscripcion/).
 
-- También podrán acceder los titulados de sistemas educativos ajenos al Espacio Europeo de Educación Superior sin necesidad de la homologación de sus títulos, previa comprobación por la Universidad de que aquellos acreditan un nivel de formación equivalente a los correspondientes títulos universitarios oficiales españoles y que facultan en el país expedidor del título para el acceso a enseñanzas de postgrado. El acceso por esta vía no implicará, en ningún caso, la homologación del título previo de que esté en posesión el interesado, ni su reconocimiento a otros efectos que el de cursar las enseñanzas de Máster. RD1393/2007, modificado por el RD 861/2010 por el que se establece la ordenación de las enseñanzas universitarias oficiales.
-
-- [Información sobre preinscripción y matrícula](http://estudios.umh.es/acceso/masters/preinscripcion/)
-
-###Oferta de plazas  
+### Oferta de plazas  
 
 Las 64 plazas ofertadas se distribuyen de la siguiente manera:
 
 - Presencial: 32 plazas
 - A distancia: 32 plazas
 
-###Criterios de admisión 
+### Criterios de admisión 
 
 En el caso de que la demanda supere la oferta de plazas, el Consejo de Máster nombrará una comisión que actuará como órgano de selección mediante la ponderación de los candidatos según los siguientes criterios:
 
 **Posesión de título (25%-60%):**
 
-- Posesión de título en Periodismo, ránking por expediente (Hasta 60%).
-- Posesión de título en Comunicación Audiovisual o Publicidad y Relaciones Públicas, ránking por expediente (Hasta 40%).
-- Posesión de título en otras Enseñanzas Oficiales del Espacio Europeo de Educación Superior en Ciencias Sociales y Jurídicas (Hasta un 30%).
-- Posesión de título en otras Enseñanzas Oficiales del Espacio Europeo de Educación Superior fuera de las Ciencias Sociales y Jurídicas (Hasta un
-25%).
+- Posesión de título en Periodismo: ranking por expediente (hasta 60%).
+- Posesión de título en Comunicación Audiovisual, Publicidad y RRPP: ranking por expediente (hasta 40%).
+- Posesión de título en otras enseñanzas oficiales del EEES en Ciencias Sociales y Jurídicas (hasta un 30%).
+- Posesión de título en otras enseñanzas oficiales del EEES distintas a las anteriores (hasta un 25%).
 
 **Experiencia profesional** en empresas del ámbito de preferencia del máster (20%-40%).
 
@@ -106,13 +103,13 @@ En el caso de que la demanda supere la oferta de plazas, el Consejo de Máster n
 
 ##¿Qué aprenderé?
 
-###Competencias genéricas y específicas 
+El máster te ayudará a entender la transformación del periodismo y de su industria para desarrollar un pensamiento creativo y práctico con métodos que fomentan la innovación en las principales áreas de la actividad periodística. Este aprendizaje se logrará mediante el seguimiento continuo de las asignaturas, la realización de prácticas y la elaboración de un trabajo final.
 
-El máster te ayudará a alcanzar las siguientes competencias mediante el seguimiento continuo de las asignaturas, las prácticas y el trabajo final:
+En concreto, estas son algunas de las competencias más relevantes que podrás alcanzar con este título:
 
 **Competencias Específicas**
 
-- Entender el concepto de audiencia y su evolución y analizar su comportamiento digital.
+- Entender el concepto de audiencia y su evolución, saber cómo analizar su comportamiento digital.
 - Identificar las claves del periodismo en una industria en transformación e integrarlas con las necesidades informativas del público en un contexto de hiperlocalismo y globalización.
 - Comprender la economía digital y descubrir nuevas formas de financiación del periodismo de interés público.
 - Conocer las condiciones tecnológicas del sector para aprovecharlas. 
@@ -137,15 +134,15 @@ El máster te ayudará a alcanzar las siguientes competencias mediante el seguim
 - Comprender las claves que hacen viable económicamente un proyecto en comunicación digital y estar al tanto de las posibilidades tecnológicas del sector.
 - Saber trabajar en equipo, ser asertivo y disciplinado, proactivo e integrador.
 
-###Plan de estudios 
+### Plan de estudios 
 
-El máster consta de 60 créditos ECTS distribuidos en asignaturas obligatorias (30), optativas (12), prácticas externas (8) y trabajo final (10). El itinerario formativo comienza con materiales teórico-prácticas que te ayudarán a analizar y comprender la evolución del periodismo y la industria de la comunicación. Durante el segundo cuatrimestre, recibirás formación más práctica en asignaturas optativas (debe cursar un mínimo de 12 de 18 ECTS). 
+El máster consta de 60 créditos ECTS distribuidos en asignaturas obligatorias (30), optativas (12), prácticas externas (8) y trabajo final (10). El itinerario formativo comienza con materiales teórico-prácticas que te ayudarán a analizar y **comprender la evolución del periodismo** y la industria de la comunicación. Durante el segundo cuatrimestre, recibirás **formación más práctica** con asignaturas optativas enfocadas en asuntos como el **diseño web**, el **periodismo de datos** o la gestión de contenidos en **redes sociales** (debe cursar un mínimo de 12 de 18 ECTS). 
 
-De forma paralela, tendrás que realizar el Trabajo Fin de Máster (10 créditos) con la guía de dos asignaturas centradas en el desarrollo de proyectos periodísticos. Así, aprenderás a identificar oportunidades para lanzar un proyecto periodístico en el sector de la comunicación. Por último, tendrás que cubrir 8 créditos prácticos en empresas o entidades. Estos últimos créditos **pueden convalidarse** si se certifica la actividad profesional [previa solicitud](http://estudios.umh.es/reconocimiento-creditos/masteres/experiencia-profesional-y-laboral/).
+De forma paralela, tendrás que realizar el Trabajo Fin de Máster (10 créditos) con la guía de dos asignaturas centradas en el desarrollo de proyectos periodísticos . Así, aprenderás a identificar oportunidades para lanzar un proyecto periodístico en el sector de la comunicación. Por último, tendrás que cubrir 8 créditos prácticos en empresas o entidades. Estos últimos créditos **pueden convalidarse** si se certifica la actividad profesional [previa solicitud](http://estudios.umh.es/reconocimiento-creditos/masteres/experiencia-profesional-y-laboral/).
 
-###Guías de las asignaturas 
+### Asignaturas 
 
-Puedes ver el contenido de cada asignatura pinchando en el enlace de cada materia o [ir directamente a la web del campus de la UMH:](http://www.umh.es/contenido/Estudios/:tit_m_182/datos_es.html)
+Puedes ver la guía de cada asignatura si pinchas el enlace de cada materia o [en la web del campus de la UMH:](http://www.umh.es/contenido/Estudios/:tit_m_182/datos_es.html)
 
 <table class="table table-responsive">
   <thead class="thead-inverse">
@@ -226,20 +223,20 @@ Puedes ver el contenido de cada asignatura pinchando en el enlace de cada materi
   </tbody>
 </table>
 
-###Horarios 
+### Horarios 
 
 - El horario de clases en la modalidad presencial será miércoles, jueves y viernes de 16:00 a 20:00. 
 - En la modalidad online, el horario de clases será libre, puesto que el material de trabajo y los vídeos podrán consumirse según la disponibilidad personal, salvo los encuentros virtuales programados en cada asignatura.
 
-###Acceso a doctorado  
+### Acceso a doctorado  
 
 Aquellos estudiantes que finalizan con éxito el máster también tienen la oportunidad de continuar sus estudios en el [Programa de Doctorado de Ciencias Sociales y Jurídicas](http://www.umh.es/contenido/PAS/:tit_d_254/datos_es.html) de la Universidad Miguel Hernández. 
 
-##¿Cómo aprenderé?
-
-###Metodología docente y sistema de evaluación 
+## ¿Cómo aprenderé?
 
 El máster está pensado para personas con ganas de ponerse en acción. Queremos que aprendas mediante los ejercicios prácticos, las tareas y las preguntas planteadas en clase por los profesores. Además, sacarás más partido a las sesiones con el estudio y el análisis de los materiales. 
+
+### Metodología docente y sistema de evaluación 
 
 Las asignaturas del Máster cuentan con las siguientes actividades formativas: 
 
@@ -266,24 +263,22 @@ La evaluación de las asignaturas se apoyará en este sistema:
 - Evaluación de ejercicios online
 - Asistencia a tutorías online
 
-###Prácticas externas 
+### Prácticas externas 
 
-Los estudiantes deben realizar un período de prácticas en empresas o entidades que faciliten la adquisición de las principales competencias del postgrado. Las prácticas deben afrontarse como una oportunidad de aprendizaje y preparación profesional. El estudiante puede completar esta asignatura en alguna de las empresas con convenio con la Universidad Miguel Hernández o en alguna otra entidad que pueda interesarle por especialización profesional o local.
+Los estudiantes deben realizar un período de prácticas en empresas o entidades que faciliten la adquisición de las principales competencias del postgrado. Las prácticas deben afrontarse como una oportunidad de aprendizaje y preparación profesional. Puedes completar esta asignatura en alguna de las [empresas colaboradoras](http://universite.umh.es/obsBuscadorEmpresas/aspx/empresas.aspx) del Máster y de la Universidad Miguel Hernández o en alguna otra entidad que pueda interesarte por especialización profesional o situación geográfica.
 
-Finalizado el período de prácticas, los estudiantes deben presentar los certificados requeridos por el Observatorio Ocupacional. Además, es necesaria la elaboración de una Memoria de Prácticas (según modelo indicado en el Anexo) para que el tutor del Máster y el director puedan realizar una evaluación de la formación adquirida.
+Finalizado el período de prácticas, debes presentar los certificados requeridos por el Observatorio Ocupacional, con el  el anexo de memoria de las actividades, para que el tutor del Máster y el director puedan realizar una evaluación de la formación adquirida.
 
-- Entrevistas de tutorización (20%)
-- Memoria e informe de prácticas del Observatorio Ocupacional (80%)
 
-###Movilidad y sistemas de intercambio 
+### Movilidad y sistemas de intercambio 
 
-[Ver información de la Oficina de Relaciones Internacionales](http://internacional.umh.es/movilidad/estudiantes/).
+Actualmente, el Máster tiene acuerdos de intercambio con diversas universidades y entidades en los programas de **Erasmus+ Estudios** y **Erasmus+ Prácticas**. Puedes consultar información detallada sobre convocatorias y acuerdos en [la Oficina de Relaciones Internacionales](http://internacional.umh.es/movilidad/estudiantes/).
 
-###Trabajo final de máster  
+### Trabajo Fin de Máster  
 
-El Trabajo Fin de Máster (TFM) es una asignatura obligatoria diseñada para que el estudiante plasme mediante el trabajo, el estudio y la creatividad personal los conocimientos adquiridos durante el curso. Este aprendizaje se deberá certificar mediante la elaboración de un documento escrito y un prototipo (web o aplicación beta) del proyecto desarrollado. 
+El Trabajo Fin de Máster (TFM) es una asignatura obligatoria diseñada para que el estudiante plasme mediante **trabajo, estudio y creatividad** los conocimientos adquiridos durante el curso. Este aprendizaje se deberá certificar mediante la **elaboración de un documento escrito y un prototipo** (web o aplicación beta) del proyecto desarrollado. 
 
-El proyecto periodístico o comunicativo debe ser el resultado del trabajo individual y/o colectivo encaminado a identificar una comunidad de lectores o usuarios, diseñar una propuesta de valor para atenderlas y planificar su desarrollo y lanzamiento con un modelo económico sostenible y realizable.
+El **proyecto periodístico** o comunicativo debe ser el resultado del trabajo individual y/o colectivo encaminado a identificar una comunidad de lectores o usuarios, diseñar una **propuesta de valor** para atenderlas y planificar su desarrollo y lanzamiento con un modelo económico sostenible y realizable.
 
 La estructura del trabajo incluye los siguientes contenidos: 
 
@@ -294,9 +289,9 @@ La estructura del trabajo incluye los siguientes contenidos:
 - Estrategia de marketing.
 - Prototipo o diseño beta del producto o servicio. 
 
-El TFM será defendido ante una comisión evaluadora que determinará la dirección del máster. La presentación y defensa del proyecto, junto con la superación de los mínimos exigibles, será condición necesaria para obtener el título.
+El TFM será defendido ante una comisión evaluadora que determinará la dirección del máster. La presentación y defensa del proyecto, junto con la superación de los mínimos exigibles, son necesarios para obtener el título.
 
-Los estudiantes contarán con un tutor entre los profesores coordinadores del Máster. En febrero deberá indicar su preferencia para la dirección del trabajo entre los siguientes tutores:
+Los estudiantes cuentan con un tutor entre los profesores coordinadores del Máster. En febrero deberá indicar su preferencia para la dirección del trabajo entre los siguientes tutores:
 
 - José Alberto García Avilés 
 - José Luis González Esteban 
@@ -306,11 +301,11 @@ Los estudiantes contarán con un tutor entre los profesores coordinadores del M�
 
 El Consejo de Máster delegará en el director la tarea de adjudicar mediante un reparto equitativo la carga de la tutorización entre estos profesores. De forma excepcional, puede optarse por un co-tutor que no forme parte del cuerpo de profesores de la Universidad Miguel Hernández.
 
-##¿Con quien aprenderé?
+## ¿Con quien aprenderé?
 
 ###Profesores 
 
-[Lista de profesores](profesores.html) de la última edición.
+El Máster cuenta con un claustro de profesores equilibrado con **académicos de amplia trayectoria investigadora**, capaces de ofrecer una visión más amplia y profunda de la transformación del periodismo, y con **profesionales, periodistas, emprendedores y especialistas** en áreas punteras de la [innovación en periodismo](http://mip.umh.es/ranking/): consulta la [lista de profesores](profesores.html) de la última edición.
 
 <table class="table table-responsive">
   <thead class="thead-inverse">
@@ -392,14 +387,14 @@ El Consejo de Máster delegará en el director la tarea de adjudicar mediante un
 </table>
 
 
-###Coordinación del máster 
+### Coordinación del máster 
 
-- Dr. Miguel Carvajal Prieto. Departamento de Ciencias Sociales y Humanas (UMH)
-- Dr. Félix Arias Robles. Departamento de Ciencias Sociales y Humanas (UMH)
+- Director: **Miguel Carvajal**. Departamento de Ciencias Sociales y Humanas (UMH)
+- Subdirector: **Félix Arias**. Departamento de Ciencias Sociales y Humanas (UMH)
 - Teléfono: 965 222 415
 - Correo electrónico: [mailto:mip@umh.es](mip@umh.es)
 
-##Enlaces de interés general
+## Enlaces de interés general
 
 - [Preinscripción y matrícula](http://estudios.umh.es/acceso/masters/preinscripcion/)
 - [Prácticas Externas](http://observatorio.umh.es/estudiantes-bolsa-de-practicas/informacion-util/informacion-sobre-practicas/)
@@ -416,8 +411,5 @@ El Consejo de Máster delegará en el director la tarea de adjudicar mediante un
 - [Informe de verificación del título](http://www.umh.es/pdf-verificado/182/memoria_aneca.pdf)
 - [Informe de evaluación del título](http://www.umh.es/pdf-verificado/182/informe_avap.pdf)
 - [Informe modificación 1](http://www.umh.es/pdf-verificado/182/informe_mod_1.pdf)
-
-### Resultados de calidad del título
-
 - [Resultados del título](http://www.umh.es/pdf-verificado/182/resultados_titulo.pdf)
 

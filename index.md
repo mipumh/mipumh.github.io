@@ -17,6 +17,3 @@ layout: base
 - Asistencia del coordinador y de un consultor experto para el desarrollo del TFM.
 - Foros, encuentros virtuales por asignatura y otras herramientas interactivas.
 - Material audiovisual, documentos, presentaciones y resúmenes de las clases.
-
-
-
