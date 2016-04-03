@@ -136,7 +136,7 @@ En concreto, estas son algunas de las competencias más relevantes que podrás a
 
 ### Plan de estudios 
 
-El máster consta de 60 créditos ECTS distribuidos en asignaturas obligatorias (30), optativas (12), prácticas externas (8) y trabajo final (10). El itinerario formativo comienza con materiales teórico-prácticas que te ayudarán a analizar y **comprender la evolución del periodismo** y la industria de la comunicación. Durante el segundo cuatrimestre, recibirás **formación más práctica** con asignaturas optativas enfocadas en asuntos como el **diseño web**, el **periodismo de datos** o la gestión de contenidos en **redes sociales** (debe cursar un mínimo de 12 de 18 ECTS). 
+El máster consta de 60 créditos ECTS distribuidos en asignaturas obligatorias (30), optativas (12), prácticas externas (8) y trabajo final (10). El itinerario formativo comienza con materias teórico-prácticas que te ayudarán a analizar y **comprender la evolución del periodismo** y la industria de la comunicación. Durante el segundo cuatrimestre, recibirás **formación más práctica** con asignaturas optativas enfocadas en asuntos como el **diseño web**, el **periodismo de datos** o la gestión de contenidos en **redes sociales** (debe cursar un mínimo de 12 de 18 ECTS). 
 
 De forma paralela, tendrás que realizar el Trabajo Fin de Máster (10 créditos) con la guía de dos asignaturas centradas en el desarrollo de proyectos periodísticos . Así, aprenderás a identificar oportunidades para lanzar un proyecto periodístico en el sector de la comunicación. Por último, tendrás que cubrir 8 créditos prácticos en empresas o entidades. Estos últimos créditos **pueden convalidarse** si se certifica la actividad profesional [previa solicitud](http://estudios.umh.es/reconocimiento-creditos/masteres/experiencia-profesional-y-laboral/).
 
@@ -225,8 +225,8 @@ Puedes ver la guía de cada asignatura si pinchas el enlace de cada materia o [e
 
 ### Horarios 
 
-- El horario de clases en la modalidad presencial será miércoles, jueves y viernes de 16:00 a 20:00. 
-- En la modalidad online, el horario de clases será libre, puesto que el material de trabajo y los vídeos podrán consumirse según la disponibilidad personal, salvo los encuentros virtuales programados en cada asignatura.
+- Horario de clases en la modalidad presencial: miércoles, jueves y viernes de 16:00 a 20:00. 
+- En la modalidad online, puedes atender cuando prefieras vídeos y materiales, salvo los encuentros virtuales programados en cada asignatura.
 
 ### Acceso a doctorado  
 
@@ -269,7 +269,6 @@ Los estudiantes deben realizar un período de prácticas en empresas o entidades
 
 Finalizado el período de prácticas, debes presentar los certificados requeridos por el Observatorio Ocupacional, con el  el anexo de memoria de las actividades, para que el tutor del Máster y el director puedan realizar una evaluación de la formación adquirida.
 
-
 ### Movilidad y sistemas de intercambio 
 
 Actualmente, el Máster tiene acuerdos de intercambio con diversas universidades y entidades en los programas de **Erasmus+ Estudios** y **Erasmus+ Prácticas**. Puedes consultar información detallada sobre convocatorias y acuerdos en [la Oficina de Relaciones Internacionales](http://internacional.umh.es/movilidad/estudiantes/).
@@ -303,9 +302,9 @@ El Consejo de Máster delegará en el director la tarea de adjudicar mediante un
 
 ## ¿Con quien aprenderé?
 
-###Profesores 
+### Profesores 
 
-El Máster cuenta con un claustro de profesores equilibrado con **académicos de amplia trayectoria investigadora**, capaces de ofrecer una visión más amplia y profunda de la transformación del periodismo, y con **profesionales, periodistas, emprendedores y especialistas** en áreas punteras de la [innovación en periodismo](http://mip.umh.es/ranking/): consulta la [lista de profesores](profesores.html) de la última edición.
+El Máster cuenta con un claustro de profesores equilibrado, con **académicos de amplia trayectoria investigadora**, capaces de ofrecer una visión profunda de la transformación del periodismo, y con **profesionales, periodistas, emprendedores y especialistas** en áreas punteras de la [innovación en periodismo](http://mip.umh.es/ranking/): consulta la [lista de profesores](profesores.html) de la última edición.
 
 <table class="table table-responsive">
   <thead class="thead-inverse">

@@ -18,7 +18,7 @@
 @media (max-width: 720px) {
     
     article {
-        padding-top:30px;
+        padding-top:15px;
         
         .container > header, .container > section, .container > footer {
             padding:0;
@@ -152,7 +152,12 @@
         }
         
         img {
-            display:none;
+            float:left;
+            border-radius:62px;
+            height:30px;
+            width:30px;
+            margin-top:0;
+            margin-right:10px;
         }
     }
 }
