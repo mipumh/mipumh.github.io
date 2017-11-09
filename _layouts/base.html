@@ -11,14 +11,12 @@
 
 <div class="wrap">
     
-{% include _alert.html %}
-    
 {% include _hero.html %}
 
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-xs-12">
-            <p class="lead text-xs-center">Aprende las claves y las técnicas del periodismo más innovador</p>
+            <p class="lead text-xs-center">Aprende las claves y las técnicas del periodismo más innovador. Puedes hacer el <a href="{{ site.baseurl }}/master-oficial-a-distancia-periodismo-online.html" target="_blank"><strong>máster de periodismo a distancia</strong></a> o en modalidad presencial</p>
 
             <div class="card-deck-wrapper">
                 <div class="card-deck">
@@ -28,47 +26,78 @@
                         </div>
                         <ul class="list-group list-group-flush card-inverse">
                         <li class="list-group-item">60 créditos ECTS, título oficial</li>
-                        <li class="list-group-item">Duración: 1 curso académico</li>
-                        <li class="list-group-item">Lugar: Campus Elche</li>
-                        <li class="list-group-item">Comienzo: octubre, 2016</li>
+                        <li class="list-group-item">Duración: 1 curso académico</li>        
+                        <li class="list-group-item">Campus de Elche</li>              
+                        <li class="list-group-item"><a href="http://umh.es/contenido/Estudios/:curso_182_1/datos_es.html" target="_blank">Plan de estudios</a></li>
+                        <li class="list-group-item">Próximo curso, oct. 2018</li>
+                        <li class="list-group-item">Idioma de docencia: castellano</li>
+                        <li class="list-group-item">Precio: 2.600€</li>
                         </ul>
                     </div>
                     <div class="card card-inverse" style="background-color: #0275d8; border-color: #333;">
+                  <a href="{{ site.baseurl }}/master-oficial-a-distancia-periodismo-online.html" target="_blank" style="hover: 15px;">
                         <div class="card-block">
-                            <p class="card-text text-xs-center">Modalidad online</p>
+                            <p class="card-text text-xs-center">Modalidad a distancia · <i class="fa fa-desktop" aria-hidden="true"></i></p>
                         </div>
+                                       </a>    
+     
                         <ul class="list-group list-group-flush card-inverse">
                         <li class="list-group-item">60 créditos ECTS, título oficial</li>
                         <li class="list-group-item">Duración: 1 curso académico</li>
-                        <li class="list-group-item"><a href="http://mipx.edx.umh.es/" target="_blank">Campus virtual</a>
-                            </li>
-                        <li class="list-group-item">Comienzo: noviembre, 2016</li>
+                        <li class="list-group-item"><a href="http://mipx.edx.umh.es/" target="_blank">Campus virtual</a></li>
+                        </li>
+                        <li class="list-group-item"><a href="http://umh.es/contenido/Estudios/:curso_182_O_1/datos_es.html" target="_blank">Plan de estudios</a></li>
+                        <li class="list-group-item">Próximo curso, nov. 2018</li>
+                        <li class="list-group-item">Idioma de docencia: castellano</li>
+                        <li class="list-group-item">Precio: 2.600€</li>
                         </ul>
                     </div>                
                 </div>
             </div>
-            
+
             <hr>
             
+<p class="lead text-xs-center">Algunos de los proyectos desarrollados por los estudiantes del curso 2015-16</p>
+        
+<div class="col-lg-6 col-xs-6">
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DSbhoWuPl7E"></iframe>
+</div>
+            <hr>
+
+</div>    
+
+<div class="col-lg-6 col-xs-6">
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nONg8T7eSjI"></iframe>
+</div>
+            <hr>
+
+</div>
+
             <article>
-                <section>
+                <section>   
                 {{ content }}
                 </section>
             </article>
-        </div>
+
+    </div>
           
         <div class="col-lg-4 col-xs-12">
+            {% include _inscribete.html %}
             {% include _form.html %}
             {% include _feed.html %}
         </div>
-      </div>
+
     </div>
+</div>
     
 
     {% include _footer.html %}
-    </div>
+</div>
     
     {% include _scripts.html %}
+
 
 </body>
 </html>

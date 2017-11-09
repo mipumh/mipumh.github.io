@@ -8,8 +8,8 @@ permalink: /planestudios.html
 
 - Créditos: 60 ECTS
 - Duración: 1 curso académico
-- Dos modalidades disponibles: online y presencial
-- Próxima edición: octubre (presencial) y noviembre (online) de 2016 
+- Dos modalidades: online y presencial
+- Próxima edición: octubre (presencial) y noviembre (online) de 2017 
 
 **Preguntas frecuentes**
 
@@ -25,8 +25,7 @@ permalink: /planestudios.html
 
 ### Créditos e importe 
 
-- El precio del curso 2015/16 ha sido de 46,20 €/crédito, según tasas oficiales. 
-- El título cuenta con 60 créditos ECTS (European Credit Transfer System).
+- El precio es de 2.772€ (46,20 € el crédito, según tasas oficiales en 2015/16). 
 - Más información en el [servicio de matriculación](http://estudios.umh.es/acceso/masters/preinscripcion/).
 
 ### Destinatarios 
@@ -48,17 +47,11 @@ permalink: /planestudios.html
 
 La oferta formativa del máster puede concretarse en múltiples salidas profesionales:
 
-- Editor y gestor de contenidos online.
-- Diseñador de aplicaciones.
-- Gestor de proyectos de comunicación.
+- Creador de contenidos online.
 - Periodista especializado en datos.
 - Diseñador de narrativas visuales informativas.
 - Editor de redes sociales y otras plataformas de publicación.
 - Emprendedor de nuevos medios y proyectos multimedia.
-- Arquitecto de redes sociales y comunidades de usuarios.
-- Community Manager.
-- Curador de contenidos periodísticos.
-- Analista de audiencia y comportamiento de usuario.
 - Periodista especializado en marketing digital.
 
 ### Orientación 
@@ -69,7 +62,7 @@ La oferta formativa del máster puede concretarse en múltiples salidas profesio
 ### Becas propias y ayudas  
 
 - El máster no ofrece becas ni ayudas propias. 
-- Si estás interesado, debes acudir a organismos públicas o privadas.
+- Si estás interesado, debes acudir a organismos públicos o privados.
 
 ## ¿Cómo accederé?
 
@@ -99,7 +92,11 @@ En el caso de que la demanda supere la oferta de plazas, el Consejo de Máster n
 
 **Experiencia profesional** en empresas del ámbito de preferencia del máster (20%-40%).
 
-**Formación o dominio del inglés (20%-40%)**. Se requerirá a los estudiantes que acrediten como mínimo un dominio del inglés correspondiente al B1 del Marco Común Europeo de Referencia para las Lenguas.
+<div class="card text-center">
+  <div class="card-block">
+    <a href="http://mip.umh.es/preinscripcion.html" class="btn btn-primary btn-lg btn-block">Solicita la admisión</a>
+  </div>
+</div>
 
 ##¿Qué aprenderé?
 
@@ -142,7 +139,7 @@ De forma paralela, tendrás que realizar el Trabajo Fin de Máster (10 créditos
 
 ### Asignaturas 
 
-Puedes ver la guía de cada asignatura si pinchas el enlace de cada materia o [en la web del campus de la UMH:](http://www.umh.es/contenido/Estudios/:tit_m_182/datos_es.html)
+Puedes ver la guía de cada asignatura si pinchas el enlace de cada materia o en la web del campus de la UMH:[modalidad presencial](http://umh.es/contenido/Estudios/:curso_182_1/datos_es.html) o [modalidad online](http://umh.es/contenido/Estudios/:curso_182_O_1/datos_es.html):
 
 <table class="table table-responsive">
   <thead class="thead-inverse">
@@ -226,7 +223,7 @@ Puedes ver la guía de cada asignatura si pinchas el enlace de cada materia o [e
 ### Horarios 
 
 - Horario de clases en la modalidad presencial: miércoles, jueves y viernes de 16:00 a 20:00. 
-- En la modalidad online, puedes atender cuando prefieras vídeos y materiales, salvo los encuentros virtuales programados en cada asignatura.
+- En la modalidad online, disponibilidad libre de vídeos y materiales, salvo los encuentros virtuales programados en cada asignatura.
 
 ### Acceso a doctorado  
 
@@ -300,7 +297,7 @@ Los estudiantes cuentan con un tutor entre los profesores coordinadores del Más
 
 El Consejo de Máster delegará en el director la tarea de adjudicar mediante un reparto equitativo la carga de la tutorización entre estos profesores. De forma excepcional, puede optarse por un co-tutor que no forme parte del cuerpo de profesores de la Universidad Miguel Hernández.
 
-## ¿Con quien aprenderé?
+## ¿Con quién aprenderé?
 
 ### Profesores 
 
@@ -385,13 +382,24 @@ El Máster cuenta con un claustro de profesores equilibrado, con **académicos d
   </tbody>
 </table>
 
-
 ### Coordinación del máster 
 
 - Director: **Miguel Carvajal**. Departamento de Ciencias Sociales y Humanas (UMH)
 - Subdirector: **Félix Arias**. Departamento de Ciencias Sociales y Humanas (UMH)
 - Teléfono: 965 222 415
-- Correo electrónico: [mailto:mip@umh.es](mip@umh.es)
+- Correo electrónico: [mip@umh.es](mailto:mip@umh.es)
+
+### Centros organizadores
+
+- Área de [Periodismo UMH](http://periodismo.umh.es/)
+- Departamento de Ciencias Sociales y Humanas de la UMH
+- Facultad de Ciencias Sociales y Jurídicas de la UMH
+
+### Colaboran
+
+- [Grupo de Investigación de la Comunicación (GICOV)](http://gicov.umh.es/)
+- [Miguel Hernández Communication Journal](http://mhjournal.org/)
+- [Fundación Quorum](http://www.parquecientificoumh.es/), Parque Científico y Empresarial de la UMH
 
 ## Enlaces de interés general
 

@@ -1,19 +1,38 @@
 ---
 layout: base
+permalink: /index.html
 ---
 
-### ¿Por qué cursar este máster?
+### ¿Por qué cursar el Máster en Innovación en Periodismo?
 
-- El periodismo vive **un momento de transformación sin precedentes**. Surgen nuevos retos profesionales e industriales, tecnologías que alteran el paradigma y comunidades de usuarios que buscan contenidos relevantes y adaptados a los soportes móviles.
-- Para afrontar esta oportunidad, te ofrecemos el **Máster en Innovación en Periodismo (MIP), un título oficial de postgrado** para aprender las claves y las técnicas del periodismo más innovador mediante **un método de trabajo muy práctico**.
+- Asignaturas y contenidos actualizados al ritmo de **la transformación del periodismo**. 
+- Profesores de los **medios más innovadores** cuentan cómo afrontan los retos del sector.
+- Formación sobre **nuevas narrativas, diseño web y periodismo distribuido en redes**.
+- Aprendizaje práctico mediante el **desarrollo de un proyecto periodístico** propio.
+- **Título Oficial** del Espacio Europeo de Educación Superior con acceso a Doctorado.
+- Horario compatible con **prácticas curriculares** y/o trabajo propio.
 
-### ¿En qué consiste la modalidad online?
+### ¿Qué ventajas ofrece la modalidad del Máster a distancia?
 
-- Ofrece el mismo título oficial verificado por ANECA.
-- Asignaturas teórico-prácticas con la guía de coordinadores y tutores.
-- Documentación, tutoriales y clases en vídeo accesibles online.
-- Campus virtual [EdxUMH](http://edx.umh.es/) desarrollado por el MIT y por Harvard University.
-- Ejercicios para poner en práctica los conocimientos adquiridos.
-- Asistencia del coordinador y de un consultor experto para el desarrollo del TFM.
-- Foros, encuentros virtuales por asignatura y otras herramientas interactivas.
-- Material audiovisual, documentos, presentaciones y resúmenes de las clases.
+- Ofrece el mismo Título Oficial (verificado ANECA, válido a nivel europeo).
+- Clases en vídeo accesibles online con documentación y tutoriales de apoyo.
+- Acceso a campus virtual [EdxUMH](http://edx.umh.es/) desarrollado por Harvard University.
+- Evaluación 100% online mediante ejercicios prácticos.
+- Aprendizaje práctico con la ayuda de tutores.
+- Foros y encuentros virtuales con profesores y compañeros.
+
+### Información general sobre el máster
+
+- [¿Qué es importante conocer?](planestudios.html#qu-es-importante-conocer)
+- [¿Cómo accederé?](planestudios.html#cmo-acceder)
+- [¿Qué aprenderé?](planestudios.html#qu-aprender)
+- [¿Cómo aprenderé?](planestudios.html#cmo-aprender)
+- [¿Con quién aprenderé?](planestudios.html#con-quin-aprender)
+
+### Entidades colaboradoras y prácticas
+
+- Los estudiantes realizan un período mínimo de 200 horas (8 créditos ECTS) de prácticas en empresas o entidades para reforzar las competencias del postgrado. 
+- Estas son algunas de las empresas asociadas al Máster:  
+
+![](http://mip.umh.es/blog/images/entidades.jpg)
+

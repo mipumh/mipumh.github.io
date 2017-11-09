@@ -20,8 +20,6 @@
 </div>
 {% endif %}
 
-{% include _alert.html %}
-
     <div class="bd-subheader">
         <div class="container">
         <h1>{{ page.title }}</h1>
@@ -42,7 +40,7 @@
         {% for member in site.data.member %}        
             <div class="list-group-item">
               <a class="team-member" href="{{ member.twitter }}">
-                <img src="{{ member.imagen }}" width="32" height="32" alt="{{ member.nombre }}">
+                <img src="{{ site.baseurl }}/images/team/{{ member.imagen }}" width="32" height="32" alt="{{ member.nombre }}">
                 <strong>{{ member.nombre }}</strong> <small>{{ member.cargo }}</small> · <small class="muted">{{ member.company }}</small>
               </a>
             </div>
@@ -51,6 +49,7 @@
             </div>
         
         <div class="col-lg-4 col-xs-12">
+            {% include _inscribete.html %}
             {% include _form.html %}
             {% include _feed.html %}
         </div>

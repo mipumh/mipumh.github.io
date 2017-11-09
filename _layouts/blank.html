@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+{% include _head.html %}
+
+<body class="layout-reverse">
+
+{% include _nav.html %}
+
+{% include _sidebar.html %}
+
+<div class="wrap">
+
+
+{% if page.cover_image %}
+<div class="article-cover">
+    <div>
+        <img src="{{ site.baseurl }}/images/{{ page.cover_image }}" class="image">
+    </div>
+</div>
+{% endif %}
+    
+    
+
+            {{ content }}
+    
+    
+
+    {% include _footer.html %}
+    </div>
+    
+    {% include _scripts.html %}
+
+</body>
+</html>
