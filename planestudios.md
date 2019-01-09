@@ -8,30 +8,29 @@ permalink: /planestudios.html
 
 - Créditos: 60 ECTS
 - Duración: 1 curso académico
-- Dos modalidades: online y presencial
-- Próxima edición: octubre (presencial) y noviembre (online) de 2017 
+- Modalidad 100% a distancia por internet
+- Próxima edición: octubre, 2018 
 
 **Preguntas frecuentes**
-
-* Will be replaced with the ToC, excluding the "Preguntas" header
 {:toc}
 
 ## ¿Qué es importante conocer?
 
 ### Duración y calendario
 
-- Docencia presencial: desde octubre 2016 a mayo 2017.
-- Docencia online: desde noviembre 2016 a junio 2017.
+- El curso se imparte desde octubre 2018 a junio 2019.
 
 ### Créditos e importe 
 
-- El precio es de 2.772€ (46,20 € el crédito, según tasas oficiales en 2015/16). 
+- El precio es de 2.578,20€ (42,97€ el crédito, según tasas oficiales en 2017/18). 
 - Más información en el [servicio de matriculación](http://estudios.umh.es/acceso/masters/preinscripcion/).
 
 ### Destinatarios 
 
-- Licenciados y/o profesionales del periodismo y comunicación.
-- Graduados y/o profesionales de cualquier sector. 
+Es un requisito indispensable para acceder al Máster el título de licenciado o graduado universitario.
+
+- Licenciados y/o graduados en Periodismo.
+- Graduados en ramas profesionales de la comunicación. 
 - Periodistas que quieren renovar sus habilidades y competencias.
 - Profesionales con interés en emprender un proyecto periodístico.
 
@@ -72,12 +71,11 @@ La oferta formativa del máster puede concretarse en múltiples salidas profesio
 - También podrán acceder los titulados de sistemas educativos ajenos al Espacio Europeo de Educación Superior (EEES) sin necesidad de la homologación de sus títulos, **previa comprobación por la Universidad de que aquellos acreditan un nivel de formación equivalente** a los correspondientes títulos universitarios oficiales españoles.
 - Más [información sobre preinscripción y matrícula](http://estudios.umh.es/acceso/masters/preinscripcion/).
 
+<a href="http://mip.umh.es/preinscripcion.html" class="btn btn-primary btn-lg btn-block">Preinscripción</a>
+
 ### Oferta de plazas  
 
-Las 64 plazas ofertadas se distribuyen de la siguiente manera:
-
-- Presencial: 32 plazas
-- A distancia: 32 plazas
+32 plazas.
 
 ### Criterios de admisión 
 
@@ -139,7 +137,7 @@ De forma paralela, tendrás que realizar el Trabajo Fin de Máster (10 créditos
 
 ### Asignaturas 
 
-Puedes ver la guía de cada asignatura si pinchas el enlace de cada materia o en la web del campus de la UMH:[modalidad presencial](http://umh.es/contenido/Estudios/:curso_182_1/datos_es.html) o [modalidad online](http://umh.es/contenido/Estudios/:curso_182_O_1/datos_es.html):
+Puedes ver la guía de cada asignatura si pinchas el enlace de cada materia o en [la web del campus de la UMH](http://umh.es/contenido/Estudios/:curso_182_O_1/datos_es.html):
 
 <table class="table table-responsive">
   <thead class="thead-inverse">
@@ -222,8 +220,7 @@ Puedes ver la guía de cada asignatura si pinchas el enlace de cada materia o en
 
 ### Horarios 
 
-- Horario de clases en la modalidad presencial: miércoles, jueves y viernes de 16:00 a 20:00. 
-- En la modalidad online, disponibilidad libre de vídeos y materiales, salvo los encuentros virtuales programados en cada asignatura.
+El máster a distancia ofrece una gran flexibilidad para seguimiento de las clases en vídeo y el aprendizaje de las materias. Salvo los encuentros virtuales programados en cada asignatura, el resto de las clases se graban para autogestión del estudiante, dentro de los tiempos de cada asignaturas.
 
 ### Acceso a doctorado  
 
@@ -237,9 +234,9 @@ El máster está pensado para personas con ganas de ponerse en acción. Querem
 
 Las asignaturas del Máster cuentan con las siguientes actividades formativas: 
 
-- Asignaturas con clases teórico-prácticas presenciales o en vídeo 
+- Asignaturas con clases teórico-prácticas en vídeo 
 - Elaboración de trabajos en grupo o mediante los encuentros virtuales
-- Tutorías individuales o en grupo virtuales o presenciales
+- Tutorías individuales o en grupo virtuales
 - Tiempo de estudio y preparación individual para los trabajos
 - Tiempo para redactar informes y textos 
 - Tiempo de producción digital o diseño de ejercicios prácticos
@@ -248,7 +245,7 @@ Las asignaturas del Máster cuentan con las siguientes actividades formativas:
 
 La evaluación de las asignaturas se apoyará en este sistema:
 
-- Asistencia (mínimo de 85%) a las clases presenciales de las sesiones de cada asignatura
+- Participación (mínimo de 85%) en clases virtuales y foros de cada asignatura
 - Evaluación sobre la participación en las tareas de trabajo cooperativo
 - Evaluación mediante la tutoría grupal
 - Evaluación de los ejercicios resueltos y/o expuestos en el aula o en la plataforma online
@@ -256,7 +253,7 @@ La evaluación de las asignaturas se apoyará en este sistema:
 - Evaluación del trabajo de fin de máster: sobre la materia y la defensa
 - Evaluación del portafolio cooperativo e individual de proyectos
 - Evaluación conjunta entre tutor interno y tutor externo de las prácticas
-- Evaluación de la presencia y las actividades online (encuentros virtuales y participación en retos)
+- Evaluación de las actividades online (encuentros virtuales y participación en retos)
 - Evaluación de ejercicios online
 - Asistencia a tutorías online
 

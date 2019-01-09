@@ -12,14 +12,23 @@ permalink: /index.html
 - **Título Oficial** del Espacio Europeo de Educación Superior con acceso a Doctorado.
 - Horario compatible con **prácticas curriculares** y/o trabajo propio.
 
-### ¿Qué ventajas ofrece la modalidad del Máster a distancia?
+### ¿Qué ventajas te ofrece este Máster a distancia?
 
-- Ofrece el mismo Título Oficial (verificado ANECA, válido a nivel europeo).
+- Ofrece un título oficial verificado por ANECA.
+- Formación práctica con la guía de tutores.
 - Clases en vídeo accesibles online con documentación y tutoriales de apoyo.
 - Acceso a campus virtual [EdxUMH](http://edx.umh.es/) desarrollado por Harvard University.
 - Evaluación 100% online mediante ejercicios prácticos.
-- Aprendizaje práctico con la ayuda de tutores.
+- Asistencia de tutores para resolver dudas y fortalecer aprendizaje.
 - Foros y encuentros virtuales con profesores y compañeros.
+- Material audiovisual de apoyo con presentaciones de las clases.
+
+### Entidades colaboradoras y prácticas
+
+- Los estudiantes realizan un período mínimo de 200 horas (8 créditos ECTS) de prácticas en empresas o entidades para reforzar las competencias del postgrado.
+- Te ayudaremos a conseguir las prácticas en tu zona. Estas son algunas de las empresas asociadas al Máster:
+
+![](http://mip.umh.es/blog/images/entidades.jpg)
 
 ### Información general sobre el máster
 
@@ -28,11 +37,4 @@ permalink: /index.html
 - [¿Qué aprenderé?](planestudios.html#qu-aprender)
 - [¿Cómo aprenderé?](planestudios.html#cmo-aprender)
 - [¿Con quién aprenderé?](planestudios.html#con-quin-aprender)
-
-### Entidades colaboradoras y prácticas
-
-- Los estudiantes realizan un período mínimo de 200 horas (8 créditos ECTS) de prácticas en empresas o entidades para reforzar las competencias del postgrado. 
-- Estas son algunas de las empresas asociadas al Máster:  
-
-![](http://mip.umh.es/blog/images/entidades.jpg)
 

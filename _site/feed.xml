@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Máster en Innovación en Periodismo</title>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Título Oficial de la Universidad Miguel Hernández</description>
+    <language>en-us</language>
+    <pubDate>Wed, 09 Jan 2019 20:07:03 +0100</pubDate>
+    <lastBuildDate>Wed, 09 Jan 2019 20:07:03 +0100</lastBuildDate>
+    
+    
+    <item>
+      <title>Iker Barinaga (Vocento)&amp;#58 &quot;Los medios han perdido mucho adorno visual y se están quedando en lo más básico, en lo que les identifica visualmente&quot;</title>
+      <link>http://localhost:4000/2018/01/29/entrevista-iker-barinaga-vocento-innovacion-diseno/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0100</pubDate>
+      <author> Itziar Martínez </author> <guid>http://localhost:4000/2018/01/29/entrevista-iker-barinaga-vocento-innovacion-diseno</guid>
+      <description>
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Cursos de perfeccionamiento 100% online&amp;#58 Guía básica del periodismo innovador y nuevas narrativas para periodistas</title>
+      <link>http://localhost:4000/2018/01/22/cursos-onlin-perfeccionamiento-innovacion-periodismo/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0100</pubDate>
+      <author> Miguel Carvajal </author> <guid>http://localhost:4000/2018/01/22/cursos-onlin-perfeccionamiento-innovacion-periodismo</guid>
+      <description>
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Redes sociales y medios&amp;#58 del fin del noviazgo romántico al principio de la convivencia problemática</title>
+      <link>http://localhost:4000/2018/01/15/redes-sociales-y-medios-estrategias-relaciones/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0100</pubDate>
+      <author> José Manuel Rodríguez </author> <guid>http://localhost:4000/2018/01/15/redes-sociales-y-medios-estrategias-relaciones</guid>
+      <description>
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Un cartel vale más que mil imágenes. Cinco herramientas para explotar los formatos visuales en redes sociales</title>
+      <link>http://localhost:4000/2018/01/08/herramientas-para-periodistas-formatos-visuales/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0100</pubDate>
+      <author> Félix Arias </author> <guid>http://localhost:4000/2018/01/08/herramientas-para-periodistas-formatos-visuales</guid>
+      <description>
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Resumen de la innovación en periodismo durante 2017</title>
+      <link>http://localhost:4000/2017/12/18/resumen-innovacion-periodismo-2017/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      <author> Jose A. García Avilés </author> <guid>http://localhost:4000/2017/12/18/resumen-innovacion-periodismo-2017</guid>
+      <description>
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Nueva publicación&amp;#58 &quot;Mediamorfosis&amp;#58 Perspectivas sobre la innovación en periodismo&quot;</title>
+      <link>http://localhost:4000/2017/12/04/consulta-libro-congreso-mediamorfosis-sep-2017/</link>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0100</pubDate>
+      <author> Alicia de Lara </author> <guid>http://localhost:4000/2017/12/04/consulta-libro-congreso-mediamorfosis-sep-2017</guid>
+      <description>
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>La newsletter es Alien&amp;#58 ¿Por qué este producto periodístico se adapta mejor que otros al nuevo ecosistema?</title>
+      <link>http://localhost:4000/2017/11/28/newsletter-producto-periodistico-versatil/</link>
+      <pubDate>Tue, 28 Nov 2017 00:00:00 +0100</pubDate>
+      <author> Miguel Carvajal </author> <guid>http://localhost:4000/2017/11/28/newsletter-producto-periodistico-versatil</guid>
+      <description>
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>10 claves del periodismo innovador en Latinoamérica</title>
+      <link>http://localhost:4000/2017/11/21/claves-seminario-innovacion-online-innovalatam/</link>
+      <pubDate>Tue, 21 Nov 2017 00:00:00 +0100</pubDate>
+      <author> Alba García Ortega </author> <guid>http://localhost:4000/2017/11/21/claves-seminario-innovacion-online-innovalatam</guid>
+      <description>
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Mari Luz Peinado (Verne)&amp;#58 &quot;Nacimos con la premisa de ser un medio de información viral de calidad en El País&quot;</title>
+      <link>http://localhost:4000/2017/11/13/entrevista-mariluz-peinado-verne/</link>
+      <pubDate>Mon, 13 Nov 2017 00:00:00 +0100</pubDate>
+      <author> Itziar Martínez </author> <guid>http://localhost:4000/2017/11/13/entrevista-mariluz-peinado-verne</guid>
+      <description>
+</description>
+    </item>
+    
+    
+
+  </channel>
+</rss>
