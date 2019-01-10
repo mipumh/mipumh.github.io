@@ -90,7 +90,7 @@ Fechas para la matrícula de nuevos estudiantes:
   </div>
 </div>
 
-###Información de interés para estudiantes extranjeros
+### Información de interés para estudiantes extranjeros
 
 * En esta [página del Ministerio de Educación](http://www.mecd.gob.es/mecd/servicios-al-ciudadano-mecd/catalogo/general/educacion/203615/ficha.html) tienes todos los datos sobre la **equivalencia de notas** medias de estudios universitarios realizados en centros extranjeros.
 
@@ -98,7 +98,7 @@ Fechas para la matrícula de nuevos estudiantes:
 
 * Y en [esta de página de la UMH](http://estudios.umh.es/acceso/masters/acceso-con-estudios-universitarios-extranjeros/resto-de-paises/) tienes más información sobre acceso con estudios universitarios extranjeros del **resto de países**.
 
-###Otras aclaraciones
+### Otras aclaraciones
 
 En aquellos casos en los que se esté pendiente de la incorporación de calificaciones, se  adjuntará [declaración responsable  ](http://estudios.umh.es/files/2017/02/Declaracion-responsable.pdf)indicando que una vez incorporadas dichas calificaciones, se estará en disposición de obtener  el título universitario oficial que le permite acceder a los estudios de máster.
 
