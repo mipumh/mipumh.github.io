@@ -137,7 +137,7 @@ De forma paralela, tendrás que realizar el Trabajo Fin de Máster (10 créditos
 
 ### Asignaturas 
 
-Puedes ver la guía de cada asignatura si pinchas el enlace de cada materia o en [la web del campus de la UMH](http://umh.es/contenido/Estudios/:curso_182_O_1/datos_es.html):
+Puedes ver la guía de cada asignatura si pinchas el enlace de cada materia o en [la web del campus de la UMH](http://umh.es/contenido/Estudios/:tit_m_182):
 
 <table class="table table-responsive">
   <thead class="thead-inverse">
@@ -150,7 +150,7 @@ Puedes ver la guía de cada asignatura si pinchas el enlace de cada materia o en
   </thead>
   <tbody>
     <tr>
-    <td><a href=" http://www.umh.es/contenido/pas/:asi_m_3018/datos_es.html" target="_blank">La audiencia en el proceso periodísico</a></td>
+    <td><a href="http://www.umh.es/contenido/pas/:asi_m_3018/datos_es.html" target="_blank">La audiencia en el proceso periodísico</a></td>
       <td>4,5</td>
       <td>Obligatoria</td>
       <td>1º</td>
