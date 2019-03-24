@@ -38,11 +38,6 @@ permalink: /index.html
 - [¿Cómo aprenderé?](planestudios.html#cmo-aprender)
 - [¿Con quién aprenderé?](planestudios.html#con-quin-aprender)
 
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-xs-12">
-            <p class="lead text-xs-center">Aprende las claves y las técnicas del periodismo más innovador con este <strong>máster 100% a distancia</strong></a></p>
-        
 <div class="embed-responsive embed-responsive-4by3">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9JZ1RkBvI4A" allowfullscreen></iframe>
 </div>
@@ -51,11 +46,8 @@ permalink: /index.html
 <div class="embed-responsive embed-responsive-4by3">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/C6lMBRsI9i8" allowfullscreen></iframe>
   </div>
-
             <hr>
 
 <div class="embed-responsive embed-responsive-4by3">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/w0rfCeBNBh8" allowfullscreen></iframe>
 </div>
-            <hr>
-
