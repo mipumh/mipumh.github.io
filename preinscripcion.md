@@ -13,8 +13,8 @@ La 6ª edición de este Máster 100% a distancia comenzará en octubre de 2018. 
 
 Completa el formulario de preinscripción dentro de las fechas indicadas:
 
- - 1er plazo: del 10 de abril al 30 de junio de 2018
- - 2º plazo: del 30 de julio al 14 de septiembre de 2018. En el caso de existir plazas vacantes.
+ - 1er plazo: del 19 de abril al 28 de junio de 2019
+ - 2º plazo: del 30 de julio al 14 de septiembre de 2019. En el caso de existir plazas vacantes.
 
 <div class="card text-center">
   <div class="card-block">
@@ -30,10 +30,10 @@ Completa el formulario de preinscripción dentro de las fechas indicadas:
 Recuerda que el Máster se destina especialmente a licenciados y/o profesionales del periodismo y comunicación con título oficial universitario.
 
 -   Resguardo de preinscripción firmado.
--   DNI o Pasaporte en vigor (original y fotocopia).
--   Título que da acceso al Máster o acreditación de haber solicitado el título y abonado las tasas de expedición (original y fotocopia o fotocopia compulsada).
--   Certificado académico oficial de notas (original y fotocopia o fotocopia compulsada).
--   Curriculum vitae.
+-   Copia del DNI, NIE (residentes en España).
+-   Título que da acceso al Máster o acreditación de haber solicitado el título y abonado las tasas de expedición (original y copia o copia compulsada).
+-   Certificado académico oficial que incluya la nota media (original y copia o copia compulsada). El certificado académico oficial en el caso de incorporar firma electrónica no necesitará compulsa.
+-   Curriculum vitae. Breve descripción de experiencia y formación relacionada con el Máster.
 
 <div class="card text-center">
   <div class="card-block">
@@ -43,12 +43,20 @@ Recuerda que el Máster se destina especialmente a licenciados y/o profesionales
 
 Más información en la web de [preinscripción](http://estudios.umh.es/acceso/masters/preinscripcion/) de la UMH.
 
+### ¿Dónde puedo presentar la documentación?
+
+Deberá entregar la documentación indicada por alguna de las siguientes vías:
+
+- Presencialmente: En el Registro General (Edificio Rectorado y Consejo Social) o en sus Registros Auxiliares (Centros de Gestión de Campus), dirigida al CEGECA (Centro de Gestión de Campus) en el que esté adscrito el máster.
+- Por correo postal: Mediante carta certificada dirigida al Centro de Gestión de Campus correspondiente.
+- A través de los registros de cualquier órgano administrativo: Aquellos contemplados en el artículo 16.4 de la Ley 39/2015 del Procedimiento Administrativo Común de las Administraciones Públicas.
+
 ### ¿Cómo preinscribirte si eres estudiante extranjero?
 
 **1. Completa el formulario de preinscripción dentro de las fechas indicadas:**
 
- - 1er plazo: del 10 de abril al 30 de junio de 2018
- - 2º plazo: del 30 de julio al 14 de septiembre de 2018. En el caso de existir plazas vacantes.
+ - 1er plazo: del 19 de abril al 28 de junio de 2019
+ - 2º plazo: del 30 de julio al 14 de septiembre de 2019. En el caso de existir plazas vacantes.
 
 <div class="card text-center">
   <div class="card-block">
@@ -81,8 +89,13 @@ El último paso consiste en la matriculación, que empezará a finales de julio.
 
 Fechas para la matrícula de nuevos estudiantes:
 
-- 1º Plazo: del 24 de julio hasta el 28 de julio de 2018 a las 17 horas.
-- 2º Plazo: del 25 de septiembre hasta el 30 de septiembre de 2018 a las 17 horas.  
+- 1º Plazo: 
+  - Listado provisional: 10 de julio de 2019           
+  - Listado definitivo: 23 de julio de 2019
+
+- 2º Plazo: 
+  - Listado provisional:18 de septiembre de 2019
+  - Listado definitivo: 26 de septiembre de 2019
 
 <div class="card text-center">
   <div class="card-block">
