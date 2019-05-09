@@ -5,16 +5,15 @@ permalink: /index.html
 
 ### ¿Por qué cursar el Máster en Innovación en Periodismo?
 
-- Asignaturas y contenidos actualizados al ritmo de **la transformación del periodismo**. 
-- Profesores de los **medios más innovadores** cuentan cómo afrontan los retos del sector.
+- Asignaturas y contenidos actualizados al ritmo de **la transformación del periodismo** y de las necesidades del sector. 
+- Profesores de los **medios más innovadores** enseñan claves del trabajo periodístico y habilidades esenciales para la profesión.
 - Formación sobre **nuevas narrativas, diseño web y periodismo distribuido en redes**.
 - Aprendizaje práctico mediante el **desarrollo de un proyecto periodístico** propio.
 - **Título Oficial** del Espacio Europeo de Educación Superior con acceso a Doctorado.
-- Horario compatible con **prácticas curriculares** y/o trabajo propio.
+- Compatible con **prácticas curriculares** y/o trabajo propio gracias a la flexibilidad y adaptabilidad de las clases en vídeo.
 
 ### ¿Qué ventajas te ofrece este Máster a distancia?
 
-- Ofrece un título oficial verificado por ANECA.
 - Formación práctica con la guía de tutores.
 - Clases en vídeo accesibles online con documentación y tutoriales de apoyo.
 - Acceso a campus virtual [EdxUMH](http://edx.umh.es/) desarrollado por Harvard University.
@@ -22,6 +21,7 @@ permalink: /index.html
 - Asistencia de tutores para resolver dudas y fortalecer aprendizaje.
 - Foros y encuentros virtuales con profesores y compañeros.
 - Material audiovisual de apoyo con presentaciones de las clases.
+- Ofrece un título oficial verificado por ANECA.
 
 ### Entidades colaboradoras y prácticas
 
@@ -41,12 +41,10 @@ permalink: /index.html
 <div class="embed-responsive embed-responsive-4by3">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9JZ1RkBvI4A" allowfullscreen></iframe>
 </div>
-            <hr>
 
 <div class="embed-responsive embed-responsive-4by3">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/C6lMBRsI9i8" allowfullscreen></iframe>
   </div>
-            <hr>
 
 <div class="embed-responsive embed-responsive-4by3">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/w0rfCeBNBh8" allowfullscreen></iframe>
