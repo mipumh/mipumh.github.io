@@ -16,7 +16,7 @@ permalink: /index.html
 
 - Formación práctica con la guía de tutores.
 - Clases en vídeo accesibles online con documentación y tutoriales de apoyo.
-- Acceso a campus virtual [EdxUMH](http://edx.umh.es/) desarrollado por Harvard University.
+- Campus virtual con foros, materiales y recursos para facilitar el seguimiento.
 - Evaluación 100% online mediante ejercicios prácticos.
 - Asistencia de tutores para resolver dudas y fortalecer aprendizaje.
 - Foros y encuentros virtuales con profesores y compañeros.

@@ -4,7 +4,7 @@ title: Preinscripción
 permalink: /preinscripcion.html
 ---
 
-La 6ª edición de este Máster 100% a distancia comenzará en octubre de 2018. Ya se ha abierto el plazo de inscripción oficial en la Universidad Miguel Hernández. Si no tienes tiempo para hacerlo ahora, déjanos tu correo aquí y te avisamos del comienzo:
+La 8ª edición de este Máster 100% a distancia comenzará en octubre de 2020. El plazo de inscripción oficial en la Universidad Miguel Hernández se abrirá en abril de 2020. Si no tienes tiempo para hacerlo ahora, déjanos tu correo aquí y te avisamos del comienzo:
 
 * Will be replaced with the ToC, excluding the "Preguntas" header
 {:toc}
