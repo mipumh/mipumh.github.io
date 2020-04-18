@@ -81,8 +81,8 @@ De forma paralela, tendrás que realizar el Trabajo Fin de Máster (10 créditos
 - [Web oficial con la información académica completa](https://www.umh.es/contenido/Estudios/:tit_m_182/datos_es.html)
 
 ### Asignaturas:
-
-<table class="table table-responsive table-sm">
+<div class="table-responsive small">
+<table class="table table-sm">
   <thead class="thead-inverse">
     <tr>
       <th>Asignatura</th>
@@ -160,6 +160,7 @@ De forma paralela, tendrás que realizar el Trabajo Fin de Máster (10 créditos
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Horarios 
 
