@@ -2,7 +2,6 @@
 layout: base
 permalink: /index.html
 ---
-
 ### ¿Por qué cursar el Máster en Innovación en Periodismo?
 
 - Asignaturas y contenidos actualizados al ritmo de **la transformación del periodismo** y de las necesidades del sector. 
@@ -28,24 +27,6 @@ permalink: /index.html
 - Los estudiantes realizan un período mínimo de 200 horas (8 créditos ECTS) de prácticas en empresas o entidades para reforzar las competencias del postgrado.
 - Te ayudaremos a conseguir las prácticas en tu zona. Estas son algunas de las empresas asociadas al Máster:
 
-![](http://mip.umh.es/blog/images/entidades.jpg)
-
 ### Información general sobre el máster
 
-- [¿Qué es importante conocer?](planestudios.html#qu-es-importante-conocer)
-- [¿Cómo accederé?](planestudios.html#cmo-acceder)
-- [¿Qué aprenderé?](planestudios.html#qu-aprender)
-- [¿Cómo aprenderé?](planestudios.html#cmo-aprender)
-- [¿Con quién aprenderé?](planestudios.html#con-quin-aprender)
-
-<div class="embed-responsive embed-responsive-4by3">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9JZ1RkBvI4A" allowfullscreen></iframe>
-</div>
-
-<div class="embed-responsive embed-responsive-4by3">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/C6lMBRsI9i8" allowfullscreen></iframe>
-  </div>
-
-<div class="embed-responsive embed-responsive-4by3">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/w0rfCeBNBh8" allowfullscreen></iframe>
-</div>
+- [Plan de estudios](https://www.umh.es/contenido/Estudios/:tit_m_182/datos_es.html)

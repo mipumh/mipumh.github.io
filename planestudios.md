@@ -8,7 +8,7 @@ permalink: /planestudios.html
 
 - Créditos: 60 ECTS
 - Duración: 1 curso académico
-- Modalidad 100% a distancia por internet
+- Modalidad 100% a distancia
 - Próxima edición: octubre, 2020 
 
 **Preguntas frecuentes**
@@ -18,11 +18,11 @@ permalink: /planestudios.html
 
 ### Duración y calendario
 
-- El curso se imparte desde octubre 2019 a junio 2020.
+- El curso se imparte desde octubre 2020 a junio 2021.
 
 ### Créditos e importe 
 
-- El precio es de 2.356 (39,27€ el crédito, según tasas oficiales en 2018/19). 
+- El precio es de 2.356 (39,27 el crédito, según tasas oficiales en 2018/19). 
 - Más información en el [servicio de matriculación](http://estudios.umh.es/acceso/masters/preinscripcion/).
 
 ### Destinatarios 
@@ -34,14 +34,6 @@ Es un requisito indispensable para acceder al Máster el título de licenciado o
 - Periodistas que quieren renovar sus habilidades y competencias.
 - Profesionales con interés en emprender un proyecto periodístico.
 
-### Conocimientos previos recomendables
-
-- Dominio de los fundamentos del periodismo y/o la comunicación.
-- Habilidad mínima en las herramientas y redes del ámbito digital. 
-- Interés por desarrollar un proyecto para asimilar los conocimientos.
-- Disposición a comunicar en público y adaptarse al entorno profesional.
-- Inglés básico.
-
 ### Salidas profesionales 
 
 La oferta formativa del máster puede concretarse en múltiples salidas profesionales:
@@ -51,6 +43,10 @@ La oferta formativa del máster puede concretarse en múltiples salidas profesio
 - Diseñador de narrativas visuales informativas.
 - Editor de redes sociales y otras plataformas de publicación.
 - Emprendedor de nuevos medios y proyectos multimedia.
+- Periodista especializado en marketing digital.
+- Gestor de redes sociales y comunidades de usuarios.
+- Curador de contenidos periodísticos.
+- Analista de audiencia y comportamiento de usuario.
 - Periodista especializado en marketing digital.
 
 ### Orientación 
@@ -90,13 +86,15 @@ En el caso de que la demanda supere la oferta de plazas, el Consejo de Máster n
 
 **Experiencia profesional** en empresas del ámbito de preferencia del máster (20%-40%).
 
+**Formación en inglés** (20%-40%).
+
 <div class="card text-center">
   <div class="card-block">
     <a href="http://mip.umh.es/preinscripcion.html" class="btn btn-primary btn-lg btn-block">Solicita la admisión</a>
   </div>
 </div>
 
-##¿Qué aprenderé?
+## ¿Qué aprenderé?
 
 El máster te ayudará a entender la transformación del periodismo y de su industria para desarrollar un pensamiento creativo y práctico con métodos que fomentan la innovación en las principales áreas de la actividad periodística. Este aprendizaje se logrará mediante el seguimiento continuo de las asignaturas, la realización de prácticas y la elaboración de un trabajo final.
 
@@ -137,7 +135,7 @@ De forma paralela, tendrás que realizar el Trabajo Fin de Máster (10 créditos
 
 ### Asignaturas 
 
-Puedes ver la guía de cada asignatura si pinchas el enlace de cada materia o en [la web del campus de la UMH](http://umh.es/contenido/Estudios/:tit_m_182):
+Puedes ver la guía de cada asignatura si pinchas el enlace de cada materia o en [la web del campus de la UMH](https://www.umh.es/contenido/Estudios/:tit_m_182/datos_es.html):
 
 <table class="table table-responsive">
   <thead class="thead-inverse">
@@ -220,7 +218,7 @@ Puedes ver la guía de cada asignatura si pinchas el enlace de cada materia o en
 
 ### Horarios 
 
-El máster a distancia ofrece una gran flexibilidad para seguimiento de las clases en vídeo y el aprendizaje de las materias. Salvo los encuentros virtuales programados en cada asignatura, el resto de las clases se graban para autogestión del estudiante, dentro de los tiempos de cada asignaturas.
+Este máster se imparte en modalidad on-line, con acceso libre a los vídeos de las asignaturas. Hay una hora de clase online en directo en Adobe Connect o Google Meet de 18:00 a 19:00 todos los lunes desde el comienzo de curso hasta el final, salvo fiestas indicadas en el [calendario oficial de la Universidad](https://www.umh.es/contenido/PDI/:calendario/datos_es.html).
 
 ### Acceso a doctorado  
 
@@ -284,7 +282,7 @@ La estructura del trabajo incluye los siguientes contenidos:
 
 El TFM será defendido ante una comisión evaluadora que determinará la dirección del máster. La presentación y defensa del proyecto, junto con la superación de los mínimos exigibles, son necesarios para obtener el título.
 
-Los estudiantes cuentan con un tutor entre los profesores coordinadores del Máster. En febrero deberá indicar su preferencia para la dirección del trabajo entre los siguientes tutores:
+Los estudiantes cuentan con un tutor entre los profesores coordinadores del Máster:
 
 - José Alberto García Avilés 
 - José Luis González Esteban 
@@ -292,7 +290,7 @@ Los estudiantes cuentan con un tutor entre los profesores coordinadores del Más
 - Félix Arias Robles 
 - Miguel Carvajal Prieto
 
-El Consejo de Máster delegará en el director la tarea de adjudicar mediante un reparto equitativo la carga de la tutorización entre estos profesores. De forma excepcional, puede optarse por un co-tutor que no forme parte del cuerpo de profesores de la Universidad Miguel Hernández.
+El Consejo de Máster delegará en el director la tarea de adjudicar mediante un reparto equitativo la carga de la tutorización entre estos profesores. También puede optarse con co-tutores entre los profesores externos de la Universidad Miguel Hernández.
 
 ## ¿Con quién aprenderé?
 
@@ -304,9 +302,9 @@ El Máster cuenta con un claustro de profesores equilibrado, con **académicos d
   <thead class="thead-inverse">
     <tr>
       <th>Profesorado</th>
-      <th>Curso 2013/14</th>
-      <th>Curso 2014/15</th>
-      <th>Curso 2015/16</th>
+      <th>2016/17</th>
+      <th>2017/18</th>
+      <th>2018/19</th>
     </tr>
   </thead>
   <tbody>
@@ -416,4 +414,8 @@ El Máster cuenta con un claustro de profesores equilibrado, con **académicos d
 - [Informe de evaluación del título](http://www.umh.es/pdf-verificado/182/informe_avap.pdf)
 - [Informe modificación 1](http://www.umh.es/pdf-verificado/182/informe_mod_1.pdf)
 - [Resultados del título](http://www.umh.es/pdf-verificado/182/resultados_titulo.pdf)
+
+### Seguimiento y renovación
+
+<ul class="caja-datos"><li><a target="_blank" href="/pdf-verificado/182/informe_seguimiento_1.pdf">Informe de seguimiento de AVAP (evaluación 1)</a></li><li><a target="_blank" href="/pdf-verificado/182/informe_renovacion.pdf">Informe de renovación de la acreditación</a></li></ul>
 

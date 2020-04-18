@@ -1,0 +1,570 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Máster en Innovación en Periodismo</title>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Título Oficial de la Universidad Miguel Hernández</description>
+    <language>en-us</language>
+    <pubDate>Sat, 18 Apr 2020 14:59:03 +0200</pubDate>
+    <lastBuildDate>Sat, 18 Apr 2020 14:59:03 +0200</lastBuildDate>
+    
+    
+    <item>
+      <title>Las mejores visualizaciones sobre el COVID-19</title>
+      <link>http://localhost:4000/2020/04/02/las-mejores-visualizaciones-sobre-el-covid-19/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0200</pubDate>
+      <author> Jose A. García Avilés </author> <guid>http://localhost:4000/2020/04/02/las-mejores-visualizaciones-sobre-el-covid-19</guid>
+      <description>&lt;p&gt;Los datos son necesarios para nuestra comprensión del mundo, y particularmente, para entender fenómenos como el COVID-19. Para hacer frente a esta pandemia se necesita recopilar, analizar, compartir y hacer uso de los datos de manera eficiente. La visualización de los datos puede facilitar su difusión y &lt;strong&gt;ayudar a comprender rápidamente determinadas realidades sobre la propagación del virus o sus efectos&lt;/strong&gt;. Destacamos una serie de visualizaciones e infografías sobre aspectos clave del Coronavirus, publicadas en medios de todo el mundo durante las últimas semanas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/wapo-coronasim.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.washingtonpost.com/graphics/2020/world/corona-simulator-spanish/&quot;&gt;Por qué brotes como el del coronavirus crecen exponencialmente\
+y cómo ‘aplanar la curva’&lt;/a&gt; — &lt;strong&gt;Washington Post 14/03/2020&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;La llamada curva exponencial preocupa a los expertos, ya que el crecimiento del número de casos de Coronavirus muestra el alcance de la pandemia y sus posibles efectos. “Esto son solo matemáticas, no profecías”, subraya el artículo. Según los profesionales de salud pública, la propagación puede ralentizarse si la gente pone en práctica el “distanciamiento social” evitando los lugares públicos y limitando sus movimientos. Para entender por qué, el departamento de grafismo del diario elaboró esta simulación acerca de cómo se extendería una enfermedad ficticia entre la población. La visualización tiene mucha fuerza y capacidad didáctica.&lt;/p&gt;
+
+&lt;p&gt;Como afirma el director de grafismo del Washington Post, &lt;a href=&quot;https://twitter.com/chiquiesteban&quot;&gt;Chiqui Esteban&lt;/a&gt;, se trata de una de las piezas más leídas en la historia del diario, y dado su carácter de servicio público, ya ha sido traducida a 13 idiomas. Además, el Washington Post ha liberado el acceso a todos sus artículos sobre el Coronavirus. También destacamos &lt;a href=&quot;https://www.washingtonpost.com/graphics/2020/national/coronavirus-us-cases-deaths&quot;&gt;esta otra visualización del número de fallecimientos con Coronavirus&lt;/a&gt; que diariamente se producen en Estados Unidos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/history-pandemics.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.visualcapitalist.com/history-of-pandemics-deadliest/&quot;&gt;Visualizing the History of Pandemics&lt;/a&gt; — &lt;strong&gt;Visual Capitalist 15/03/2020&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Este grafismo, elaborado por la revista Visual Capitalist, describe la historia de las peores pandemias que ha vivido la humanidad desde la Peste Antonina (165-180 d. C.) hasta el COVID-19. El impresionante diseño muestra cada una de las pandemias, con datos sobre el periodo en que estuvo activa y su incidencia en la población mundial. Uno de sus atractivos es la visualización de cada tipo de virus mediante una imagen a escala, de acuerdo con su virulencia, logrando transmitir mucha información al lector de forma directa.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/tag-spiegelok.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://interaktiv.tagesspiegel.de/lab/die-globale-verbreitung-des-coronavirus-im-zeitverlauf/&quot;&gt;How COVID-19 spread across the globe&lt;/a&gt; — &lt;strong&gt;Der Tagesspiegel 17/03/2020&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Der Tagesspiegel visualiza cómo el COVID-19 se extiende por todo el mundo en un gráfico de lapso de tiempo. También analiza la velocidad a la que se propaga el virus, y ofrece una imagen sobre la gravedad del brote en la población, al mostrar el número de infectados per capita en cada país. Un gran trabajo de visualización de datos, que se actualiza diariamente con los datos disponibles.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/en-casa-con-un-infectado-el-pais.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://elpais.com/sociedad/2020/03/13/actualidad/1584102347_992993.html&quot;&gt;Guía de actuación ante el coronavirus&lt;/a&gt; — &lt;strong&gt;El País 16/03/2020&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Esta infografía aporta “respuestas para saber qué hacer ante la sospecha de padecer la Covid-19, cómo prevenir el contagio o cómo convivir con una persona infectada”. Con un excelente trabajo gráfico, la guía ofrece información sobre las vías de contagio, los principales síntomas y las formas de prevención. Resulta especialmente útil su explicación sobre cómo actuar si alguien convive con una persona enferma de Coronavirus. Gran trabajo elaborado por un equipo de cinco profesionales.&lt;/p&gt;
+
+&lt;p&gt;Otro trabajo de El País, &lt;a href=&quot;https://elpais.com/elpais/2020/03/06/ciencia/1583515780_532983.html&quot;&gt;Así infecta el coronavirus&lt;/a&gt;, aborda el origen del virus y su proceso de infección en el organismo humano.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/reuters-korean-virus.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://graphics.reuters.com/CHINA-HEALTH-SOUTHKOREA-CLUSTERS/0100B5G33SB/index.html&quot;&gt;The Korean clusters. How coronavirus cases exploded in South Korean churches and hospitals&lt;/a&gt; — &lt;strong&gt;Reuters 20/03/2020&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Impresionante trabajo del equipo de grafismo de Reuters que investiga el origen del virus en Corea del Sur. El gobierno de este país anunció miles de casos de coronavirus en solo unos días a fines de febrero, centrado en un grupo de fieles de una iglesia en la ciudad de Daegu.&lt;/p&gt;
+
+&lt;p&gt;El virus se confirmó por primera vez en el país el 20 de enero, cuando una mujer china de 35 años que voló desde Wuhan, China al aeropuerto internacional de Incheon, que sirve a Seúl, fue aislada al ingresar al país. En las cuatro semanas posteriores al incidente, Corea del Sur logró evitar un brote importante, ya que solo 30 personas contrajeron el virus, a pesar de numerosas interacciones entre cientos de personas identificadas como contactos de los pacientes enfermos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/nyt-wuhan.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2020/03/22/world/coronavirus-spread.html&quot;&gt;How the virus got out&lt;/a&gt; — &lt;strong&gt;The New York Times 22/03/2020&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Una investigación exhaustiva y magníficamente ilustrada de cómo el virus salió de Wuhan y llegó a todos los rincones del mundo, mucho antes de que se establecieran las restricciones de viaje. Como señala la entradilla del reportaje: “Las restricciones de viaje más extensas para detener un brote en la historia humana no han sido suficientes. Analizamos los movimientos de cientos de millones de personas para mostrar por qué”. Manejan un elevado volumen de datos con una visualización muy conseguida.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/financial-times-2-abril.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.ft.com/coronavirus-latest&quot;&gt;Coronavirus tracked: the latest figures as the pandemic spreads&lt;/a&gt;&lt;/strong&gt; — &lt;strong&gt;Financial Times 17/03/2020&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Un equipo de cuatro profesionales de datos y grafismo del diario rastrea las trayectorias sobre las muertes y los casos relacionados con Coronavirus en todo el mundo, insertándolos en la misma tabla para mostrar una valiosa comparación entre los distintos países. Añade muchísimos datos, obtenidos del Johns Hopkins University Center for Systems Science Engineering, que recoge a su vez los datos de la Organización Mundial de la Salud, el US Centers for Disease Control and Prevention, el European Centre for Disease Prevention and Control, y el Centre for Disease Control and Prevention de China. El artículo, diariamente actualizado, es de lectura gratuita.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/scmp-historia-pandemia-coronavirus.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://multimedia.scmp.com/infographics/news/china/article/3047038/wuhan-virus/es/index.html?src=social&amp;amp;fbclid=IwAR1gxx2lw6uuKbUOkNFWsMZvAFPFatgd--40nYQwyH5PiL4RK_7MHCxlcDs&quot;&gt;Historia del coronavirus y su enfermedad, COVID-19. Una narración visual &lt;/a&gt; — &lt;strong&gt;South China Morning Post 17/03/2020&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;El excelente equipo de grafismo de este diario chino elabora una completa cobertura de la pandemia, explicando sus orígenes en Wuhan y su evolución por todo el mundo. Combina un tratamiento exquisito de la información seleccionada con un grafismo muy didáctico. La pieza se actualiza cada día.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/curva-del-coronavirus.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/covid-19-transmission-graphic-01.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Aplanar la curva The Spinoff TV 20/03/2020&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;El ilustrador &lt;a href=&quot;https://twitter.com/XTOTL&quot;&gt;Toby Morris&lt;/a&gt; ha elaborado una serie de excelentes ilustraciones que permiten explicar conceptos clave sobre el Coronavirus, para la publicación neozelandesa &lt;a href=&quot;https://twitter.com/TheSpinoffTV&quot;&gt;@TheSpinoffTV&lt;/a&gt;. Destaca su sencillez y claridad; tan solo con un vistazo, el usuario puede captar el mensaje. Seleccionamos dos de sus trabajos. El primero es una versión animada que explica la necesidad de aplanar la curva de contagio, para evitar el colapso del sistema sanitario. El segundo ilustra gráficamente cómo se puede frenar la expansión del virus, gracias al confinamiento.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Así trabajan los medios de comunicación durante la crisis del COVID-19</title>
+      <link>http://localhost:4000/2020/03/27/asi-trabajan-los-medios-durante-la-crisis-del-covid-19/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0100</pubDate>
+      <author> Jose A. García Avilés </author> <guid>http://localhost:4000/2020/03/27/asi-trabajan-los-medios-durante-la-crisis-del-covid-19</guid>
+      <description>&lt;p&gt;Redacciones vacías, planes de contingencia, equipos que trabajan desde casa, medidas de higiene extraordinarias… Medios y periodistas se están volcando para ofrecer la información sobre el estado de alarma generado por la pandemia del Coronavirus en nuestro país. El periodismo ejercido con responsabilidad desempeña un valioso servicio público para mantener informada a la sociedad. En esta crisis, la cobertura y la agenda informativa han cambiado, así como las necesidades de comunicación. Ante el riesgo de contagio, los medios modifican sus procesos de trabajo y establecen protocolos para no exponer la salud de los profesionales y sus familiares.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Un trabajo titánico de coordinación&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Para cualquier medio de comunicación, cubrir una pandemia sanitaria y un estado de alarma nacional suponen un reto enorme. Editores y jefes de sección están haciendo un gran esfuerzo para coordinar a sus equipos y gestionar el trabajo telemáticamente, con los redactores, corresponsales y colaboradores.La mayoría de los periodistas trabaja desde su domicilio, a excepción de un reducido equipo de profesionales que sí opera físicamente desde las redacciones. “Todo se ha ido acelerando con la expansión del virus, y en los últimos días la presión informativa es extrema, y con la mayor parte de la sección trabajando a distancia todo es todavía más complicado”, &lt;a href=&quot;https://www.lavanguardia.com/vida/20200321/474278565631/la-vanguardia-teletrabajo-adaptacion-empresas-confinamiento-coronavirus.html&quot;&gt;explica la redactora jefa de Sociedad de La Vanguardia, Susana Quadrado&lt;/a&gt;. “Nos vemos a través de nuestras cámaras, compartimos los documentos en escritorios virtuales, recibimos instrucciones a través de chats privados, accedemos a todo lo que tendríamos si estuviéramos ocupando nuestro puesto”, &lt;a href=&quot;https://www.elmundo.es/papel/historias/2020/03/24/5e78ef3dfdddffaf208b4619.html&quot;&gt;señala &lt;strong&gt;Isabel Munera,&lt;/strong&gt; redactora del &lt;em&gt;Print Desk&lt;/em&gt; de El Mundo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;En muchos medios, todas las secciones destinan la mayor parte de sus recursos a la cobertura de la emergencia sanitaria y sus repercusiones en distintas facetas de nuestra vida. Una parte del músculo periodístico se dedica a la información sobre el día a día de la crisis, y otra parte profundiza en los temas de agenda propia, con contenidos de análisis, explicativos y testimoniales. Por ejemplo, &lt;a href=&quot;https://elpais.com/sociedad/2020-03-14/el-pais-redobla-su-cobertura-de-la-crisis-en-todos-los-soportes.html&quot;&gt;El País ha duplicado el equipo de la sección de Sociedad&lt;/a&gt;, que elabora la mayor parte de las noticias sobre incidencias y recomendaciones comunicadas por las autoridades sanitarias, así como todo el contenido relacionado con la salud pública. A la cobertura de los periodistas especializados en información sanitaria se unen las informaciones de otros redactores de sociedad, ciencia, política, economía, cultura y deportes, así como las crónicas de los corresponsales.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/montanes.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;&lt;strong&gt;Redacción de El Diario Montañés en Santander (El Diario Montañés)&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Las cabeceras regionales, las radiotelevisiones autonómicas y un sinfín de medios locales están ofreciendo una amplia cobertura, a cargo de profesionales que dedican muchas horas; se trata un excelente servicio público que redunda en beneficio de los ciudadanos. Los ejemplos se multiplican: desde la redacción de La Voz de Galicia, que &lt;a href=&quot;https://www.lavozdegalicia.es/video/sociedad/2020/03/22/contando-crisis-coronavirus-voz-galicia/00311584911697374490111.htm&quot;&gt;también ha establecido protocolos&lt;/a&gt; para coordinar a todos sus profesionales, hasta &lt;a href=&quot;https://www.eldiariomontanes.es/cantabria/manos-20200315114650-nt.html&quot;&gt;El Diario Montañés&lt;/a&gt; o Las Noticias de Cuenca, que &lt;a href=&quot;https://www.lasnoticiasdecuenca.es/cuenca/periodismo-tiempos-cuarentena-47419&quot;&gt; se ha adaptado a la nueva situación&lt;/a&gt;, para contar las historias sobre la pandemia que afectan a la vida de sus lectores. El Coronavirus también afecta a la forma de hacer radio. Juanma Castaño, director del programa ‘El Partidazo’ de COPE y Radio MARCA, &lt;a href=&quot;https://www.marca.com/radio/2020/03/16/5e6fe1ea22601dbf038b45be.html&quot;&gt;explica que ahora el programa lo coordina un grupo de seis personas&lt;/a&gt; desde los estudios y el resto de los profesionales trabaja desde su domicilio.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Se impone el teletrabajo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;La aplicación del estado de alarma implica que las redacciones han adoptado el teletrabajo generalizado en un tiempo récord, tanto en recursos como en procesos. La implantación del teletrabajo implica un cambio en la relación entre el periodista y el medio, aunque no se trata de una novedad. Este modelo de trabajo es similar al que habitualmente desarrollan los periodistas &lt;em&gt;freelance&lt;/em&gt;, con un horario personalizado y una relación más cercana con los medios con los que colaboran.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/jordi-juan-director-de-la-vanguardia.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;&lt;strong&gt;Videoconferencia del director de La Vanguardia, Jordi Juan, con otros periodistas (La Vanguardia).&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Para trabajar a distancia, los profesionales usan herramientas como los chats de Slack o WhatsApp, mantienen videocon­fe­rencias por Hangouts, Zoom o Skype, y comparten documentos a través de Google Drive. Como &lt;a href=&quot;https://www.eldiario.es/escolar/Carta-periodistas-eldiarioes-coronavirus_6_1004459563.html&quot;&gt;señala Ignacio Escolar&lt;/a&gt;, director de Eldiario.es, “teletrabajar no significa encerrarse en casa sin salir. No se puede informar de todo lo que está pasando en pijama frente al ordenador. Tenemos que estar donde están las noticias, como hacemos siempre. Pero sí podemos al menos evitar la alta concentración de personas en la redacción”.&lt;/p&gt;
+
+&lt;p&gt;Por ejemplo, en La Vanguardia ya solo permanece un núcleo de cinco personas en dos plantas de la Torre Godó, en el 477 de la Diagonal de Barcelona. El resto trabaja desde casa. “Mantenemos los reporteros de calle mínimos imprescindibles para cubrir la crisis sanitaria, pero La Vanguardiaapuesta por respetar el confinamiento al 100%”, explica desde su casa el director adjunto &lt;a href=&quot;https://twitter.com/miquelmolina?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor&quot;&gt;Miquel Molina&lt;/a&gt;, “aunque quienes tienen hijos pequeños deban hacer malabarismos para trabajar en casa”. “Toda la redacción puede trabajar en remoto, prácticamente un 90% del trabajo habitual puede hacerse en las mismas condiciones que si estuviéramos en la redacción”, añade la subdirectora &lt;a href=&quot;https://twitter.com/igpagan?lang=es&quot;&gt;Isabel García Pagan&lt;/a&gt;, coordinadora del operativo para dotar de instrumentos para el teletrabajo. “Mantenemos un retén de cinco personas en redacción por si cae el sistema o por si hay una urgencia, y muchos están en disposición de desplazarse a la sede en poco tiempo”.&lt;/p&gt;
+
+&lt;p&gt;Un caso significativo es el de algunos periodistas que trabajan en solitario, gracias al apoyo de los usuarios que financian su actividad. En la cobertura sobre el Coronavirus destaca la labor de &lt;a href=&quot;https://twitter.com/matthewbennett&quot;&gt;Matthew Bennet&lt;/a&gt;. Este periodista británico afincado en Murcia publica una rigurosa información sobre el COVID-19 en su cuenta de Twitter, que ya supera los 108.000 seguidores. &lt;strong&gt;Sus lectores le financian a través de micromecenazgo,&lt;/strong&gt; con donaciones mediante plataformas como Patreon o Bizum.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nuevas agendas y comparecencias sin periodistas&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;La crisis del coronavirus ha generado una agenda informativa absolutamente volcada en la cobertura de la pandemia. Se han suprimido todo tipo de actos públicos, lo que provoca la búsqueda de alternativas a la cobertura mediática de los eventos programados y proponer temas que en otras circunstancias no tendrían cabida en los espacios informativos. El estado de alarma ha provocado la convocatoria de ruedas de prensa virtuales, la búsqueda de testimonios por videoconferencia, el uso de vídeos procedentes de las redes sociales &lt;a href=&quot;https://www.elconfidencial.com/espana/2020-03-22/coronavirus-ruedas-prensa-virtuales-entrevistas-salon-revoluciona-comunicacion_2509235/&quot;&gt;y las entrevistas a los políticos en el salón de su casa&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Entre los formatos de información especializada que han resurgido, cabe destacar:&lt;/p&gt;
+
+&lt;p&gt;-&lt;strong&gt;Newsletters&lt;/strong&gt; con las que muchos medios sirven diariamente información cuidadosamente seleccionada para sus lectores.&lt;/p&gt;
+
+&lt;p&gt;-&lt;strong&gt;Podcasts&lt;/strong&gt; especializados sobre la evolución de la crisis del Covid-19, que el oyente puede escuchar en cualquier momento.&lt;/p&gt;
+
+&lt;p&gt;-&lt;strong&gt;Fact-checking&lt;/strong&gt;: equipos especializados en verificar la información y luchar contra los bulos que circulan por las redes sociales y WhatsApp.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/la-opinión-de-murcia.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;&lt;strong&gt;Rueda de prensa en el Instituto de Fomento de Murcia (La Opinión de Murcia).&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;La oficina de comunicación del gobierno en la Moncloa ha instaurado un protocolo que controla la labor de los periodistas, que no pueden asistir físicamente ni formular preguntas en directo. De este modo, &lt;a href=&quot;https://www.elespanol.com/espana/politica/20200323/gobierno-telematico-resiente-control-prensa-tiempos-coronavirus/476203865_0.html&quot;&gt;como apunta El Español&lt;/a&gt;, las comparecencias ante los medios del presidente del gobierno y los portavoces gubernamentales durante el estado de alerta se convierten en un &lt;strong&gt;mero escenario&lt;/strong&gt; para difundir mensajes sin fiscalización por parte de los periodistas, ya que las preguntas están filtradas previamente por la Secretaría de Estado de Comunicación que dirige &lt;strong&gt;Miguel Ángel Oliver&lt;/strong&gt;. Él decide, de entre los medios que desean participar, quién pregunta y qué cuestiones se le trasladan al compareciente. Numerosos profesionales ya &lt;a href=&quot;https://www.espaciodircom.com/index.php/organizaciones/8602-los-periodistas-critican-la-censura-de-sus-preguntas-en-las-ruedas-de-prensa-telematicas-de-sanchez&quot;&gt;han criticado este mecanismo de control&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;El propio Ignacio Escolar &lt;a href=&quot;https://www.eldiario.es/escolar/Carta-periodistas-eldiarioes-coronavirus_6_1004459563.html&quot;&gt;advertía en un comunicado a sus periodistas&lt;/a&gt;: “Debemos ser responsables: informar con prudencia y sin caer en el sensacionalismo. No promover el pánico. Combatir la desinformación. Ser rigurosos. Y no caer en las explicaciones simples que reducen esta grave epidemia a “otra gripe más”.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Precauciones para evitar contagios&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A finales de febrero un brote de Coronavirus afectó al diario Las Provincias en Valencia. Todo empezó con el viaje a Milán de un periodista radiofónico que trabaja en unos estudios ubicados en el edificio del diario. &lt;a href=&quot;https://www.lasprovincias.es/comunitat/opinion/coronavirus-dentro-20200322015222-nt.html&quot;&gt;Como escribe Juan Quirós&lt;/a&gt;, director de Las Provincias: “El azar hizo su juego. A partir de ahí, empezó el goteo. Comenzaron las dificultades. El desasosiego. Las preocupaciones. El miedo. También la responsabilidad y el pundonor”. Ocho trabajadores de Las Provincias se infectaron por el Coronavirus. Afortunadamente la mayoría de ellos ya están recuperados y otros cuarenta compañeros dieron negativo en las pruebas del virus cuando presentaron síntomas.&lt;/p&gt;
+
+&lt;p&gt;Según el &lt;a href=&quot;https://cpj.org/&quot;&gt;Comité para la Protección de los Periodistas (CPJ, por sus siglas en inglés)&lt;/a&gt;, los periodistas que cubren la pandemia del Coronavirus en países o zonas especialmente afectadas deben seguir una serie de recomendaciones para &lt;a href=&quot;https://www.apmadrid.es/recomendaciones-del-comite-para-la-proteccion-de-los-periodistas-para-la-cobertura-del-coronavirus/&quot;&gt;cuidar su salud y evitar riesgos&lt;/a&gt;. Entre las normas figura la utilización de los &lt;strong&gt;dispensadores de gel desinfectante&lt;/strong&gt; para manos, tomarse la temperatura corporal, mantener la &lt;strong&gt;distancia de seguridad&lt;/strong&gt; y evitar &lt;strong&gt;que se compartan los ordenadores portátiles&lt;/strong&gt; entre compañeros.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/el-mundo-temperatura.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;&lt;strong&gt;Una enfermera toma la temperatura a un periodista en la redacción de El Mundo. (Alberto Di Lolli)&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;En el caso de los periodistas y equipos técnicos que han de acudir a sus puestos de trabajo en las redacciones, existen protocolos que incluyen desinfecciones periódicas delos espacios,turnos escalados y divisiones de zonas en la redacción para evitar contagios. En las televisiones y emisoras de radio se extreman las medidas de higiene: cada profesional desinfecta los equipos que ha utilizado, se cambian a diario las esponjas de los microsde los estudios, cada reportero tiene su propio micro y esponjilla para evitar contagios, los profesionales no comparten vehículo en los desplazamientos, se recomienda el uso de guantes y mascarillas, y &lt;strong&gt;evitar la exposición en los lugares donde existe una elevada carga viral&lt;/strong&gt; y riesgo de contagio.&lt;/p&gt;
+
+&lt;p&gt;Cabe subrayar &lt;strong&gt;la necesidad del autocuidado de los periodistas&lt;/strong&gt; y de buscar momentos de distensión, que contribuyen a preservar la salud mental. Pau Francesc Rodríguez, responsable de redes y marketing de La Vanguardia, subraya la importancia de “mantener la moral, con videoconferencias entre todos para hablar de trabajo, pero también para reír un rato. La distancia te obliga a ser concreto, a economizar el lenguaje y las directrices”.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Los medios piden ayudas ante la crisis&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Se da la paradoja de que los medios de comunicación están experimentando un boom en sus audiencias y a la vez, afrontan una crisis de publicidad que tendrá graves consecuencias. Los directivos están preocupados por el descenso de la inversión publicitaria a raíz de esta crisis, que ya está afectando a todos los medios. Buena parte de los ingresos de las empresas de comunicación dependen de la publicidad, que se está reduciendo drásticamente, por lo que sus presupuestos para este año ya han quedado desfasados. Aún es pronto para cuantificar esas pérdidas, que dependerán del impacto general en la economía, pero los medios ya están reduciendo todos los gastos que no son imprescindibles.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fernando de Yarza&lt;/strong&gt;, presidente de la Asociación Mundial de los Editores de Prensa &lt;strong&gt;(&lt;/strong&gt;&lt;a href=&quot;https://www.wan-ifra.org/&quot;&gt;WAN-IFRA&lt;/a&gt;&lt;strong&gt;)&lt;/strong&gt; y del Grupo Henneo, &lt;a href=&quot;https://forbes.es/empresas/63740/caida-publicidad-crisis-coronavirus-azota-a-los-medios-de-comunicacion/&quot;&gt;advierte de que la situación actual es de “máxima preocupación”&lt;/a&gt; porque “después de unos años durísimos, acompañados de expedientes de regulación y de ajustes por la transformación digital y por la crisis, en un momento en el que empezamos a sacar la cabeza, llega &lt;strong&gt;esta pandemia global que nos pilla en el peor momento posible&lt;/strong&gt;. Pone en riesgo un servicio público al ciudadano, pero también miles de puestos de trabajo”. Por ello, Fernando de Yarza &lt;strong&gt;solicita al Gobierno financiación a corto plazo&lt;/strong&gt; para afrontar la extraordinaria situación que atraviesan los medios de comunicación.&lt;/p&gt;
+
+&lt;p&gt;Esta crisis se ha convertido en &lt;strong&gt;una tormenta perfecta para el periodismo&lt;/strong&gt;: un enorme volumen de información relevante en goteo continuo, con un grave impacto social y gran avidez de consumo por parte de los ciudadanos. Una situación extrema que pone a prueba, más que nunca, el ejercicio del periodismo responsable.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>La responsabilidad de los periodistas con la información publicada en redes sociales</title>
+      <link>http://localhost:4000/2020/03/14/la-responsabilidad-de-los-periodistas-con-la-informaci%C3%B3n-publicada-en-redes-sociales/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0100</pubDate>
+      <author> Raul Magallón </author> <guid>http://localhost:4000/2020/03/14/la-responsabilidad-de-los-periodistas-con-la-información-publicada-en-redes-sociales</guid>
+      <description>&lt;p&gt;Uno de los grandes desafíos de las próximas semanas/meses es saber encontrar un equilibro entre la &lt;em&gt;comunicación del riesgo&lt;/em&gt; y el&lt;em&gt;riesgo de la comunicación&lt;/em&gt;. La información que consumimos en Internet y la proporcionada por los medios no sólo ha de estar bien ordenada y jerarquizada, sino que debe poder reenviar a fuentes oficiales y &lt;em&gt;documentación de confianza&lt;/em&gt; para que los lectores puedan completar su propio recorrido informativo. Este artículo de &lt;a href=&quot;https://twitter.com/raulmagallon&quot;&gt;Raúl Magallón Rosa&lt;/a&gt;, doctor en periodismo y autor de &lt;em&gt;&lt;a href=&quot;https://unfakingnews.com/&quot;&gt;Unfaking News. Cómo combatir la desinformación&lt;/a&gt;&lt;/em&gt; aborda la responsabilidad del periodismo en la información sobre el COVID-19.&lt;/p&gt;
+
+&lt;p&gt;Como señala Karin Wahl-Jorgensen, profesora de la Universidad de Cardiff, los periodistas deben reconocer “&lt;a href=&quot;https://theconversation.com/coronavirus-how-media-coverage-of-epidemics-often-stokes-fear-and-panic-131844&quot;&gt;tanto la naturaleza de la amenaza como su responsabilidad de manejar las emociones del público y no difundir el miedo indebidamente&lt;/a&gt;”.&lt;/p&gt;
+
+&lt;p&gt;La organización Maldita.es ha creado un sitio específico –en este &lt;a href=&quot;https://maldita.es/coronavirus&quot;&gt;enlace&lt;/a&gt;- para ordenar y explicar la información que van generando sobre el coronavirus.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/1maldito-bulo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;Fuente: Maldito Bulo&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;En este sentido, cómo se cubre un acontecimiento histórico sin precedentes debe ser objeto de reflexión y análisis. Las fuentes utilizadas, el lenguaje escogido, los enfoques diversos y que no sepan captar la complejidad, la dinamicidad y globalidad del fenómeno, el compromiso en combatir el sensacionalismo, etc. son algunos de los retos a los que se van a enfrentar los periodistas y las fuentes oficiales de confianza, pero también la ciudadanía.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://firstdraftnews.org/&quot;&gt;First Draft&lt;/a&gt;, probablemente la organización más importante a nivel mundial en la lucha contra la desinformación, ha publicado las siguientes recomendaciones para los medios:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/2.-first-draft.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;En primer lugar, más allá de enumerarlas y compartirlas, es importante analizar las mismas y comprender sus implicaciones.&lt;/p&gt;
+
+&lt;p&gt;Cada país debería –a través de organizaciones y asociaciones profesionales- publicar localmente como ha hecho a nivel global &lt;a href=&quot;https://firstdraftnews.org/long-form-article/coronavirus-resources-for-reporters/&quot;&gt;First Draft&lt;/a&gt; una guía de fuentes oficiales y expertas en el tema para gestionar la sobreabundancia informativa a nivel personal y colectivo que nos espera en las próximas semanas –según las primeras estimaciones hay medios que podrían haber incrementado sus visitas en un 50%-.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/3-jose-manuel-rodríguez.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt; Fuente: Captura de tuit del periodista y consultor &lt;a href=&quot;https://twitter.com/josemanuelrodos/status/1238433128131235842&quot;&gt;José Manuel Rodríguez&lt;/a&gt;.&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;La guía de &lt;a href=&quot;https://twitter.com/firstdraftnews&quot;&gt;First Draft&lt;/a&gt; cuenta con herramientas de verificación, recomendaciones de ética y deontología periodística sobre cómo informar, una base de datos sobre bulos desmentidos, fuentes de datos y de información fiable para analizar la evolución de los acontecimientos, un apartado de respuestas a las preguntas frecuentes que los periodistas podrían tener, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;La responsabilidad de los periodistas&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;En este sentido, es importante empezar subrayando que el uso de determinadas imágenes que captan una foto estática -y obvian tanto la secuencia anterior como la continuación de los acontecimientos- pueden alimentar los estereotipos y causar una &lt;em&gt;incertidumbre falseada&lt;/em&gt; en la ciudadanía.&lt;/p&gt;
+
+&lt;p&gt;Por esta razón, por ejemplo, se recomienda que los medios den a primera hora de la mañana informaciones de carácter rutinario en las que se contacten con las distintas asociaciones de supermercados y comerciantes implicadas. Estas voces deberían ser acompañadas con imágenes de los supermercados siendo abastecidos para mitigar cualquier miedo al desabastecimiento –siempre que esta situación se produzca con normalidad-.&lt;/p&gt;
+
+&lt;p&gt;Desde esta perspectiva, el uso de determinadas imágenes debe responder a cómo de importante/relevante es esa imagen/vídeo para contar la noticia y no alimentar con estereotipos &lt;a href=&quot;https://www.aaja.org/guidance_on_coronavirus_coverage&quot;&gt;el racismo o la xenofobia&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Otro de los problemas que plantea el momento inédito es que los bulos y desinformaciones conviven con las profecías que se autocumplen –es decir, bulos sobre determinadas medidas políticas que en ese momento no se han tomado convivirán con informaciones que aparezcan en los días posteriores y que hagan realidad algo que en el momento de enunciarse era falso-.&lt;/p&gt;
+
+&lt;p&gt;Es importante el compromiso con la verdad y saber explicar que esa es/era la realidad en un momento determinado. Por ejemplo, en el momento de escribir este artículo -14 de marzo de 2020 a las 11:22- Maldito Bulo había desmentido &lt;a href=&quot;https://maldita.es/malditobulo/2020/03/14/coronavirus-bulos-pandemia-prevenir-virus/&quot;&gt;151 bulos&lt;/a&gt;. Cuando usted lea el artículo es imposible conocer cómo habrá evolucionado esa cifra.&lt;/p&gt;
+
+&lt;p&gt;Como bien sabemos, la hemeroteca nos va a permitir encontrar posibles responsables políticos de lo que está ocurriendo pero también debería hacernos comprender que el estereotipo de culpabilizar a &lt;em&gt;los otros&lt;/em&gt; no mitiga nuestra responsabilidad con el compromiso por buscar soluciones y respuestas coordinadas.&lt;/p&gt;
+
+&lt;p&gt;De este modo, por ejemplo, resulta importante combinar datos y tendencias con más testimonios de personas que se han recuperado y que transmiten su experiencia sobre el proceso de curación.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;La responsabilidad de los medios de comunicación&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Parece evidente que los medios de comunicación necesitan explicar este escenario de manera que el contenido sea fácil de procesar por los lectores: gráficos que acompañen y que expliquen, situando la información veraz en las noticias antes de las especulaciones o declaraciones políticas que buscan dividir, dar consejos concretos sobre los pasos que las personas pueden tomar, etc.&lt;/p&gt;
+
+&lt;p&gt;Otro debate ético/económico es el de si los medios con su función de servicio público deben abrir los &lt;em&gt;muros de pago&lt;/em&gt;/información &lt;em&gt;premium&lt;/em&gt; a toda la ciudadanía. Quien no sepa interpretar la responsabilidad social difícilmente tendrá credibilidad para demandar una responsabilidad política o ciudadana.&lt;/p&gt;
+
+&lt;p&gt;Los medios de comunicación, en cambio, deberían averiguar qué preguntas se hacen los lectores sobre el Covid-19 y llenar esas zonas de penumbra con datos y periodismo de servicio.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Los medios de comunicación, en cambio, deberían averiguar qué preguntas se hacen los lectores sobre el Covid-19 y llenar esas zonas de penumbra con datos y periodismo de servicio”.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;La responsabilidad de/con los expertos&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Otro de los escenarios naturales que se plantean es si se debe especular o hacer especular a los expertos con posibles escenarios. En este sentido, informar sobre las respuestas y las soluciones eficaces tomadas por otros países puede servir para dar respuesta a un momento de &lt;em&gt;profecías autocumplidas&lt;/em&gt; y &lt;em&gt;autonegadas&lt;/em&gt; como el actual donde todo el mundo tiene problemas para comprender cómo evolucionan los acontecimientos y no participa de la certeza personal y colectiva de qué ocurrirá la semana siguiente (pensemos en cómo hemos asimilado el proceso de responsabilidad social e individual en sólo una semana).&lt;/p&gt;
+
+&lt;p&gt;Otro elemento fundamenta de reflexión es el de las investigaciones y anuncios de cura, tratamiento y vacunas del coronavirus por parte de diferentes actores: empresas farmacéuticas, laboratorios, investigadores de diferentes países, artículos pre-publicados que no han pasado el proceso de revisión por pares -en este &lt;a href=&quot;https://outbreaksci.prereview.org/&quot;&gt;enlace&lt;/a&gt; se pueden encontrar algunos-, etc. Antes de cualquier mención es necesario que esa información haya sido revisada por al menos dos fuentes expertas que puedan matizar o completar el “titular” que les llega a los medios de comunicación. Los medios deberían filtrar con gran cuidado las informaciones provenientes de las agencias de noticias que son publicadas de manera automática en sus webs.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;La responsabilidad de los periodistas con la información publicada en redes sociales&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Las redes sociales, más allá de herramienta de difusión de bulos, también se están convirtiendo en una plataforma para la &lt;em&gt;inteligencia colaborativa&lt;/em&gt;-nunca dejaron de serlo-.&lt;/p&gt;
+
+&lt;p&gt;En este sentido, los medios no sólo deben &lt;em&gt;proporcionar a los lectores las acciones específicas que pueden tomar&lt;/em&gt; sino también recoger –previo proceso de verificación- &lt;a href=&quot;https://twitter.com/eldiarioes/status/1238169971861135362&quot;&gt;aquellas iniciativas&lt;/a&gt; ciudadanas que se están desarrollando en muchas ocasiones de manera horizontal y espontánea para adaptarse a los nuevos hábitos que nos plantea este nuevo escenario.&lt;/p&gt;
+
+&lt;p&gt;La responsabilidad de la ciudadanía en las redes sociales y plataformas de mensajería&lt;/p&gt;
+
+&lt;p&gt;Es importante que cualquier posible desinformación que nos llegue a nuestro teléfono móvil sea verificado antes de compartirlo con nuestros amigos y seres queridos. En este &lt;a href=&quot;https://maldita.es/malditobulo/?keywords=coronavirus&quot;&gt;enlace&lt;/a&gt; podemos encontrar un buscador de bulos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/4-maldito-bulo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt; Fuente: Maldito Bulo.&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Mientras que no se establezcan soluciones coordinadas, la solución a corto plazo es que “en caso de duda, no compartas”. En caso de duda, pregunta, comprueba, verifica. Tanto Maldito Bulo como Newtral tienen un número de Whatsapp para que la ciudadanía les pueda enviar informaciones de dudosa veracidad y que ésta sea comprobada por los fact-checkers.&lt;/p&gt;
+
+&lt;p&gt;La creación de una comunidad en torno a los lectores/usuarios debería hacernos conseguir que cuando recibamos el desmentido o la confirmación de los fact-checkers se la reenviemos a la persona que nos envió inicialmente la posible desinformación con el objetivo de que ésta participe en la cadena de responsabilidad compartida que necesitamos en este momento.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/5.-maldita.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La situación actual hace que la ciudadanía necesite reforzar el sentimiento de solidaridad, comunidad y compromiso -acciones solidarias de colaboración y ayuda en la comunidad en la que vivimos, ayudas a la compra, iniciativas para quedarse en casa, etc.-.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, este tipo de acciones no deben hacer bajar la guardia a los periodistas a la hora de pensar en las consecuencias que tendrán sus informaciones sobre la más humana de las pasiones en este momento: el miedo. En el acto cotidiano de compartir se encuentran, en general, más buenas intenciones que malas. Y ahí radica una de las grandes fortalezas de la &lt;em&gt;cultura de la desinformación&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cada día que pase nos plantearemos nuevas preguntas. De momento, es importante dar respuesta a las que ya tenemos.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nota del autor:&lt;/strong&gt; Dentro del proyecto &lt;em&gt;Unfaking News&lt;/em&gt; hemos desarrollado un bot –en este &lt;a href=&quot;https://twitter.com/Unfaking_es&quot;&gt;enlace&lt;/a&gt;- para monitorizar con fuentes oficiales, fact-checkers y medios de comunicación las novedades sobre el #coronavirus #Covid_19.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Miriam Hernanz (RTVE Lab): “Me encantaría que el Lab muriera. Significaría que no hace falta un departamento que vele por la innovación porque ya todos la llevan a cabo”</title>
+      <link>http://localhost:4000/2020/03/06/miriam-hernanz-rtve-lab-entrevista-innovacion-television-espanola/</link>
+      <pubDate>Fri, 06 Mar 2020 00:00:00 +0100</pubDate>
+      <author> Laura Sánchez Benejama </author> <guid>http://localhost:4000/2020/03/06/miriam-hernanz-rtve-lab-entrevista-innovacion-television-espanola</guid>
+      <description>&lt;p&gt;La carrera de &lt;a href=&quot;https://twitter.com/miriamhernanz&quot;&gt;Miriam Hernanz&lt;/a&gt; ha evolucionado en paralelo a la innovación periodística. Actualmente es la subdirectora del &lt;a href=&quot;http://www.rtve.es/lab/&quot;&gt;Laboratorio Audiovisual de Innovación y Nuevas Narrativas Interactivas en Radiotelevisión Española&lt;/a&gt;. Comenzó en 2005 como redactora en prácticas en &lt;a href=&quot;https://www.rtve.es/television/informe-semanal/&quot;&gt;Informe Semanal&lt;/a&gt;, y tras ser redactora de última hora en &lt;a href=&quot;https://www.rtve.es/&quot;&gt;RTVE.es&lt;/a&gt;, de Suplementos en &lt;a href=&quot;https://www.elmundo.es/&quot;&gt;El Mundo&lt;/a&gt; y del programa &lt;a href=&quot;https://www.rtve.es/alacarta/videos/hora-cero/&quot;&gt;Hora Cero&lt;/a&gt;, ha consolidado su liderazgo en el lab de RTVE. Tal y como nos cuenta, el objetivo de este departamento no es jugar con la información, sino presentarla con un lenguaje innovador, a cualquier hora y en cualquier plataforma. Hernanz destaca que hay que educar a la audiencia para que sepa diferenciar el grano de la paja en la información que circula por la Red. Ha impartido clases en el Máster en Innovación en Periodismo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/miriam-hernanz.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pregunta&lt;/strong&gt;: Teniendo en cuenta la transformación digital que han experimentado los medios, ¿cómo definiría la innovación en el periodismo?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Respuesta&lt;/strong&gt;: Dentro del periodismo, tiene que ver con aquellas estrategias que impliquen transformar la forma tradicional de abordar los temas, ya sea desde el punto de vista del enfoque, de la plataforma desde la que se consume, o desde el rol del usuario (antes era una comunicación unidireccional y ahora bidireccional). Sobre todo, &lt;strong&gt;significa plantearte las cosas desde el principio, no dar nada por hecho, y desde ahí ver las diferentes fases de distribución&lt;/strong&gt;, en la ideación, en las distintas manos que tocan el producto… Son historias, pero hoy en día lo que generamos son productos informativos. A priori parece una pregunta muy sencilla, pero puede englobar muchas cosas. Hay mucha gente que, desde el punto de vista más reduccionista, innovar significa hacerlo de forma diferente o por primera vez.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;P&lt;/strong&gt;: Según su criterio, ¿qué medios cabe destacar entre los más innovadores?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt;: Hay varios que están haciendo un buen trabajo, pero es verdad que la innovación no es algo sistematizado en el día a día de todos los medios, por lo que no hay ninguno del que diga que innova más que los demás. Las prisas implican que haya que recurrir a una forma tradicional de contar las cosas. Sin embargo, hay medios que hacen muy bien las cosas, por ejemplo, The Guardian. Tiene departamentos como &lt;a href=&quot;https://www.theguardian.com/interactive&quot;&gt;The Guardian Visuals&lt;/a&gt;, que intentan mezclar lenguajes para intentar explicar que significa por ejemplo “verificación de fuentes abiertas”. Hacen investigaciones mezclando mapas de Google Earth, con tuits o distintas fuentes, además del periodismo y la visualización de datos. También,&lt;a href=&quot;https://www.bbc.co.uk/taster/&quot;&gt;BBC Taster&lt;/a&gt;, que no es periodismo puro, sino prototipado de formatos y es una plataforma en la que te puedes fijar. Incluiría &lt;a href=&quot;https://lab.elconfidencial.com/&quot;&gt;El Confidencial.Lab&lt;/a&gt;, con su modelo de sostenibilidad de tal forma que puedan seguir innovando, haciendo &lt;em&gt;branded content&lt;/em&gt; para las empresas, pero que la innovación luego se base en el periodismo y sus historias. Por supuesto, The New York Times es una referencia que hay que seguir muy de cerca. Por ejemplo, en diciembre desarrollaron una experiencia de realidad aumentada, para intentar ponerte en la piel de la gente que vive en Nueva Deli y ver la contaminación de allí desde donde estés, pudiendo captar hasta las partículas que flotan en el aire y cómo sería vivir en esas ciudades en las que existen grandes niveles de polución.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;la-innovación-más-eficaz-es-aquella-que-responde-a-una-necesidad-que-el-usuario-tiene-y-aquella-que-pueda-ser-escalable-en-los-problemas-de-toda-la-empresa&quot;&gt;“La innovación más eficaz es aquella que responde a una necesidad que el usuario tiene y aquella que pueda ser escalable en los problemas de toda la empresa”&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;P&lt;/strong&gt;: ¿Cómo se debe llevar a cabo la innovación en los medios para que sea eficaz?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt;: Depende de lo que signifique el término eficaz. Para mí, &lt;strong&gt;la innovación más eficaz es aquella que responde a una necesidad que el usuario tiene&lt;/strong&gt;. Porque en la medida que innoves, no para hacer algo “molón” sino para hacer algo útil, se le da mucho mas valor a esa innovación. En el Lab de RTVE, pudiendo compartir tiempo con profesionales de la &lt;a href=&quot;https://www.bbc.com/news&quot;&gt;BBC&lt;/a&gt;, he aprendido que &lt;strong&gt;no hay innovación más eficaz que aquella que pueda ser escalable&lt;/strong&gt;. Cuando tu consigues una solución para un problema que esta teniendo toda tu empresa, haces que todo ese tiempo invertido sea muy eficaz, y por eso digo que depende de lo que signifique el término: puede ser de mucho valor para el usuario o de mucho valor para la escalabilidad de ese tiempo invertido.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/lab-rtve-web.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;P&lt;/strong&gt;: ¿Cree que en el periodismo en nuestro país se innova poco o mucho?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt;: España vive un momento en el que no estamos a la cola en innovación periodística, pero tampoco estamos a la cabeza. Creo que hay muy buenos profesionales que han salido del país, han aprendido mucho y han traído nuevos avances narrativos. En ese sentido, &lt;a href=&quot;https://twitter.com/borjaechevarria?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor&quot;&gt;Borja Echevarría&lt;/a&gt;, que fue vicepresidente de Univisión y ahora es director adjunto de El País, está renovando notablemente la forma de contar en este diario. Se ha traído grafistas que trabajaban con él en Univisión y destacan. Luego tenemos una generación muy buena de grafistas que salieron de El Mundo y ahora están en The Washington Post, BBC, The Guardian… &lt;strong&gt;España como industria está mucho peor que sus profesionales, porque hay mucha gente de renombre fuera que aquí son desconocidos&lt;/strong&gt;. Se han llevado a cabo narrativas que avanzaron en el departamento gráfico del diario El Mundo, pero los números no salían, y esa calidad está haciendo mejores a grandes cabeceras de todo el mundo.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;en-el-lab-presentamos-la-información-de-forma-diferente-para-los-nuevos-públicos-que-no-están-acostumbrados-a-consumir-de-forma-lineal-lenta-a-través-de-un-canal-y-a-una-hora-determinada&quot;&gt;“En el Lab presentamos la información de forma diferente para los nuevos públicos que no están acostumbrados a consumir de forma lineal, lenta, a través de un canal y a una hora determinada”&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;P&lt;/strong&gt;: Usted es subdirectora del Lab de RTVE, y entre sus funciones destaca el impulso de la digitalización y el desarrollo transmedia de contenidos audiovisuales multiplataforma. ¿Cómo percibe el cambio en su trabajo desde que empezó hasta ahora?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt;: Entré en la empresa en 2008 y el laboratorio surgió en 2011, con lo cual, junto a otro compañero, “parí” el RTVE Lab. Éramos dos y ahora somos 16. Con referencia a las nuevas narrativas, lejos de ser un “bum” que se quedó en agua, como el walkman o el discman, en el laboratorio se están asentando cada vez más. Al principio nos veían como gente que hacía juegos con el periodismo, sobre todo los grandes periodistas de la empresa, pero poco a poco entendieron que &lt;strong&gt;no jugamos con la información, sino que la presentamos de una forma diferente para que sea atractiva para los nuevos públicos que no están acostumbrados a consumir de una forma lineal, lenta, a través de un canal y a una hora determinada&lt;/strong&gt;. Nos necesitan &lt;a href=&quot;&quot;&gt;en su lenguaje, a cualquier hora, y disponible en cualquier plataforma.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;P&lt;/strong&gt;: Dentro de sus cometidos, ¿de qué forma trabaja la innovación para que resulte eficaz de cara a la audiencia?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt;: Somos un departamento muy pequeño que trabaja como si fuera una startup, que es autosuficiente por sí mismo, ya que tenemos redactores, realizadores, diseñadores y desarrolladores informáticos. En muchos medios, cada proyecto se trabaja en diferentes departamentos, y el proceso va pasando de uno a otro; nosotros trabajamos de forma multidisciplinar. &lt;strong&gt;Somos un departamento multidisciplinar que hace todo tipo de temáticas y que no tiene miedo al código en el que lo contamos (video, audio, gráfico interactivo…)&lt;/strong&gt;y que además temáticamente no estamos coartados por nada. Una de las innovaciones de éxito es que somos mucho más ágiles en la forma de producir. En el Lab testamos mucho el producto en las distintas fases, por lo que no damos por sabido nada, sino que lo enfrentamos a un público potencial para que vayan viendo si lo entienden como nosotros y no se pierden en la experiencia, porque al ser innovación se enfrentan a un interfaz nuevo.Además, intentamos ayudarnos por los que saben mucho de un tema. Por ejemplo, si hacemos algo sobre política internacional, lo hacemos contando con expertos sobre ese tema.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;es-muy-importante-que-desde-los-jefes-hasta-todos-los-empleados-se-insista-en-que-la-innovación-no-es-accesoria-sino-que-debe-estar-presente-en-todas-las-piezas-del-telediario&quot;&gt;“Es muy importante que desde los jefes hasta todos los empleados se insista en que la innovación no es accesoria, sino que debe estar presente en todas las piezas del telediario”&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;P&lt;/strong&gt;: Algunos expertos consideran que los Labs de innovación en los medios corren el riesgo de convertirse en silos aislados del resto de la redacción y que la innovación debería ser algo transversal en todos los departamentos del medio. ¿Qué le parece esta visión?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt;: Estoy muy de acuerdo con eso, pero este proceso hace que se diluya la innovación. A mi me encantaría matar el laboratorio y que todo el mundo en RTVE fuera el laboratorio. De hecho, estamos trabajando en digitalizar la empresa y sus narrativas y hacer que la creatividad fluya y cada persona que tenga una idea sea capaz de desarrollarla de forma autónoma, o asistida por nosotros. El problema es que cuando no hay nadie especializado en algo se nota, y al final todo vuelve a ser la forma tradicional de contar. También &lt;strong&gt;es muy importante que surja de arriba abajo, que desde los jefes hasta todos los empleados se insista mucho en que la innovación no es algo accesorio, sino que tiene que estar en todas las piezas que se hagan en el telediario&lt;/strong&gt;. Considero que los actuales jefes sí tienen la necesidad de transformar tanto los flujos de creación de producto como las narraciones y que se actualicen los lenguajes.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;no-desarrollamos-los-bots-para-suplantar-a-redactores-sino-para-testar-qué-cosas-básicas-se-pueden-conseguir-automatizando-algunos-procesos-el-trabajo-elevado-se-reserva-para-los-que-tenemos-cerebro&quot;&gt;“No desarrollamos los bots para suplantar a redactores, sino para testar qué cosas básicas se pueden conseguir automatizando algunos procesos. El trabajo elevado se reserva para los que tenemos cerebro”&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;P&lt;/strong&gt;: ¿Están trabajando en algún proyecto en el Lab de TVE con Inteligencia Artificial?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt;: La verdad es que no. Dentro del laboratorio, lo más lejos que hemos llegado es un bot de&lt;a href=&quot;http://lab.rtve.es/huella-ecologica/es/&quot;&gt;la huella ecológica&lt;/a&gt;el cual estuvimos intentando entrenándole para que fuera una especie de “coach” y ver hasta qué punto puede mejorar el índice de huella ecológica. Hay un proyecto muy piloto, que sobre todo es una prueba de concepto que va a desarrollar RTVE y que ha salido ahora en prensa, sobre la creación de un bot que publique información sobre Segunda B, que es una liga en la que a los redactores apenas nos da tiempo a cubrir, y no es por suplantar a redactores, sino para testar que cosas se pueden conseguir automatizando algunos procesos. Si se va a hacer una noticia en la que ponga quien ha metido el gol, cuanto ha durado el partido o los cambios que ha habido, es una información básica en la que se pueden automatizar distintos procesos. Los robots hacen una tarea que resulta aburrida y que nos viene bien que hagan. Otra cosa es si se va a hacer una crónica, ahí sí hace falta un redactor. Considero creo que el trabajo más elevado debe reservarse a los que tenemos cerebro y no chip.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/narrativas-rtve-lab.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;P&lt;/strong&gt;: Teniendo en cuenta el enorme volumen de noticias y contenidos que circula por la Red, ¿existe el riesgo de que la audiencia no distinga entre bulo e información? &lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt;: Sí. Existe el riesgo. Hoy en día circulan informaciones falsas que se intentan presentar como noticias y que no son ciertas, pero no culpo ni a los que generan el contenido, ni a los periodistas intrusistas. Hay intereses y gente que faltan a la verdad, mienten como todo hijo de vecino, pero ahora se hace en unas redes que alcanzan una difusión mucho mayor que cuando se hablaba de la vecina del 5º piso un tiempo. Sinceramente, creo que no tiene que ver con que tengas o no el titulo de periodista. Tiene que ver con tu intención de manipular y retorcer la verdad.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;P&lt;/strong&gt;: ¿Cómo se puede luchar contra la desinformación desde los medios?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt;: &lt;strong&gt;Educando a la audiencia y tratar de darles diferentes pautas para que sepan diferenciar el grano de la paja&lt;/strong&gt;. Intentar que vean que una información tiene fuentes, referencias, consultar y comparar si la información está publicada en un medio serio…Es decir, darles distintas pautas para que la audiencia, cuando consuma alguna información, desconfíe o se fíe.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/miriam-hernanz-lab.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;P&lt;/strong&gt;: ¿Cómo le gustaría que el Lab creciera en el futuro próximo? &lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt;: Me encantaría que el Lab muriera, porque significaría que no era necesario, y que todos los departamentos tuvieran el chip de que hay otra forma de contar las cosas y que no se va a ir siempre a ‘sota, caballo y rey’. Ahí me parece que tendríamos el mayor éxito, y que no hace falta que haya un departamento que vele por la innovación porque todos seríamos innovadores. Pero creo que eso no va a pasar.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;si-los-periodistas-consiguiéramos-hacerle-la-vida-más-fácil-a-la-gente-nunca-dudaríamos-si-vamos-a-sobrevivir-haciendo-este-trabajo&quot;&gt;“Si los periodistas consiguiéramos hacerle la vida más fácil a la gente, nunca dudaríamos si vamos a sobrevivir haciendo este trabajo”&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;P&lt;/strong&gt;: ¿Cuáles son los retos que le faltan por cumplir al Lab que no hayan cubierto hasta el momento?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt;: Uno de ellos es vertebrar nuestro contenido en torno a una temática, ya que a veces hacemos muchas cosas y la gente no sabe cómo trabajamos. Otra es hacer información que sea útil para la audiencia, es decir, hacerle la vida más fácil. &lt;strong&gt;Si los periodistas consiguiéramos hacerle la vida más fácil a la gente, nunca dudaríamos si vamos a sobrevivir haciendo este trabajo&lt;/strong&gt;. Además, queremos seguir explorando tecnologías que encajen con las historias que tenemos que contar.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Las mejores narrativas interactivas de 2019 (I)</title>
+      <link>http://localhost:4000/2020/02/29/las-mejores-narrativas-interactivas-de-2019-i/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0100</pubDate>
+      <author> Jose A. García Avilés </author> <guid>http://localhost:4000/2020/02/29/las-mejores-narrativas-interactivas-de-2019-i</guid>
+      <description>&lt;p&gt;Además de las coberturas minuto a minuto, los titulares clickbait y el &lt;em&gt;branded content&lt;/em&gt;, por fortuna, numerosos medios apuestan por un periodismo explicativo, que a través de diversas narrativas aborda temas en profundidad de modo creativo e innovador. Se trata de formatos interactivos que combinan el rigor informativo y &lt;strong&gt;una experiencia interactiva, inmersiva y, en ocasiones, lúdica&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;En una serie de artículos, os mostramos los formatos interactivos más sobresalientes de 2019. &lt;strong&gt;¿Echas en falta alguno?&lt;/strong&gt; Envíanos la referencia a jagarciaaviles(arroba)gmail.com y la incluiremos en nuestra próxima selección.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/people-map.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://pudding.cool/2019/05/people-map/&quot;&gt;The People Map&lt;/a&gt; The Pudding&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Este“mapa de la gente de Estados Unidos”(también han desarrollado &lt;a href=&quot;https://pudding.cool/2019/06/people-map-uk/&quot;&gt;la versión del Reino Unido&lt;/a&gt;) es una idea simpática,ya que los nombres de las ciudades más importantes del país han sido reemplazados por el personaje más popular en Wikipedia, que haya nacido, vivido o esté conectado con cada ciudad. El interactivo se ha realizado a través de &lt;a href=&quot;https://www.mediawiki.org/wiki/API:Main_page&quot;&gt;los datos de la Wikipedia API&lt;/a&gt;.&lt;/strong&gt;Como ellos mismos se definen, &lt;a href=&quot;https://pudding.cool/&quot;&gt;The Pudding&lt;/a&gt; es una publicación nativa digital que aborda mediante ensayos visuales las ideas que se debaten en la cultura, y &lt;strong&gt;destaca por su innovación en los formatos&lt;/strong&gt; y su planteamiento “gamberro” en muchos temas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/ni-una-mas.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://lab.rtve.es/mil-mujeres-asesinadas/&quot;&gt;1.000 mujeres asesinadas&lt;/a&gt; RTVE Lab&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Es el resultado de un impresionante trabajo colaborativo de documentalistas, periodistas, diseñadores, redactores y realizadores coordinados desde el &lt;a href=&quot;https://lab.rtve.es/&quot;&gt;Lab de RTVE&lt;/a&gt;, para contar quiénes son las mil mujeres que han sido víctimas de la violencia machista en España desde que hay registros. El objetivo es retratar su vida, no su muerte, y contar qué fue de sus asesinos, ponerles nombre y apellido tras la sentencia. El usuario juega un papel fundamental para ayudar a completar la biografía: el Lab pone a su disposición un teléfono (&lt;strong&gt;676 67 61 48&lt;/strong&gt;) para que, a través de WhatsApp, quienes conocieran a alguna de las víctimas puedan aportar en qué trabajaba, sus gustos, sus sueños… El interactivo, &lt;strong&gt;que ha cosechado dos prestigiosos Lovie Awards y el premio Rey de España de Periodismo 2020&lt;/strong&gt;, &lt;a href=&quot;https://lab.rtve.es/mil-mujeres-asesinadas/creditos/&quot;&gt;ha sido dirigido por Miriam Hernanz y Estefanía de Antonio&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/i-am-mosul.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://iamosul.nl/&quot;&gt;I am Mosul&lt;/a&gt; BNNVARA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;¿Puedes sobrevivir a una guerra? Esta es la pregunta principal del juego, desarrollado por la &lt;a href=&quot;https://www.bnnvara.nl/&quot;&gt;asociación de la radiotelevisión pública holandesa BNNVARA&lt;/a&gt;. Las preguntas se basan en la situación real que viven durante la guerra los habitantes de Mosul (Siria), pero el entorno del juego es la propia ciudad donde reside el usuario en los Países Bajos. “¡Empieza a correr, tienes 8 segundos para elegir lo más esencial!”, comienza el interactivo. Mediante grabaciones en video vertical, &lt;strong&gt;el usuario se sumerge en la lucha por la supervivencia&lt;/strong&gt;: “Se me acaba el tiempo y salgo con el móvil, el cargador y una botella de agua. Corro por las calles entre disparos y explosiones”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/tengo-10-años-el-pais.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://elpais.com/especiales/2019/crecer-conectados/whatsapp/&quot;&gt;Tengo 10 años y estreno móvil&lt;/a&gt; El País&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;¿Qué hace un niño con su primer móvil? Dos periodistas de El País se lo preguntan por Whatsapp —la aplicación que más usan— a tres estudiantes de 5º de primaria, que solo llevan unos meses con su &lt;em&gt;smartphone&lt;/em&gt;. Este reportaje es la tercera entrega de &lt;a href=&quot;https://elpais.com/agr/crecer_conectados/a/&quot; title=&quot;Crecer Conectados&quot;&gt;Crecer Conectados&lt;/a&gt;, una serie que &lt;strong&gt;explora la vida de niños y adolescentes en un mundo digital&lt;/strong&gt;. ¿Qué hacen, dónde están y cómo usan los menores la tecnología? Destaca la inmersión del usuario: el diseño le permite “meterse” en los móviles de estos niños y comprobar qué aplicaciones usan y cómo interactúan en su día a día. Coordinado y producido por &lt;a href=&quot;https://elpais.com/autor/patricia_gosalvez/a&quot;&gt;Patricia Gosálvez&lt;/a&gt; y &lt;a href=&quot;https://elpais.com/autor/guiomar_del_ser/a&quot;&gt;Guiomar del Ser&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/game-of-survival-budget.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://graphics.straitstimes.com/STI/STIMEDIA/Interactives/2018/02/game-of-survival-budget-2018/index.html&quot;&gt;Game of $urvival&lt;/a&gt; The Strait Times&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;En este newsgame, el usuario dispone de un presupuesto limitado para sobrevivir un mes en Singapur. Según sus decisiones y cómo gaste su dinero, podrá ahorrar o acabar endeudado hasta las cejas. El formato, además, aporta abundante información sobre el presupuesto que maneja el gobierno de Singapur en 2018, que sienta las bases de la economía para la siguiente década, y sobre cómo gestionar las cuentas públicas. &lt;strong&gt;El newsgame permite experimentar las dificultades de manejar un presupuesto&lt;/strong&gt; y está reforzado por un notable trabajo periodístico de contexto y análisis. Ha sido elaborado &lt;a href=&quot;https://www.straitstimes.com/multimedia/graphics&quot;&gt;por el departamento de grafismo del diario&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/la-indagatoria-de-uribe.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://lasillavacia.com/indagatoria-uribe-pe-pa-73791&quot;&gt;La indagatoria de Uribe, de pe a pa&lt;/a&gt; La Silla Vacía&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;El expresidente colombiano Álvaro Uribe compareció ante la Corte Suprema de Justicia por un caso de manipulación de testigos que le abrió la Corte en 2018, por supuestamente buscar que exparamilitares cambiaran los testimonios que lo vinculaban a él y a su hermano con el paramilitarismo en Colombia. El interactivo aporta una amplia información (testimonios, documentos, mapas, gráficos) para entender esos hechos, con los personajes y eventos clave. Elaborado porcuatro periodistas (Daniela Amaya, Adelaida Ávila, Juan Esteban y Juanita Vélez) de &lt;a href=&quot;https://lasillavacia.com/&quot;&gt;La Silla Vacía&lt;/a&gt;, &lt;strong&gt;un nativo digital colombiano que aborda cuestiones políticas desde una perspectiva innovadora&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/the-making-of-a-youttube-radical.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2019/06/08/technology/youtube-radical.html&quot;&gt;The Making of a YoutTube Radical&lt;/a&gt; The New York Times&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tras abandonar sus estudios universitarios, el joven Caleb Cain buscaba orientación en su vida. En YouTube encontró un mundo lleno de teorías de conspiración, misoginia y racismo. Este reportaje narra el viaje de Cain &lt;strong&gt;hasta la radicalización y su posterior desencanto con la ideología extremista&lt;/strong&gt;. Mediante un scroll, en la pieza se insertan imágenes, vídeos documentales, infografías y una historia bien elaborada, con un ritmo narrativo muy logrado. El trabajo ha despertado un polémico debate en Estados Unidos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/portadafunes_ojopúblico.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://ojo-publico.com/especiales/funes/index.html&quot;&gt;Funes: un algoritmo contra la corrupción&lt;/a&gt; Ojo Público&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ojo Público, un nativo digital peruano especializado en investigaciones, desarrolló un algoritmo para identificar situaciones de riesgo en los contratos entregados por el Estado a empresas constructoras, proveedoras de alimentos para niños en estado de pobreza y medicinas al seguro social y servicios de telecomunicación. La herramienta alerta que entre 2015 y 2018, unas 110 mil adjudicaciones de todo el país, por 57 mil millones de dólares, fueron entregadas a un único postor que no tuvo competencia y a compañías creadas pocos días antes del concurso. &lt;strong&gt;Ojo Público se consolida como un medio indispensable en América Latina.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/tour-of-france-a-century-of-yellow-jersey.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://interactive.aljazeera.com/aje/2019/tour-de-france-yellow-jersey/index.html&quot;&gt;Tour of France. A century of yellow jersey&lt;/a&gt; Al Jazeera&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;El Tour de Francia, la competición ciclista más veterana, nació en 1903. Su tradicional maillot amarillo se implantó en 1919. &lt;strong&gt;Este interactivo repasa la historia del Tour al hilo de las gestas e historias de ciclistas, anécdotas y efemérides destacadas&lt;/strong&gt;. Mediante un elaborado tratamiento de documentos, testimonios, imágenes y vídeos de archivo, el usuario disfrutará de la experiencia. Está producido por Sonia Chemaa y el lab de Aljazeera, que ha cosechado importantes premios en los últimos años.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/the-story-behind-an-identity-theft.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://pointer.kro-ncrv.nl/artikelen/het-verhaal-achter-een-identiteitsroof#lang=en&quot;&gt;The story behind an identity theft&lt;/a&gt; Pointer&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“Al acecho detrás de un simple correo electrónico en nuestra bandeja de entrada, detectamos una red de sitios web falsos, empresas de direcciones fantasma y más de cien víctimas en todo el mundo”. La investigación desmantela una red de cuentas falsas y el rastro digital conduce hasta dos estafadores daneses. Este formato interactivo revela, de forma muy original, cómo los periodistas fueron rastreando las pistas, paso a paso, hasta desvelar la estafa. &lt;a href=&quot;https://pointer.kro-ncrv.nl/&quot;&gt;Pointer&lt;/a&gt; es la unidad de periodismo de datos de la &lt;a href=&quot;https://www.kro-ncrv.nl/&quot;&gt;radiotelevisión pública holandesa KRO-NCRV&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Conoce a fondo a tu audiencia. Las innovadoras experiencias de Dagens Næringsliv (Noruega) y La Diaria (Uruguay)</title>
+      <link>http://localhost:4000/2020/02/20/audiencia-innovadoras-experiencias-noruega-uruguay/</link>
+      <pubDate>Thu, 20 Feb 2020 00:00:00 +0100</pubDate>
+      <author> Jose A. García Avilés </author> <guid>http://localhost:4000/2020/02/20/audiencia-innovadoras-experiencias-noruega-uruguay</guid>
+      <description>&lt;p&gt;Al desarrollar cualquier proyecto periodístico, conviene redoblar los esfuerzos para conocer a la audiencia. Resulta clave tener un profundo conocimiento de las personas a quienes nos dirigimos, a quienes queremos transformar en lectores habituales y/o suscriptores. En este artículo analizamos dos casos de medios que han innovado en la forma de conectar con sus audiencias: el noruego &lt;strong&gt;Dagens Næringsliv&lt;/strong&gt; y el uruguayo &lt;strong&gt;La Diaria&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Las audiencias se han vuelto cada vez más &lt;strong&gt;atomizadas y volátiles&lt;/strong&gt;. Los usuarios “no se casan con nadie”, por lo que resulta muy complicado retenerles y fidelizarles. En &lt;strong&gt;esta batalla por la atención&lt;/strong&gt;, los medios compiten ferozmente con otros actores que ocupan el tiempo de los usuarios: desde Netflix y Amazon Prime, hasta WhatsApp y Spotify, pasando por YouTube, Instagram o los videojuegos.&lt;/p&gt;
+
+&lt;p&gt;Además, la audiencia no es homogénea. Nunca lo ha sido. En función de sus intereses y necesidades, &lt;a href=&quot;https://mip.umh.es/blog/2015/10/18/interactuar-audiencia-usuarios-activos/&quot;&gt;abundan distintos perfiles de usuarios&lt;/a&gt;&lt;a href=&quot;https://mip.umh.es/blog/2015/10/18/interactuar-audiencia-usuarios-activos/&quot;&gt;&lt;/a&gt;, tales como &lt;strong&gt;seguidores, consumidores, colaboradores, activistas, conversadores o creadores&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Los directivos de medios &lt;strong&gt;han ido adoptando diversos “mantras”&lt;/strong&gt; sobre cómo tenían que relacionarse con sus audiencias: del “online first” al “user first”, del posicionamiento SEO al puro &lt;em&gt;clickbait&lt;/em&gt;, pasando por el “engagement” y la &lt;strong&gt;primacía del algoritmo&lt;/strong&gt;. Pero la clave de una buena estrategia se halla en los &lt;strong&gt;objetivos&lt;/strong&gt; que se plantean según los &lt;strong&gt;recursos disponibles&lt;/strong&gt;. Hemos seleccionado dos medios que destacan por sus &lt;strong&gt;innovadoras estrategias para escuchar a sus audiencias.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/Nordisc.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;El diario noruego &lt;strong&gt;&lt;a href=&quot;https://www.dn.no/&quot;&gt;Dagens Næringsliv&lt;/a&gt;&lt;/strong&gt; (DN)&lt;a href=&quot;https://www.dn.no/&quot;&gt;&lt;/a&gt;, especializado en negocios y economía, lanzó una campaña para conocer mejor a sus usuarios en 2018. A lo largo de seis meses, un equipo de desarrollo de audiencias trabajó intensamente para elaborar una radiografía de las necesidades de sus lectores, a partir de la escucha y el análisis de las métricas. La directora de participación, &lt;strong&gt;Ingeborg Volan&lt;/strong&gt;,&lt;a href=&quot;https://medium.com/we-are-the-european-journalism-centre/making-audience-research-count-6-lessons-from-norways-leading-business-paper-b2d59c67b4df&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://medium.com/we-are-the-european-journalism-centre/making-audience-research-count-6-lessons-from-norways-leading-business-paper-b2d59c67b4df&quot;&gt;comparte las principales lecciones aprendida&lt;/a&gt;s:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Escuchar a la audiencia como antropólogos, no como periodistas&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Volan organizó entrevistas en profundidad con unos 40 lectores para conocerlos. &lt;strong&gt;“En vez de preguntarles qué les parece el periódico, nuestras conversaciones se enfocaron en las personas, para averiguar cómo son sus vidas”&lt;/strong&gt;, con preguntas como ¿Qué tipo de persona eres? ¿Qué te preocupa? ¿Cómo es tu día? ¿Qué asuntos te interesan?”. Así consiguieron una valiosa información sobre sus necesidades e inquietudes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Analizar gran cantidad de datos para conocer a los lectores&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;El equipo de audiencias analizó un enorme volumen de datos para &lt;strong&gt;averiguar qué temas preferían sus usuarios.&lt;/strong&gt; Seleccionaron cuatro meses de datos de 150.000 dispositivos de usuarios con más de 50 páginas vistas en las plataformas de DN. Los datos les permitieron identificar segmentos de lectores; al combinarlos con los resultados de las entrevistas, lograron identificar cinco grupos. Por ejemplo, a un grupo de lectores le interesaba los mercados y las finanzas, mientras que a otro le importaba la política. También descubrieron &lt;strong&gt;temas transversales&lt;/strong&gt;, como el cambio climático, prioritario para un amplio grupo de lectores.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Pensar en las necesidades de tus lectores&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;El equipo de audiencias analizó cuándo y cómo los lectores accedían a las plataformas de DN y trataron de &lt;strong&gt;comprender las razones emocionales de los usuarios para interactuar con algunas historias&lt;/strong&gt;.&lt;a href=&quot;https://blog.wan-ifra.org/2018/09/21/how-norways-dn-built-its-audience-engagement-team&quot;&gt; Según afirma Volan en una entrevista para WAN-IFRA&lt;/a&gt;, “el segmento de lectores más interesado en política prefiere usar la aplicación de DN, mientras que el interesado en finanzas y mercados elige el ordenador, habitualmente durante el día”. Detectaron un segmento de lectores que consumen contenidos por la noche y los fines de semana, enfocados en el ocio, los deportes y las finanzas personales.&lt;/p&gt;
+
+&lt;p&gt;Con esta información, establecieron pautas sobre qué historias deberían publicarse por la mañana, la noche y el fin de semana; es decir, &lt;strong&gt;una programación mucho más ajustada a los intereses de sus lectores.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/Audience DN.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Descubrir grupos de lectores poco representados&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;El estudio también mostró que algunos segmentos, como las mujeres y los jóvenes, estaban poco representados en el diario. &lt;strong&gt;“Alrededor del 40% de la fuerza laboral en las empresas noruegas son mujeres, y en cambio, solo uno de cada cuatro lectores es mujer, por lo que debemos incrementar el número de lectoras”,&lt;/strong&gt; subraya Volan. Su estrategia incluye objetivos para cada nicho donde desean crecer. Por ejemplo, con los lectores jóvenes, DN busca llegar a quienes trabajan en la administración y en empresas, a los universitarios y quienes se incorporan al mercado laboral.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Generar más contenido que fidelice y cree hábito de lectura&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;La investigación permitió identificar qué tipo de contenidos se podrán ver sólo bajo suscripción y cuáles se publicarán gratuitamente. “Parte del contenido no se convierte necesariamente en nuevas suscripciones, pero tiene gran valor para nuestros lectores y genera hábito de lectura”, señala Volan.&lt;/p&gt;
+
+&lt;p&gt;El otro caso seleccionado es el del periódico uruguayo &lt;a href=&quot;https://ladiaria.com.uy/&quot;&gt;La Diaria&lt;/a&gt;,&lt;a href=&quot;https://ladiaria.com.uy/&quot;&gt;&lt;/a&gt; fundado en 2006. La idea surgió de &lt;strong&gt;un grupo de universitarios que no estaba satisfecho con la prensa existente en Uruguay&lt;/strong&gt;. Pusieron en marcha una campaña para captar fondos y tras dos años de preparativos, surgió el nuevo medio, con un modelo basado en una cooperativa integrada por el 40% de los trabajadores de la empresa.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/Rio Abirto La Diaria.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Desde el comienzo, La Diaria apostó por elaborar “una agenda periodística propia, que muchas veces generó cierta sorpresa; éramos un caso raro”, explica &lt;strong&gt;Damián Osta&lt;/strong&gt;, co-fundador y gerente del medio, &lt;a href=&quot;https://knightcenter.utexas.edu/es/blog/00-19390-seis-maneras-en-que-la-diaria-de-uruguay-esta-innovando-en-la-gestion-de-periodicos-y-&quot;&gt;al Centro Knight para el Periodismo en las Américas&lt;/a&gt;. Para el gerente, “todas las rarezas que construimos durante estos años son hoy nuestra principal fortaleza. Somos el diario que depende sólo de vos. Que te ofrece sólo lo que importa”. La implicación con los lectores &lt;strong&gt;contribuyó a reforzar la idea de comunidad&lt;/strong&gt;, una apuesta clave. Un directivo define La Diaria como “una comunidad de personas que comparten información, inquietudes, gustos y conocimiento, que aceptan pagar una membresía para formar parte y hacer posible que exista tal espacio de sensibilidad compartida”.&lt;/p&gt;
+
+&lt;p&gt;Un excelente ejemplo de cómo el medio implica a las personas de su comunidad es el proyecto &lt;strong&gt;&lt;a href=&quot;https://rioabierto.ladiaria.com.uy/&quot;&gt;RÍO ABIERTO&lt;/a&gt;&lt;/strong&gt;&lt;a href=&quot;https://rioabierto.ladiaria.com.uy/&quot;&gt;&lt;/a&gt; desarrollado junto a investigadores de la Facultad de Ciencias de la Universidad de la República y financiado por la Alianza Latinoamericana para la Tecnología Cívica (ALTEC). Según se explica en la web, el proyecto pretende “democratizar el acceso a la información sobre la calidad y gestión del agua de la cuenca del río Santa Lucía y del Río de la Plata, generar herramientas de visualización de la información, y promover acciones de sensibilización y participación ciudadana para el cuidado de un recurso clave para la vida de las generaciones presentes y futuras”. El equipo del proyecto lo integran la periodista Lucía Pardo, coordinadora general; Ana Tudurí, coordinadora de análisis de datos, y Natalia Uval, coordinadora periodística, así como los editores de Ciencia y Salud.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/Rio Abierto web.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;RIO ABIERTO&lt;/strong&gt; surgió a raíz de la polémica instalación de una planta de celulosa de una empresa finlandesa en Uruguay. La Diaria quiso dialogar con suscriptores, científicos, ambientalistas y gobernantes sobre cuál debería ser su papel en este tema. Detectaron graves problemas medioambientales en el río Santa Lucía y decidieron investigar las verdaderas causas y difundir el conocimiento para sensibilizar a toda la comunidad.Los expertos confirmaron que la situación de los ríos “era extremadamente crítica en todo el territorio nacional”, subraya Osta. Invitaron a sus lectores &lt;strong&gt;a que participaran en encuentros y talleres medioambientales en RÍO ABIERTO&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Los periodistas coinciden en que para el éxito de RÍO ABIERTO debe garantizarse una participación lo más inclusiva posible: identificando los problemas ambientales, desarrollando planes locales, apuntando a la educación ambiental y a la sensibilización. Desde Asamblea por el Agua del Río Santa Lucía se han puesto en marcha iniciativas innovadoras, como un laboratorio popular para recoger muestras de peces muertos, debido a los tóxicos que se utilizan en las márgenes del río para producir cultivos. La iniciativa demuestra que “la comunidad puede hacerse cargo de la gestión y el cuidado de los recursos y apoderarse de estas herramientas de monitoreo”, subraya Ana Tudurí. Osta explica que &lt;strong&gt;la razón de ser de La Diaria es la de administrar una comunidad de conocimiento&lt;/strong&gt;: “El conocimiento ya no puede fluir en forma unidireccional. Hay que buscar las formas de retroalimentar lo que hacemos y mejorar el periodismo con el conocimiento que tienen nuestros lectores y suscriptores”.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title> Xavier Aldekoa (Revista 5W): “Nuestra función no es intentar cambiar el mundo, sino poner un punto de inicio para que el lector comience a cambiar las cosas”</title>
+      <link>http://localhost:4000/2020/02/12/xavier-aldekoa-revista-5w-no-es-cambiar-el-mundo-sino-que-el-lector-comience-a-cambiar-las-cosas/</link>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 +0100</pubDate>
+      <author> Laura Sánchez Benejama </author> <guid>http://localhost:4000/2020/02/12/xavier-aldekoa-revista-5w-no-es-cambiar-el-mundo-sino-que-el-lector-comience-a-cambiar-las-cosas</guid>
+      <description>&lt;p&gt;Xavier Aldekoa (Barcelona, 1981) refleja a la perfección el amor por el oficio. A lo largo de la entrevista, este licenciado en Periodismo y Ciencias Políticas deja claro su pasión por cada proyecto y la necesidad de vocación para poder desempeñar su trabajo. Con 20 años comenzó su andadura y hoy Aldekoa es un reputado periodista freelance con especial afecto por el continente africano. Es corresponsal de &lt;a href=&quot;https://www.lavanguardia.com/&quot;&gt;La Vanguardia&lt;/a&gt; y colabora en varias revistas, radios y periódicos. Ha publicado los libros &lt;a href=&quot;https://www.altair.es/es/libro/oceano-africa_145707&quot;&gt;Océano África&lt;/a&gt; (2014), &lt;a href=&quot;https://www.altair.es/es/libro/hijos-del-nilo_161036&quot;&gt;Hijos del Nilo&lt;/a&gt; (2017) e &lt;a href=&quot;https://www.altair.es/es/libro/indestructibles-cas_172245&quot;&gt;Indestructibles&lt;/a&gt; (2019), donde intenta plasmar lo que sucede en África. Es cofundador de la &lt;a href=&quot;https://www.revista5w.com/&quot;&gt;Revista 5W-Crónicas de larga distancia&lt;/a&gt; de periodismo internacional, y trabaja como coordinador y reportero de la misma en África. También es cofundador de la productora social e independiente &lt;a href=&quot;http://www.muzungutv.com/&quot;&gt;Mugunzu&lt;/a&gt;. Ha impartido clases en el Máster en Innovación en Periodismo de la UMH.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/Aldekoa 1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pregunta:&lt;/strong&gt;Teniendo en cuenta la transformación digital que han experimentado los medios, ¿cómo definiría la innovación en el periodismo?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Respuesta:&lt;/strong&gt;Lo más innovador es el periodismo de &lt;strong&gt;orfebrería&lt;/strong&gt;, que es el periodismo de ir al terreno y mancharse las botas, dedicar mucho tiempo a una sola historia… Ese periodismo para mí es innovador porque ahora no es tan normal. Después podemos hablar de la innovación de las tecnologías que ayudan a hacer ese trabajo, pero sigue estando en la esencia lo más importante, que es el &lt;strong&gt;ir, ver, preguntar e intentar entender, y contar&lt;/strong&gt;. Y en esa innovación, es donde reside el periodismo. Luego está lo demás, que son los podcasts, fotogalerías, videos o ilustraciones animadas que pueden aportar la narrativa al relato, pero al final lo más innovador es hacer el periodismo de siempre.&lt;/p&gt;
+
+&lt;p&gt;P. Según su criterio, &lt;strong&gt;¿qué medio nacional o internacional destacaría entre los más innovadores?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;R. La verdad es que con los medios de comunicación intento no casarme nunca. Hay cosas que hacen ciertos medios que me gustan y otras cosas no. Por ejemplo, &lt;a href=&quot;https://www.nytimes.com/es/&quot;&gt;The New York Times&lt;/a&gt; hace cosas innovadoras, a nivel local &lt;a href=&quot;https://www.eldiario.es/&quot;&gt;eldiario.es&lt;/a&gt; acierta con la innovación, y &lt;a href=&quot;https://www.altairmagazine.com/&quot;&gt;Altaïr&lt;/a&gt;, aún más local, también trabaja bien… aunque por gustos personales me puedan agradar unos más que otros.Lo que creo, y no solo en los nuevos medios, es que hay profesionales dando en la clave. Por ejemplo, en la &lt;a href=&quot;https://cadenaser.com/&quot;&gt;Cadena SER&lt;/a&gt; tienen una sección de tribunales en Cataluña que hace un periodismo de alta calidad que no tiene nada de innovador, ya que es una radio, pero es un gran trabajo. No hace falta irse muy lejos, se pueden hacer las cosas bien independientemente del medio en el que se trabaje.&lt;/p&gt;
+
+&lt;p&gt;P. ¿Cómo piensa que se debe llevar a cabo la innovación en los medios para que sea realmente eficaz?&lt;/p&gt;
+
+&lt;p&gt;R. Según mi experiencia, la innovación se debe utilizar para provecho propio. &lt;strong&gt;El poderme conectar y enviar crónicas desde diferentes lugares del mundo, a mí me ha cambiado la vida&lt;/strong&gt;. Yo viví lo inicios de internet, y recuerdo ir a los cibercafés en África y tener que enviar mis crónicas con unos ordenadores muy viejos y lentos, con los que tardaba más de una hora en enviar mis publicaciones. Ahora escribo mis crónicas en el teléfono o grabo sonidos y los envío a la radio al instante… El hecho de que haya tecnología alrededor te da muchas más posibilidades.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“La sensación que tengo sobre el periodismo español con relación al internacional, es que no vamos a la cabeza”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;P. ¿Cree que en el periodismo español se innova poco o mucho?&lt;/p&gt;
+
+&lt;p&gt;R. No soy un experto sobre cómo está la situación de los medios de comunicación españoles. La sensación que tengo a nivel del periodismo internacional es que &lt;strong&gt;no vamos en cabeza&lt;/strong&gt;, y que hay otros medios haciendo cosas mucho mejores. Es una percepción con relación al periodismo internacional.&lt;/p&gt;
+
+&lt;p&gt;P. Poniendo el enfoque en su trabajo, usted ha cubierto casos de guerras fratricidas o hambrunas, con gran trabajo de producción y de explicación de temas complejos en África. &lt;strong&gt;¿Puede describirnos su forma de trabajar y de entender el periodismo?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;R. Intento cubrir todo lo que ocurre en África, también temas de interés general como la irrupción de las energías solares, el crecimiento de los movimientos feministas en África, la explosión económica de países como Etiopia, la caída de dictadores, entre otros asuntos. &lt;strong&gt;Trato de hacer un trabajo equilibrado y honesto, y para mí, eso está ligado a la pausa&lt;/strong&gt;. Reivindico poder llegar a los sitios y escuchar. Yo soy periodista porque escucho, y muchas veces se me pueden escapar cosas. Llevo más de 20 años cubriendo el continente, pero hay veces que en un lugar donde los códigos, la lengua y la cultura son diferentes, si no tienes la humildad suficiente para saber que necesitas escuchar, no puedes empezar a entender y a mirar con unos ojos desligados de prejuicios que probablemente tienes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/Aldekoa 2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;P. Ha publicado tres libros: ‘Océano África’, ‘Hijos del Nilo’ e ‘Indestructibles’. &lt;strong&gt;¿Con cuál se siente más satisfecho?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;R. Es muy complicado elegir uno. Me gustan mucho los tres, ya que tratan de explicar el continente africano desde diferentes prismas también con humor desde las culturas, las tradiciones, la economía… &lt;strong&gt;Los protagonistas son las personas con las que me he ido encontrando a lo largo del camino&lt;/strong&gt;, y a partir de ellas intento entender y explicar el continente. Que elija el lector, ahí yo no puedo ayudar.&lt;/p&gt;
+
+&lt;p&gt;P. Usted es cofundador de &lt;a href=&quot;https://www.revista5w.com/&quot;&gt;Revista 5W&lt;/a&gt;, que ha conseguido hacerse un hueco para aquellos lectores interesados en crónicas de larga distancia, con información que no suele aparece en los medios tradicionales. ¿Cómo han logrado consolidar el proyecto?&lt;/p&gt;
+
+&lt;p&gt;R. Ha sido obra de todo un equipo de ocho periodistas fundadores, un programador web, y también todos los colaboradores y la gente que nos apoya, nuestros socios. Se lleva a cabo un trabajo cuidado, hecho con mimo, y un trabajo en el que en el centro de todo está intentar hacer periodismo con toda la pasión posible. 5W no tiene una fórmula mágica, pero si algo nos une en esta revista es que nos apasiona tremendamente esta profesión, y nos sentimos empujados a intentar hacerlo mejor porque sabemos que nos va a leer alguien que lo va a valorar mucho. &lt;strong&gt;Tratamos al lector como a alguien que no merece meno&lt;/strong&gt;s, y quizá por ahí es donde hemos encontrado un hueco.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/Aldekoa 3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;P. En un mundo de saturación informativa, de inmediatez, clickbait e infoentretenimiento, ¿en qué medida crece el apetito por los temas como los que aborda 5W? ¿Cuentan con una comunidad fiel de lectores?&lt;/p&gt;
+
+&lt;p&gt;R. De momento son algo más de 3.000 seguidores, pero hay más gente que está en la Newsletter, hay muchas personas que nos siguen en los actos, en las presentaciones de los números en papel…La verdad es que &lt;strong&gt;esa comunidad fue el secreto para empezar&lt;/strong&gt;, &lt;strong&gt;con un crowdfunding que fue un éxito total, en el que conseguimos más de 50.000 euros en 48 horas&lt;/strong&gt;, pero no solo fue una cuestión económica. Pudimos constatar que muchas personas estaban dispuestas a pagar por periodismo internacional hecho desde el terreno. Desde entonces no han fallado, y ojalá vaya creciendo, mucha gente más conozca este proyecto y se apasione y emocione tanto como nosotros. Sin los socios, que suponen el 85% del presupuesto de esta revista, no habría 5W.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Que haya un solo lector que se tome la molestia de escribir para decirme que le ha gustado mi libro me parece algo maravilloso”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;P. ¿Recibe ‘feedback’ por parte de la audiencia sobre su trabajo y en su día a día en África?&lt;/p&gt;
+
+&lt;p&gt;R. Las redes sociales tienen eso, aunque son un poco engañosas, muy ‘trincheristas’. Normalmente son, o críticas apasionadas y muy positivas, o, al contrario, muy enfadadas y destructivas. &lt;strong&gt;Tengo la suerte de que mucha gente me escribe para comentar mis reportajes y me aportan mucho&lt;/strong&gt;, porque me ayuda a entender por ‘dónde van los tiros’ y que intereses hay. Cuando alguien elogia mis libros o alguna de mis publicaciones lo agradezco muchísimo, nunca se bien que decir. &lt;strong&gt;Que haya un solo lector que se tome la molestia de escribir para decirme que le ha gustado mi libro me parece algo maravilloso.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;P. Como corresponsal en África para La Vanguardia, ¿le resulta complicado vender los temas a sus jefes o hay mayor sensibilidad en esas historias, que a priori no son las que tienen más tirón en un diario?&lt;/p&gt;
+
+&lt;p&gt;R. Depende, pero al cabo del tiempo ya hay una cierta confianza y más o menos escribo sobre lo que quiero. &lt;strong&gt;No tengo mucho en cuenta la sensibilidad de ciertos temas, más bien las limitaciones son presupuestarias&lt;/strong&gt;. La Vanguardia apoya poco o nada los viajes y tengo que montármelo yo para viajar donde quiera, pero esa libertad también la aprovecho al máximo y cuento las historias que creo que deben ser explicadas. Ojalá cada día viaje y se publiquen más, pero &lt;strong&gt;normalmente no hay una dirección definida desde arriba sobre que contar o no. En el 98% de las veces yo dibujo mi propia agenda.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“En África también pasan cosas maravillosas. Hay cambios y evoluciones que merecen ser contadas”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;P. ¿Cree que la dureza de algunos temas atrapa más a los lectores y que hay que buscar asuntos que impacten para que la gente se sensibilice ante lo que sucede en África?&lt;/p&gt;
+
+&lt;p&gt;R. No. Estoy muy en desacuerdo de buscar el impacto por el impacto. Hay historias que no necesitan eso. Soy partidario de explicar África en su totalidad, y eso implica explicar las putadas y las cosas horribles que ocurren en el continente&lt;a href=&quot;&quot;&gt;. &lt;strong&gt;Si hay guerras, hambrunas y epidemias hay que explicarlas, pero creo que haría un mal trabajo si solo me centrara en eso por un supuesto impacto&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;. También pasan cosas maravillosas, hay cambios y evoluciones que merecen ser contadas&lt;/strong&gt;, y también realidades rutinarias, ni buenas ni malas, que también son importantes, como la economía o la cultura. Por ejemplo, que una comunidad se comunique a través de los peinados, o unos videojockey que traducen las películas al idioma local en vivo… son cosas cotidianas que los lectores deben conocer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/shots/Aldekoa 4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;P. A nivel más humano, ¿cree que tiene la obligación moral de enseñar la realidad africana por el desconocimiento de la mayoría de la sociedad?&lt;/p&gt;
+
+&lt;p&gt;R. El periodismo es un poco eso, decidir en qué posición te colocas, pero soy periodista, no activista. &lt;strong&gt;Creo que nuestra función no es intentar cambiar el mundo desde nuestro trabajo, sino poner un punto de inicio para que el lector comience a cambiar las cosas&lt;/strong&gt;. Lógicamente sí hay sensibilidades que me tocan más. Por ejemplo, si estoy en el desierto del &lt;a href=&quot;https://es.wikipedia.org/wiki/Kalahari&quot;&gt;Kalahari&lt;/a&gt;y veo que a los &lt;a href=&quot;https://es.wikipedia.org/wiki/San&quot;&gt;San&lt;/a&gt;, (que es el pueblo que siempre ha residido ahí, viviendo de la caza y la recolección) los están expulsando porque se ha declarado una reserva natural en esa zona, y a 2 kilómetros hay una mina de diamantes y están haciendo una carretera de dos carriles, sí me parece importante. En este trabajo es habitual ver que el silencio mata, y que los primeros que están decididos a que permanezca ese silencio son los que abusan de los demás, pero normalmente los que no tienen voz son los que lo saben todo.&lt;/p&gt;
+
+&lt;p&gt;P. ¿Cómo enfoca su trabajo para dar voz a todo tipo de colectivos sociales en África?&lt;/p&gt;
+
+&lt;p&gt;R. Mi sensación es que &lt;strong&gt;es mucho más interesante hablar con alguien al que le están amargando la vida porque tiene ganas de gritarlo y decirte lo que está ocurriendo&lt;/strong&gt;. Por otra parte, mi trabajo es dar voz a hijos de puta, a gente que me parece obscena y a multinacionales que no respetan los derechos humanos, pero en la esencia de lo que es el oprimido, creo que hay puntos de conexión, y si hablamos de muerte y asesinatos, o el amor por la familia, ahí nos podemos entender mucho. Por suerte para nosotros, no somos niños soldado, ni esclavas sexuales, pero en cambio, en el cariño de una madre desesperada si nos podemos reconocer. &lt;strong&gt;Busco eso, que en esa conexión de sentimientos se pueda construir encima un puente y que nos atrevamos a cruzarlo, y ver qué responsabilidad tenemos nosotros.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;P. ¿Qué nuevos retos se plantea para seguir contando lo que sucede en África?&lt;/p&gt;
+
+&lt;p&gt;R. Tengo varios proyectos. Colaboro con La Vanguardia, pero soy freelance y hago mis historias. Este es un trabajo ‘sin red’ en el que estás haciendo una carrera de resistencia sin final. Eso significa que, &lt;strong&gt;o disfrutas del camino y te apasionas por lo que estás haciendo, o es muy difícil de continuar, porque siempre va a haber obstáculos y complicaciones&lt;/strong&gt;. Yo prefiero centrar mis energías en solventarlos, e ilusionarme por proyectos, sino no podría continuar. Ahora tengo uno por el río Congo, que recorreré entero desde las fuentes de la desembocadura. Tengo ganas de hacerlo, ya que a partir de las historias que cuente y de las personas con las que me tropiece, podré explicar las tradiciones, la cultura y la historia, y la realidad del Congo hoy, y es una manera para explicar uno de los países más intensos del mundo. &lt;strong&gt;Ojalá no se me acaben nunca las ganas, y pueda seguir trabajando en esto muchísimo tiempo.&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    
+
+  </channel>
+</rss>

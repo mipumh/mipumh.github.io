@@ -1,3 +1,16 @@
+.jumbotron {
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.2) 0%,rgba(255,255,255,1.2) 100%), url(../images/porta.jpg);
+  background-size: cover;
+  background-position: center center;
+  text-align: left;
+   h1 {
+    font-weight:600;
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+
 .bd-pageheader {
   padding: 2rem;
   margin-bottom: 1.5rem;
