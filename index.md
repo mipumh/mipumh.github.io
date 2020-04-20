@@ -185,11 +185,11 @@ El Máster cuenta con un claustro de profesores equilibrado, con **académicos d
 ### Centros organizadores
 
 - Área de [Periodismo UMH](http://periodismo.umh.es/)
-- Departamento de Ciencias Sociales y Humanas de la UMH
-- Facultad de Ciencias Sociales y Jurídicas de la UMH
+- [Departamento de Ciencias Sociales y Humanas de la UMH](https://socialesyhumanas.umh.es/)
+- [Facultad de Ciencias Sociales y Jurídicas de la UMH](https://fcsjelche.umh.es/)
 
 ### Colaboran
 
-- [Grupo de Investigación de la Comunicación (GICOV)](http://gicov.umh.es/)
+- [Grupo de Investigación de la Comunicación (GICOV)](http://gicov.edu.umh.es/)
 - [Miguel Hernández Communication Journal](http://mhjournal.org/)
 - [Fundación Quorum](http://www.parquecientificoumh.es/), Parque Científico y Empresarial de la UMH
