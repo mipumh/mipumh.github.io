@@ -4,9 +4,9 @@ permalink: /index.html
 ---
 ### ¿Por qué cursar el Máster en Innovación en Periodismo?
 
-- Asignaturas y contenidos actualizados al ritmo de **la transformación del periodismo** y de las necesidades del sector. 
+- Asignaturas actualizadas al ritmo de **la transformación del periodismo** y de las necesidades del sector. 
 - Profesores de los **medios más innovadores** enseñan claves del trabajo periodístico y habilidades esenciales para la profesión.
-- Formación sobre **nuevas narrativas, diseño web y periodismo distribuido en redes**.
+- Formación sobre **nuevas narrativas, periodismo de datos y periodismo distribuido en redes**.
 - Aprendizaje práctico mediante el **desarrollo de un proyecto periodístico** propio.
 - **Título Oficial** del Espacio Europeo de Educación Superior con acceso a Doctorado.
 - Compatible con **prácticas curriculares** y/o trabajo propio gracias a la flexibilidad y adaptabilidad de las clases en vídeo.
