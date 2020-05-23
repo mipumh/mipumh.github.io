@@ -62,8 +62,7 @@ permalink: /index.html
 
 ### Becas propias y ayudas  
 
-- El máster no ofrece becas ni ayudas propias. 
-- Si estás interesado, debes acudir a organismos públicos o privados.
+- [Aquí puedes obtener información](https://estudios.umh.es/becas/) sobre las convocatorias de becas oficiales (Ministerio de Educación y Conselleria), convocatorias propias de la UMH y otras becas de la UMH. 
 
 ### Requisitos de acceso obligatorios 
 
