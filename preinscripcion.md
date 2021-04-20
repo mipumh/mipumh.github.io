@@ -4,7 +4,7 @@ title: Preinscripción
 permalink: /preinscripcion.html
 ---
 
-La 8ª edición de este Máster 100% a distancia comenzará en octubre de 2020. El plazo de inscripción oficial en la Universidad Miguel Hernández se abrirá en abril de 2020. Si no tienes tiempo para hacerlo ahora, déjanos tu correo aquí y te avisamos del comienzo:
+La 8ª edición de este Máster 100% a distancia comenzará en octubre de 2021. El plazo de inscripción oficial en la Universidad Miguel Hernández se abrirá en abril de 2020. Si no tienes tiempo para hacerlo ahora, déjanos tu correo aquí y te avisamos del comienzo:
 
 * Will be replaced with the ToC, excluding the "Preguntas" header
 {:toc}
@@ -13,12 +13,12 @@ La 8ª edición de este Máster 100% a distancia comenzará en octubre de 2020. 
 
 Completa el formulario de preinscripción dentro de las fechas indicadas:
 
- - 1er plazo: del 19 de abril al 28 de junio de 2019
- - 2º plazo: del 30 de julio al 14 de septiembre de 2019. En el caso de existir plazas vacantes.
+ - 1er plazo: 29 de marzo al 25 de junio
+ - 2º plazo: 28 de julio al 10 de septiembre. En el caso de existir plazas vacantes.
 
 <div class="card text-center">
   <div class="card-block">
-    <a href="http://universite.umh.es/pop/preins_acceso.asp" class="btn btn-primary btn-lg btn-block">Formulario de inscripción</a>
+    <a href="https://universite.umh.es/preins_postgrado/master/listado" class="btn btn-primary btn-lg btn-block">Formulario de inscripción</a>
   </div>
 </div>
 
@@ -41,7 +41,7 @@ Recuerda que el Máster se destina especialmente a licenciados y/o profesionales
 </div>
 </div>
 
-Más información en la web de [preinscripción](http://estudios.umh.es/acceso/masters/preinscripcion/) de la UMH.
+Más información en la web de [preinscripción](https://estudios.umh.es/acceso/masters/preinscripcion/) de la UMH.
 
 ### ¿Dónde puedo presentar la documentación?
 

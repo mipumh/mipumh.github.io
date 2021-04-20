@@ -9,7 +9,7 @@ permalink: /planestudios.html
 - Créditos: 60 ECTS
 - Duración: 1 curso académico
 - Modalidad 100% a distancia
-- Próxima edición: octubre, 2020 
+- Próxima edición: octubre, 2021 
 
 **Preguntas frecuentes**
 {:toc}
@@ -18,11 +18,11 @@ permalink: /planestudios.html
 
 ### Duración y calendario
 
-- El curso se imparte desde octubre 2020 a junio 2021.
+- El curso se imparte desde octubre 2021 a junio 2022.
 
 ### Créditos e importe 
 
-- El precio es de 2.356 (39,27 el crédito, según tasas oficiales en 2018/19). 
+- El precio es de 2.356 (39,27 el crédito, según tasas oficiales en 2020/21). 
 - Más información en el [servicio de matriculación](http://estudios.umh.es/acceso/masters/preinscripcion/).
 
 ### Destinatarios 
