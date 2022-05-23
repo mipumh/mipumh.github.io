@@ -4,17 +4,12 @@ title: Preinscripción
 permalink: /preinscripcion.html
 ---
 
-La 8ª edición de este Máster 100% a distancia comenzará en octubre de 2021. El plazo de inscripción oficial en la Universidad Miguel Hernández se abrirá en abril de 2020. Si no tienes tiempo para hacerlo ahora, déjanos tu correo aquí y te avisamos del comienzo:
+La 10ª edición de este Máster 100% a distancia comenzará en octubre de 2022. El plazo de inscripción oficial en la Universidad Miguel Hernández se abrirá en abril de 2022. Si no tienes tiempo para hacerlo ahora, déjanos tu correo aquí y te avisamos del comienzo:
 
 * Will be replaced with the ToC, excluding the "Preguntas" header
 {:toc}
 
 ### Cómo preinscribirse
-
-Completa el formulario de preinscripción dentro de las fechas indicadas:
-
- - 1er plazo: 29 de marzo al 25 de junio
- - 2º plazo: 28 de julio al 10 de septiembre. En el caso de existir plazas vacantes.
 
 <div class="card text-center">
   <div class="card-block">
@@ -53,10 +48,7 @@ Deberá entregar la documentación indicada por alguna de las siguientes vías:
 
 ### ¿Cómo preinscribirte si eres estudiante extranjero?
 
-**1. Completa el formulario de preinscripción dentro de las fechas indicadas:**
-
- - 1er plazo: del 19 de abril al 28 de junio de 2019
- - 2º plazo: del 30 de julio al 14 de septiembre de 2019. En el caso de existir plazas vacantes.
+**1. Completa el formulario de preinscripción:**
 
 <div class="card text-center">
   <div class="card-block">
@@ -86,16 +78,6 @@ A principios del mes de julio se publicarán las [listas provisionales ](http://
 ### Cómo matricularse
 
 El último paso consiste en la matriculación, que empezará a finales de julio. Ahí tendrás la oportunidad de escoger las asignaturas que deseas cursar y las modalidades de pago. Las instrucciones de matriculación y el PIN se notificarán individualmente a los estudiantes admitidos por correo electrónico y/o SMS. Aquí puedes [consultar las instrucciones](http://estudios.umh.es/matriculacion/matricula-de-masters/).
-
-Fechas para la matrícula de nuevos estudiantes:
-
-- 1º Plazo: 
-  - Listado provisional: 10 de julio de 2019           
-  - Listado definitivo: 23 de julio de 2019
-
-- 2º Plazo: 
-  - Listado provisional:18 de septiembre de 2019
-  - Listado definitivo: 26 de septiembre de 2019
 
 <div class="card text-center">
   <div class="card-block">

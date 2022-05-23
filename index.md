@@ -29,7 +29,7 @@ permalink: /index.html
 
 ### Duración y calendario
 
-- El curso se imparte desde octubre 2021 a junio 2022, según el [calendario oficial de la Universidad](https://www.umh.es/contenido/PDI/:calendario/datos_es.html).
+- El curso se imparte desde octubre 2022 a junio 2023, según el [calendario oficial de la Universidad](https://www.umh.es/contenido/PDI/:calendario/datos_es.html).
 
 ### Oferta de plazas  
 
