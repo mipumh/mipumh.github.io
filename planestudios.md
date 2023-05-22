@@ -9,7 +9,7 @@ permalink: /planestudios.html
 - Créditos: 60 ECTS
 - Duración: 1 curso académico
 - Modalidad 100% a distancia
-- Próxima edición: octubre, 2022 
+- Próxima edición: octubre, 2023 
 
 **Preguntas frecuentes**
 {:toc}
