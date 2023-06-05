@@ -40,7 +40,8 @@ permalink: /index.html
 - Licenciados y/o graduados en Periodismo.
 - Graduados en ramas profesionales de la comunicación. 
 - Periodistas que quieren renovar sus habilidades y competencias.
-- Profesionales con interés en emprender un proyecto periodístico.
+- Editores y directivos que quieren impulsar una innovación intraempresarial.
+- Profesionales de la comunicación con interés en emprender un proyecto periodístico.
 
 ### Orientación 
 
@@ -163,12 +164,11 @@ De forma paralela, tendrás que realizar el Trabajo Fin de Máster (10 créditos
 
 ### Horarios 
 
-Este máster se imparte en modalidad on-line, con acceso libre a los vídeos de las asignaturas. Hay una hora de clase online en directo en Adobe Connect o Google Meet de 18:00 a 19:00 todos los lunes desde el comienzo de curso hasta el final, salvo fiestas indicadas en el [calendario oficial de la Universidad](https://www.umh.es/contenido/PDI/:calendario/datos_es.html).
+Este máster se imparte en modalidad online, con acceso libre a los vídeos de las asignaturas de forma asíncrona. Hay una hora de clase online en directo en Google Meet de 18:00 a 19:30 todos los lunes desde el comienzo de curso hasta el final, salvo fiestas indicadas en el [calendario oficial de la Universidad](https://www.umh.es/contenido/PDI/:calendario/datos_es.html). Además, en cada asignatura, hay una hora de clase online colaborativa 1 jueves por la tarde al mes.
 
 ### Acceso a doctorado  
 
 Aquellos estudiantes que finalizan con éxito el máster también tienen la oportunidad de continuar sus estudios en el [Programa de Doctorado de Ciencias Sociales y Jurídicas](http://www.umh.es/contenido/PAS/:tit_d_254/datos_es.html) de la Universidad Miguel Hernández. 
-
 
 ### Profesores 
 

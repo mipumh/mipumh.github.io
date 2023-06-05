@@ -4,7 +4,7 @@ title: Preinscripción
 permalink: /preinscripcion.html
 ---
 
-La 11ª edición de este Máster 100% a distancia comenzará en octubre de 2023. El plazo de inscripción oficial en la Universidad Miguel Hernández se abrirá en abril de 2023. Si no tienes tiempo para hacerlo ahora, déjanos tu correo aquí y te avisamos del comienzo:
+La 11ª edición de este Máster 100% a distancia comenzará en octubre de 2024. El plazo de inscripción oficial en la Universidad Miguel Hernández se abrirá en abril. Si no tienes tiempo para hacerlo ahora, déjanos tu correo aquí y te avisamos del comienzo:
 
 * Will be replaced with the ToC, excluding the "Preguntas" header
 {:toc}
