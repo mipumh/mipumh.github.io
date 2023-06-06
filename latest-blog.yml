@@ -27,6 +27,6 @@ jobs:
           cd site
           git config user.name "GitHub Actions"
           git config user.email "github-actions@github.com"
-          git add blog/_posts/
+          git add _posts/
           git commit -m "Updated blog posts"
           git push
