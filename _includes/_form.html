@@ -2,23 +2,21 @@
 <div id="thank-you-message" class="collapse" role="alert">
   <strong>¡Muchas gracias!</strong> Has enviado correctamente la información.
 </div>
-                <form action="http://getsimpleform.com/messages?form_api_token=ae1ae331cc4c2dc68fa536847966b841" method="post" netlify>
-                <input type="hidden" name="redirect_to" value='{{ site.url }}{{ page.url }}#thank-you'/>
-    
-                    <form>
+
+                    <form id="contact-form">
                     <fieldset>
                         <!-- Text input-->
                           <div class="form-group">
-                            <input name="Nueva web" type="text" class="form-control" id="nombre" placeholder="Nombre y apellidos" required data-validation-required-message="Por favor, escribe tu nombre.">
+                            <input name="user_name" type="text" class="form-control" id="nombre" placeholder="Nombre y apellidos" required data-validation-required-message="Por favor, escribe tu nombre.">
                           </div>
                           <div class="form-group">
-                            <input name="email" id="email" type="email" class="form-control" placeholder="email@correo.com" required data-validation-required-message="Escriba una dirección de correo válida.">
+                            <input name="user_email" id="email" type="email" class="form-control" placeholder="email@correo.com" required data-validation-required-message="Escriba una dirección de correo válida.">
                           </div>
                           <div class="form-group">
-                            <input name="telefono" id="movil" type="text" class="form-control" placeholder="Nº teléfono">
+                            <input name="contact_number" id="movil" type="text" class="form-control" placeholder="Nº teléfono">
                           </div>
                             <div class="form-group">
-                            <input name="ciudad" id="ciudad" type="text" class="form-control" placeholder="Ciudad (País)">
+                            <input name="user_city" id="ciudad" type="text" class="form-control" placeholder="Ciudad (País)">
                           </div>
                             <div class="form-group">
                                 <select class="form-control" name="modalidad">
@@ -27,10 +25,10 @@
                                 </select>                          
                             </div>
                             <div class="form-group">
-                            <input name="libre" id="libre" type="text" class="form-control" placeholder="¿Alguna duda en particular?">
+                            <input name="message" id="libre" type="text" class="form-control" placeholder="¿Alguna duda en particular?">
                           </div>
     
-                      <button id="button" class="btn btn-primary btn-block">Enviar</button>
+                      <button id="button" type="submit" value="Send" class="btn btn-primary btn-block">Enviar</button>
                     </fieldset>
                     </form>
                 </form>
