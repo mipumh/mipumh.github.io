@@ -24,17 +24,6 @@
     <meta property="og:site_name" content="{{ site.inc.title }}" />
     <meta property="og:type" content="website" />
     <meta name="keywords" content="master online, master periodismo, master a distancia, master oficial online, postgrado oficial, maestria europea, maestria a distancia, periodismo de datos" />
-
-
-    <meta property="og:title" content="{% if page.title %}{{ page.title }} {% else %}{{ site.inc.title }}{% endif %}"/>
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
-    {% if page.cover_image %}
-    <meta property="og:image" content="{{ site.url }}/images/{{ page.cover_image }}"/>
-    {% if page.main_image %}
-    <meta property="og:image" content="{{ site.url }}/images/{{ page.main_image }}"/>  
-    {% endif %}
-    <meta property="og:image" content="{{ site.url }}/images/{{ site.inc.logo }}"/>   
-    {% endif %}
  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <meta property="fb:admins" content="1174442148" />
