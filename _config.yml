@@ -1,8 +1,9 @@
 inc:
   # Blog Information
   title:        "Máster en Innovación en Periodismo"
-  subtitle:     "Título Oficial de la Universidad Miguel Hernández"
+  subtitle:     "Máster 100% Online Oficial de la Universidad Miguel Hernández"
   logo:         logo.jpg
+  cover_image: cover_image.webp
   
   # Company information
   company:      Máster en Innovación en Periodismo
