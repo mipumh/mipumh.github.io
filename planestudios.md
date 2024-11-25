@@ -380,7 +380,6 @@ El Máster cuenta con un claustro de profesores equilibrado, con **académicos d
 
 - Director: **Miguel Carvajal**. Departamento de Ciencias Sociales y Humanas (UMH)
 - Subdirector: **Félix Arias**. Departamento de Ciencias Sociales y Humanas (UMH)
-- Teléfono: 965 222 415
 - Correo electrónico: [mip@umh.es](mailto:mip@umh.es)
 
 ### Centros organizadores

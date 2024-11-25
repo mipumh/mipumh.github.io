@@ -18,7 +18,6 @@ El MIP se ha diseñado como una **aceleradora de proyectos** para periodistas o 
 Avd. Universidad s/n, 03202
 Edificio Torreblanca
 Elche, Alicante
-965 222 415
 [Correo electrónico](mailto:mip@umh.es)
 
 ## 80% © CSS 

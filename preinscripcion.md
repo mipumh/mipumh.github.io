@@ -97,7 +97,7 @@ El último paso consiste en la matriculación, que empezará a finales de julio.
 
 En aquellos casos en los que se esté pendiente de la incorporación de calificaciones, se  adjuntará [declaración responsable  ](http://estudios.umh.es/files/2017/02/Declaracion-responsable.pdf)indicando que una vez incorporadas dichas calificaciones, se estará en disposición de obtener  el título universitario oficial que le permite acceder a los estudios de máster.
 
-Escríbenos a [mip@umh.es](mailto:mip@umh.es) o llámanos al 0034 965 222 415 para **resolver cualquier tipo de duda**.
+Escríbenos a [mip@umh.es](mailto:mip@umh.es) para **resolver cualquier tipo de duda**.
 
 
 
