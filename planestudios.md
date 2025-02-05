@@ -9,7 +9,7 @@ permalink: /planestudios.html
 - Créditos: 60 ECTS
 - Duración: 1 curso académico
 - Modalidad 100% a distancia
-- Próxima edición: octubre, {{ "now" | date: "%Y" }} 
+- Próxima edición: octubre, {% assign current_month = "now" | date: "%m" | plus: 0 %} {% assign current_year = "now" | date: "%Y" | plus: 0 %}{% if current_month > 10 %}{{ current_year | plus: 1 }}{% else %}{{ current_year }}{% endif %}
 
 **Preguntas frecuentes**
 {:toc}

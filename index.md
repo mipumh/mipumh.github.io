@@ -29,7 +29,7 @@ permalink: /index.html
 
 ### Duración y calendario
 
-- El curso se imparte desde octubre 2023 a junio 2024, según el [calendario oficial de la Universidad](https://www.umh.es/contenido/PDI/:calendario/datos_es.html).
+- El curso se imparte desde octubre a mayo, según el [calendario oficial de la Universidad](https://www.umh.es/contenido/PDI/:calendario/datos_es.html).
 
 ### Oferta de plazas  
 
@@ -168,7 +168,7 @@ Este máster se imparte en modalidad online, con acceso libre a los vídeos de l
 
 ### Acceso a doctorado  
 
-Aquellos estudiantes que finalizan con éxito el máster también tienen la oportunidad de continuar sus estudios en el [Programa de Doctorado de Ciencias Sociales y Jurídicas](http://www.umh.es/contenido/PAS/:tit_d_254/datos_es.html) de la Universidad Miguel Hernández. 
+Aquellos estudiantes que finalizan con éxito el máster también tienen la oportunidad de continuar sus estudios en el [Programa de Doctorado de Ciencias Sociales y Jurídicas](https://doctoradosocialesyjuridicas.umh.es/) de la Universidad Miguel Hernández. 
 
 ### Profesores 
 
