@@ -22,36 +22,24 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
 
-    <!-- Email JS Service -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init({
-              publicKey: "52HcKHByl7j4-hQbC",
-            });
-        })();
-    </script>
-    <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                // these IDs from the previous steps
-                emailjs.sendForm('contact_service', 'contact_form', this)
-                    .then(() => {
-                        console.log('SUCCESS!');
-                    }, (error) => {
-                        console.log('FAILED...', error);
-                    });
-            });
-        }
-    </script>
-    <!-- Email JS Service -->  
-    <script type="text/javascript">
-      window.onload = (function(){
-          if(window.location.hash == '#thank-you'){
-          document.getElementById('thank-you-message').className = 'alert alert-success';
-          }
-          })
-    </script>
+<!-- Email JS Service -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+emailjs.init("52HcKHByl7j4-hQbC");
+
+window.onload = function() {
+  document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    emailjs.sendForm('service_rnihpc9', 'template_2eoswck', this)
+      .then(() => {
+        document.getElementById('thank-you-message').style.display = 'block';
+        this.reset();
+      }, (error) => {
+        console.error('Error detallado:', error); // 👈 esto lo necesitamos ver en la consola
+        alert('Error al enviar: ' + (error.text || JSON.stringify(error)));
+      });
+  });
+};
+</script>
+
 </head>
