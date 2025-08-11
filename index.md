@@ -20,7 +20,7 @@ permalink: /index.html
 - Asistencia de tutores para resolver dudas y fortalecer aprendizaje.
 - Foros y encuentros virtuales con profesores y compañeros.
 - Material audiovisual de apoyo con presentaciones de las clases.
-- Ofrece un título oficial verificado por ANECA.
+- Máster oficial acreditado por ANECA.
 
 ### Entidades colaboradoras y prácticas
 
@@ -29,7 +29,7 @@ permalink: /index.html
 
 ### Duración y calendario
 
-- El curso se imparte desde octubre a mayo, según el [calendario oficial de la Universidad](https://www.umh.es/contenido/PDI/:calendario/datos_es.html).
+- El curso se imparte desde octubre a mayo, según el [calendario oficial de la Universidad](https://www.umh.es/contenido/PDI/:calendario/datos_es.html). Consulta el horario en [Google Calendar](https://calendar.google.com/calendar/embed?src=mip%40umh.es&ctz=Europe%2FMadrid).
 
 ### Oferta de plazas  
 
@@ -50,6 +50,8 @@ permalink: /index.html
 
 ### Algunas salidas profesionales 
 
+- Coordinador de innovación.
+- Jefe de producto o de áreas similares.
 - Creador de contenidos online.
 - Periodista especializado en datos.
 - Diseñador de narrativas visuales informativas.
@@ -59,7 +61,6 @@ permalink: /index.html
 - Gestor de redes sociales y comunidades de usuarios.
 - Curador de contenidos periodísticos.
 - Analista de audiencia y comportamiento de usuario.
-- Periodista especializado en marketing digital.
 
 ### Becas propias y ayudas  
 
@@ -74,9 +75,9 @@ permalink: /index.html
 
 ### Plan de estudios 
 
-El máster consta de 60 créditos ECTS distribuidos en asignaturas obligatorias (30), optativas (12), prácticas externas (8) y trabajo final (10). El itinerario formativo comienza con materias teórico-prácticas que te ayudarán a analizar y **comprender la evolución del periodismo** y la industria de la comunicación. Durante el segundo cuatrimestre, recibirás **formación más práctica** con asignaturas optativas enfocadas en asuntos como el **diseño web**, el **periodismo de datos** o la gestión de contenidos en **redes sociales** (debe cursar un mínimo de 12 de 18 ECTS). 
+El máster consta de 60 créditos ECTS distribuidos en asignaturas obligatorias (30), optativas (12), prácticas externas (8) y trabajo final (10). El itinerario formativo comienza con materias teórico-prácticas que te ayudarán a analizar y **comprender la evolución del periodismo** y la industria de la comunicación. Durante el segundo cuatrimestre, recibirás **formación más práctica** con asignaturas optativas enfocadas en asuntos como el **diseño web**, el **periodismo de datos** o la gestión de contenidos en **redes sociales** (el estudiante debe cursar un mínimo de 12 de 18 ECTS). 
 
-De forma paralela, tendrás que realizar el Trabajo Fin de Máster (10 créditos) con la guía de dos asignaturas centradas en el desarrollo de proyectos periodísticos . Así, aprenderás a identificar oportunidades para lanzar un proyecto periodístico en el sector de la comunicación. Por último, tendrás que cubrir 8 créditos prácticos en empresas o entidades. Estos últimos créditos **pueden convalidarse** si se certifica la actividad profesional [previa solicitud](http://estudios.umh.es/reconocimiento-creditos/masteres/experiencia-profesional-y-laboral/).
+De forma paralela, tendrás que realizar el Trabajo Fin de Máster (10 créditos) con la guía de dos asignaturas centradas en el desarrollo de proyectos periodísticos. Así, aprenderás a identificar oportunidades para lanzar un proyecto periodístico en el sector de la comunicación. Por último, tendrás que cubrir 8 créditos prácticos en empresas o entidades. Estos últimos créditos **pueden convalidarse** si se certifica la actividad profesional [previa solicitud](http://estudios.umh.es/reconocimiento-creditos/masteres/experiencia-profesional-y-laboral/).
 
 - [Web oficial con la información académica completa](https://www.umh.es/contenido/Estudios/:tit_m_182/datos_es.html)
 
@@ -93,7 +94,7 @@ De forma paralela, tendrás que realizar el Trabajo Fin de Máster (10 créditos
   </thead>
   <tbody>
     <tr>
-    <td><a href="http://www.umh.es/contenido/pas/:asi_m_3018/datos_es.html" target="_blank">La audiencia en el proceso periodísico</a></td>
+    <td><a href="http://www.umh.es/contenido/pas/:asi_m_3018/datos_es.html" target="_blank">La audiencia en el proceso periodístico</a></td>
       <td>4,5</td>
       <td>Obligatoria</td>
       <td>1º</td>
@@ -164,7 +165,7 @@ De forma paralela, tendrás que realizar el Trabajo Fin de Máster (10 créditos
 
 ### Horarios 
 
-Este máster se imparte en modalidad online, con acceso libre a los vídeos de las asignaturas de forma asíncrona. Hay una hora de clase online en directo en Google Meet de 18:00 a 19:30 todos los lunes desde el comienzo de curso hasta el final, salvo fiestas indicadas en el [calendario oficial de la Universidad](https://www.umh.es/contenido/PDI/:calendario/datos_es.html). Además, en cada asignatura, hay una hora de clase online colaborativa 1 jueves por la tarde al mes.
+Este máster se imparte en modalidad online, con acceso libre a los vídeos de las asignaturas de forma asíncrona. Hay una hora de clase online en directo en Google Meet de 18:00 a 19:30 todos los lunes desde el comienzo de curso hasta el final, salvo fiestas indicadas en el [calendario oficial de la Universidad](https://www.umh.es/contenido/PDI/:calendario/datos_es.html). Además, en algunas asignaturas, hay una hora de clase un jueves por la tarde al mes.
 
 ### Acceso a doctorado  
 
