@@ -1,30 +1,264 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Hoja propia sobre Bootstrap 5.3 (CDN). Sass sencillo: GitHub Pages compila con Sass 3.
 ---
 @charset "utf-8";
 
-// CONFIGURATION
+$ink: #0b0b0b;
+$paper: #ffffff;
+$mint: #3df0c4;
+$mint-soft: #e3fcf5;
+$gray-bg: #f5f6f5;
+$muted: #5f6672;
+$line: #e4e7e5;
+$serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+$sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 
-// Bodytext font
-$font: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+:root {
+  --bs-body-font-family: #{$sans};
+  --bs-body-color: #{$ink};
+  --bs-body-bg: #{$paper};
+  --bs-link-color: #{$ink};
+  --bs-link-color-rgb: 11, 11, 11;
+  --bs-link-hover-color: #{$ink};
+  --bs-link-hover-color-rgb: 11, 11, 11;
+  --bs-border-color: #{$line};
+  --bs-secondary-color: #{$muted};
+}
 
-// Font for headings
-$fontheadings: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+body {
+  background: $paper;
+  font-size: 1.0625rem;
+  -webkit-font-smoothing: antialiased;
+}
 
-// Text colors
-$text: #21272d;
-$textmuted: #848484;
-$accent: #2077b2;
+h1, h2, h3, .h1, .h2, .h3, .display-title {
+  font-family: $serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+h4, h5, h6 { font-weight: 600; }
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
- 		"bootstrap/bootstrap",
-        "base",
-		"nav",
-		"article",
-		"icons",
-		"sidebar",
-		"responsive",
-        "team",
-        "partner",
- 		"header";
+// Enlaces en negro con subrayado menta: el verde nunca es color de texto
+a {
+  color: $ink;
+  text-decoration: underline;
+  text-decoration-color: $mint;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  &:hover, &:focus { text-decoration-color: $ink; }
+}
+.btn, .nav-link, .navbar-brand, .card-link-wrap, .breadcrumb a { text-decoration: none; }
+
+:focus-visible { outline: 3px solid $ink; outline-offset: 2px; }
+
+.skip-link {
+  position: absolute; left: 1rem; top: 1rem; z-index: 2000;
+  background: $ink; color: $paper; padding: .5rem 1rem;
+}
+
+.text-muted, .text-secondary { color: $muted !important; }
+
+// Botones: negro sobre blanco; blanco sobre menta
+.btn { border-radius: 999px; font-weight: 600; padding: .55rem 1.25rem; }
+.btn-dark { --bs-btn-bg: #{$ink}; --bs-btn-border-color: #{$ink}; --bs-btn-hover-bg: #2a2a2a; --bs-btn-hover-border-color: #2a2a2a; }
+.btn-outline-dark { --bs-btn-color: #{$ink}; --bs-btn-border-color: #{$ink}; --bs-btn-hover-bg: #{$ink}; }
+.btn-light { --bs-btn-bg: #{$paper}; --bs-btn-border-color: #{$paper}; --bs-btn-color: #{$ink}; --bs-btn-hover-bg: #{$ink}; --bs-btn-hover-color: #{$paper}; --bs-btn-hover-border-color: #{$ink}; }
+
+.eyebrow {
+  font-size: .78rem; font-weight: 700; letter-spacing: .08em;
+  text-transform: uppercase; color: $muted; margin-bottom: .5rem;
+}
+.mark-mint {
+  background: linear-gradient(transparent 60%, $mint 60%);
+  padding: 0 .1em;
+}
+
+// Cabecera
+.site-header {
+  background: $paper;
+  border-bottom: 1px solid $line;
+  .navbar { padding: .6rem 0; }
+  .navbar-brand img { border-radius: 6px; }
+  .brand-text { font-size: 1rem; }
+  .nav-link {
+    color: $ink; font-weight: 500; font-size: .92rem; white-space: nowrap;
+    padding: .5rem .55rem !important; border-radius: 6px;
+    &:hover { background: $gray-bg; }
+    &.active { box-shadow: inset 0 -3px 0 $mint; border-radius: 0; }
+  }
+}
+
+.aviso {
+  background: $ink; color: $paper; font-size: .95rem;
+  a:not(.btn) { color: $paper; text-decoration-color: $mint; }
+  .fa-circle-info { color: $mint; }
+}
+
+// Secciones
+.section { padding: 4.5rem 0; border-top: 1px solid $line; }
+.section:first-child { border-top: 0; }
+.section-gray { background: $gray-bg; }
+.section-mint { background: $mint; border-top: 0; }
+.section-ink { background: $ink; color: $paper; border-top: 0;
+  a:not(.btn) { color: $paper; } .text-muted { color: #b8bec6 !important; } .eyebrow { color: $mint; }
+}
+.section-head { max-width: 46rem; margin-bottom: 2rem;
+  h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); margin-bottom: .5rem; }
+}
+.more-link { font-weight: 600;
+  &::after { content: " →"; }
+}
+
+// Hero
+.hero { padding: 5rem 0 4rem;
+  h1 { font-size: clamp(2.2rem, 5.2vw, 3.8rem); line-height: 1.05; margin-bottom: 1.25rem; }
+  .lead { font-size: 1.25rem; max-width: 40rem; color: #2b2f36; }
+  .hero-badges span {
+    display: inline-block; border: 1px solid $ink; border-radius: 999px;
+    padding: .2rem .8rem; font-size: .85rem; font-weight: 600; margin: 0 .35rem .5rem 0;
+  }
+}
+.edicion {
+  border-left: 4px solid $mint; padding: .25rem 0 .25rem 1rem; margin: 1.5rem 0 2rem;
+}
+
+// Rejilla de datos del título (sobre menta)
+.datos-grid {
+  display: grid; gap: 1px; background: rgba(11, 11, 11, .2);
+  grid-template-columns: repeat(2, 1fr);
+  border: 1px solid rgba(11, 11, 11, .2);
+  @media (min-width: 768px) { grid-template-columns: repeat(3, 1fr); }
+  @media (min-width: 1200px) { grid-template-columns: repeat(5, 1fr); }
+  > div { background: $mint; padding: 1.1rem 1.2rem; }
+  dt { font-size: .75rem; text-transform: uppercase; letter-spacing: .07em; font-weight: 700; }
+  dd { margin: .25rem 0 0; font-family: $serif; font-size: 1.3rem; font-weight: 700; line-height: 1.2; }
+}
+.doc-links a { margin-right: 1.25rem; font-weight: 600; text-decoration-color: $ink; display: inline-block; margin-bottom: .4rem; }
+
+.datos-mini {
+  display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; margin-bottom: 1.25rem;
+  dt { font-size: .75rem; color: $muted; text-transform: uppercase; letter-spacing: .06em; }
+  dd { margin: 0; font-weight: 600; }
+}
+
+// Ponderaciones de admisión
+.ponderacion { margin-bottom: 1rem;
+  .ponderacion-label { display: flex; justify-content: space-between; font-weight: 600; font-size: .95rem; }
+  .bar { height: 10px; background: $line; border-radius: 99px; position: relative; overflow: hidden; margin-top: .35rem; }
+  .bar span { position: absolute; top: 0; bottom: 0; background: $ink; border-radius: 99px; }
+  .bar .rango { background: $mint; }
+}
+
+// Estructura de créditos
+.creditos-bar { display: flex; height: 3rem; border-radius: 8px; overflow: hidden; margin-bottom: .75rem;
+  > div { display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: .9rem; padding: 0 .4rem; white-space: nowrap; }
+  .c-obl { background: $ink; color: $paper; }
+  .c-opt { background: $mint; color: $ink; }
+  .c-pra { background: #9aa3ad; color: $ink; }
+  .c-tfm { background: $line; color: $ink; }
+}
+.creditos-leyenda { font-size: .9rem; color: $muted;
+  span { margin-right: 1rem; white-space: nowrap; }
+  i { display: inline-block; width: .8rem; height: .8rem; border-radius: 2px; margin-right: .3rem; vertical-align: -1px; }
+}
+
+.tabla-asignaturas {
+  font-size: .95rem;
+  th { font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; color: $muted; font-weight: 700; }
+  td, th { padding: .7rem .5rem; }
+  .semestre-row td { background: $gray-bg; font-weight: 700; }
+}
+
+.pill {
+  display: inline-block; font-size: .75rem; font-weight: 600; border-radius: 999px;
+  padding: .1rem .6rem; border: 1px solid $line; background: $paper; color: $ink;
+  &.pill-mint { background: $mint; border-color: $mint; }
+  &.pill-ink { background: $ink; border-color: $ink; color: $paper; }
+}
+
+// Tarjetas
+.card { border-color: $line; border-radius: 12px; }
+.card-plain { border: 1px solid $line; border-radius: 12px; padding: 1.5rem; height: 100%; background: $paper; }
+a.card-plain, .card-link-wrap { display: block; color: inherit; transition: border-color .15s, box-shadow .15s;
+  &:hover { border-color: $ink; box-shadow: 0 6px 18px rgba(0, 0, 0, .06); }
+}
+
+.avatar {
+  width: 64px; height: 64px; border-radius: 50%; object-fit: cover; flex-shrink: 0;
+  background: $mint; color: $ink; display: inline-flex; align-items: center; justify-content: center;
+  font-weight: 700; font-family: $serif; font-size: 1.3rem;
+}
+.avatar-lg { width: 120px; height: 120px; font-size: 2.4rem; }
+.avatar-org { border-radius: 12px; background: $ink; color: $mint; }
+
+.docente-card { display: flex; gap: 1rem; align-items: flex-start;
+  h3 { font-size: 1.15rem; margin: 0 0 .15rem; }
+  .figura { font-size: .9rem; color: $muted; margin-bottom: .5rem; }
+}
+
+.ponente-card {
+  .ponente-head { display: flex; gap: .9rem; align-items: center; margin-bottom: .9rem; }
+  h3 { font-size: 1.1rem; margin: 0; }
+  .cargo { font-size: .88rem; color: $muted; margin: .15rem 0 0; }
+  .sesiones { list-style: none; padding: 0; margin: 0; font-size: .9rem; }
+  .sesiones li { border-top: 1px solid $line; padding: .55rem 0; }
+  .sesion-titulo { font-weight: 600; display: block; }
+  .sesion-meta { color: $muted; font-size: .82rem; }
+}
+
+.filtros { position: sticky; top: 64px; z-index: 5; background: $paper; padding: 1rem 0; border-bottom: 1px solid $line; margin-bottom: 2rem;
+  .form-select { border-radius: 999px; }
+}
+.contador-cursos { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1.5rem; }
+
+.testimonio { border-left: 4px solid $mint; padding-left: 1.25rem;
+  blockquote { font-family: $serif; font-size: 1.2rem; line-height: 1.45; }
+}
+
+.cifra { font-family: $serif; font-weight: 700; font-size: clamp(2.5rem, 6vw, 4rem); line-height: 1; }
+
+// Páginas interiores
+.page-header { padding: 3.5rem 0 2.5rem; border-bottom: 1px solid $line; background: $gray-bg;
+  h1 { font-size: clamp(2rem, 4.5vw, 3rem); margin-bottom: .5rem; }
+  .lead { max-width: 46rem; margin-bottom: 0; }
+  .breadcrumb { font-size: .85rem; margin-bottom: 1rem; }
+}
+.page-body { padding-top: 3rem; padding-bottom: 4rem; }
+.prose {
+  overflow-wrap: break-word;
+  h2 { font-size: 1.75rem; margin: 2.5rem 0 1rem; padding-top: 1rem; border-top: 1px solid $line; }
+  h2:first-child { margin-top: 0; border-top: 0; padding-top: 0; }
+  h3 { font-size: 1.3rem; margin: 2rem 0 .75rem; }
+  ul li { margin-bottom: .35rem; }
+  table { width: 100%; margin-bottom: 1.5rem; }
+  .table { font-size: .95rem; }
+}
+.side-box { top: 90px; border: 1px solid $line; border-radius: 12px; padding: 1.5rem; }
+
+.doc-list { list-style: none; padding: 0;
+  li { display: flex; justify-content: space-between; gap: 1rem; padding: .8rem 0; border-bottom: 1px solid $line; }
+  .doc-anyo { color: $muted; font-size: .9rem; white-space: nowrap; }
+}
+
+// Subnavegación de la home (scrollspy)
+.subnav { position: sticky; top: 61px; z-index: 1010; background: $paper; border-bottom: 1px solid $line;
+  .nav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+  .nav-link { color: $muted; font-size: .85rem; font-weight: 600; white-space: nowrap; padding: .7rem .8rem; }
+  .nav-link.active { color: $ink; box-shadow: inset 0 -3px 0 $mint; }
+}
+section[id] { scroll-margin-top: 120px; }
+
+// Pie
+.site-footer { background: $ink; color: #d7dbe0; padding: 3.5rem 0 2rem; margin-top: 0;
+  a:not(.btn) { color: $paper; }
+  .footer-title { color: $paper; font-weight: 700; margin-bottom: .75rem; }
+  li { margin-bottom: .35rem; }
+  .social a { font-size: 1.25rem; margin-right: .9rem; text-decoration: none; }
+  .footer-bottom { display: flex; align-items: center; gap: 1rem; border-top: 1px solid #2b2f36; margin-top: 2.5rem; padding-top: 1.5rem; }
+  .footer-bottom img { background: $paper; padding: 4px; border-radius: 4px; }
+}
+
+@media (max-width: 575.98px) {
+  .section { padding: 3rem 0; }
+  .hero { padding: 3rem 0 2.5rem; }
+}

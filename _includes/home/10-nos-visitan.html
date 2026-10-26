@@ -1,0 +1,17 @@
+{%- assign publicables = site.data.ponentes | where: "publicar", "si" -%}
+{%- assign personas = publicables | group_by: "slug_ponente" -%}
+<section class="section section-gray" id="nos-visitan" aria-labelledby="visitan-titulo">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Nos visitan</p>
+      <h2 id="visitan-titulo">Profesionales invitados en las asignaturas</h2>
+      <p class="mb-0">Cada curso, periodistas, editores y emprendedores de medios comparten su experiencia en sesiones en directo. Estos son los más recientes.</p>
+    </div>
+    <div class="row g-3">
+      {%- for g in personas limit: 8 %}
+      <div class="col-md-6 col-xl-3">{% include ponente-card.html g=g %}</div>
+      {%- endfor %}
+    </div>
+    <p class="mt-4 mb-0"><a class="more-link" href="{{ site.baseurl }}/nos-visitan.html">Ver los {{ personas.size }} profesionales y {{ publicables.size }} sesiones desde 2020/21</a></p>
+  </div>
+</section>

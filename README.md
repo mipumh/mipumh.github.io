@@ -1,35 +1,26 @@
-Info
-=====
+# mip.umh.es
 
-En este repositorio se encuentra alojada la web del Master de Innovación en Periodismo [MIP](http://mip.umh.es), un título oficial de postgrado de la Universidad Miguel Hernández (Elche, España) organizado por [Periodismo UMH](http://periodismo.umh/).
+Web del [Máster Universitario en Innovación en Periodismo](https://mip.umh.es) de la Universidad Miguel Hernández. Jekyll en GitHub Pages, con Bootstrap 5.3 por CDN y una hoja propia en `css/main.scss`.
 
-**El programa**
-	
-El MIP se ha diseñado como una **aceleradora de proyectos** para periodistas o licenciados en Comunicación. El programa pretende servir de plataforma para innovar, emprender y desarrollar proyectos en el ámbito del periodismo digital y la comunicación. Además, por estar avalado por el Ministerio, sirve de **pasarela al Doctorado**.
+## Datos
 
-[Más información »](http://bit.ly/XkRLxD)
+| Fuente | Fichero | Cómo se actualiza |
+|---|---|---|
+| Ficha oficial del título, guías docentes y fichas del PDI (umh.es) | `_data/umh/*.json`, `images/profesorado/` | `python3 _tools/sync_umh.py` |
+| Ponentes invitados (Nos visitan) | `_data/ponentes.csv` | `python3 _tools/build_ponentes.py` (lee `_mejora_avap/` y `../blog/_conferencias`) |
+| Profesorado (fichas y CV) | `_profesorado/*.md` | a mano: bloque `cv:` |
+| Menú común con la revista | `_data/navigation.yml` | a mano; copiar también a `blog/_data/` |
+| Avisos de cabecera | `_data/avisos.yml` | a mano; se ocultan solos tras `fecha_fin` |
 
-* **[Blog](http://mip.umh.es/blog)** - Dirección del blog.
-* **[Twitter](http://twitter.com/mipumh)** - Cuenta oficial de Twitter.
-* **[Facebook](http://www.facebook.com/mipumh)** - Cuenta oficial de Twitter.
+Los datos oficiales (plazas, créditos, modalidad, horario, responsables) no se escriben a mano en las páginas: salen de `_data/umh`.
 
-**Contacto**
+## Compilar en local
 
-Avd. Universidad s/n, 03202
-Edificio Torreblanca
-Elche, Alicante
-[Correo electrónico](mailto:mip@umh.es)
+```sh
+bundle install
+LC_ALL=en_US.UTF-8 bundle exec jekyll serve
+```
 
-## 80% © CSS 
+El `Gemfile` fija la gema `github-pages`, así que la compilación local usa las mismas versiones que GitHub Pages.
 
-**Mark Otto**
-
-+ [http://twitter.com/mdo](http://twitter.com/mdo)
-+ [http://github.com/mdo](http://github.com/mdo)
-
-## 20% © CSS 
-
-**Miguel Carvajal**
-
-+ [http://twitter.com/sintomatico](http://twitter.com/sintomatico)
-+ [http://github.com/miguelcarvajal](http://github.com/miguelcarvajal)
+Contacto: [mip@umh.es](mailto:mip@umh.es)

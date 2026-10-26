@@ -1,39 +1,52 @@
 inc:
-  # Blog Information
-  title:        "Máster Online en Innovación en Periodismo"
-  subtitle:     "Máster 100% online y oficial de la Universidad Miguel Hernández"
+  title:        "Máster Universitario en Innovación en Periodismo"
+  short_title:  "Máster en Innovación en Periodismo"
+  subtitle:     "Título oficial de la Universidad Miguel Hernández · modalidad a distancia"
+  description:  "Máster Universitario en Innovación en Periodismo de la Universidad Miguel Hernández de Elche: título oficial de 60 ECTS en modalidad a distancia, orientado al desarrollo de proyectos periodísticos innovadores."
   logo:         logo.jpg
   cover_image:  cover_image.jpg
-  
-  # Company information
-  company:      Máster en Innovación en Periodismo
-  url:          http://mip.umh.es
-  facebook:     mipumh
+  email:        mip@umh.es
+  url:          https://mip.umh.es
+  revista:      https://mip.umh.es/blog/
+  issn:         "3020-383X"
+  calendario:   https://calendar.google.com/calendar/embed?src=mip%40umh.es&ctz=Europe%2FMadrid
+  cita:         https://calendar.app.google/vuQ9w5xuUrsymFZh9
+  preinscripcion_umh: https://estudios.umh.es/acceso/masters/
+  tasas:        https://estudios.umh.es/importe-tasas-matricula-master-universitario/
+  becas:        https://estudios.umh.es/becas/
+  reconocimiento: https://estudios.umh.es/reconocimiento-creditos/master-experiencia-profesional-y-laboral/
+  doctorado:    https://doctoradosocialesyjuridicas.umh.es/
+  campus:       https://campus.umh.es/
   twitter:      mipumh
-  gplus:        '103906596485859350077'
-  
-  # Product Information
-  product_link: preinscripcion.html
-  tagline:      "Idea, diseña, emprende"
-  
-  # Google Fonts
-  # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
-  google_font: 'Droid+Sans:400,700'
-  
-  # Comments
-  disqus:
-    # Eg. "exampleblog" Set to false to disable comments
-    shortname:  mipgithub
-    
-  # Sharing settings
-  sharing:
-    twitter:    true
-    facebook:   true
-    gplus:      true
-    
- # Analytics     
+  facebook:     mipumh
   analytics:
     google: true
 
-plugins: [jekyll-paginate]
-permalink:     pretty
+url: https://mip.umh.es
+lang: es
+
+collections:
+  profesorado:
+    output: true
+    permalink: /profesorado/:name.html
+  asignaturas:
+    output: true
+    permalink: /asignaturas/:name.html
+
+defaults:
+  - scope: { type: profesorado }
+    values: { layout: docente }
+  - scope: { type: asignaturas }
+    values: { layout: asignatura }
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+exclude:
+  - _mejora_avap
+  - _tools
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

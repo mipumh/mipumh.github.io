@@ -1,0 +1,23 @@
+{%- assign t = site.data.umh.titulo -%}
+<section class="section" id="salidas" aria-labelledby="salidas-titulo">
+  <div class="container">
+    <div class="row g-4 g-lg-5">
+      <div class="col-lg-7">
+        <p class="eyebrow">Salidas profesionales</p>
+        <h2 id="salidas-titulo">Para impulsar productos periodísticos digitales</h2>
+        <p>El máster capacita para impulsar productos periodísticos digitales o proyectos de innovación intraempresarial en el ámbito mediático. Algunas salidas profesionales:</p>
+        <ul class="row list-unstyled g-2">
+          {%- for s in t.salidas %}
+          <li class="col-sm-6"><i class="fa-solid fa-check me-2" aria-hidden="true"></i>{{ s }}</li>
+          {%- endfor %}
+        </ul>
+      </div>
+      <div class="col-lg-5">
+        <div class="card-plain h-auto">
+          <h3 class="h4">Acceso al doctorado</h3>
+          <p class="mb-3">Este título habilita para el acceso al doctorado. Los egresados pueden continuar en el <a href="{{ site.inc.doctorado }}">Programa de Doctorado en Ciencias Sociales y Jurídicas</a> de la UMH.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

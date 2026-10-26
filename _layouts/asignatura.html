@@ -1,0 +1,48 @@
+---
+layout: default
+---
+{%- assign a = site.data.umh.asignaturas | where: "codigo", page.codigo | first -%}
+<header class="page-header">
+  <div class="container">
+    <nav aria-label="Ruta"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="{{ site.baseurl }}/">Inicio</a></li><li class="breadcrumb-item"><a href="{{ site.baseurl }}/planestudios.html">Plan de estudios</a></li><li class="breadcrumb-item active" aria-current="page">{{ a.nombre }}</li></ol></nav>
+    <h1>{{ a.nombre }}</h1>
+    <p class="mb-0 d-flex flex-wrap gap-2">
+      <span class="pill pill-ink">{{ a.ects | replace: ".", "," }} ECTS</span>
+      <span class="pill">{{ a.semestre }}.º semestre</span>
+      <span class="pill">{{ a.caracter }}</span>
+      <span class="pill">Código {{ a.codigo }}</span>
+    </p>
+  </div>
+</header>
+<div class="container page-body">
+  <div class="row g-4 g-lg-5">
+    <div class="col-lg-8 prose">
+      {% if a.interes_profesional != "" %}<p class="lead">{{ a.interes_profesional }}</p>{% endif %}
+      {{ a.descripcion_html }}
+      {%- if a.unidades.size > 0 %}
+      <h2>Contenidos</h2>
+      <ol>{% for u in a.unidades %}<li>{{ u }}</li>{% endfor %}</ol>
+      {%- endif %}
+      {{ content }}
+      {% include ponentes-por-curso.html slug=a.slug %}
+    </div>
+    <aside class="col-lg-4">
+      <div class="side-box">
+        <p class="eyebrow">Profesorado 2026/27</p>
+        <ul class="list-unstyled">
+          {%- assign rids = a.responsables | map: "id" -%}
+          {%- for p in a.profesorado %}
+          {%- assign doc = site.profesorado | where: "umh_id", p.id | first %}
+          <li class="mb-2">{% if doc %}<a href="{{ doc.url }}">{{ doc.nombre }}</a>{% else %}{{ p.nombre_umh }}{% endif %}{% if rids contains p.id %} <span class="pill pill-mint">Responsable</span>{% endif %}</li>
+          {%- endfor %}
+        </ul>
+        <dl class="datos-mini">
+          <div><dt>Carga de trabajo</dt><dd>{{ a.horas | round }} horas</dd></div>
+          <div><dt>Materia</dt><dd>{{ a.materia | default: "—" }}</dd></div>
+        </dl>
+        <a class="btn btn-dark w-100" href="{{ a.guia_url }}">Guía docente oficial</a>
+        <p class="small text-muted mt-3 mb-0">Guía {{ a.curso_academico }}/{{ a.curso_academico | plus: 1 | append: "" | slice: 2, 2 }} validada el {{ a.validada }}. Evaluación, bibliografía y competencias en la guía oficial.</p>
+      </div>
+    </aside>
+  </div>
+</div>

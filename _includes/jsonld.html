@@ -1,0 +1,23 @@
+{%- if page.url == "/" -%}
+{%- assign t = site.data.umh.titulo -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOccupationalProgram",
+  "name": {{ t.nombre | jsonify }},
+  "url": "{{ site.url }}/",
+  "description": {{ site.inc.description | jsonify }},
+  "educationalCredentialAwarded": "Máster Universitario (título oficial)",
+  "numberOfCredits": {{ t.creditos.total }},
+  "timeToComplete": "P1Y",
+  "educationalProgramMode": "online",
+  "inLanguage": "es",
+  "maximumEnrollment": {{ t.plazas }},
+  "provider": {
+    "@type": "CollegeOrUniversity",
+    "name": "Universidad Miguel Hernández de Elche",
+    "url": "https://www.umh.es"
+  }
+}
+</script>
+{%- endif -%}

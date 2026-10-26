@@ -1,0 +1,15 @@
+{%- comment -%}Ponentes invitados de una asignatura (include.slug), agrupados por curso{%- endcomment -%}
+{%- assign sesiones = site.data.ponentes | where: "publicar", "si" | where: "slug_asignatura", include.slug -%}
+{%- if sesiones.size > 0 -%}
+{%- assign cursos = sesiones | group_by: "curso" -%}
+<h2 id="ponentes">Ponentes invitados por curso</h2>
+{%- for c in cursos %}
+<h3>{{ c.name }} <span class="pill">{{ c.size }} {% if c.size == 1 %}sesión{% else %}sesiones{% endif %}</span></h3>
+<ul class="list-unstyled">
+  {%- for s in c.items %}
+  <li class="mb-2"><strong>{{ s.ponente }}</strong>{% if s.cargo.size > 0 %}, {{ s.cargo }}{% endif %}{% if s.titulo.size > 0 %}: «{{ s.titulo }}»{% endif %}{% if s.fecha.size > 0 %} <span class="text-muted small">({{ s.fecha }})</span>{% endif %}</li>
+  {%- endfor %}
+</ul>
+{%- endfor %}
+<p><a class="more-link" href="{{ site.baseurl }}/nos-visitan.html">Todos los profesionales que nos visitan</a></p>
+{%- endif -%}

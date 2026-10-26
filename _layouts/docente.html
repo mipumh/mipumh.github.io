@@ -1,0 +1,70 @@
+---
+layout: default
+---
+{%- assign d = page -%}
+{%- assign pdi = site.data.umh.pdi[d.umh_id] -%}
+{%- include docente-foto.html d=d -%}
+<header class="page-header">
+  <div class="container">
+    <nav aria-label="Ruta"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="{{ site.baseurl }}/">Inicio</a></li><li class="breadcrumb-item"><a href="{{ site.baseurl }}/profesores.html">Profesorado</a></li><li class="breadcrumb-item active" aria-current="page">{{ d.nombre }}</li></ol></nav>
+    <div class="d-flex gap-4 align-items-center">
+      {% include avatar.html nombre=d.nombre foto=foto_docente clase="avatar-lg" %}
+      <div>
+        <h1 class="mb-1">{{ d.nombre }}</h1>
+        <p class="lead mb-0">{% if d.cargo %}<strong>{{ d.cargo }}</strong> · {% endif %}{{ d.figura | default: d.institucion }}</p>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="container page-body">
+  <div class="row g-4 g-lg-5">
+    <div class="col-lg-8 prose">
+      {%- if pdi %}
+      <h2>Docencia en el máster (curso 2026/27)</h2>
+      <ul>
+        {%- for a in site.data.umh.asignaturas %}
+        {%- assign ids = a.profesorado | map: "id" -%}
+        {%- assign rids = a.responsables | map: "id" -%}
+        {%- if ids contains d.umh_id or rids contains d.umh_id %}
+        <li><a href="{{ site.baseurl }}/asignaturas/{{ a.slug }}.html">{{ a.nombre }}</a>{% if rids contains d.umh_id %} <span class="pill pill-mint">Responsable</span>{% endif %}</li>
+        {%- endif %}
+        {%- endfor %}
+      </ul>
+      {%- elsif d.asignaturas_anteriores %}
+      <h2>Docencia en el máster</h2>
+      <p>{{ d.asignaturas_anteriores }}</p>
+      {%- endif %}
+
+      {%- assign cv = d.cv %}
+      {%- if cv.formacion or cv.docencia or cv.investigacion or cv.experiencia or cv.resultados.size > 0 %}
+      <h2>Currículum breve</h2>
+      {% if cv.formacion %}<h3>Formación académica</h3>{{ cv.formacion | markdownify }}{% endif %}
+      {% if cv.docencia %}<h3>Experiencia docente</h3>{{ cv.docencia | markdownify }}{% endif %}
+      {% if cv.investigacion %}<h3>Investigación</h3>{{ cv.investigacion | markdownify }}{% endif %}
+      {% if cv.resultados.size > 0 %}<h3>Resultados relevantes</h3><ul>{% for r in cv.resultados %}<li>{{ r | markdownify | remove: "<p>" | remove: "</p>" }}</li>{% endfor %}</ul>{% endif %}
+      {% if cv.experiencia %}<h3>Experiencia profesional</h3>{{ cv.experiencia | markdownify }}{% endif %}
+      {%- endif %}
+      {{ content }}
+    </div>
+    <aside class="col-lg-4">
+      <div class="side-box">
+        <p class="eyebrow">Datos</p>
+        <dl class="mb-3">
+          {% if pdi.categoria %}<dt>Figura</dt><dd>{{ d.figura | default: pdi.categoria }}</dd>{% endif %}
+          {% if d.institucion %}<dt>Institución</dt><dd>{{ d.institucion }}</dd>{% endif %}
+          {% if pdi.area %}<dt>Área de conocimiento</dt><dd>{{ pdi.area | downcase | capitalize }}</dd>{% endif %}
+          {% if pdi.departamento %}<dt>Departamento</dt><dd>{{ pdi.departamento }}</dd>{% endif %}
+          {% if pdi.grupos.size > 0 %}<dt>Grupo de investigación</dt><dd>{{ pdi.grupos | join: "; " }}</dd>{% endif %}
+          {% if pdi.titulaciones.size > 0 %}<dt>Titulación</dt><dd>{{ pdi.titulaciones | join: " · " | downcase | capitalize }}</dd>{% endif %}
+        </dl>
+        <div class="d-grid gap-2">
+          {% if pdi.umh_url %}<a class="btn btn-outline-dark btn-sm" href="{{ pdi.umh_url }}">Página en umh.es</a>{% endif %}
+          {% if d.orcid %}<a class="btn btn-outline-dark btn-sm" href="https://orcid.org/{{ d.orcid }}">ORCID</a>{% endif %}
+          {% if d.scholar %}<a class="btn btn-outline-dark btn-sm" href="{{ d.scholar }}">Google Scholar</a>{% endif %}
+          {% if pdi.email %}<a class="btn btn-outline-dark btn-sm" href="mailto:{{ pdi.email }}">{{ pdi.email }}</a>{% endif %}
+        </div>
+        {% if pdi %}<p class="small text-muted mt-3 mb-0">Datos institucionales de umh.es (actualizados el {{ site.data.umh.titulo.descargado | date: "%d/%m/%Y" }}).</p>{% endif %}
+      </div>
+    </aside>
+  </div>
+</div>

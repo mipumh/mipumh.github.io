@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+{% include head.html %}
+<body{% if layout.body_attrs %} {{ layout.body_attrs }}{% endif %}>
+<a class="visually-hidden-focusable skip-link" href="#contenido">Saltar al contenido</a>
+{% include navbar.html %}
+{% include aviso.html %}
+<main id="contenido">
+{{ content }}
+</main>
+{% include footer.html %}
+{% include scripts.html %}
+</body>
+</html>

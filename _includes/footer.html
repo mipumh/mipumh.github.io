@@ -1,0 +1,39 @@
+{%- assign t = site.data.umh.titulo -%}
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-5">
+        <p class="footer-title">{{ t.nombre }}</p>
+        <p class="small mb-2">Título oficial de la Universidad Miguel Hernández de Elche · {{ t.centro }}<br>
+        Código RUCT <a href="{{ t.ruct.url }}">{{ t.ruct.codigo }}</a> · Modalidad {{ t.modalidad | downcase }} · {{ t.creditos.total }} ECTS · {{ t.plazas }} plazas</p>
+        <p class="small mb-0"><a href="mailto:{{ site.inc.email }}">{{ site.inc.email }}</a> · Edificio Torreblanca, Avda. de la Universidad s/n, 03202 Elche</p>
+      </div>
+      <div class="col-6 col-lg-3">
+        <p class="footer-title">El máster</p>
+        <ul class="list-unstyled small">
+          {%- for item in site.data.navigation offset: 1 %}
+          <li><a href="{{ item.url }}">{{ item.titulo }}</a></li>
+          {%- endfor %}
+          <li><a href="{{ site.baseurl }}/actividades.html">Actividades</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-4">
+        <p class="footer-title">Información oficial</p>
+        <ul class="list-unstyled small">
+          <li><a href="{{ t.ficha_url }}">Ficha oficial del título (UMH)</a></li>
+          <li><a href="{{ site.baseurl }}/calidad.html">Calidad y transparencia</a></li>
+          <li><a href="{{ site.inc.revista }}">Revista de Innovación en Periodismo</a> · ISSN {{ site.inc.issn }}</li>
+        </ul>
+        <p class="small mb-0 social">
+          <a href="https://twitter.com/{{ site.inc.twitter }}" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.facebook.com/{{ site.inc.facebook }}" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+          <a href="{{ site.inc.revista }}feed.xml" aria-label="RSS de la revista"><i class="fa-solid fa-rss"></i></a>
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom small">
+      <a href="https://www.umh.es/"><img src="{{ site.baseurl }}/images/umh.png" alt="Universidad Miguel Hernández" height="40"></a>
+      <span>&copy; {{ site.time | date: "%Y" }} Universidad Miguel Hernández de Elche</span>
+    </div>
+  </div>
+</footer>

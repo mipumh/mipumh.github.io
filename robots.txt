@@ -1,3 +1,4 @@
-User-agent: Googlebot
+User-agent: *
 Disallow:
 
+Sitemap: https://mip.umh.es/sitemap.xml

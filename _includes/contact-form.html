@@ -1,0 +1,16 @@
+<form id="contact-form" class="contact-form">
+  <div class="mb-3">
+    <label class="form-label" for="cf-nombre">Nombre y apellidos</label>
+    <input type="text" class="form-control" id="cf-nombre" name="from_name" autocomplete="name" required>
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="cf-email">Correo electrónico</label>
+    <input type="email" class="form-control" id="cf-email" name="reply_to" autocomplete="email" required>
+  </div>
+  <div class="mb-3">
+    <label class="form-label" for="cf-mensaje">Mensaje</label>
+    <textarea class="form-control" id="cf-mensaje" name="message" rows="4" required></textarea>
+  </div>
+  <button type="submit" class="btn btn-dark">Enviar</button>
+  <p id="thank-you-message" class="mt-3 mb-0" role="status" hidden><strong>¡Gracias!</strong> Hemos recibido tu mensaje y te responderemos lo antes posible.</p>
+</form>

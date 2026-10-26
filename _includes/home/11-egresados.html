@@ -1,0 +1,21 @@
+<section class="section" id="egresados" aria-labelledby="egresados-titulo">
+  <div class="container">
+    <div class="row g-4 g-lg-5 align-items-center">
+      <div class="col-lg-5">
+        <p class="eyebrow">Egresados</p>
+        <h2 id="egresados-titulo">Más de 270 estudiantes desde 2014</h2>
+        <p>Antiguos alumnos vuelven al máster para presentar los proyectos que nacieron en él y conversar con los estudiantes sobre su TFM.</p>
+        <a class="more-link" href="{{ site.baseurl }}/egresados.html">Egresados y testimonios</a>
+      </div>
+      <div class="col-lg-7">
+        {%- assign testimonio = site.data.egresados.testimonios | first %}
+        {%- if testimonio %}
+        <figure class="testimonio mb-0">
+          <blockquote class="mb-3">«{{ testimonio.cita }}»</blockquote>
+          <figcaption><strong>{{ testimonio.nombre }}</strong> · Promoción {{ testimonio.promocion }}{% if testimonio.puesto %} · {{ testimonio.puesto }}{% endif %}</figcaption>
+        </figure>
+        {%- endif %}
+      </div>
+    </div>
+  </div>
+</section>

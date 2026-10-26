@@ -1,5 +1,6 @@
 ---
-layout: blank
+layout: page
+wide: true
 title: Timeline
 permalink: /timeline.html
 ---

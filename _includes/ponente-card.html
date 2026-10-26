@@ -1,0 +1,26 @@
+{%- comment -%}include.g: grupo de group_by "slug_ponente" sobre site.data.ponentes{%- endcomment -%}
+{%- assign g = include.g -%}
+{%- assign p = g.items | first -%}
+{%- assign cargo = "" -%}
+{%- for s in g.items -%}{%- if cargo == "" and s.cargo.size > 0 -%}{%- assign cargo = s.cargo -%}{%- endif -%}{%- endfor -%}
+{%- assign cursos = g.items | map: "curso" | uniq | join: " " -%}
+{%- assign asigs = g.items | map: "slug_asignatura" | uniq | join: " " -%}
+{%- assign foto = site.data.fotos_ponentes[g.name] -%}
+{%- if foto -%}{%- capture foto %}{{ site.baseurl }}/images/team/{{ foto }}{% endcapture -%}{%- endif -%}
+<article class="card-plain ponente-card" data-cursos="{{ cursos }}" data-asignaturas="{{ asigs }}">
+  <div class="ponente-head">
+    {% include avatar.html nombre=p.ponente foto=foto tipo=p.tipo %}
+    <div>
+      <h3>{{ p.ponente }}</h3>
+      {% if cargo != "" %}<p class="cargo">{{ cargo }}</p>{% endif %}
+    </div>
+  </div>
+  <ul class="sesiones">
+    {%- for s in g.items %}
+    <li data-curso="{{ s.curso }}" data-asig="{{ s.slug_asignatura }}">
+      {% if s.titulo.size > 0 %}<span class="sesion-titulo">{{ s.titulo }}</span>{% endif %}
+      <span class="sesion-meta">{% if s.asignatura.size > 0 %}<a href="{{ site.baseurl }}/asignaturas/{{ s.slug_asignatura }}.html">{{ s.asignatura }}</a> · {% endif %}{% if s.fecha.size > 0 %}<time datetime="{{ s.fecha_iso }}">{{ s.fecha }}</time>{% else %}Curso {{ s.curso }}{% endif %}{% if s.cargo.size > 0 and s.cargo != cargo %} · {{ s.cargo }}{% endif %}</span>
+    </li>
+    {%- endfor %}
+  </ul>
+</article>

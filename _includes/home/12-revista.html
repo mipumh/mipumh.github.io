@@ -1,0 +1,33 @@
+<section class="section section-gray" id="revista" aria-labelledby="revista-titulo" hidden>
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Revista de Innovación en Periodismo · ISSN {{ site.inc.issn }}</p>
+      <h2 id="revista-titulo">Lo último en la revista</h2>
+    </div>
+    <div class="row g-3" id="revista-posts"></div>
+    <p class="mt-4 mb-0 d-flex flex-wrap gap-3"><a class="more-link" href="{{ site.inc.revista }}">Ir a la revista</a><a class="more-link" href="{{ site.baseurl }}/actividades.html">Actividades del máster</a></p>
+  </div>
+</section>
+<script>
+  // Últimas entradas de la revista (/blog, mismo dominio). Si no se pueden leer, la sección no se muestra.
+  fetch('/blog/search.json').then(function (r) { return r.json(); }).then(function (posts) {
+    var box = document.getElementById('revista-posts');
+    posts.slice(0, 3).forEach(function (p) {
+      var col = document.createElement('div');
+      col.className = 'col-md-4';
+      var a = document.createElement('a');
+      a.className = 'card-plain card-link-wrap';
+      a.href = p.url;
+      var meta = document.createElement('p');
+      meta.className = 'small text-muted mb-2';
+      meta.textContent = p.date + (p.author ? ' · ' + p.author : '');
+      var h = document.createElement('h3');
+      h.className = 'h5 mb-0';
+      h.textContent = p.title;
+      a.append(meta, h);
+      col.append(a);
+      box.append(col);
+    });
+    if (posts.length) document.getElementById('revista').hidden = false;
+  }).catch(function () {});
+</script>

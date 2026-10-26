@@ -1,56 +1,24 @@
-<!DOCTYPE html>
-<html>
-
-{% include _head.html %}
-
-<body class="layout-reverse">
-
-{% include _nav.html %}
-
-{% include _sidebar.html %}
-
-<div class="wrap">
-
-
-{% if page.cover_image %}
-<div class="article-cover">
-    <div>
-        <img src="{{ site.baseurl }}/images/{{ page.cover_image }}" class="image">
+---
+layout: default
+---
+<header class="page-header">
+  <div class="container">
+    {% if page.breadcrumb %}<nav aria-label="Ruta"><ol class="breadcrumb">{% for b in page.breadcrumb %}<li class="breadcrumb-item"><a href="{{ b.url }}">{{ b.titulo }}</a></li>{% endfor %}<li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li></ol></nav>{% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.lead %}<p class="lead">{{ page.lead }}</p>{% endif %}
+  </div>
+</header>
+<div class="container page-body">
+  <div class="row g-4 g-lg-5">
+    <div class="{% if page.wide %}col-12{% else %}col-lg-8{% endif %} prose">
+      {{ content }}
     </div>
-</div>
-{% endif %}
-    
-    <div class="bd-subheader">
-        <div class="container">
-        <h1>{{ page.title }}</h1>
-        <h3>{{ site.inc.title }}</h3>          
-        </div>
-    </div>    
-    
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-xs-12">
-            <article>
-                <section>
-            {{ content }}
-                </section>
-            </article>
-    
-        </div>
-          
-        <div class="col-lg-4 col-xs-12">
-            {% include _inscribete.html %}
-            {% include _form.html %}
-            {% include _feed.html %}
-        </div>
+    {% unless page.wide %}
+    <aside class="col-lg-4">
+      <div class="side-box sticky-lg-top">
+        {% include side-box.html %}
       </div>
-    </div>
-    
-
-    {% include _footer.html %}
-    </div>
-    
-    {% include _scripts.html %}
-
-</body>
-</html>
+    </aside>
+    {% endunless %}
+  </div>
+</div>

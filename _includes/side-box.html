@@ -1,0 +1,13 @@
+{%- assign t = site.data.umh.titulo -%}
+<p class="eyebrow">El título en datos</p>
+<dl class="datos-mini">
+  <div><dt>Modalidad</dt><dd>{{ t.modalidad | downcase | capitalize }}</dd></div>
+  <div><dt>Créditos</dt><dd>{{ t.creditos.total }} ECTS</dd></div>
+  <div><dt>Plazas</dt><dd>{{ t.plazas }}</dd></div>
+  <div><dt>Duración</dt><dd>{{ t.duracion }}</dd></div>
+</dl>
+<div class="d-grid gap-2">
+  <a class="btn btn-dark" href="{{ site.baseurl }}/preinscripcion.html">Admisión y preinscripción</a>
+  <a class="btn btn-outline-dark" href="{{ t.ficha_url }}">Ficha oficial en umh.es</a>
+  <a class="btn btn-outline-dark" href="mailto:{{ site.inc.email }}">{{ site.inc.email }}</a>
+</div>

@@ -1,0 +1,6 @@
+{%- comment -%}Asigna la variable foto_docente para include.d (documento de _profesorado){%- endcomment -%}
+{%- assign foto_docente = include.d.foto -%}
+{%- if include.d.umh_id -%}
+  {%- assign pdi_foto = site.data.umh.pdi[include.d.umh_id].foto -%}
+  {%- if pdi_foto -%}{%- capture foto_docente %}{{ site.baseurl }}/images/profesorado/{{ pdi_foto }}{% endcapture -%}{%- endif -%}
+{%- endif -%}

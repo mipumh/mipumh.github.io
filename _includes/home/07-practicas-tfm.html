@@ -1,0 +1,27 @@
+{%- assign t = site.data.umh.titulo -%}
+<section class="section" id="practicas-tfm" aria-labelledby="practicas-titulo">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Prácticas y TFM</p>
+      <h2 id="practicas-titulo">Aprender haciendo un proyecto propio</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="card-plain">
+          <p class="cifra">{{ t.creditos.practicas }} <small class="fs-5">ECTS</small></p>
+          <h3 class="h4">Prácticas externas</h3>
+          <p>Un período mínimo de <strong>200 horas</strong> en empresas o entidades con convenio con la UMH, con un tutor de la Universidad y otro de la entidad. Pueden reconocerse por <a href="{{ site.inc.reconocimiento }}">experiencia profesional acreditada</a>.</p>
+          <a class="more-link" href="{{ site.baseurl }}/practicas.html">Procedimiento y entidades</a>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card-plain">
+          <p class="cifra">{{ t.creditos.tfm }} <small class="fs-5">ECTS</small></p>
+          <h3 class="h4">Trabajo Fin de Máster</h3>
+          <p>Diseño y lanzamiento, real o planificado, de un producto o servicio periodístico: memoria escrita y <strong>prototipo</strong> (web o aplicación beta), defendidos ante una comisión evaluadora.</p>
+          <a class="more-link" href="{{ site.baseurl }}/asignaturas/trabajo-fin-de-master.html">Cómo es el TFM</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

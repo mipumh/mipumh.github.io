@@ -1,0 +1,31 @@
+<header class="site-header sticky-top">
+  <nav class="navbar navbar-expand-xl" aria-label="Menú principal">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="{{ site.baseurl }}/">
+        <img src="{{ site.baseurl }}/images/{{ site.inc.logo }}" alt="" width="36" height="36">
+        <span class="brand-text"><strong>MIP</strong><span class="d-none d-sm-inline"> · Innovación en Periodismo</span></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-controls="menu" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="menu" aria-labelledby="menu-titulo">
+        <div class="offcanvas-header">
+          <span class="offcanvas-title h5" id="menu-titulo">{{ site.inc.short_title }}</span>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+        </div>
+        <div class="offcanvas-body align-items-xl-center">
+          <ul class="navbar-nav ms-xl-auto">
+            {%- for item in site.data.navigation %}
+            {%- assign activo = false -%}
+            {%- if page.url == item.url -%}{%- assign activo = true -%}{%- endif -%}
+            {%- if item.url == "/profesores.html" and page.collection == "profesorado" -%}{%- assign activo = true -%}{%- endif -%}
+            {%- if item.url == "/planestudios.html" and page.collection == "asignaturas" -%}{%- assign activo = true -%}{%- endif %}
+            <li class="nav-item"><a class="nav-link{% if activo %} active{% endif %}"{% if activo %} aria-current="page"{% endif %} href="{{ item.url }}">{{ item.titulo }}</a></li>
+            {%- endfor %}
+          </ul>
+          <a class="btn btn-dark ms-xl-3 mt-3 mt-xl-0" href="{{ site.baseurl }}/preinscripcion.html">Preinscripción</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,8 @@
+{%- for aviso in site.data.avisos %}
+<div class="aviso" data-fin="{{ aviso.fecha_fin | date_to_xmlschema }}" role="note">
+  <div class="container py-2 d-flex gap-2 align-items-start">
+    <i class="fa-solid fa-circle-info mt-1" aria-hidden="true"></i>
+    <p class="mb-0">{{ aviso.texto }}{% if aviso.enlace %} <a href="{{ aviso.enlace }}">Más información</a>{% endif %}</p>
+  </div>
+</div>
+{%- endfor %}

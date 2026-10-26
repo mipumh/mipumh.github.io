@@ -1,0 +1,21 @@
+<div class="table-responsive">
+  <table class="table tabla-asignaturas align-middle mb-0">
+    <thead><tr><th scope="col">Asignatura</th><th scope="col" class="text-end">ECTS</th><th scope="col">Carácter</th><th scope="col" class="d-none d-md-table-cell">Responsable</th></tr></thead>
+    <tbody>
+      {%- assign semestres = site.data.umh.asignaturas | group_by: "semestre" -%}
+      {%- for s in semestres %}
+      <tr class="semestre-row"><td colspan="4">{{ s.name }}.º semestre</td></tr>
+      {%- for a in s.items %}
+      {%- assign resp = a.responsables | first -%}
+      {%- assign doc = site.profesorado | where: "umh_id", resp.id | first %}
+      <tr>
+        <td><a href="{{ site.baseurl }}/asignaturas/{{ a.slug }}.html">{{ a.nombre }}</a></td>
+        <td class="text-end">{{ a.ects | replace: ".", "," }}</td>
+        <td><span class="pill{% if a.caracter == 'Optativa' %} pill-mint{% endif %}">{{ a.caracter | replace: "Trabajo Fin Máster", "Trabajo fin de máster" | replace: "Prácticas Externas", "Prácticas externas" }}</span></td>
+        <td class="d-none d-md-table-cell small">{% if doc %}<a href="{{ doc.url }}">{{ doc.nombre }}</a>{% endif %}</td>
+      </tr>
+      {%- endfor %}
+      {%- endfor %}
+    </tbody>
+  </table>
+</div>

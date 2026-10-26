@@ -1,0 +1,23 @@
+{%- assign t = site.data.umh.titulo -%}
+<section class="hero" aria-labelledby="hero-titulo">
+  <div class="container">
+    <div class="row align-items-end g-4 g-lg-5">
+      <div class="col-lg-8">
+        <p class="eyebrow">Título oficial · Universidad Miguel Hernández de Elche</p>
+        <h1 id="hero-titulo">{{ t.nombre }}</h1>
+        <p class="lead">Un programa de posgrado orientado al ámbito profesional, que capacita al estudiantado para el desarrollo periodístico, tecnológico y empresarial de proyectos innovadores en la industria.</p>
+        <div class="hero-badges" aria-label="Características">
+          <span>Modalidad {{ t.modalidad | downcase }}</span><span>{{ t.creditos.total }} ECTS</span><span>{{ t.plazas }} plazas</span><span>{{ t.duracion | capitalize }}</span>
+        </div>
+        <p class="edicion"><strong>Edición 2026/27 en curso</strong> (octubre de 2026 – mayo de 2027). La información sobre la preinscripción para el curso 2027/28 se publicará en esta web y en <a href="{{ site.inc.preinscripcion_umh }}">estudios.umh.es</a>.</p>
+        <div class="d-flex flex-wrap gap-2">
+          <a class="btn btn-dark btn-lg" href="{{ site.baseurl }}/preinscripcion.html">Admisión y preinscripción</a>
+          <a class="btn btn-outline-dark btn-lg" href="{{ site.baseurl }}/planestudios.html">Plan de estudios</a>
+        </div>
+      </div>
+      <div class="col-lg-4 d-none d-lg-block">
+        <img class="img-fluid rounded-4" src="{{ site.baseurl }}/images/{{ site.inc.cover_image }}" alt="" width="1124" height="750">
+      </div>
+    </div>
+  </div>
+</section>
