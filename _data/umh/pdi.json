@@ -1,0 +1,200 @@
+{
+  "persona_129150": {
+    "id": "persona_129150",
+    "nombre_umh": "CASTAÑO BERENGUER, JOSE VICENTE",
+    "categoria": "Profesor/a Asociado/a",
+    "area": "PERIODISMO",
+    "departamento": "Ciencias Sociales y Humanas",
+    "grupos": [],
+    "titulaciones": [
+      "DOCTOR",
+      "LICENCIADO EN CIENCIAS DE LA INFORMACION"
+    ],
+    "email": "jcastano@umh.es",
+    "web": null,
+    "foto": "persona_129150.jpg",
+    "umh_url": "https://www.umh.es/contenido/PDI/:persona_129150/datos_es.html"
+  },
+  "persona_129152": {
+    "id": "persona_129152",
+    "nombre_umh": "GARCÍA AVILES, JOSÉ ALBERTO",
+    "categoria": "Catedrático/a de Universidad",
+    "area": "PERIODISMO",
+    "departamento": "Ciencias Sociales y Humanas",
+    "grupos": [
+      "Grupo de Investigación de la comunicación en la Comunidad Valenciana"
+    ],
+    "titulaciones": [
+      "DOCTOR EN CIENCIAS DE LA INFORMACION",
+      "DOCTOR",
+      "LICENCIADO EN CIENCIAS DE LA INFORMACION"
+    ],
+    "email": "jose.garciaa@umh.es",
+    "web": "http://gicov.umh.es/jose-alberto-garcia",
+    "foto": "persona_129152.jpg",
+    "umh_url": "https://www.umh.es/contenido/PDI/:persona_129152/datos_es.html"
+  },
+  "persona_129652": {
+    "id": "persona_129652",
+    "nombre_umh": "ARIAS ROBLES, FELIX",
+    "categoria": "Profesor/a Titular Universidad",
+    "area": "PERIODISMO",
+    "departamento": "Ciencias Sociales y Humanas",
+    "grupos": [
+      "Grupo de Investigación de la comunicación en la Comunidad Valenciana"
+    ],
+    "titulaciones": [
+      "DOCTOR",
+      "MASTER",
+      "LICENCIADO EN PERIODISMO"
+    ],
+    "email": "farias@umh.es",
+    "web": "https://periodistasdedatos.com",
+    "foto": "persona_129652.jpg",
+    "umh_url": "https://www.umh.es/contenido/PDI/:persona_129652/datos_es.html"
+  },
+  "persona_136403": {
+    "id": "persona_136403",
+    "nombre_umh": "CARVAJAL PRIETO, MIGUEL",
+    "categoria": "Catedrático/a de Universidad",
+    "area": "PERIODISMO",
+    "departamento": "Ciencias Sociales y Humanas",
+    "grupos": [],
+    "titulaciones": [
+      "DOCTOR",
+      "LICENCIADO EN PERIODISMO"
+    ],
+    "email": "mcarvajal@umh.es",
+    "web": "https://miguelcarvajal.es",
+    "foto": "persona_136403.jpg",
+    "umh_url": "https://www.umh.es/contenido/PDI/:persona_136403/datos_es.html"
+  },
+  "persona_137194": {
+    "id": "persona_137194",
+    "nombre_umh": "DE LARA GONZALEZ, ALICIA",
+    "categoria": "Profesor/a Titular Universidad",
+    "area": "PERIODISMO",
+    "departamento": "Instituto interuniversitario López Piñero de estudios históricos y sociales",
+    "grupos": [
+      "Grupo de Investigación de la comunicación en la Comunidad Valenciana"
+    ],
+    "titulaciones": [
+      "DOCTOR",
+      "LICENCIADO EN PUBLICIDAD Y RELACIONES PUBLICAS",
+      "LICENCIADO EN PERIODISMO"
+    ],
+    "email": "a.lara@umh.es",
+    "web": null,
+    "foto": null,
+    "umh_url": "https://www.umh.es/contenido/PDI/:persona_137194/datos_es.html"
+  },
+  "persona_143936": {
+    "id": "persona_143936",
+    "nombre_umh": "GONZALEZ ESTEBAN, JOSE LUIS",
+    "categoria": "Catedrático/a de Universidad",
+    "area": "PERIODISMO",
+    "departamento": "Ciencias Sociales y Humanas",
+    "grupos": [
+      "Grupo de Investigación de la comunicación en la Comunidad Valenciana"
+    ],
+    "titulaciones": [
+      "DOCTOR EN CIENCIAS DE LA INFORMACION"
+    ],
+    "email": "jose.gonzalez@umh.es",
+    "web": "https://masterperiodismoydemocracia.umh.es/",
+    "foto": "persona_143936.jpg",
+    "umh_url": "https://www.umh.es/contenido/PDI/:persona_143936/datos_es.html"
+  },
+  "persona_159817": {
+    "id": "persona_159817",
+    "nombre_umh": "OLABE SANCHEZ, MIGUEL FERNANDO",
+    "categoria": "Profesor/a Asociado/a",
+    "area": "PERIODISMO",
+    "departamento": "Ciencias Sociales y Humanas",
+    "grupos": [],
+    "titulaciones": [
+      "DOCTOR",
+      "LICENCIADO EN CIENCIAS DE LA INFORMACION"
+    ],
+    "email": "molabe@umh.es",
+    "web": "http://periodismoporqueno.blogspot.com/",
+    "foto": "persona_159817.jpg",
+    "umh_url": "https://www.umh.es/contenido/PDI/:persona_159817/datos_es.html"
+  },
+  "persona_171479": {
+    "id": "persona_171479",
+    "nombre_umh": "MARIN SANCHIZ, CRISTIAN RAMON",
+    "categoria": "Profesor/a Asociado/a",
+    "area": "PERIODISMO",
+    "departamento": "Ciencias Sociales y Humanas",
+    "grupos": [
+      "Grupo de Investigación de la comunicación en la Comunidad Valenciana"
+    ],
+    "titulaciones": [
+      "DOCTOR/A",
+      "MASTER",
+      "GRADUADO EN PERIODISMO"
+    ],
+    "email": "c.marin@umh.es",
+    "web": null,
+    "foto": null,
+    "umh_url": "https://www.umh.es/contenido/PDI/:persona_171479/datos_es.html"
+  },
+  "persona_173031": {
+    "id": "persona_173031",
+    "nombre_umh": "GARCIA ORTEGA, ALBA",
+    "categoria": "Profesor/a Ayudante Doctor/a",
+    "area": "PERIODISMO",
+    "departamento": "Ciencias Sociales y Humanas",
+    "grupos": [
+      "Grupo de Investigación de la comunicación en la Comunidad Valenciana"
+    ],
+    "titulaciones": [
+      "DOCTOR/A",
+      "MASTER",
+      "GRADUADO EN PERIODISMO"
+    ],
+    "email": "alba.garciao@umh.es",
+    "web": null,
+    "foto": null,
+    "umh_url": "https://www.umh.es/contenido/PDI/:persona_173031/datos_es.html"
+  },
+  "persona_173491": {
+    "id": "persona_173491",
+    "nombre_umh": "VALERO PASTOR, JOSE MARIA",
+    "categoria": "Profesor/a Ayudante Doctor/a",
+    "area": "PERIODISMO",
+    "departamento": "Ciencias Sociales y Humanas",
+    "grupos": [
+      "Grupo de Investigación de la comunicación en la Comunidad Valenciana"
+    ],
+    "titulaciones": [
+      "DOCTOR/A",
+      "MASTER",
+      "GRADUADO EN PERIODISMO"
+    ],
+    "email": "jose.valerop@umh.es",
+    "web": null,
+    "foto": "persona_173491.jpg",
+    "umh_url": "https://www.umh.es/contenido/PDI/:persona_173491/datos_es.html"
+  },
+  "persona_926": {
+    "id": "persona_926",
+    "nombre_umh": "NAVAS ALEJO, CARLOS JOSE",
+    "categoria": "Profesor/a Colaborador/a",
+    "area": "ECONOMÍA FINANCIERA Y CONTABILIDAD",
+    "departamento": "Estudios Económicos y Financieros",
+    "grupos": [
+      "Investigación en el desarrollo de la empresa actual"
+    ],
+    "titulaciones": [
+      "SUFICIENCIA INVESTIGADORA",
+      "LICENCIADO EN CIENCIAS ACTUARIALES Y FINANCIERAS",
+      "DIPLOMADO EN ESTADISTICA"
+    ],
+    "email": "cjnavas@umh.es",
+    "web": null,
+    "foto": "persona_926.jpg",
+    "umh_url": "https://www.umh.es/contenido/PDI/:persona_926/datos_es.html"
+  }
+}

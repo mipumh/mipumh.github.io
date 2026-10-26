@@ -1,0 +1,34 @@
+# Egresados. Puestos de 2014-2016: revisar vigencia antes de ampliar (ver _mejora_avap/pendientes.md).
+testimonios:
+  - nombre: Ana Juan Montero
+    promocion: 2014/15
+    puesto: Directora de Tachas y Metal
+    foto: Ana Juan Montero.jpg
+    cita: >-
+      El MIP me abrió las puertas al emprendimiento, a lanzarme en solitario y crear mi empresa sin miedo,
+      con profesionalidad y con todas las herramientas necesarias para formar parte del sector de la comunicación.
+promociones:
+  - promocion: "2015/16"
+    personas:
+  - promocion: "2014/15"
+    personas:
+      - nombre: Neus Blasco
+        puesto: "Periodista · Enlaire Ràdio"
+        foto: "Neus Blasco.jpg"
+      - nombre: Juan Diego Rocamora
+        puesto: "Community Manager · Proyecto VegaViajeros"
+        foto: "Juan Diego Rocamora.jpg"
+      - nombre: Ana Juan Montero
+        puesto: "Directora · Tachas y Metal"
+        foto: "Ana Juan Montero.jpg"
+  - promocion: "2013/14"
+    personas:
+      - nombre: Isabel Ferrández Fructuoso
+        puesto: "Consultora de Marketing Online y SEO · Fabrica Online"
+        foto: "Isabel Ferrández Fructuoso.jpg"
+      - nombre: Rocío Morales
+        puesto: "Social Media y Content Marketing · Bilnea"
+        foto: "Rocío Morales.jpg"
+      - nombre: Salvador Campello
+        puesto: "Editor · TeleElx.es"
+        foto: "Salvador Campello.jpg"

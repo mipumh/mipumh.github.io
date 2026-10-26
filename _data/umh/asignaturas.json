@@ -1,0 +1,582 @@
+[
+  {
+    "codigo": 3018,
+    "slug": "audiencia",
+    "nombre": "La audiencia en el proceso periodístico",
+    "ects": 4.5,
+    "semestre": 1,
+    "caracter": "Obligatoria",
+    "materia": "El periodismo en una industria en transformación",
+    "curso_academico": 2026,
+    "validada": "10/07/2026",
+    "horas": 112.5,
+    "descripcion_html": "<p>Estudio y análisis del comportamiento de la audiencia como mercado principal. De la audiencia a la comunidad, estudio de las tipologías de usuarios en el ecosistema digital de la comunicación. Introducción a las herramientas para el análisis de la audiencia y de su seguimiento en los nuevos soportes digitales. Los estudiantes aprovecharán la materia y sus asignaturas para identificar la demanda oportuna para un proyecto digital.</p>",
+    "interes_profesional": "Esta asignatura se centra en el estudio de la audiencia como nicho para un proyecto comunicativo. Analiza el comportamiento de los usuarios en las comunidades y sus distintas tipologías en el ecosistema digital de la comunicación. Se estudian las principales herramientas para el análisis de la audiencia y su engagement en los soportes digitales. Los estudiantes aprenderán a identificar las necesidades de una comunidad concreta, con vistas al planteamiento y desarrollo de una propuesta de proyecto de comunicación.",
+    "objetivos": [
+      "Conocer y aplicar las metodologías de investigación de una comunidad.",
+      "Conocer a fondo cómo funcionan los distintos sistemas de medición de audiencias.",
+      "Analizar el target de un proyecto online y tomar decisiones en función de dicho target",
+      "Elaborar propuestas de una iniciativa de comunicación para una comunidad concreta.",
+      "Aprender a utilizar las herramientas de analítica web.",
+      "Conocer las técnicas de posicionamiento SEO y SEM y sus implicaciones.",
+      "Trabajar el análisis del posicionamiento orgánico en Google."
+    ],
+    "unidades": [
+      "El comportamiento de la audiencia en el entorno multiplataforma",
+      "Análisis de comunidades y de las necesidades de sus miembros",
+      "Estrategias para incrementar la participación de los usuarios",
+      "Desarrollo de audiencias. Herramientas de Analítica Web."
+    ],
+    "evaluacion_html": "<p><p>La nota de la asignatura se obtendrá mediante los sistemas de evaluación previstos en la memoria verificada para la modalidad a distancia:</p><br><p>Evaluación de casos prácticos online: 25% — práctica individual de investigación de una comunidad y diseño de un proyecto comunicativo en torno a ella (producto final).<br>Asistencia a tutorías online: 25% — seguimiento del proceso de elaboración de las prácticas: delimitación de la comunidad, análisis del contexto, ideación del proyecto, revisión de avances, feedback del profesorado y aplicación de mejoras en la versión final.<br>Evaluación de actividades online: 25% — retos y entregas parciales vinculadas a las prácticas de la asignatura (20%) y participación argumentada en los foros o actividades de debate (5%).<br>Control de presencia online y visionado de vídeos: 25% — asistencia y participación en las clases en directo (15%) y seguimiento de los materiales del campus virtual (10%).<br>En conjunto, las prácticas de la asignatura ponderan el 70% de la calificación final: práctica individual de investigación de una comunidad y diseño de proyecto comunicativo (25%), proceso de elaboración y seguimiento tutorial (25%) y retos o entregas parciales vinculadas a las prácticas (20%).</p><br><p>La participación y el seguimiento de la actividad online ponderan el 30% restante: participación argumentada en foros o actividades de debate (5%), asistencia y participación en clases en directo (15%) y seguimiento de materiales del campus virtual (10%).</p><br><p>La asignatura no contempla examen final. En convocatoria extraordinaria, la calificación se obtendrá mediante una entrega o conjunto de tareas equivalentes que permitan evaluar los mismos resultados de aprendizaje: investigación de una comunidad, ideación de un proyecto comunicativo, actividades online, seguimiento del proceso y uso de materiales del campus, aplicando los mismos sistemas de evaluación y ponderaciones.</p></p>",
+    "responsables": [
+      {
+        "id": "persona_129152",
+        "nombre_umh": "GARCÍA AVILES, JOSÉ ALBERTO"
+      }
+    ],
+    "profesorado": [
+      {
+        "id": "persona_136403",
+        "nombre_umh": "CARVAJAL PRIETO, MIGUEL"
+      },
+      {
+        "id": "persona_173031",
+        "nombre_umh": "GARCIA ORTEGA, ALBA"
+      },
+      {
+        "id": "persona_129152",
+        "nombre_umh": "GARCÍA AVILES, JOSÉ ALBERTO"
+      },
+      {
+        "id": "persona_171479",
+        "nombre_umh": "MARIN SANCHIZ, CRISTIAN RAMON"
+      }
+    ],
+    "guia_url": "https://www.umh.es/contenido/Estudios/:asi_m_3018/datos_es.html"
+  },
+  {
+    "codigo": 3019,
+    "slug": "contenido-producto-servicio",
+    "nombre": "El periodismo como contenido, producto y servicio",
+    "ects": 4.5,
+    "semestre": 1,
+    "caracter": "Obligatoria",
+    "materia": "El periodismo en una industria en transformación",
+    "curso_academico": 2026,
+    "validada": "10/07/2026",
+    "horas": 112.5,
+    "descripcion_html": "<p>Esta asignatura introduce al sector de la comunicación digital y le plantea los retos a los que se enfrenta el periodismo como contenido, producto y servicio. Se explicarán las distintas alternativas que ofrece la industria, se analizarán los casos de éxito y los valores de sus negocios, se buscarán las claves que hacen exitosos los proyectos en el ecosistema digital. Los estudiantes aprovecharán la materia para identificar las claves de su proyecto digital.</p>",
+    "interes_profesional": "Mediante la presente materia de estudio el estudiante deberá conocer y valorar los nichos de especialización periodística online, a partir del conocimiento de estructuras y organización de contenidos. Dicho conocimiento, unido al estudio de casos, servirá para avanzar en una aplicación teórico-práctica, ideando, diseñando, proponiendo y justificando el desarrollo de nichos innovadores de especialización periodística online.",
+    "objetivos": [
+      "Profundizar en el concepto y evolución del periodismo de nicho o periodismo especializado",
+      "Tener capacidad para analizar críticamente los nichos de especialización periodística, entendiendo las relaciones entre contenido, producto y servicio",
+      "Analizar contenidos y rutinas de trabajo redaccional en productos periodísticos especializados",
+      "Manejar las claves fundamentales para avanzar en propuestas rigurosas de especialización periodísticas"
+    ],
+    "unidades": [
+      "Introducción a la especialización en contenidos periodísticos, productos y servicios online",
+      "Microperiodismo: Nichos de especialización periodística",
+      "La innovación en temas y enfoques",
+      "Gestión de producto periodístico",
+      "El periodismo como servicio",
+      "Particularidades económicas del periodismo como producto y servicio"
+    ],
+    "evaluacion_html": "<p><p>Aquí tienes el texto corregido y en los tres idiomas:</p><br><p><br>CASTELLANO</p><br><p>La nota de la asignatura se obtendrá mediante los sistemas de evaluación previstos en la memoria verificada para la modalidad a distancia:</p><br><p>Evaluación de casos prácticos online: 25% — análisis de la propuesta editorial de un medio especializado innovador (producto final).<br>Asistencia a tutorías online: 25% — seguimiento del proceso de elaboración de la práctica: selección del medio, delimitación del caso, revisión de avances, feedback del profesorado y aplicación de mejoras en la versión final.<br>Evaluación de actividades online: 25% — retos y entregas parciales vinculadas al análisis de la propuesta editorial (20%) y participación argumentada en los foros o actividades de debate (5%).<br>Control de presencia online y visionado de vídeos: 25% — asistencia y participación en las sesiones online (15%) y seguimiento de los materiales del campus virtual (10%).<br>En conjunto, la práctica de la asignatura pondera el 70% de la calificación final: análisis de la propuesta editorial de un medio especializado innovador (25%), proceso de elaboración y seguimiento tutorial (25%) y retos o entregas parciales vinculadas a la práctica (20%).</p><br><p>La participación y el seguimiento de la actividad online ponderan el 30% restante: participación argumentada en foros o actividades de debate (5%), asistencia y participación en sesiones online (15%) y seguimiento de materiales del campus virtual (10%).</p><br><p>La asignatura no contempla examen final. En convocatoria extraordinaria, la calificación se obtendrá mediante una entrega o conjunto de tareas equivalentes que permitan evaluar los mismos resultados de aprendizaje: análisis de la propuesta editorial, actividades online, seguimiento del proceso y uso de materiales del campus, aplicando los mismos sistemas de evaluación y ponderaciones.</p></p>",
+    "responsables": [
+      {
+        "id": "persona_171479",
+        "nombre_umh": "MARIN SANCHIZ, CRISTIAN RAMON"
+      }
+    ],
+    "profesorado": [
+      {
+        "id": "persona_136403",
+        "nombre_umh": "CARVAJAL PRIETO, MIGUEL"
+      },
+      {
+        "id": "persona_171479",
+        "nombre_umh": "MARIN SANCHIZ, CRISTIAN RAMON"
+      }
+    ],
+    "guia_url": "https://www.umh.es/contenido/Estudios/:asi_m_3019/datos_es.html"
+  },
+  {
+    "codigo": 3020,
+    "slug": "modelos-de-negocio",
+    "nombre": "Nuevos modelos de negocio",
+    "ects": 4.5,
+    "semestre": 1,
+    "caracter": "Obligatoria",
+    "materia": "El periodismo en una industria en transformación",
+    "curso_academico": 2026,
+    "validada": "10/07/2026",
+    "horas": 112.5,
+    "descripcion_html": "<p>Esta asignatura brinda a los estudiantes la oportunidad de conocer la dinámica económica y empresarial del ecosistema digital de la comunicación. Profesores y expertos en la materia revelarán las claves de algunos de los casos más exitosos que han renovado este sector. Los estudiantes aprovecharán la materia para diseñar el plan de negocio ideal para su proyecto. Además los estudiantes conocerán las múltiples alternativas de financiación y negocio de la red y la economía digital: publicidad, distribución, comercio electrónico,<br>crowdfunding, marketing, etc.</p>",
+    "interes_profesional": "Esta asignatura introduce a los estudiantes en el nuevo paradigma económico en el que vive el periodismo y la industria de la comunicación en general. La materia presenta las claves de la transformación del negocio de los medios, muestra cómo ha cambiado el ecosistema hacia los modelos de pago y ofrece herramientas para analizar y diseñar modelos de negocio adaptados a un mercado dominado por las plataformas. El objetivo es ayudar a los estudiantes a planificar el modelo de negocio y las fuentes de ingresos de un proyecto periodístico propio.",
+    "objetivos": [
+      "Entender los elementos de un modelo de negocio y aplicarlos en los propios proyectos",
+      "Analizar y descubrir casos innovadores desde el punto de vista del modelo de negocio",
+      "Conocer y entender las claves de la transformación del negocio mediático",
+      "Emplear herramientas para diseñar un modelo de negocio"
+    ],
+    "unidades": [
+      "Innovar en la economía del periodismo",
+      "Introducción a la planificación económico/financiera",
+      "Investigación de mercado y análisis de la competencia",
+      "El modelo de negocio: concepto, elementos y claves para definirlo"
+    ],
+    "evaluacion_html": "<p><p>La nota de la asignatura se obtendrá mediante los sistemas de evaluación previstos en la memoria verificada para la modalidad a distancia:<br>Evaluación de casos prácticos online: 25% — caso de estudio sobre el modelo de negocio de un medio, emprendedor, creador individual o startup informativa real, con entrevista a una fuente primaria y aplicación del método Business Model Canvas (producto final).<br>Asistencia a tutorías online: 25% — seguimiento del proceso de elaboración del caso de estudio: selección del medio, emprendedor, creador individual o startup informativa, análisis preliminar del modelo de negocio, preparación y realización de la entrevista, revisión de avances, feedback del profesorado y aplicación de mejoras en la versión final.<br>Evaluación de actividades online: 25% — retos y entregas parciales vinculadas al análisis de tipos de modelos de negocio y a la aplicación del Business Model Canvas (20%) y participación argumentada en los foros o actividades de debate (5%).<br>Control de presencia online y visionado de vídeos: 25% — asistencia y participación en las clases online (15%) y seguimiento de los materiales del campus virtual (10%).<br>En conjunto, las prácticas de la asignatura ponderan el 70% de la calificación final: caso de estudio sobre modelo de negocio con entrevista a fuente primaria y aplicación del Business Model Canvas (25%), proceso de elaboración y seguimiento tutorial (25%) y retos o entregas parciales vinculadas a las prácticas (20%).<br>La participación y el seguimiento de la actividad online ponderan el 30% restante: participación argumentada en foros o actividades de debate (5%), asistencia y participación en clases online (15%) y seguimiento de materiales del campus virtual (10%).<br>La asignatura no contempla examen final. En convocatoria extraordinaria, la calificación se obtendrá mediante una entrega o conjunto de tareas equivalentes que permitan evaluar los mismos resultados de aprendizaje: análisis de modelos de negocio, aplicación del Business Model Canvas, entrevista a una fuente primaria, actividades online, seguimiento del proceso y uso de materiales del campus, aplicando los mismos sistemas de evaluación y ponderaciones.</p></p>",
+    "responsables": [
+      {
+        "id": "persona_136403",
+        "nombre_umh": "CARVAJAL PRIETO, MIGUEL"
+      }
+    ],
+    "profesorado": [
+      {
+        "id": "persona_136403",
+        "nombre_umh": "CARVAJAL PRIETO, MIGUEL"
+      },
+      {
+        "id": "persona_171479",
+        "nombre_umh": "MARIN SANCHIZ, CRISTIAN RAMON"
+      }
+    ],
+    "guia_url": "https://www.umh.es/contenido/Estudios/:asi_m_3020/datos_es.html"
+  },
+  {
+    "codigo": 3021,
+    "slug": "impacto-tecnologia",
+    "nombre": "El impacto de la tecnología en el periodismo",
+    "ects": 4.5,
+    "semestre": 1,
+    "caracter": "Obligatoria",
+    "materia": "El periodismo en una industria en transformación",
+    "curso_academico": 2026,
+    "validada": "10/07/2026",
+    "horas": 112.5,
+    "descripcion_html": "<p>Esta asignatura introduce a los estudiantes en el ámbito tecnológico de sus proyectos. La asignatura no pretende enseñar cómo programar con lenguajes informáticos complejos,<br>sino que entiendan cómo funcionan los soportes. La clave es conocer la importancia de los soportes para amoldar los productos al soporte adecuado, teniendo en cuenta cómo se<br>desarrollan, cómo se financian y qué ventajas y desventajas económicas tienen. Mediante esta materia, los estudiantes sabrán en que soporte deberían lanzar su proyecto digital.</p>",
+    "interes_profesional": "Esta asignatura introduce a los estudiantes en el ámbito tecnológico de sus proyectos con un enfoque especial hacia la Inteligencia Artificial. La asignatura no pretende enseñar cómo programar con lenguajes informáticos complejos, sino que entiendan cómo funcionan los resortes de la producción y la distribución de contenidos y servicios. Mediante esta materia, los estudiantes conocerán los dispositivos, las plataformas y las herramientas en las que se debería basar su proyecto digital. Se abordará con profundidad el impacto de la inteligencia artificial en periodismo.",
+    "objetivos": [
+      "Entender las posibilidades de cada soporte tecnológico en el diseño de un producto o servicio periodístico",
+      "Entender y aplicar las claves de la inteligencia artificial",
+      "Dominar las principales herramientas de IA generativa",
+      "Dominar las bases de la usabilidad y la experiencia de usuario",
+      "Descubrir los principales recursos tecnológicos para innovar en periodismo",
+      "Conocer los casos y tendencias de la innovación tecnológica en los diferentes formatos de la información digital"
+    ],
+    "unidades": [
+      "La tecnología en la innovación periodística",
+      "El impacto de la inteligencia artificial en el periodismo"
+    ],
+    "evaluacion_html": "<p><p>La nota de la asignatura se obtendrá mediante los sistemas de evaluación previstos en la memoria verificada para la modalidad a distancia:<br>Evaluación de casos prácticos online: 25% — informe de IA sobre caso y caso de estudio colaborativo (producto final).<br>Asistencia a tutorías online: 25% — seguimiento del proceso de elaboración de las prácticas: delimitación del caso, análisis, trabajo colaborativo, revisión de avances, feedback del profesorado y aplicación de mejoras en las versiones finales.<br>Evaluación de actividades online: 25% — retos y entregas parciales vinculadas al informe de IA y al caso de estudio colaborativo (20%) y participación argumentada en los foros o actividades de debate (5%).<br>Control de presencia online y visionado de vídeos: 25% — asistencia y participación en las clases online (15%) y seguimiento de los materiales del campus virtual (10%).<br>En conjunto, las prácticas de la asignatura ponderan el 70% de la calificación final: informe de IA sobre caso y caso de estudio colaborativo (25%), proceso de elaboración y seguimiento tutorial (25%) y retos o entregas parciales vinculadas a las prácticas (20%).<br>La participación y el seguimiento de la actividad online ponderan el 30% restante: participación argumentada en foros o actividades de debate (5%), asistencia y participación en clases online (15%) y seguimiento de materiales del campus virtual (10%).<br>La asignatura no contempla examen final. En convocatoria extraordinaria, la calificación se obtendrá mediante una entrega o conjunto de tareas equivalentes que permitan evaluar los mismos resultados de aprendizaje: informe de IA sobre caso, caso de estudio colaborativo, actividades online, seguimiento del proceso y uso de materiales del campus, aplicando los mismos sistemas de evaluación y ponderaciones.</p></p>",
+    "responsables": [
+      {
+        "id": "persona_129652",
+        "nombre_umh": "ARIAS ROBLES, FELIX"
+      }
+    ],
+    "profesorado": [
+      {
+        "id": "persona_129652",
+        "nombre_umh": "ARIAS ROBLES, FELIX"
+      },
+      {
+        "id": "persona_173491",
+        "nombre_umh": "VALERO PASTOR, JOSE MARIA"
+      }
+    ],
+    "guia_url": "https://www.umh.es/contenido/Estudios/:asi_m_3021/datos_es.html"
+  },
+  {
+    "codigo": 3022,
+    "slug": "diseno-planificacion-proyectos",
+    "nombre": "Diseño y planificación de proyectos periodísticos",
+    "ects": 6,
+    "semestre": 1,
+    "caracter": "Obligatoria",
+    "materia": "Innovación en producción periodística",
+    "curso_academico": 2026,
+    "validada": "10/07/2026",
+    "horas": 150,
+    "descripcion_html": "<p>Esta asignatura se plantea como un espacio apropiado para el fomento de proyectos en el sector de la comunicación. El trabajo consistirá sobre todo en sesiones creativas prácticas<br>de los miembros del equipo con los asesores y profesores del master. En esos talleres, también con su vertiente semipresencial, se tratarán asuntos como el nicho de mercado<br>(audiencia), el diseño de producto, el plan de la empresa, la financiación, los recursos humanos, el marketing aspectos legales e incluso la internacionalización.</p>",
+    "interes_profesional": "Introduce el concepto de innovación aplicado al desarrollo de proyectos periodísticos, tanto de carácter emprendedor como interno en las empresas. Está diseñada para ayudarte a plantear y defender la propuesta de valor de un proyecto periodístico propio mediante un método de trabajo práctico, con la ayuda de los docentes de la materia. Para alcanzar este objetivo, los contenidos de la asignatura explican qué es innovación en periodismo, muestran cómo innovan los medios (en producción, distribución, organización y comercialización) y presentan el contexto de transformación del sector. Además, desarrollan el concepto de propuesta de valor aplicada al periodismo dentro de la filosofía del crecimiento lean.",
+    "objetivos": [
+      "Conocer y emplear metodologías creativas para generar ideas",
+      "Aprender a trabajar en equipo para valorar la oportunidad de cada propuesta",
+      "Entender que el usuario o destinatario final es el camino para validar las hipótesis",
+      "Desarrollar un producto mínimo viable que sintetice la propuesta de valor",
+      "Aprender a escribir de manera sintética, clara y atractiva una propuesta de valor"
+    ],
+    "unidades": [
+      "Introducción a la innovación en periodismo",
+      "Identificar las tendencias para incentivar la creatividad",
+      "Design thinking e innovación en periodismo",
+      "La propuesta de valor en periodismo: productos, servicios y procesos"
+    ],
+    "evaluacion_html": "<p><p>La nota de la asignatura se obtendrá mediante los sistemas de evaluación previstos en la memoria verificada para la modalidad a distancia:</p><br><p>Evaluación de casos prácticos online: 25% — propuesta definitiva del proyecto: informe final y vídeo de Elevator Pitch de 5 minutos (producto final). <br>Asistencia a tutorías online: 25% — seguimiento del proceso de elaboración del proyecto: primera propuesta de valor mediante formulario en octubre, revisión de avances, feedback del profesorado y aplicación de mejoras en la propuesta definitiva.<br>Evaluación de actividades online: 25% — retos y entregas parciales vinculadas al proyecto (20%) y participación argumentada en los foros o actividades de debate (5%).<br>Control de presencia online y visionado de vídeos: 25% — asistencia y participación en las clases online (15%) y seguimiento de los materiales del campus virtual (10%).<br>En conjunto, las prácticas de la asignatura ponderan el 70% de la calificación final: propuesta definitiva del proyecto (25%), proceso de elaboración y seguimiento tutorial (25%) y retos o entregas parciales vinculadas al proyecto (20%).</p><br><p>La participación y el seguimiento de la actividad online ponderan el 30% restante: participación argumentada en foros o actividades de debate (5%), asistencia y participación en clases online (15%) y seguimiento de materiales del campus virtual (10%).</p><br><p>La asignatura no contempla examen final. En convocatoria extraordinaria, la calificación se obtendrá mediante una entrega o conjunto de tareas equivalentes que permitan evaluar los mismos resultados de aprendizaje: propuesta de proyecto, informe final, Elevator Pitch, actividades online, seguimiento del proceso y uso de materiales del campus, aplicando los mismos sistemas de evaluación y ponderaciones.</p></p>",
+    "responsables": [
+      {
+        "id": "persona_136403",
+        "nombre_umh": "CARVAJAL PRIETO, MIGUEL"
+      }
+    ],
+    "profesorado": [
+      {
+        "id": "persona_129652",
+        "nombre_umh": "ARIAS ROBLES, FELIX"
+      },
+      {
+        "id": "persona_136403",
+        "nombre_umh": "CARVAJAL PRIETO, MIGUEL"
+      },
+      {
+        "id": "persona_137194",
+        "nombre_umh": "DE LARA GONZALEZ, ALICIA"
+      },
+      {
+        "id": "persona_129152",
+        "nombre_umh": "GARCÍA AVILES, JOSÉ ALBERTO"
+      },
+      {
+        "id": "persona_171479",
+        "nombre_umh": "MARIN SANCHIZ, CRISTIAN RAMON"
+      },
+      {
+        "id": "persona_173491",
+        "nombre_umh": "VALERO PASTOR, JOSE MARIA"
+      }
+    ],
+    "guia_url": "https://www.umh.es/contenido/Estudios/:asi_m_3022/datos_es.html"
+  },
+  {
+    "codigo": 3023,
+    "slug": "desarrollo-lanzamiento-proyectos",
+    "nombre": "Desarrollo y lanzamiento de proyectos periodísticos",
+    "ects": 6,
+    "semestre": 2,
+    "caracter": "Obligatoria",
+    "materia": "Innovación en producción periodística",
+    "curso_academico": 2026,
+    "validada": "10/07/2026",
+    "horas": 150,
+    "descripcion_html": "<p>El objetivo de la asignatura es ofrecer una metodología de trabajo, unos contenidos y un entorno que facilite al alumnado, en equipos, la planificación, organización y lanzamiento de<br>un proyecto periodístico en el sector de la comunicación digital, considerando todas aquellas variables que puedan ejercer una influencia en el desarrollo y puesta en marcha del proyecto.</p>",
+    "interes_profesional": "El objetivo de esta asignatura es capacitar a los estudiantes para desarrollar y planificar el lanzamiento de un proyecto periodístico y presentarlo ante un público objetivo. Con los contenidos de esta asignatura, los estudiantes aprenderán métodos para enfocar la marca y el storytelling de un proyecto, se introducirán en la estrategia de marketing y conocerán la parte práctica de una actividad empresarial.",
+    "objetivos": [
+      "Realizar una memoria convincente y rigurosa del proyecto desarrollado",
+      "Desarrollar de manera creativa el enfoque y el concepto del proyecto",
+      "Culminar el prototipo o primera versión del proyecto ideado",
+      "Planificar la puesta en marcha y el alcance del proyecto",
+      "Definir la financiación y la estructura legal/empresarial del proyecto",
+      "Comunicar de forma eficaz el proyecto ante un público objetivo"
+    ],
+    "unidades": [
+      "Estrategia de marketing digital",
+      "Storytelling aplicado a marcas, proyectos y startups",
+      "Financiación y aspectos jurídicos del emprendedor",
+      "Oratoria y presentación en público II",
+      "Elementos esenciales en desarrollo de proyectos",
+      "Inteligencia Artificial aplicada al desarrollo y lanzamiento de proyectos periodísticos"
+    ],
+    "evaluacion_html": "<p><p>La nota de la asignatura se obtendrá mediante los sistemas de evaluación previstos en la memoria verificada para la modalidad a distancia:</p><br><p>Evaluación de casos prácticos online: 25% — Elaboración del \"Plan de acción\" (producto final): presentación por escrito del apartado \"Plan de Acción\" con al menos dos de las fases, relacionadas con el ámbito del marketing y la comunicación o con el ámbito del desarrollo del proyecto (equipo, producción, etc.). </p><br><p>Asistencia a tutorías online: 25% — seguimiento del proceso de elaboración del \"Plan de acción\": entrega intermedia (avance de las fases seleccionadas), feedback del profesorado y aplicación de mejoras en la versión final.</p><br><p>Evaluación de actividades online: 25% — retos y entregas parciales vinculadas a la elaboración del \"Plan de acción\" (20%) y participación argumentada en los foros (5%).</p><br><p>Control de presencia online y visionado de vídeos: 25% — asistencia y participación en las clases en directo (15%) y seguimiento de los materiales del campus virtual (10%).</p><br><p>La elaboración del \"Plan de acción\" pondera el 70% de la calificación final: producto final (25%), proceso de elaboración y seguimiento tutorial (25%) y retos o entregas parciales vinculadas al plan (20%).</p><br><p>La participación y el seguimiento de la actividad online ponderan el 30% restante: participación argumentada en foros (5%), asistencia y participación en clases en directo (15%) y seguimiento de materiales del campus virtual (10%).</p><br><p>La asignatura no contempla examen final. En convocatoria extraordinaria, la calificación se obtendrá mediante una entrega o conjunto de tareas equivalentes que permitan evaluar los mismos resultados de aprendizaje: producto final del \"Plan de acción\", actividades online, seguimiento del proceso y uso de materiales del campus, aplicando los mismos sistemas de evaluación y ponderaciones.</p></p>",
+    "responsables": [
+      {
+        "id": "persona_136403",
+        "nombre_umh": "CARVAJAL PRIETO, MIGUEL"
+      }
+    ],
+    "profesorado": [
+      {
+        "id": "persona_136403",
+        "nombre_umh": "CARVAJAL PRIETO, MIGUEL"
+      },
+      {
+        "id": "persona_137194",
+        "nombre_umh": "DE LARA GONZALEZ, ALICIA"
+      },
+      {
+        "id": "persona_171479",
+        "nombre_umh": "MARIN SANCHIZ, CRISTIAN RAMON"
+      }
+    ],
+    "guia_url": "https://www.umh.es/contenido/Estudios/:asi_m_3023/datos_es.html"
+  },
+  {
+    "codigo": 3024,
+    "slug": "narrativas-periodismo-datos",
+    "nombre": "Nuevas narrativas multimedia y periodismo de datos",
+    "ects": 6,
+    "semestre": 2,
+    "caracter": "Optativa",
+    "materia": "Diseño, edición y narrativa periodística digital",
+    "curso_academico": 2026,
+    "validada": "10/07/2026",
+    "horas": 150,
+    "descripcion_html": "<p>Esta asignatura se impartirán en el segundo semestre y contarán con talleres prácticos, trabajo en laboratorio multimedia, visitas a empresas y seminarios impartidos por profesionales de prestigio relacionados con las nuevas narrativas en el ecosistema de la comunicación.</p>",
+    "interes_profesional": "Esta materia proporciona al alumno los conocimientos teóricos y prácticos esenciales para la ideación y el diseño de mensajes periodísticos innovadores de calidad. En un entorno en el que cualquiera puede difundir contenidos, los del periodista tienen que ser más atractivos, precisos, profundos, claros y correctos. Si la web proporciona nuevas alternativas tecnológicas y estilísticas, el profesional de la información debe conocer y dominar las herramientas, los conceptos y las técnicas para explotarlas. La calidad, la seducción y la originalidad ya no son una opción. Mediante las herramientas digitales más avanzadas y el apoyo de la Inteligencia Artificial, se pondrán en práctica las nuevas narrativas y el periodismo de datos.",
+    "objetivos": [
+      "Entender y aplicar las claves de la innovación en los diferentes lenguajes periodísticos",
+      "Conocer y emplear las herramientas adecuadas para aprovechar los formatos y soportes de las redes sociales",
+      "Aplicar las herramientas digitales para extraer, analizar y visualizar grandes volúmenes de datos",
+      "Aplicar la IA para la creación de contenidos de calidad"
+    ],
+    "unidades": [
+      "Periodismo de datos",
+      "Periodismo visual"
+    ],
+    "evaluacion_html": "<p><p>La nota de la asignatura se obtendrá mediante los sistemas de evaluación previstos en la memoria verificada para la modalidad a distancia:<br>Evaluación de casos prácticos online: 25% — creación de un producto periodístico digital que explote las herramientas trabajadas en los dos bloques esenciales de la asignatura: periodismo de datos y relato interactivo (producto final).<br>Asistencia a tutorías online: 25% — seguimiento del proceso de elaboración del producto: definición del enfoque, selección y tratamiento de datos, diseño narrativo interactivo, revisión de avances, feedback del profesorado y aplicación de mejoras en la versión final.<br>Evaluación de actividades online: 25% — retos y entregas parciales vinculadas al producto de periodismo de datos y relato interactivo (20%) y participación argumentada en los foros o actividades de debate (5%).<br>Control de presencia online y visionado de vídeos: 25% — asistencia y participación en las clases online (15%) y seguimiento de los materiales del campus virtual (10%).<br>En conjunto, la práctica de la asignatura pondera el 70% de la calificación final: producto periodístico digital de periodismo de datos y relato interactivo (25%), proceso de elaboración y seguimiento tutorial (25%) y retos o entregas parciales vinculadas al producto (20%).<br>La participación y el seguimiento de la actividad online ponderan el 30% restante: participación argumentada en foros o actividades de debate (5%), asistencia y participación en clases online (15%) y seguimiento de materiales del campus virtual (10%).<br>La asignatura no contempla examen final. En convocatoria extraordinaria, la calificación se obtendrá mediante una entrega o conjunto de tareas equivalentes que permitan evaluar los mismos resultados de aprendizaje: creación de un producto periodístico digital, uso de herramientas de periodismo de datos, desarrollo de relato interactivo, actividades online, seguimiento del proceso y uso de materiales del campus, aplicando los mismos sistemas de evaluación y ponderaciones.</p></p>",
+    "responsables": [
+      {
+        "id": "persona_129652",
+        "nombre_umh": "ARIAS ROBLES, FELIX"
+      }
+    ],
+    "profesorado": [
+      {
+        "id": "persona_129652",
+        "nombre_umh": "ARIAS ROBLES, FELIX"
+      },
+      {
+        "id": "persona_173031",
+        "nombre_umh": "GARCIA ORTEGA, ALBA"
+      },
+      {
+        "id": "persona_171479",
+        "nombre_umh": "MARIN SANCHIZ, CRISTIAN RAMON"
+      }
+    ],
+    "guia_url": "https://www.umh.es/contenido/Estudios/:asi_m_3024/datos_es.html"
+  },
+  {
+    "codigo": 3025,
+    "slug": "redes-sociales",
+    "nombre": "El periodismo en las redes sociales",
+    "ects": 6,
+    "semestre": 2,
+    "caracter": "Optativa",
+    "materia": "Diseño, edición y narrativa periodística digital",
+    "curso_academico": 2026,
+    "validada": "10/07/2026",
+    "horas": 150,
+    "descripcion_html": "<p>Esta asignatura se impartirán en el segundo semestre y contarán con talleres prácticos, trabajo en laboratorio multimedia, visitas a empresas y seminarios impartidos por profesionales de prestigio relacionados con el nuevo ecosistema mediático digital.</p>",
+    "interes_profesional": "Esta asignatura se adentra en la aplicación práctica de las redes sociales en el periodismo y la comunicación. El alumnado aprenderá las claves sobre las últimas tendencias en estas plataformas en los principales formatos y soportes. De este modo, podrá difundir y distribuir de forma eficaz el contenido relacionado con el proyecto central del máster. La asignatura se divide en dos bloques, separados por al menos un mes, para aplicar las claves de la estrategia diseñada, medir sus resultados y optimizar su diseño.",
+    "objetivos": [
+      "Entender las nuevas dinámicas de las redes sociales en el entorno periodístico",
+      "Conocer y aplicar las nuevas herramientas orientadas al usuario en las redes sociales",
+      "Dominar la verificación del contenido distribuido en las redes sociales",
+      "Diseñar estrategias de marketing y comunicación en redes sociales"
+    ],
+    "unidades": [
+      "Las redes sociales en el periodismo",
+      "Redacción y marketing en redes sociales",
+      "Nuevos formatos en redes sociales"
+    ],
+    "evaluacion_html": "<p><p>La nota de la asignatura se obtendrá mediante los sistemas de evaluación previstos en la memoria verificada para la modalidad a distancia:</p><br><h2>Convocatoria ordinaria</h2><br><p>Evaluación de casos prácticos online: 25% — práctica aplicada de estrategia, análisis, implantación o mejora de redes sociales en un proyecto, medio o marca informativa (producto final).<br>Asistencia a tutorías online: 25% — seguimiento del proceso de elaboración de la práctica: definición de la modalidad elegida, revisión de avances, análisis de resultados, feedback del profesorado y aplicación de mejoras en la versión final.<br>Evaluación de actividades online: 25% — retos y entregas parciales vinculadas a la práctica de redes sociales (20%) y participación argumentada en los foros o actividades de debate (5%).<br>Control de presencia online y visionado de vídeos: 25% — asistencia y participación en las clases online (15%) y seguimiento de los materiales del campus virtual (10%).<br>En conjunto, la práctica de la asignatura pondera el 70% de la calificación final: producto final de la práctica aplicada (25%), proceso de elaboración y seguimiento tutorial (25%) y retos o entregas parciales vinculadas a la práctica (20%).<br>La participación y el seguimiento de la actividad online ponderan el 30% restante: participación argumentada en foros o actividades de debate (5%), asistencia y participación en clases online (15%) y seguimiento de materiales del campus virtual (10%).</p><br><p>La práctica podrá desarrollarse en una de las siguientes modalidades:<br>Modalidad A: estrategia e implantación inicial de redes sociales para un proyecto, medio o marca informativa. La práctica se compone de una primera parte de estrategia e implantación inicial y una segunda parte de análisis de resultados y reenfoque.<br>Modalidad B: análisis de la estrategia actual de redes sociales de un proyecto, medio o marca informativa. La práctica se compone de una primera parte de diagnóstico de la estrategia actual y una segunda parte de propuestas de mejora.</p><br><h2>Convocatoria extraordinaria</h2><br><p>En convocatoria extraordinaria, la calificación se obtendrá mediante una entrega o conjunto de tareas equivalentes que permitan evaluar los mismos resultados de aprendizaje: estrategia de redes sociales, análisis de una estrategia existente, implantación o propuesta de mejora, análisis de resultados, actividades online, seguimiento del proceso y uso de materiales del campus, aplicando los mismos sistemas de evaluación y ponderaciones.<br>La entrega extraordinaria podrá desarrollarse en una de las siguientes modalidades:<br>Modalidad A: estrategia e implantación inicial, resultados y reenfoque.<br>Modalidad B: análisis de la estrategia actual y propuestas de mejora.</p></p>",
+    "responsables": [
+      {
+        "id": "persona_173031",
+        "nombre_umh": "GARCIA ORTEGA, ALBA"
+      }
+    ],
+    "profesorado": [
+      {
+        "id": "persona_129652",
+        "nombre_umh": "ARIAS ROBLES, FELIX"
+      },
+      {
+        "id": "persona_173031",
+        "nombre_umh": "GARCIA ORTEGA, ALBA"
+      }
+    ],
+    "guia_url": "https://www.umh.es/contenido/Estudios/:asi_m_3025/datos_es.html"
+  },
+  {
+    "codigo": 3026,
+    "slug": "diseno-web-programacion",
+    "nombre": "Diseño web avanzado e introducción a la programación",
+    "ects": 6,
+    "semestre": 2,
+    "caracter": "Optativa",
+    "materia": "Diseño, edición y narrativa periodística digital",
+    "curso_academico": 2026,
+    "validada": "10/07/2026",
+    "horas": 150,
+    "descripcion_html": "<p>Esta asignatura se impartirán en el segundo semestre y contarán con talleres prácticos, trabajo en laboratorio multimedia, visitas a empresas y seminarios impartidos por profesionales del prestigio del diseño on-line.</p>",
+    "interes_profesional": "La asignatura de Diseño y Programación Web incluye la teoría y los fundamentos necesarios para el planteamiento adecuado de un sitio web a nivel medio-avanzado. A pesar de ello, no es necesario contar con conocimientos previos en la materia para superar y aprender en la asignatura, pues se aportan nociones accesibles con diferentes niveles de dificultad.   Se trata, por lo tanto, de una asignatura de carácter fundamentalmente práctico que introducirá al alumnado en la planificación, la organización y el diseño de un sitio web. Le ayudará a entender su funcionamiento y desarrollo, así como a aplicar conceptos de maquetación y experiencia de usuario. Se enseñarán, mediante ejercicios prácticos, las claves de determinados lenguajes web y el manejo de sistemas de gestión de contenidos. Además, se aprenderán nociones básicas sobre lenguajes de programación avanzados como Python y Javascript.",
+    "objetivos": [
+      "Capacidad para desarrollar un sitio web sencillo basado en Wordpress que se adapte a las necesidades informativas de un proyecto concreto",
+      "Entender la importancia de la experiencia de usuario para crear productos que satisfagan necesidades y consigan objetivos informativos y empresariales",
+      "Dominio del diseño responsable, adaptable a cualquier soporte y conocimiento de la estética y de los diferentes recursos para el diseño web",
+      "Conocimiento de nociones de lenguaje HTML para ser capaz de entender estructuras y adaptar plantillas de Wordpress a las necesidades que requiera el proyecto",
+      "Entender el funcionamiento de las hojas de estilo y el lenguaje CSS, aportando recursos para la posterior actualización de conocimientos",
+      "Descubrir e iniciarse en la utilización del vibecoding para diseñar sitios web con IA"
+    ],
+    "unidades": [
+      "Lenguajes básicos para el desarrollo web: HTML y CSS",
+      "Instalación y configuración de WordPress para sitios periodísticos",
+      "WordPress para periodistas: experiencia de usuario y customer journey map",
+      "HERRAMIENTAS E IDEAS NO-CODE PARA EL PERIODISTA",
+      "Lenguajes de programación avanzados: Python, R y Javascript"
+    ],
+    "evaluacion_html": "<p><p>La nota de la asignatura se obtendrá mediante los sistemas de evaluación previstos en la memoria verificada para la modalidad a distancia:</p><br><p>Evaluación de casos prácticos online: 25% — ejercicios prácticos de programación, arquitectura web y diseño del sitio (producto final). <br>Asistencia a tutorías online: 25% — seguimiento del proceso de elaboración de los ejercicios prácticos: revisión de bocetos, wireframes, avances en HTML/CSS, configuración del sitio en WordPress, feedback del profesorado y aplicación de mejoras en las entregas finales.<br>Evaluación de actividades online: 25% — entregas parciales vinculadas a los ejercicios prácticos (20%) y participación argumentada en los foros de debate de la asignatura (5%).<br>Control de presencia online y visionado de vídeos: 25% — asistencia y participación en las clases online (20%) y seguimiento de los materiales del campus virtual (5%).<br>En conjunto, la realización de ejercicios prácticos pondera el 70% de la calificación final: producto final de los ejercicios (25%), proceso de elaboración y seguimiento tutorial (25%) y entregas parciales vinculadas a los ejercicios prácticos (20%).</p><br><p>La participación y el seguimiento de la actividad online ponderan el 30% restante: participación argumentada en los foros de debate de la asignatura (5%), asistencia y participación en las clases online (20%) y seguimiento de materiales del campus virtual (5%).</p><br><p>Cada semana habrá una clase teórica relacionada con las unidades didácticas de la asignatura: iniciación a HTML y CSS, diseño de sitios web con WordPress, sistemas de gestión de contenidos adaptados a los objetivos de cada proyecto, y experiencia de usuario para sitios web informativos.</p><br><p>A lo largo de la asignatura se entregarán dos ejercicios prácticos principales:</p><br><p>Ejercicio 1: programación HTML/CSS y arquitectura web de un sitio: 30% de la nota final. Incluye bocetos de estructura de la información, wireframes del sitio web propio y currículum vitae en formato HTML/CSS.<br>Ejercicio 2: alojamiento, diseño y puesta en marcha de un sitio web de noticias en WordPress: 40% de la nota final. Incluye instalación/configuración del sitio, diseño web, adaptación a los objetivos informativos del proyecto y uso de los plugins requeridos.<br>La asignatura no contempla examen final. En convocatoria extraordinaria, la calificación se obtendrá mediante una entrega o conjunto de tareas equivalentes que permitan evaluar los mismos resultados de aprendizaje: ejercicios prácticos de HTML/CSS y WordPress, actividades online, seguimiento del proceso y uso de materiales del campus, aplicando los mismos sistemas de evaluación y ponderaciones.</p></p>",
+    "responsables": [
+      {
+        "id": "persona_173491",
+        "nombre_umh": "VALERO PASTOR, JOSE MARIA"
+      }
+    ],
+    "profesorado": [
+      {
+        "id": "persona_129652",
+        "nombre_umh": "ARIAS ROBLES, FELIX"
+      },
+      {
+        "id": "persona_136403",
+        "nombre_umh": "CARVAJAL PRIETO, MIGUEL"
+      },
+      {
+        "id": "persona_173491",
+        "nombre_umh": "VALERO PASTOR, JOSE MARIA"
+      }
+    ],
+    "guia_url": "https://www.umh.es/contenido/Estudios/:asi_m_3026/datos_es.html"
+  },
+  {
+    "codigo": 3027,
+    "slug": "practicas-externas",
+    "nombre": "Prácticas externas",
+    "ects": 8,
+    "semestre": 2,
+    "caracter": "Prácticas Externas",
+    "materia": "Prácticas externas",
+    "curso_academico": 2026,
+    "validada": "10/07/2026",
+    "horas": 200,
+    "descripcion_html": "<p>Los alumnos deberán desarrollar un proyecto o unas prácticas en algunas de las entidades conveniadas a tal efecto con la Universidad Miguel Hernández. El alumno tendrá un tutor de la Universidad y otro de la Empresa. En esta fase formativa, se instruirá al alumno en las tareas del puesto específico al que opta con el tutor de la Universidad y con el de la Entidad colaboradora. El tutor de la entidad dará a conocer, su funcionamiento e indiosincrasia así como todos los aspectos de interés para el correcto desempeño de sus futuras tareas. Esta modalidad también permitirá la incorporación de grupos de alumnos para que puedan desarrollar sus proyectos en las entidades colaboradoras.</p>",
+    "interes_profesional": "El alumnado deberá desarrollar un período de prácticas en entidades de interés o cercanas mediante un convenio de colaboración con la Universidad Miguel Hernández. El estudiante tendrá un tutor de la universidad y otro de la empresa. En esta fase formativa, se les instruirá en las tareas del puesto específico al que se opta. El tutor de la entidad dará a conocer su funcionamiento e idiosincrasia así como todos los aspectos de interés para el correcto desempeño de sus futuras tareas.",
+    "objetivos": [
+      "Afrontar con solvencia trabajos en los que se apliquen los conocimientos adquiridos en los módulos teóricos",
+      "Organización y planificación del trabajo con compañeros y tutores",
+      "Aprender a responsabilizarse de los cometidos asignados",
+      "Elaborar una memoria final del período de prácticas",
+      "Aplicar de forma individual y en equipo conceptos y herramientas prácticas para la innovación en proyectos"
+    ],
+    "unidades": [
+      "Programa Mentoring UMH",
+      "Taller de empleabilidad 2.0",
+      "Contacto, CV y preparación de la entrevista de trabajo"
+    ],
+    "evaluacion_html": "<p><p>Los estudiantes deberán realizar un periodo mínimo de 200 horas de prácticas externas en alguna de las entidades con convenio con el Observatorio Ocupacional de la Universidad Miguel Hernández.</p><br><p>La evaluación de la asignatura se realizará mediante el sistema previsto en la memoria verificada:<br>- Evaluación conjunta del tutor académico y del tutor externo: 100%.<br>Esta evaluación conjunta se compone de los siguientes elementos:<br>- Memoria de prácticas elaborada por el estudiante: 50%.<br>La memoria seguirá el modelo indicado por la asignatura y permitirá al profesor responsable valorar la formación adquirida, la relación de las tareas<br>realizadas con las competencias del título y la reflexión del estudiante sobre su aprendizaje. El documento deberá contar con la firma y el visto bueno<br>del tutor de la entidad.<br>- Evaluación del tutor externo: 50%.<br>El tutor de la entidad colaboradora valorará las actividades desarrolladas, el desempeño del estudiante, su integración en el entorno profesional y la<br>adecuación de las tareas realizadas a los objetivos formativos de la asignatura.<br>La asignatura no contempla examen final. En convocatoria extraordinaria, la calificación se obtendrá mediante los mismos elementos de evaluación, siempre<br>que se hayan completado las horas de prácticas requeridas y se disponga de la memoria de prácticas y de la evaluación del tutor externo.<br>La experiencia laboral y profesional acreditada podrá ser reconocida en forma de créditos que computarán a efectos de la obtención del título oficial, siempre que dicha experiencia esté relacionada con las competencias inherentes al título. El plazo para solicitar el reconocimiento de esta <a href=\"https://estudios.umh.es/reconocimiento-creditos/\" target=\"_blank\" rel=\"nofollow\">asignatura será el establecido por la Universidad Miguel Hernández en el procedimiento correspondiente</a>.</p></p>",
+    "responsables": [
+      {
+        "id": "persona_136403",
+        "nombre_umh": "CARVAJAL PRIETO, MIGUEL"
+      }
+    ],
+    "profesorado": [
+      {
+        "id": "persona_129652",
+        "nombre_umh": "ARIAS ROBLES, FELIX"
+      },
+      {
+        "id": "persona_136403",
+        "nombre_umh": "CARVAJAL PRIETO, MIGUEL"
+      },
+      {
+        "id": "persona_129150",
+        "nombre_umh": "CASTAÑO BERENGUER, JOSE VICENTE"
+      },
+      {
+        "id": "persona_173031",
+        "nombre_umh": "GARCIA ORTEGA, ALBA"
+      },
+      {
+        "id": "persona_129152",
+        "nombre_umh": "GARCÍA AVILES, JOSÉ ALBERTO"
+      },
+      {
+        "id": "persona_171479",
+        "nombre_umh": "MARIN SANCHIZ, CRISTIAN RAMON"
+      },
+      {
+        "id": "persona_173491",
+        "nombre_umh": "VALERO PASTOR, JOSE MARIA"
+      }
+    ],
+    "guia_url": "https://www.umh.es/contenido/Estudios/:asi_m_3027/datos_es.html"
+  },
+  {
+    "codigo": 3028,
+    "slug": "trabajo-fin-de-master",
+    "nombre": "Trabajo fin de máster",
+    "ects": 10,
+    "semestre": 2,
+    "caracter": "Trabajo Fin Máster",
+    "materia": "Trabajo fin de máster",
+    "curso_academico": 2026,
+    "validada": "10/07/2026",
+    "horas": 250,
+    "descripcion_html": "<p>El trabajo final consiste en una memoria del curso académico, que recoge el proyecto desarrollado durante el curso académico. La estructura del trabajo debe incluir al menos los siguientes contenidos: Objetivos del proyecto. Alcance del proyecto. Resultados a obtener. Resumen de actividades a realizar durante todo el proyecto. Cronograma de actividades. Presupuesto del proyecto. Plan de Trabajo.<br></p>",
+    "interes_profesional": "El Trabajo Fin de Máster (TFM) es una asignatura obligatoria diseñada para que el estudiante plasme mediante el trabajo, el estudio y la creatividad los conocimientos adquiridos durante el curso. Este objetivo se deberá certificar mediante la elaboración de un documento escrito y un prototipo (web o aplicación beta) del proyecto desarrollado. Este proyecto es el resultado del trabajo individual y/o colectivo encaminado a atender las necesidades de un público específico mediante el diseño y lanzamiento (real o planificado) de un producto o servicio dentro del amplio sector de la comunicación digital.",
+    "objetivos": [
+      "Analizar la demanda y la oferta de un mercado específico e identificar una necesidad o problema real",
+      "Diseñar, testar y validar un proyecto que ayude a resolver una demanda específica desatendida en un escenario real",
+      "Desarrollar un producto o servicio con un enfoque creativo, a partir del conocimiento del usuario, con funcionalidades y características originales",
+      "Escribir de forma clara y concreta los principales rasgos, aspectos y planes y demás documentos que certifican el desarrollo del proyecto",
+      "Aprender a exponer y defender públicamente las características y oportunidades del proyecto"
+    ],
+    "unidades": [
+      "Cómo elaborar el Trabajo Fin de Máster"
+    ],
+    "evaluacion_html": "<p><p>La nota final del Trabajo Fin de Máster se obtendrá mediante los sistemas de evaluación previstos en la memoria verificada:</p><br><p>- Trabajo Fin de Máster: memoria y defensa pública: 75%.<br>- Seguimiento del tutor y portfolio del proyecto: 25%.</p><br><p>La evaluación de la memoria y la defensa pública del TFM valorará la calidad del proyecto presentado, su coherencia interna, la fundamentación de la<br>propuesta, la viabilidad del producto o iniciativa, la adecuación a las competencias del título, la claridad expositiva y la defensa oral realizada por el<br>estudiante.</p><br><p>El seguimiento del tutor y el portfolio del proyecto valorará el proceso de elaboración del TFM: propuesta inicial, avances, tutorías, entregas<br>intermedias, aplicación del feedback del tutor y evolución del proyecto hasta su versión final.</p><br><p>Además de la memoria, el Trabajo Fin de Máster deberá materializarse a través de algún tipo de producto o propuesta aplicada. Si se trata de un proyecto<br>nuevo, la forma más habitual será la creación de un mínimo producto viable, como un podcast, un sitio web o un conjunto de acciones planificadas en redes<br>sociales. Si se trata de una mejora de un producto ya existente, podrá consistir en una muestra o recopilación de las iniciativas implantadas.</p><br><p>La defensa del TFM será pública y podrá realizarse mediante comunicación online a través de los canales establecidos por el título. Los estudiantes de la<br>modalidad a distancia podrán depositar el documento del TFM de forma online conforme al procedimiento comunicado al comienzo del curso.</p><br><p>En convocatoria extraordinaria se seguirá el mismo procedimiento de evaluación: memoria final del TFM, defensa pública y valoración del seguimiento del<br>tutor y del portfolio del proyecto, aplicando los mismos sistemas de evaluación y ponderaciones.</p><br><p>El TFM deberá contar con un tutor académico, que se solicitará mediante el procedimiento indicado por la dirección del Máster a final del primer<br>cuatrimestre. Además, podrá contar de forma adicional con un tutor externo entre los miembros del claustro, siempre que este acepte la tutorización. De<br>forma excepcional, podrá proponerse un cotutor que no forme parte del profesorado de la Universidad Miguel Hernández.</p><br><p>El Consejo de Máster delegará en la dirección del título la adjudicación de tutores, procurando un reparto equitativo de la carga de tutorización entre el<br>profesorado disponible.</p><br><p>Profesorado tutor:</p><br><p>José Alberto García Avilés - jose.garciaa@umh.es<br>José Luis González Esteban - jose.gonzalez@umh.es<br>Alicia de Lara González - a.lara@umh.es<br>Félix Arias Robles - farias@umh.es<br>Miguel Carvajal Prieto - mcarvajal@umh.es<br>José María Valero - jose.valerop@umh.es<br>Cristian R. Marín - c.marin@umh.es<br>Alba García Ortega - alba.garciao@umh.es</p></p>",
+    "responsables": [
+      {
+        "id": "persona_136403",
+        "nombre_umh": "CARVAJAL PRIETO, MIGUEL"
+      }
+    ],
+    "profesorado": [
+      {
+        "id": "persona_129652",
+        "nombre_umh": "ARIAS ROBLES, FELIX"
+      },
+      {
+        "id": "persona_136403",
+        "nombre_umh": "CARVAJAL PRIETO, MIGUEL"
+      },
+      {
+        "id": "persona_137194",
+        "nombre_umh": "DE LARA GONZALEZ, ALICIA"
+      },
+      {
+        "id": "persona_173031",
+        "nombre_umh": "GARCIA ORTEGA, ALBA"
+      },
+      {
+        "id": "persona_129152",
+        "nombre_umh": "GARCÍA AVILES, JOSÉ ALBERTO"
+      },
+      {
+        "id": "persona_143936",
+        "nombre_umh": "GONZALEZ ESTEBAN, JOSE LUIS"
+      },
+      {
+        "id": "persona_171479",
+        "nombre_umh": "MARIN SANCHIZ, CRISTIAN RAMON"
+      },
+      {
+        "id": "persona_926",
+        "nombre_umh": "NAVAS ALEJO, CARLOS JOSE"
+      },
+      {
+        "id": "persona_159817",
+        "nombre_umh": "OLABE SANCHEZ, MIGUEL FERNANDO"
+      },
+      {
+        "id": "persona_173491",
+        "nombre_umh": "VALERO PASTOR, JOSE MARIA"
+      }
+    ],
+    "guia_url": "https://www.umh.es/contenido/Estudios/:asi_m_3028/datos_es.html"
+  }
+]

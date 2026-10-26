@@ -1,0 +1,159 @@
+curso,fecha,fecha_iso,ponente,slug_ponente,cargo,titulo,asignatura,slug_asignatura,vinculo,tipo,publicar
+2025/26,04/06/2026,2026-06-04,Ismael Nafría,ismael-nafria,,,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
+2025/26,01/06/2026,2026-06-01,Rubén Mínguez (Nogor Digital),ruben-minguez-nogor-digital,"Cofundador, Nogor Digital",Growth marketing para proyectos periodísticos,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
+2025/26,18/05/2026,2026-05-18,Carlos Cabrera,carlos-cabrera,"Editor, Revista Nazarenos",Caso de estudio de periodismo especializado: Revista Nazarenos,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
+2025/26,04/05/2026,2026-05-04,Jesús Jornet,jesus-jornet,"UX Research, freelance",Herramientas de UX para el diseño de sitios web,Diseño web avanzado e introducción a la programación,diseno-web-programacion,Externo,persona,si
+2025/26,27/04/2026,2026-04-27,Pablo Caño Sterck,pablo-cano-sterck,"CEO, Sterck",CMS y gestión de comunidades digitales,Diseño web avanzado e introducción a la programación,diseno-web-programacion,Externo,persona,si
+2025/26,30/03/2026,2026-03-30,Silvia Cobo,silvia-cobo,,,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2025/26,25/03/2026,2026-03-25,Quique Ribera,quique-ribera,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,UMH (fuera del claustro del máster),persona,si
+2025/26,23/03/2026,2026-03-23,Dayanara Champa,dayanara-champa,,,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2025/26,16/03/2026,2026-03-16,Mariano Zafra,mariano-zafra,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2025/26,09/03/2026,2026-03-09,Victòria Oliveres,victoria-oliveres,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2025/26,02/03/2026,2026-03-02,Martín González,martin-gonzalez,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2025/26,18/02/2026,2026-02-18,Laura Navarro,laura-navarro,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2025/26,16/02/2026,2026-02-16,Mar Marique,mar-marique,,,El periodismo en las redes sociales,redes-sociales,Externo,persona,no
+2025/26,19/01/2026,2026-01-19,Juan Candela,juan-candela,Director de Negocio en Las Provincias,El negocio publicitario en los medios,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
+2025/26,12/01/2026,2026-01-12,José A. Navas,jose-a-navas,,Gestión de producto en El Confidencial,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
+2025/26,15/12/2025,2025-12-15,Marina Dragonetti,marina-dragonetti,Jefa de Producto en Clarín,Product management en Clarín,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
+2025/26,09/12/2025,2025-12-09,José Luis Rojas,jose-luis-rojas,"Investigador, Universidad de Sevilla",,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
+2025/26,27/11/2025,2025-11-27,Álvaro Liuzzi,alvaro-liuzzi,,,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
+2025/26,24/11/2025,2025-11-24,Miguel Núñez,miguel-nunez,,,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
+2025/26,20/11/2025,2025-11-20,Antonio Ortiz,antonio-ortiz,,,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
+2025/26,17/11/2025,2025-11-17,José Carlos Sánchez,jose-carlos-sanchez,,,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
+2025/26,03/11/2025,2025-11-03,Lucía González,lucia-gonzalez,Subdirectora de El País,Desarrollo de audiencias en el entorno de la IA,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
+2025/26,27/10/2025,2025-10-27,Silvia Cobo,silvia-cobo,,,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
+2025/26,20/10/2025,2025-10-20,Manuel Arenas,manuel-arenas,,,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
+2025/26,13/10/2025,2025-10-13,Pablo Hamada,pablo-hamada,"Jefe de Audiencias, La Gaceta de Tucumán",Mentalidad startup para innovar en periodismo,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2025/26,,,Roberto Prada,roberto-prada,,Caso de estudio de creación de contenido: Sabe a Alicante,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,UMH (fuera del claustro del máster),persona,si
+2024/25,28/05/2025,2025-05-28,Ismael Nafría,ismael-nafria,Autor de Tendenci@s,Claves de la innovación en boletines,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
+2024/25,19/05/2025,2025-05-19,Carlos Tur,carlos-tur,,Lanzar un proyecto periodístico al mercado: el caso de ElDesmarque,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
+2024/25,05/05/2025,2025-05-05,Irene Beitia,irene-beitia,"Senior Product Designer, DesignOps Foundation",Diseño de producto digital,Diseño web avanzado e introducción a la programación,diseno-web-programacion,Externo,persona,si
+2024/25,29/04/2025,2025-04-29,Pablo Caño Sterck,pablo-cano-sterck,"CEO, Sterck",CMS y gestión de comunidades digitales,Diseño web avanzado e introducción a la programación,diseno-web-programacion,Externo,persona,si
+2024/25,31/03/2025,2025-03-31,Dayanara Champa,dayanara-champa,,,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2024/25,24/03/2025,2025-03-24,Mar Marique,mar-marique,,,El periodismo en las redes sociales,redes-sociales,Externo,persona,no
+2024/25,17/03/2025,2025-03-17,Mariano Zafra,mariano-zafra,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2024/25,10/03/2025,2025-03-10,Martín González,martin-gonzalez,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2024/25,03/03/2025,2025-03-03,Victòria Oliveres,victoria-oliveres,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2024/25,24/02/2025,2025-02-24,Silvia Cobo,silvia-cobo,"Periodista, Repítemelo otra vez",,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2024/25,20/01/2025,2025-01-20,Alejandra Llorente,alejandra-llorente,,Innovar en la comercialización de marcas,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,no
+2024/25,13/01/2025,2025-01-13,José A. Navas,jose-a-navas,Product manager de suscripciones en El Confidencial,Gestión de producto en El Confidencial,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
+2024/25,16/12/2024,2024-12-16,José Luis Rojas,jose-luis-rojas,"Investigador, Universidad de Sevilla",Innovar en periodismo deportivo,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
+2024/25,09/12/2024,2024-12-09,Efrén Lemus,efren-lemus,"Periodista, El Faro",Innovación en periodismo de investigación: el caso de El Faro,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
+2024/25,09/12/2024,2024-12-09,Carlos Cabrera,carlos-cabrera,"Editor, Revista Nazarenos",Caso de estudio de periodismo especializado: Revista Nazarenos,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
+2024/25,04/11/2024,2024-11-04,Lucía González,lucia-gonzalez,,,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
+2024/25,28/10/2024,2024-10-28,Charo Marcos,charo-marcos,Fundadora de Kloshletter,El estudio de la audiencia desde la innovación emprendedora,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
+2024/25,07/10/2024,2024-10-07,Silvia Cobo,silvia-cobo,"Periodista, Repítemelo otra vez",,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2024/25,07/10/2024,2024-10-07,Pia Supervielle,pia-supervielle,,,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2024/25,,,José Carlos Sánchez,jose-carlos-sanchez,,,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
+2024/25,,,David Llorente,david-llorente,,,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
+2024/25,,,Demófilo,demofilo,,,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
+2024/25,,,Eva Belmonte (Civio),eva-belmonte-civio,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2023/24,27/05/2024,2024-05-27,Marta Factor,marta-factor,"Gestora de operaciones, Agencia Soluble",El plan de acción para activar un proyecto periodístico,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
+2023/24,13/05/2024,2024-05-13,Carlos Tur,carlos-tur,,Lanzar un proyecto periodístico al mercado: el caso de ElDesmarque,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
+2023/24,13/05/2024,2024-05-13,Ismael Nafría,ismael-nafria,Autor de Tendenci@s,Claves de la innovación en boletines,,,Externo,persona,si
+2023/24,08/05/2024,2024-05-08,Núria Monmany,nuria-monmany,,UX en productos digitales: el user journey,Diseño web avanzado e introducción a la programación,diseno-web-programacion,Externo,persona,si
+2023/24,29/04/2024,2024-04-29,Pablo Caño Sterck,pablo-cano-sterck,,,Diseño web avanzado e introducción a la programación,diseno-web-programacion,Externo,persona,si
+2023/24,09/04/2024,2024-04-09,Alberto Pachano,alberto-pachano,,,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2023/24,25/03/2024,2024-03-25,Diego Campoy,diego-campoy,,,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2023/24,20/03/2024,2024-03-20,Miriam Hernanz,miriam-hernanz,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2023/24,18/03/2024,2024-03-18,Mariano Zafra,mariano-zafra,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2023/24,11/03/2024,2024-03-11,Martín González,martin-gonzalez,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2023/24,04/03/2024,2024-03-04,Victòria Oliveres,victoria-oliveres,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2023/24,01/03/2024,2024-03-01,Emma Esser,emma-esser,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2023/24,29/02/2024,2024-02-29,Sara Acosta,sara-acosta,,,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
+2023/24,21/02/2024,2024-02-21,Kiko Llaneras,kiko-llaneras,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2023/24,19/02/2024,2024-02-19,Raquel González,raquel-gonzalez,,,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2023/24,09/02/2024,2024-02-09,Guillermo Gil,guillermo-gil,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2023/24,05/02/2024,2024-02-05,Jorge Gascón,jorge-gascon,"Responsable de Accesibilidad digital, UMH",Presentación del TFM y coloquio con alumni del Máster,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,UMH (fuera del claustro del máster),persona,si
+2023/24,05/02/2024,2024-02-05,Viriato Monterde,viriato-monterde,Fundador y director de 960 Pixels Comunicación,Presentación del TFM y coloquio con alumni del Máster,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2023/24,05/02/2024,2024-02-05,Silvia Solana,silvia-solana,Periodista de El Norte (Argentina),Presentación del TFM y coloquio con alumni del Máster,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2023/24,22/01/2024,2024-01-22,Agus Morales,agus-morales,,,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
+2023/24,15/01/2024,2024-01-15,José A. Navas,jose-a-navas,Product manager de suscripciones en El Confidencial,Gestión de producto en El Confidencial,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
+2023/24,13/12/2023,2023-12-13,José Luis Rojas,jose-luis-rojas,,,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
+2023/24,11/12/2023,2023-12-11,Carlos Cabrera,carlos-cabrera,"Editor, Revista Nazarenos",Caso de estudio de periodismo especializado: Revista Nazarenos,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
+2023/24,29/11/2023,2023-11-29,Brenda Valverde,brenda-valverde,Coordinadora de nuevas narrativas en El País (LAB),Nuevas narrativas en un diario generalista: El País,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
+2023/24,27/11/2023,2023-11-27,David Llorente,david-llorente,,,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
+2023/24,20/11/2023,2023-11-20,Ana Valacco,ana-valacco,,,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
+2023/24,06/11/2023,2023-11-06,Lucía González,lucia-gonzalez,Subdirectora de La Vanguardia,Desarrollo de audiencias en el entorno de la IA,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
+2023/24,30/10/2023,2023-10-30,Charo Marcos,charo-marcos,Fundadora de Kloshletter,El estudio de la audiencia desde la innovación emprendedora,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
+2023/24,25/10/2023,2023-10-25,David Corral,david-corral,RTVE,Aplicación de la IA en RTVE,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
+2023/24,19/10/2023,2023-10-19,Andrea Aldana,andrea-aldana,Reportera freelance; columnista en El Espectador,Innovar en periodismo y obsolescencia informativa,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2023/24,19/10/2023,2023-10-19,Loraine Morales,loraine-morales,Editora de El Toque,Periodismo de datos y migraciones en Cuba,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,no
+2023/24,16/10/2023,2023-10-16,Marta Factor,marta-factor,"Gestora de operaciones, Agencia Soluble",Ideación de marca en la creación de un proyecto periodístico,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2023/24,10/10/2023,2023-10-10,Mario Vidal,mario-vidal,Jefe de innovación de El Español,Innovar como método de trabajo,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2023/24,10/10/2023,2023-10-10,Fermín Elizari,fermin-elizari,"Responsable de Comunidades, Relevo",La gestión de comunidades en redes sociales,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2023/24,02/10/2023,2023-10-02,Rafa Vega,rafa-vega,Profesor en Campus EUSA y CIEE Sevilla; editor de Canal Sur,"Grabar, editar y preparar un vídeo de proyectos",Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2022/23,18/09/2023,2023-09-18,Irene Gómez Peña,irene-gomez-pena,Prodigioso Volcán,Estrategia SEO en tiempos de IA para medios,La audiencia en el proceso periodístico,audiencia,Externo,persona,no
+2022/23,30/01/2023,2023-01-30,Feli Carrique,feli-carrique,Coordinadora de News Product Alliance,Emprendimiento con mentalidad de producto,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2022/23,23/01/2023,2023-01-23,Gabriela Pintos,gabriela-pintos,Subgerente de Clarín e Infobae; mentora independiente,Captación de suscripciones en Clarín,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
+2022/23,20/01/2023,2023-01-20,Mariano Zafra,mariano-zafra,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2022/23,16/01/2023,2023-01-16,José A. Navas,jose-a-navas,Product manager de suscripciones en El Confidencial,Gestión de producto en El Confidencial,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
+2022/23,12/12/2022,2022-12-12,Esteban Ordóñez,esteban-ordonez,Redactor y guionista en «Lo de Évole»,La producción audiovisual: nuevos formatos en TV,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
+2022/23,25/11/2022,2022-11-25,Soraya Aybar,soraya-aybar,Periodista freelance,La cobertura especializada en África Mundi,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
+2022/23,23/11/2022,2022-11-23,Alex Barredo,alex-barredo,,,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
+2022/23,23/11/2022,2022-11-23,Charo Marcos,charo-marcos,,,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
+2022/23,23/11/2022,2022-11-23,Susana Martinez,susana-martinez,,,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
+2022/23,21/11/2022,2022-11-21,Miguel Dobrich,miguel-dobrich,Responsable de Dobcast y Periodismo Roboto,Periodismo tecnológico y con datos abiertos,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
+2022/23,21/11/2022,2022-11-21,David Llorente,david-llorente,CEO de Narrativa,Inteligencia artificial para la transformación del periodismo,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
+2022/23,10/11/2022,2022-11-10,Ana López Jiménez,ana-lopez-jimenez,Periodista y consultora freelance,Claves y herramientas para el periodismo móvil,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
+2022/23,07/11/2022,2022-11-07,Germán Frassa,german-frassa,,,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
+2022/23,03/11/2022,2022-11-03,Pablo Fernández,pablo-fernandez,Director adjunto de Prisa Audio,La innovación tecnológica en el audio,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
+2022/23,31/10/2022,2022-10-31,Sebastián Auyanet,sebastian-auyanet,Publisher en NowThis News y consultor de medios,Cómo innovar desde la perspectiva de la audiencia,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
+2022/23,17/10/2022,2022-10-17,Mario Vidal,mario-vidal,Jefe de innovación de El Español,Usuario como centro de innovación,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2022/23,10/10/2022,2022-10-10,David Soler,david-soler,,Proyectos nacidos en el Máster (egresados),Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2022/23,10/10/2022,2022-10-10,Beatriz Lara,beatriz-lara,,Proyectos nacidos en el Máster (egresados),Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2022/23,10/10/2022,2022-10-10,Sara Belled,sara-belled,,Proyectos nacidos en el Máster (egresados),Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2022/23,10/10/2022,2022-10-10,Heriberto Araújo,heriberto-araujo,,Proyectos nacidos en el Máster (egresados),Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2022/23,,,Reporteros Sin Fronteras (sesión con varios ponentes),reporteros-sin-fronteras-sesion-con-varios-ponentes,,,El periodismo en las redes sociales,redes-sociales,Externo,persona,no
+2022/23,,,Eduardo Prádanos,eduardo-pradanos,Fundador y director creativo de Fluor,Branded content: innovación de negocio para medios,Nuevos modelos de negocio,modelos-de-negocio,UMH (fuera del claustro del máster),persona,si
+2022/23,,,Miriam Hernanz,miriam-hernanz,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2022/23,,,Borja Andrino,borja-andrino,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2022/23,,,Martín González,martin-gonzalez,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2022/23,,,Beatriz Lara,beatriz-lara,,,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2022/23,,,Mauricio Cabrera,mauricio-cabrera,,,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2022/23,,,Act2ality,act2ality,,,El periodismo en las redes sociales,redes-sociales,Externo,organizacion,si
+2022/23,,,Emilio Doménech,emilio-domenech,,,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2022/23,,,Dámaso Mondéjar,damaso-mondejar,,,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2022/23,,,Carlos Bajo Erro,carlos-bajo-erro,,,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
+2022/23,,,Núria Monmany,nuria-monmany,Digital Product Designer,Customer journey: idear el producto web con la mente en el usuario,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2022/23,,,Carlos Cabrera,carlos-cabrera,"Editor, Revista Nazarenos",Caso de estudio de periodismo especializado: Revista Nazarenos,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
+2022/23,,,Marta Factor,marta-factor,"Gestora de operaciones, Agencia Soluble",Creación y gestión de experiencias digitales a través de la marca,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
+2022/23,,,Pablo Caño Sterck,pablo-cano-sterck,,El cambio de CMS: Newspack,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2021/22,29/06/2022,2022-06-29,Borja Ventura,borja-ventura,"Profesor, CEU",Innovación en periodismo político,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
+2021/22,06/06/2022,2022-06-06,Hugo Cerezo,hugo-cerezo,Subdirector de Relevo,Cómo lanzar un medio deportivo,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
+2021/22,23/05/2022,2022-05-23,Marc Menchén,marc-menchen,Cofundador de 2Playbook,La realidad del emprendimiento en periodismo,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
+2021/22,09/05/2022,2022-05-09,Irene de Pablo,irene-de-pablo,Diseño de producto en El Confidencial,Diseño de producto web,Diseño web avanzado e introducción a la programación,diseno-web-programacion,Externo,persona,si
+2021/22,02/05/2022,2022-05-02,Pablo Caño Sterck,pablo-cano-sterck,Consultor de transformación digital,La elección del CMS en el diseño periodístico web,Diseño web avanzado e introducción a la programación,diseno-web-programacion,Externo,persona,si
+2021/22,04/04/2022,2022-04-04,Ismael Nafría,ismael-nafria,,,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2021/22,28/03/2022,2022-03-28,Borja Pardo,borja-pardo,,Los formatos visuales en redes sociales,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2021/22,21/03/2022,2022-03-21,Alex Badía,alex-badia,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2021/22,14/03/2022,2022-03-14,Mariano Zafra,mariano-zafra,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2021/22,10/03/2022,2022-03-10,Germán Sánchez Soriano,german-sanchez-soriano,Profesor asociado de Economía Financiera y Contabilidad (UMH),Planificación económica: las cuentas del emprendedor,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,UMH (fuera del claustro del máster),persona,si
+2021/22,09/03/2022,2022-03-09,Daniele Grasso,daniele-grasso,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2021/22,07/03/2022,2022-03-07,Martín González,martin-gonzalez,,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2021/22,23/02/2022,2022-02-23,Guacimara Castrillo,guacimara-castrillo,,El vídeo vertical en El Mundo,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2021/22,22/02/2022,2022-02-22,Andrés Jiménez,andres-jimenez,,Bots y verificación en plataformas de mensajería,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2021/22,21/02/2022,2022-02-21,Mayte Vañó,mayte-vano,,El marketing en redes sociales,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2021/22,14/02/2022,2022-02-14,Alvaro Medina,alvaro-medina,,Las redes sociales en eldiario.es,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2021/22,07/02/2022,2022-02-07,Mauricio Cabrera,mauricio-cabrera,,La economía de la creator economy,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2021/22,24/01/2022,2022-01-24,Marta Gesto,marta-gesto,Directora de Content Factory en Vocento,Branded content en Vocento,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
+2021/22,17/01/2022,2022-01-17,José A. Navas,jose-a-navas,Product manager de suscripciones en El Confidencial,Gestión de producto en El Confidencial,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
+2021/22,14/11/2021,2021-11-14,Lucía González,lucia-gonzalez,Editora de El País,Desarrollo de audiencias en El País,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
+2021/22,13/10/2021,2021-10-13,Diego Masjoan,diego-masjoan,Periodista de El Litoral,La audiencia joven de El Litoral: estrategia en Instagram,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2021/22,10/10/2021,2021-10-10,Luis Pereyra,luis-pereyra,Periodista,La transformación de Letra P,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2021/22,,,Carla Serrano,carla-serrano,Emprendedora,"Veggies World, desarrollo de productos periodísticos",Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2021/22,,,Mario Vidal,mario-vidal,Director de Innovación en El Español,Gestión de la innovación en un medio nativo,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2021/22,,,David Corral,david-corral,Area de Innovación de RTVE,La transformación de la RTVE pública,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
+2021/22,,,Pere Rusiñol,pere-rusinol,Fundador de Alternativas Económicas y Mongolia,Crear medios independientes en la era digital,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
+2021/22,,,Juan Ramón Martín San Román,juan-ramon-martin-san-roman,"Profesor, Universidad de Salamanca",Usabilidad y experiencia de usuario en medios,Diseño web avanzado e introducción a la programación,diseno-web-programacion,Externo,persona,si
+2020/21,24/05/2021,2021-05-24,Esther Alonso,esther-alonso,Directora de Marketing y Desarrollo (eldiario.es),Estrategia de marketing: el caso de eldiario.es,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
+2020/21,17/05/2021,2021-05-17,Marta Caparrós,marta-caparros,Jefa de vídeo internacional en EFE,Defensa de un proyecto con vídeo,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
+2020/21,29/03/2021,2021-03-29,Ismael Nafría,ismael-nafria,Director de National Geographic,Cómo crear una newsletter de éxito,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2020/21,22/03/2021,2021-03-22,Javi Ivànyez,javi-ivanyez,Fundador y editor de Eh!,Del vídeo en Facebook a la disrupción digital,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2020/21,17/03/2021,2021-03-17,Juan Corellano,juan-corellano,Redactor en La Media Inglesa,El vídeo en directo en La Media Inglesa,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2020/21,15/03/2021,2021-03-15,Silvia Cobo,silvia-cobo,Editora Web de El Periódico,La gestión de redes sociales en El Periódico,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
+2020/21,01/03/2021,2021-03-01,Alex Badía,alex-badia,Documentales en Barret Films,"Diseño, creación y distribución de webdocs",Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2020/21,22/02/2021,2021-02-22,Martín González,martin-gonzalez,Periodista visual en The Economist,Gestión de equipos y desarrollo de proyectos con datos,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2020/21,15/02/2021,2021-02-15,Daniele Grasso,daniele-grasso,Periodista de El País,Gestión de equipos y desarrollo de proyectos con datos,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
+2020/21,10/01/2021,2021-01-10,Nelly Luna Amancio,nelly-luna-amancio,Editora general Ojo Publico,Estudio de caso de Ojo Público,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
+2020/21,12/12/2020,2020-12-12,Javi Ivànyez,javi-ivanyez,Fundador y editor de Eh!,Modelo de negocio de periodismo distribuido: el caso de Eh!,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
