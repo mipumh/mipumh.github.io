@@ -2,7 +2,7 @@
 layout: page
 title: Calidad y transparencia
 permalink: /calidad.html
-lead: Documentación oficial del título, resultados, sistema de garantía de calidad y normativas de la Universidad Miguel Hernández.
+lead: "Documentación oficial del título en la UMH."
 description: Documentación oficial del Máster Universitario en Innovación en Periodismo (UMH) sobre verificación, seguimiento, acreditación, resultados y garantía de calidad.
 ---
 {%- assign t = site.data.umh.titulo -%}
@@ -22,10 +22,9 @@ description: Documentación oficial del Máster Universitario en Innovación en 
   <li><a href="{{ d.url }}">{{ d.nombre }}</a><span class="doc-anyo">{{ d.anyo }}</span></li>
 {%- endunless %}{% endfor %}
 </ul>
-<p class="small text-muted">Los documentos se publican en la ficha oficial del título en umh.es. El proceso de renovación de la acreditación de la UMH se explica en la web del <a href="https://calidad.umh.es/evaluacion-certificaciones/acreditacion-umh/">Servicio de Calidad</a>.</p>
+<p class="small text-muted"><a href="https://calidad.umh.es/evaluacion-certificaciones/acreditacion-umh/">Renovación de la acreditación en la UMH</a>.</p>
 
 <h2 id="resultados">Informes de resultados del título</h2>
-<p>Indicadores anuales de demanda, rendimiento, satisfacción e inserción elaborados por la UMH.</p>
 <ul class="doc-list">
 {%- for r in t.resultados_anuales %}
   <li><a href="{{ r.url }}">Informe de resultados {{ r.curso }}</a><span class="doc-anyo">{{ r.curso }}</span></li>

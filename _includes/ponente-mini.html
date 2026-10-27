@@ -1,0 +1,12 @@
+{%- assign s = include.s -%}
+{%- assign foto = site.data.fotos_ponentes[s.slug_ponente] -%}
+{%- if foto -%}{%- capture foto %}{{ site.baseurl }}/images/ponentes/{{ foto }}{% endcapture -%}{%- endif -%}
+<div class="col-sm-6">
+  <div class="card-plain ponente-mini">
+    {% include avatar.html nombre=s.ponente foto=foto tipo=s.tipo %}
+    <div>
+      <p class="nombre mb-0">{{ s.ponente }}</p>
+      {% if s.cargo.size > 0 %}<p class="cargo mb-0">{{ s.cargo }}</p>{% endif %}
+    </div>
+  </div>
+</div>

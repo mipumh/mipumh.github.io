@@ -1,0 +1,15 @@
+{%- comment -%}Etiquetas de las asignaturas de include.d: responsable (menta) o participación (contorno){%- endcomment -%}
+{%- assign d = include.d -%}
+<p class="etiquetas mb-0">
+{%- for a in site.data.umh.asignaturas -%}
+  {%- assign ids = a.profesorado | map: "id" -%}
+  {%- assign rids = a.responsables | map: "id" -%}
+  {%- if d.umh_id and rids contains d.umh_id -%}
+    <span class="pill pill-mint" title="Responsable">{{ a.nombre }}</span>
+  {%- elsif d.umh_id and ids contains d.umh_id -%}
+    <span class="pill">{{ a.nombre }}</span>
+  {%- elsif d.colabora contains a.slug -%}
+    <span class="pill">{{ a.nombre }}</span>
+  {%- endif -%}
+{%- endfor -%}
+</p>

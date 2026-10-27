@@ -3,7 +3,7 @@ layout: page
 title: Nos visitan
 permalink: /nos-visitan.html
 wide: true
-lead: Profesionales invitados a las asignaturas del máster, del curso más reciente al más antiguo. Cada tarjeta recoge el cargo que tenía la persona en el momento de su visita.
+lead: "Profesionales invitados a las asignaturas, con el cargo que tenían en su visita."
 ---
 {%- assign publicables = site.data.ponentes | where: "publicar", "si" -%}
 {%- assign personas = publicables | group_by: "slug_ponente" -%}

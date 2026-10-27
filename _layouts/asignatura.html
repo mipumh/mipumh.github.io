@@ -18,9 +18,8 @@ layout: default
   <div class="row g-4 g-lg-5">
     <div class="col-lg-8 prose">
       {% if a.interes_profesional != "" %}<p class="lead">{{ a.interes_profesional }}</p>{% endif %}
-      {{ a.descripcion_html }}
       {%- if a.unidades.size > 0 %}
-      <h2>Contenidos</h2>
+      <p class="intertitulo">Contenidos</p>
       <ol>{% for u in a.unidades %}<li>{{ u }}</li>{% endfor %}</ol>
       {%- endif %}
       {{ content }}
@@ -28,20 +27,20 @@ layout: default
     </div>
     <aside class="col-lg-4">
       <div class="side-box">
-        <p class="eyebrow">Profesorado 2026/27</p>
+        <p class="eyebrow">Profesorado</p>
         <ul class="list-unstyled">
           {%- assign rids = a.responsables | map: "id" -%}
           {%- for p in a.profesorado %}
           {%- assign doc = site.profesorado | where: "umh_id", p.id | first %}
           <li class="mb-2">{% if doc %}<a href="{{ doc.url }}">{{ doc.nombre }}</a>{% else %}{{ p.nombre_umh }}{% endif %}{% if rids contains p.id %} <span class="pill pill-mint">Responsable</span>{% endif %}</li>
           {%- endfor %}
+          {%- assign externos = site.profesorado | where: "grupo", "externo" -%}
+          {%- for doc in externos %}{% if doc.colabora contains a.slug %}
+          <li class="mb-2"><a href="{{ doc.url }}">{{ doc.nombre }}</a> <span class="small text-muted">· {{ doc.institucion }}</span></li>
+          {%- endif %}{% endfor %}
         </ul>
-        <dl class="datos-mini">
-          <div><dt>Carga de trabajo</dt><dd>{{ a.horas | round }} horas</dd></div>
-          <div><dt>Materia</dt><dd>{{ a.materia | default: "—" }}</dd></div>
-        </dl>
         <a class="btn btn-dark w-100" href="{{ a.guia_url }}">Guía docente oficial</a>
-        <p class="small text-muted mt-3 mb-0">Guía {{ a.curso_academico }}/{{ a.curso_academico | plus: 1 | append: "" | slice: 2, 2 }} validada el {{ a.validada }}. Evaluación, bibliografía y competencias en la guía oficial.</p>
+        <p class="small text-muted mt-3 mb-0">Evaluación, bibliografía y competencias en la guía oficial.</p>
       </div>
     </aside>
   </div>

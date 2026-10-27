@@ -5,15 +5,6 @@
   <div>
     <h3>{{ d.nombre }}</h3>
     <p class="figura mb-1">{% if d.cargo %}<strong>{{ d.cargo }}</strong> · {% endif %}{{ d.figura | default: d.institucion }}</p>
-    {%- if d.umh_id %}
-    {%- assign resp = "" -%}
-    {%- for a in site.data.umh.asignaturas -%}
-      {%- assign ids = a.responsables | map: "id" -%}
-      {%- if ids contains d.umh_id -%}{%- capture resp %}{{ resp }}<span class="pill">{{ a.nombre }}</span> {% endcapture -%}{%- endif -%}
-    {%- endfor %}
-    {% if resp != "" %}<p class="small mb-0"><span class="visually-hidden">Responsable de: </span>{{ resp }}</p>{% endif %}
-    {%- elsif d.asignaturas_anteriores %}
-    <p class="small text-muted mb-0">{{ d.asignaturas_anteriores }}</p>
-    {%- endif %}
+    {% include docente-asignaturas.html d=d %}
   </div>
 </a>

@@ -5,7 +5,7 @@ grupo: umh
 orden: 5
 umh_id: persona_137194
 figura: Profesora Titular de Universidad
-foto: /images/team/porqueeeyo.jpg
+foto: /images/profesorado/alicia-de-lara.jpg
 cv:
   # Plantilla de CV de la AVAP (máx. 300 palabras). Los apartados vacíos no se muestran.
   formacion:

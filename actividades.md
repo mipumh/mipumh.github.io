@@ -2,8 +2,8 @@
 layout: page
 title: Actividades
 permalink: /actividades.html
-lead: Seminarios, talleres y encuentros organizados por el máster, además de las sesiones con profesionales invitados en las asignaturas.
-description: Actividades del Máster Universitario en Innovación en Periodismo (UMH): seminarios, talleres, encuentros con egresados y ponentes invitados.
+lead: "Seminarios, talleres y encuentros del máster."
+description: "Actividades del Máster Universitario en Innovación en Periodismo (UMH): seminarios, talleres, encuentros con egresados y ponentes invitados."
 ---
 {%- for curso in site.data.actividades %}
 <h2>{{ curso.curso }}</h2>

@@ -6,7 +6,6 @@
     <div class="section-head">
       <p class="eyebrow text-dark">Ficha oficial</p>
       <h2 id="datos-titulo">El título en datos</h2>
-      <p class="mb-0">Datos de la <a href="{{ t.ficha_url }}">ficha oficial del título en umh.es</a> (curso {{ t.curso_academico }}/{{ t.curso_academico | plus: 1 | append: "" | slice: 2, 2 }}).</p>
     </div>
     <dl class="datos-grid mb-4">
       <div><dt>Modalidad</dt><dd>{{ t.modalidad | downcase | capitalize }}</dd></div>
@@ -20,13 +19,11 @@
       <div><dt>Código RUCT</dt><dd>{{ t.ruct.codigo }}</dd></div>
       <div><dt>Doctorado</dt><dd>Da acceso</dd></div>
     </dl>
-    <p class="small mb-3">La docencia se imparte 100&nbsp;% en línea y no requiere presencialidad.</p>
     <div class="doc-links">
       <a href="{{ t.ficha_url }}">Ficha oficial</a>
-      <a href="{{ t.ruct.url }}">Registro RUCT</a>
+      <a href="{{ t.ruct.url }}">RUCT</a>
       {% if memoria %}<a href="{{ memoria.url }}">Memoria verificada</a>{% endif %}
-      {% if renovacion %}<a href="{{ renovacion.url }}">Informe de renovación de la acreditación (2020)</a>{% endif %}
-      <a href="{{ site.baseurl }}/calidad.html">Toda la documentación</a>
+      {% if renovacion %}<a href="{{ renovacion.url }}">Renovación de la acreditación (2020)</a>{% endif %}
     </div>
   </div>
 </section>

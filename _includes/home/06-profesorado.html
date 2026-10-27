@@ -3,14 +3,13 @@
   <div class="container">
     <div class="section-head">
       <p class="eyebrow">Profesorado</p>
-      <h2 id="profesorado-titulo">Claustro del curso 2026/27</h2>
-      <p class="mb-0">{{ claustro.size }} docentes de la Universidad Miguel Hernández, según las guías docentes oficiales. Cada ficha incluye su categoría, área de conocimiento y asignaturas.</p>
+      <h2 id="profesorado-titulo">Claustro UMH</h2>
     </div>
     <div class="row g-3">
       {%- for d in claustro %}
       <div class="col-md-6 col-xl-4">{% include docente-card.html d=d %}</div>
       {%- endfor %}
     </div>
-    <p class="mt-4 mb-0"><a class="more-link" href="{{ site.baseurl }}/profesores.html">Todo el profesorado y sus currículos</a></p>
+    <p class="mt-4 mb-0"><a class="more-link" href="{{ site.baseurl }}/profesores.html">Todo el profesorado</a></p>
   </div>
 </section>

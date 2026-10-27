@@ -3,6 +3,7 @@ nombre: Alba García Ortega
 title: Alba García Ortega
 grupo: umh
 orden: 6
+foto: /images/profesorado/alba-garcia-ortega.jpg
 umh_id: persona_173031
 figura: Profesora Ayudante Doctora
 cv:

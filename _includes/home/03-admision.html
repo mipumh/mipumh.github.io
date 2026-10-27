@@ -7,28 +7,26 @@
           <h2 id="admision-titulo">¿Quién puede acceder?</h2>
         </div>
         <ul>
-          <li>Personas con un <strong>título universitario oficial de Grado</strong> español o equivalente, o con otro título de Máster Universitario.</li>
-          <li>Titulados de países del <strong>Espacio Europeo de Educación Superior</strong> cuyo título permita acceder a estudios de máster en su país.</li>
-          <li>Titulados de sistemas ajenos al EEES <strong>sin necesidad de homologar</strong> el título, previa comprobación por la Universidad del nivel de formación.</li>
-          <li>Estudiantes de Grado a los que solo les falte el TFG y, como máximo, 9 ECTS. No podrán obtener el título de máster sin haber obtenido antes el de Grado.</li>
+          <li>Titulados de <strong>Grado o Máster</strong> en España o en el Espacio Europeo de Educación Superior.</li>
+          <li>Titulados de otros países, <strong>sin homologar</strong> el título.</li>
+          <li>Estudiantes de Grado a los que solo falte el TFG y hasta 9 ECTS.</li>
         </ul>
         <p class="d-flex flex-wrap gap-3 mt-4 mb-0">
-          <a class="more-link" href="{{ site.baseurl }}/preinscripcion.html">Requisitos, plazos y preinscripción</a>
+          <a class="more-link" href="{{ site.baseurl }}/preinscripcion.html">Admisión</a>
           <a class="more-link" href="{{ site.inc.tasas }}">Tasas</a>
           <a class="more-link" href="{{ site.inc.becas }}">Becas</a>
         </p>
       </div>
       <div class="col-lg-6">
         <div class="card-plain">
-          <h3 class="h5">Criterios de admisión y ponderación</h3>
-          <p class="small text-muted">Se aplican si la demanda supera las plazas ofertadas. La selección la realiza una comisión nombrada por el Consejo de Máster.</p>
+          <h3 class="h5">Criterios de admisión</h3>
           {%- for c in site.data.admision.criterios %}
           <div class="ponderacion">
             <div class="ponderacion-label"><span>{{ c.criterio }}</span><span>{{ c.min }}–{{ c.max }}&nbsp;%</span></div>
             <div class="bar" role="img" aria-label="Entre el {{ c.min }} y el {{ c.max }} por ciento"><span style="left:0;width:{{ c.min }}%"></span><span class="rango" style="left:{{ c.min }}%;width:{{ c.max | minus: c.min }}%"></span></div>
-            {% if c.nota %}<p class="small text-muted mt-1 mb-0">{{ c.nota }}</p>{% endif %}
           </div>
           {%- endfor %}
+          <p class="small text-muted mb-0">Inglés: nivel mínimo B1.</p>
         </div>
       </div>
     </div>

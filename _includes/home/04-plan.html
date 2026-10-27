@@ -3,8 +3,7 @@
   <div class="container">
     <div class="section-head">
       <p class="eyebrow">Plan de estudios</p>
-      <h2 id="plan-titulo">{{ t.creditos.total }} créditos en un curso académico</h2>
-      <p class="mb-0">Seis materias comunes, 12 créditos optativos a elegir entre tres asignaturas de 6 ECTS, prácticas externas y un Trabajo Fin de Máster con prototipo.</p>
+      <h2 id="plan-titulo">{{ t.creditos.total }} créditos, un curso</h2>
     </div>
     <div class="creditos-bar" role="img" aria-label="Obligatorias {{ t.creditos.obligatorios }} ECTS, optativas {{ t.creditos.optativos }}, prácticas {{ t.creditos.practicas }}, TFM {{ t.creditos.tfm }}">
       <div class="c-obl" style="flex:{{ t.creditos.obligatorios }}">{{ t.creditos.obligatorios }}</div>
@@ -14,11 +13,11 @@
     </div>
     <p class="creditos-leyenda mb-4">
       <span><i style="background:#0b0b0b"></i>Obligatorias</span>
-      <span><i style="background:#3df0c4"></i>Optativas</span>
-      <span><i style="background:#9aa3ad"></i>Prácticas externas</span>
-      <span><i style="background:#e4e7e5"></i>Trabajo Fin de Máster</span>
+      <span><i style="background:#3df0c4"></i>Optativas (2 de 3)</span>
+      <span><i style="background:#9aa3ad"></i>Prácticas</span>
+      <span><i style="background:#e4e7e5"></i>TFM</span>
     </p>
     {% include tabla-asignaturas.html %}
-    <p class="mt-3 mb-0"><a class="more-link" href="{{ site.baseurl }}/planestudios.html">Estructura, competencias y horarios</a></p>
+    <p class="mt-3 mb-0"><a class="more-link" href="{{ site.baseurl }}/planestudios.html">Plan de estudios</a></p>
   </div>
 </section>

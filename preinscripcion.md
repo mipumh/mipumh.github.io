@@ -1,49 +1,41 @@
 ---
 layout: page
-title: Admisión y preinscripción
+title: Admisión
 permalink: /preinscripcion.html
-lead: Requisitos de acceso, criterios de admisión, procedimiento de preinscripción, tasas y becas del Máster Universitario en Innovación en Periodismo.
-description: Admisión al Máster Universitario en Innovación en Periodismo (UMH): requisitos de acceso, criterios y ponderaciones, preinscripción, matrícula, tasas, becas y preguntas frecuentes.
+lead: Requisitos, criterios y pasos para entrar en el máster.
+description: "Admisión al Máster Universitario en Innovación en Periodismo (UMH): requisitos, criterios de admisión, preinscripción, tasas, becas y preguntas frecuentes."
 ---
 {%- assign t = site.data.umh.titulo -%}
-<p class="edicion"><strong>Edición 2026/27 en curso.</strong> La información sobre la preinscripción para el curso 2027/28 se publicará en esta página y en la web de <a href="{{ site.inc.preinscripcion_umh }}">acceso a másteres de la UMH</a>. Si tienes dudas, escríbenos a <a href="mailto:{{ site.inc.email }}">{{ site.inc.email }}</a>.</p>
+<p class="edicion"><strong>Edición 2026/27 en curso.</strong> Las fechas de preinscripción para 2027/28 se publicarán aquí y en <a href="{{ site.inc.preinscripcion_umh }}">estudios.umh.es</a>.</p>
 
-<h2 id="requisitos">Requisitos de acceso</h2>
-{{ t.acceso_html }}
+<p class="intertitulo">Requisitos de acceso</p>
+<ul>
+  <li><strong>Título de Grado o Máster</strong> español o de un país del Espacio Europeo de Educación Superior.</li>
+  <li><strong>Títulos de otros países</strong>: sin homologación, previa comprobación del nivel de formación por la UMH.</li>
+  <li><strong>Estudiantes de Grado</strong> a los que solo falte el TFG y hasta 9 ECTS (<a href="https://estudios.umh.es/acceso/masters/admision-condicionada-a-master-universitario/">admisión condicionada</a>).</li>
+</ul>
 
-<h2 id="perfil">Perfil de ingreso</h2>
-{{ t.perfil_ingreso_html }}
-
-<h2 id="criterios">Criterios de admisión y ponderación</h2>
-<p>Si la demanda supera la oferta de {{ t.plazas }} plazas, el Consejo de Máster nombra una comisión que actúa como órgano de selección y pondera las candidaturas según estos criterios:</p>
+<p class="intertitulo">Criterios de admisión</p>
+<p>Si hay más candidaturas que las {{ t.plazas }} plazas, una comisión las pondera así:</p>
 <div class="table-responsive">
 <table class="table">
-  <thead><tr><th scope="col">Criterio</th><th scope="col">Ponderación</th></tr></thead>
   <tbody>
-    <tr><td><strong>1. Posesión de título</strong> (ranking por expediente)<br>
-      <span class="small">Periodismo: hasta el 60 % · Comunicación Audiovisual o Publicidad y Relaciones Públicas: hasta el 40 % · Otras enseñanzas oficiales del EEES en Ciencias Sociales y Jurídicas: hasta el 30 % · Otras enseñanzas oficiales del EEES: hasta el 25 %</span></td><td>25–60 %</td></tr>
-    <tr><td><strong>2. Experiencia profesional</strong> en empresas del ámbito de preferencia del máster</td><td>20–40 %</td></tr>
-    <tr><td><strong>3. Formación o dominio del inglés</strong>. Se requiere como mínimo el nivel B1 del Marco Común Europeo de Referencia para las Lenguas.</td><td>20–40 %</td></tr>
+    <tr><td><strong>Titulación</strong><br><span class="small text-muted">Periodismo hasta 60 % · CAV o Publicidad hasta 40 % · otras CC. Sociales y Jurídicas hasta 30 % · resto hasta 25 %</span></td><td class="text-nowrap">25–60 %</td></tr>
+    <tr><td><strong>Experiencia profesional</strong> en el ámbito del máster</td><td class="text-nowrap">20–40 %</td></tr>
+    <tr><td><strong>Inglés</strong> (mínimo B1)</td><td class="text-nowrap">20–40 %</td></tr>
   </tbody>
 </table>
 </div>
 
-<h2 id="procedimiento">Preinscripción y matrícula</h2>
+<p class="intertitulo">Pasos</p>
 <ol>
-  <li><strong>Preinscripción</strong> en línea en la UMH, en los plazos oficiales. Consulta las <a href="https://estudios.umh.es/acceso/masters/instrucciones-de-preinscripcion-master-universitario/">instrucciones de preinscripción</a> y el <a href="https://universite.umh.es/preins_postgrado/master/listado">formulario de preinscripción</a>.</li>
-  <li><strong>Documentación</strong>: la indicada en las instrucciones de la UMH. Si tienes estudios extranjeros, consulta el <a href="https://estudios.umh.es/acceso/masters/acceso-con-estudios-universitarios-extranjeros/">acceso con estudios universitarios extranjeros</a>.</li>
-  <li><strong>Listas de admisión</strong>: la UMH publica las listas provisionales y definitivas en <a href="{{ site.inc.preinscripcion_umh }}">estudios.umh.es</a>.</li>
-  <li><strong>Matrícula</strong>: las personas admitidas reciben las instrucciones. Consulta la <a href="https://estudios.umh.es/matriculacion/matricula-de-masters/">matrícula de másteres</a>.</li>
+  <li><a href="https://universite.umh.es/preins_postgrado/master/listado">Preinscripción en línea</a> en los plazos de la UMH (<a href="https://estudios.umh.es/acceso/masters/instrucciones-de-preinscripcion-master-universitario/">instrucciones</a>).</li>
+  <li>Publicación de las listas de admisión en <a href="{{ site.inc.preinscripcion_umh }}">estudios.umh.es</a>.</li>
+  <li><a href="https://estudios.umh.es/matriculacion/matricula-de-masters/">Matrícula</a>.</li>
 </ol>
-<p>Si te falta superar el TFG y, como máximo, 9 ECTS del Grado, puedes solicitar la <a href="https://estudios.umh.es/acceso/masters/admision-condicionada-a-master-universitario/">admisión condicionada</a>.</p>
+<p>Con estudios extranjeros: <a href="https://estudios.umh.es/acceso/masters/acceso-con-estudios-universitarios-extranjeros/">acceso con títulos extranjeros</a>. <a href="{{ site.inc.tasas }}">Tasas</a> · <a href="{{ site.inc.becas }}">Becas</a>.</p>
 
-<h2 id="tasas">Tasas y becas</h2>
-<ul>
-  <li><a href="{{ site.inc.tasas }}">Importe de las tasas de matrícula de máster universitario</a>.</li>
-  <li><a href="{{ site.inc.becas }}">Becas y ayudas</a>: convocatorias del Ministerio, de la Conselleria y propias de la UMH.</li>
-</ul>
-
-<h2 id="faq">Preguntas frecuentes</h2>
+<p class="intertitulo">Preguntas frecuentes</p>
 <div class="accordion" id="faq-acc">
 {%- for f in site.data.faq %}
   <div class="accordion-item">

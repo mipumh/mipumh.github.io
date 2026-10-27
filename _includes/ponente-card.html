@@ -6,7 +6,7 @@
 {%- assign cursos = g.items | map: "curso" | uniq | join: " " -%}
 {%- assign asigs = g.items | map: "slug_asignatura" | uniq | join: " " -%}
 {%- assign foto = site.data.fotos_ponentes[g.name] -%}
-{%- if foto -%}{%- capture foto %}{{ site.baseurl }}/images/team/{{ foto }}{% endcapture -%}{%- endif -%}
+{%- if foto -%}{%- capture foto %}{{ site.baseurl }}/images/ponentes/{{ foto }}{% endcapture -%}{%- endif -%}
 <article class="card-plain ponente-card" data-cursos="{{ cursos }}" data-asignaturas="{{ asigs }}">
   <div class="ponente-head">
     {% include avatar.html nombre=p.ponente foto=foto tipo=p.tipo %}

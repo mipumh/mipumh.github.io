@@ -3,7 +3,7 @@ layout: default
 ---
 <header class="page-header">
   <div class="container">
-    {% if page.breadcrumb %}<nav aria-label="Ruta"><ol class="breadcrumb">{% for b in page.breadcrumb %}<li class="breadcrumb-item"><a href="{{ b.url }}">{{ b.titulo }}</a></li>{% endfor %}<li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li></ol></nav>{% endif %}
+    <nav aria-label="Ruta"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="{{ site.baseurl }}/">Inicio</a></li>{% for b in page.breadcrumb %}<li class="breadcrumb-item"><a href="{{ b.url }}">{{ b.titulo }}</a></li>{% endfor %}<li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li></ol></nav>
     <h1>{{ page.title }}</h1>
     {% if page.lead %}<p class="lead">{{ page.lead }}</p>{% endif %}
   </div>

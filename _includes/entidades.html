@@ -1,0 +1,5 @@
+<ul class="entidades">
+  {%- for e in site.data.entidades %}
+  <li><strong>{{ e.nombre }}</strong><span>{{ e.tipo }}</span></li>
+  {%- endfor %}
+</ul>

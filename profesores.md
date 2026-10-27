@@ -3,26 +3,25 @@ layout: page
 title: Profesorado
 permalink: /profesores.html
 wide: true
-lead: Claustro del curso 2026/27 según las guías docentes oficiales de la Universidad Miguel Hernández, profesorado de cursos anteriores y profesionales que han pasado por el máster.
+lead: Claustro según las guías docentes oficiales de la UMH.
 ---
 {%- assign claustro = site.profesorado | where: "grupo", "umh" | sort: "orden" -%}
-{%- assign anteriores = site.profesorado | where: "grupo", "anteriores" | sort: "orden" -%}
+{%- assign externos = site.profesorado | where: "grupo", "externo" | sort: "orden" -%}
+<p class="small text-muted mb-4"><span class="pill pill-mint">Responsable</span> <span class="pill">Participa</span></p>
 
-<h2 id="claustro">Profesorado UMH del curso 2026/27</h2>
-<p>Cada ficha recoge la categoría, el área de conocimiento y las asignaturas que imparte, con enlace a su página institucional.</p>
+<h2 id="claustro">Profesorado UMH</h2>
 <div class="row g-3 mb-5">
 {%- for d in claustro %}
   <div class="col-md-6 col-xl-4">{% include docente-card.html d=d %}</div>
 {%- endfor %}
 </div>
 
-<h2 id="anteriores">Profesorado de cursos anteriores</h2>
-<p>Docentes con docencia reglada en el máster en cursos anteriores que no figuran en las guías del curso 2026/27.</p>
+<h2 id="externo">Profesorado externo</h2>
+<p>Docentes de otras universidades que colaboran en las asignaturas.</p>
 <div class="row g-3 mb-5">
-{%- for d in anteriores %}
+{%- for d in externos %}
   <div class="col-md-6 col-xl-4">{% include docente-card.html d=d %}</div>
 {%- endfor %}
 </div>
 
-<h2 id="profesionales">Profesionales invitados</h2>
-<p>Además del claustro, cada curso participan como ponentes invitados profesionales de los medios más innovadores. Consulta la sección <a href="{{ site.baseurl }}/nos-visitan.html">Nos visitan</a>, con todas las sesiones por curso y asignatura.</p>
+<p>Además, cada curso participan profesionales invitados: consulta <a href="{{ site.baseurl }}/nos-visitan.html">Nos visitan</a>.</p>

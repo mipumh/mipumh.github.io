@@ -2,7 +2,8 @@
 nombre: José María Valero Pastor
 title: José María Valero Pastor
 grupo: umh
-orden: 7
+orden: 2
+cargo: Subdirector del máster
 umh_id: persona_173491
 figura: Profesor Ayudante Doctor
 cv:

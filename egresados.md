@@ -3,8 +3,8 @@ layout: page
 title: Egresados
 permalink: /egresados.html
 redirect_from: /alumni.html
-lead: Más de 270 estudiantes han cursado el máster desde 2014. Algunos vuelven para presentar los proyectos que nacieron en él y para conversar con los nuevos estudiantes.
-description: Egresados del Máster Universitario en Innovación en Periodismo (UMH): testimonios, proyectos nacidos en el máster y encuentros con alumni.
+lead: "Más de 270 estudiantes desde 2014."
+description: "Egresados del Máster Universitario en Innovación en Periodismo (UMH): testimonios, proyectos nacidos en el máster y encuentros con alumni."
 ---
 {%- assign publicables = site.data.ponentes | where: "publicar", "si" -%}
 {%- assign con_alumni = publicables | where_exp: "s", "s.titulo contains 'alumni'" -%}
@@ -24,7 +24,7 @@ description: Egresados del Máster Universitario en Innovación en Periodismo (U
 {%- endfor %}
 
 <h2 id="encuentros">Encuentros con egresados</h2>
-<p>Sesiones en las que antiguos alumnos han presentado sus proyectos o han conversado con los estudiantes sobre su Trabajo Fin de Máster.</p>
+<p>Antiguos alumnos que han vuelto a presentar sus proyectos.</p>
 {%- for s in sesiones %}
 {%- assign primera = s.items | first %}
 <h3>{{ s.name }}</h3>
@@ -37,7 +37,7 @@ description: Egresados del Máster Universitario en Innovación en Periodismo (U
 {%- endfor %}
 
 <h2 id="promociones">Primeras promociones</h2>
-<p>Puesto según los datos recogidos entre 2014 y 2016; puede no coincidir con el actual.</p>
+<p class="small text-muted">Puesto en 2014–2016.</p>
 {%- for promo in site.data.egresados.promociones %}
 <h3>Promoción {{ promo.promocion }}</h3>
 <ul>

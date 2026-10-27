@@ -1,10 +1,10 @@
-# Fotos locales (images/team) de ponentes, por slug_ponente. Sin foto se muestran las iniciales.
-daniele-grasso: danielegrasso.jpg
-ismael-nafria: nafria.jpg
-lucia-gonzalez: luciaglezglez.jpg
-beatriz-lara: bealara.jpg
-eva-belmonte-civio: evabelmonte.jpg
-borja-andrino: andrino.jpg
-pere-rusinol: pererusi.jpg
-miriam-hernanz: miriamhernanz.jpg
-jose-luis-rojas: rojastorrijos.jpg
+# Fotos de ponentes (images/ponentes/<slug>.jpg), por slug_ponente. Sin foto se muestran las iniciales.
+daniele-grasso: daniele-grasso.jpg
+ismael-nafria: ismael-nafria.jpg
+lucia-gonzalez: lucia-gonzalez.jpg
+beatriz-lara: beatriz-lara.jpg
+eva-belmonte-civio: eva-belmonte-civio.jpg
+borja-andrino: borja-andrino.jpg
+pere-rusinol: pere-rusinol.jpg
+miriam-hernanz: miriam-hernanz.jpg
+jose-luis-rojas: jose-luis-rojas.jpg
