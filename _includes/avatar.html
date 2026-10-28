@@ -1,6 +1,6 @@
 {%- comment -%}Foto o iniciales. Parámetros: nombre, foto, clase, tipo{%- endcomment -%}
 {%- if include.foto and include.foto != "" -%}
-<img class="avatar {{ include.clase }}" src="{{ include.foto }}" alt="" loading="lazy">
+<img class="avatar {{ include.clase }}" src="{{ include.foto }}" alt="" width="240" height="240" loading="lazy" decoding="async">
 {%- else -%}
 {%- assign partes = include.nombre | split: " " -%}
 <span class="avatar {{ include.clase }}{% if include.tipo == 'organizacion' %} avatar-org{% endif %}" aria-hidden="true">{{ partes[0] | slice: 0 }}{% if partes.size > 1 and include.tipo != 'organizacion' %}{{ partes[1] | slice: 0 }}{% endif %}</span>

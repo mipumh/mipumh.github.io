@@ -7,7 +7,7 @@
         <h2 id="salidas-titulo">Para liderar productos periodísticos</h2>
         <ul class="row list-unstyled g-2 mt-3">
           {%- for s in t.salidas %}
-          <li class="col-sm-6"><i class="fa-solid fa-check me-2" aria-hidden="true"></i>{{ s }}</li>
+          <li class="col-sm-6">{% include icon.html n="check" c="me-2" %}{{ s }}</li>
           {%- endfor %}
         </ul>
       </div>

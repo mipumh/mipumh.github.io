@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Nos visitan
+description: "Periodistas, editores y emprendedores de medios que han dado clase en el Máster Universitario en Innovación en Periodismo de la UMH, agrupados por asignatura."
 permalink: /nos-visitan.html
 wide: true
 lead: "Profesionales que han participado en las asignaturas del máster."

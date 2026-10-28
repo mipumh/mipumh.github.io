@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Profesorado
+description: "Profesorado del Máster Universitario en Innovación en Periodismo de la UMH: claustro, asignaturas que imparte y últimos artículos científicos."
 permalink: /profesores.html
 wide: true
 lead: Claustro según las guías docentes oficiales de la UMH.

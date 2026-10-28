@@ -4,7 +4,7 @@ inc:
   subtitle:     "Título oficial de la Universidad Miguel Hernández · modalidad a distancia"
   description:  "Máster Universitario en Innovación en Periodismo de la Universidad Miguel Hernández de Elche: título oficial de 60 ECTS en modalidad a distancia, orientado al desarrollo de proyectos periodísticos innovadores."
   logo:         logo.jpg
-  cover_image:  cover_image.jpg
+  og_image:     og-mip.jpg
   email:        mip@umh.es
   url:          https://mip.umh.es
   revista:      https://mip.umh.es/blog/
@@ -20,7 +20,7 @@ inc:
   twitter:      mipumh
   facebook:     mipumh
   analytics:
-    google: true
+    google: false   # el ID UA- dejó de recoger datos en 2023; poner aquí un ID G- de GA4
 
 url: https://mip.umh.es
 lang: es

@@ -1,23 +1,100 @@
-{%- if page.url == "/" -%}
+{%- comment -%}Datos estructurados (schema.org) según el tipo de página{%- endcomment -%}
 {%- assign t = site.data.umh.titulo -%}
+{%- capture umh -%}{"@type": "CollegeOrUniversity", "@id": "https://www.umh.es/#universidad", "name": "Universidad Miguel Hernández de Elche", "url": "https://www.umh.es", "logo": "{{ site.url }}/images/logo-umh.png", "address": {"@type": "PostalAddress", "streetAddress": "Avda. de la Universidad s/n", "postalCode": "03202", "addressLocality": "Elche", "addressRegion": "Alicante", "addressCountry": "ES"}}{%- endcapture -%}
+{%- if page.url == "/" %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "EducationalOccupationalProgram",
-  "name": {{ t.nombre | jsonify }},
-  "url": "{{ site.url }}/",
-  "description": {{ site.inc.description | jsonify }},
-  "educationalCredentialAwarded": "Máster Universitario (título oficial)",
-  "numberOfCredits": {{ t.creditos.total }},
-  "timeToComplete": "P1Y",
-  "educationalProgramMode": "online",
-  "inLanguage": "es",
-  "maximumEnrollment": {{ t.plazas }},
-  "provider": {
-    "@type": "CollegeOrUniversity",
-    "name": "Universidad Miguel Hernández de Elche",
-    "url": "https://www.umh.es"
-  }
+  "@graph": [
+    {
+      "@type": "EducationalOccupationalProgram",
+      "@id": "{{ site.url }}/#programa",
+      "name": {{ t.nombre | jsonify }},
+      "url": "{{ site.url }}/",
+      "description": {{ site.inc.description | jsonify }},
+      "educationalCredentialAwarded": "Máster Universitario (título oficial)",
+      "educationalProgramMode": "online",
+      "numberOfCredits": {{ t.creditos.total }},
+      "timeToComplete": "P1Y",
+      "inLanguage": "es",
+      "maximumEnrollment": {{ t.plazas }},
+      "occupationalCategory": ["27-3023.00", "27-3043.00"],
+      "offers": {"@type": "Offer", "category": "Precio público por crédito ECTS (1.ª matrícula)", "price": "{{ t.precio_credito.primera }}", "priceCurrency": "EUR", "url": "{{ site.inc.tasas }}"},
+      "provider": {"@id": "https://www.umh.es/#universidad"}
+    },
+    {{ umh }},
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#web",
+      "url": "{{ site.url }}/",
+      "name": {{ site.inc.title | jsonify }},
+      "inLanguage": "es",
+      "publisher": {"@id": "https://www.umh.es/#universidad"}
+    }
+  ]
+}
+</script>
+{%- else %}
+{%- comment -%}Ruta de navegación{%- endcomment -%}
+{%- assign padre = nil -%}
+{%- if page.collection == "asignaturas" -%}{%- assign padre_nombre = "Plan de estudios" -%}{%- assign padre_url = "/planestudios.html" -%}
+{%- elsif page.collection == "profesorado" -%}{%- assign padre_nombre = "Profesorado" -%}{%- assign padre_url = "/profesores.html" -%}
+{%- else -%}{%- assign padre_nombre = nil -%}{%- endif %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "{{ site.url }}/"}
+        {%- if padre_nombre %},
+        {"@type": "ListItem", "position": 2, "name": {{ padre_nombre | jsonify }}, "item": "{{ site.url }}{{ padre_url }}"},
+        {"@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }}, "item": "{{ site.url }}{{ page.url }}"}
+        {%- else %},
+        {"@type": "ListItem", "position": 2, "name": {{ page.title | jsonify }}, "item": "{{ site.url }}{{ page.url }}"}
+        {%- endif %}
+      ]
+    }
+    {%- if page.collection == "asignaturas" %}
+    {%- assign a = site.data.umh.asignaturas | where: "codigo", page.codigo | first %},
+    {
+      "@type": "Course",
+      "name": {{ a.nombre | jsonify }},
+      "courseCode": "{{ a.codigo }}",
+      "description": {{ a.interes_profesional | default: a.nombre | jsonify }},
+      "url": "{{ site.url }}{{ page.url }}",
+      "inLanguage": "es",
+      "numberOfCredits": {{ a.ects }},
+      "isPartOf": {"@type": "EducationalOccupationalProgram", "name": {{ t.nombre | jsonify }}, "url": "{{ site.url }}/"},
+      "provider": {{ umh }}
+    }
+    {%- elsif page.collection == "profesorado" %}
+    {%- assign pdi = site.data.umh.pdi[page.umh_id] -%}
+    {%- assign slug = page.url | split: "/" | last | remove: ".html" -%}
+    {%- assign pub = site.data.publicaciones[slug] -%}
+    {%- include docente-foto.html d=page %},
+    {
+      "@type": "Person",
+      "name": {{ page.nombre | jsonify }},
+      "url": "{{ site.url }}{{ page.url }}",
+      {%- if foto_docente != nil and foto_docente != "" %}
+      "image": "{{ site.url }}{{ foto_docente }}",
+      {%- endif %}
+      "jobTitle": {{ page.figura | default: "Profesor/a" | jsonify }},
+      {%- if pdi %}
+      "affiliation": {"@id": "https://www.umh.es/#universidad"},
+      "knowsAbout": {{ pdi.area | default: "Periodismo" | downcase | capitalize | jsonify }},
+      {%- elsif page.institucion %}
+      "affiliation": {"@type": "CollegeOrUniversity", "name": {{ page.institucion | jsonify }}},
+      {%- endif %}
+      "sameAs": [{% if pdi %}"{{ pdi.umh_url }}"{% endif %}{% if pub %}, "{{ pub.perfil }}"{% endif %}{% if page.orcid %}, "https://orcid.org/{{ page.orcid }}"{% endif %}]
+    }
+    {%- if pdi %},
+    {{ umh }}
+    {%- endif %}
+    {%- endif %}
+  ]
 }
 </script>
 {%- endif -%}

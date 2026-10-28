@@ -24,14 +24,14 @@
           <li><a href="{{ site.inc.revista }}">Revista de Innovación en Periodismo</a> · ISSN {{ site.inc.issn }}</li>
         </ul>
         <p class="small mb-0 social">
-          <a href="https://twitter.com/{{ site.inc.twitter }}" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="https://www.facebook.com/{{ site.inc.facebook }}" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
-          <a href="{{ site.inc.revista }}feed.xml" aria-label="RSS de la revista"><i class="fa-solid fa-rss"></i></a>
+          <a href="https://twitter.com/{{ site.inc.twitter }}" aria-label="X / Twitter">{% include icon.html n="x" s=20 %}</a>
+          <a href="https://www.facebook.com/{{ site.inc.facebook }}" aria-label="Facebook">{% include icon.html n="facebook" s=20 %}</a>
+          <a href="{{ site.inc.revista }}feed.xml" aria-label="RSS de la revista">{% include icon.html n="rss" s=20 %}</a>
         </p>
       </div>
     </div>
     <div class="footer-bottom small">
-      <a class="foot-umh" href="https://www.umh.es/"><img src="{{ site.baseurl }}/images/logo-umh.png" alt="Universidad Miguel Hernández" width="130" height="36"></a>
+      <a class="foot-umh" href="https://www.umh.es/"><img src="{{ site.baseurl }}/images/logo-umh.png" alt="Universidad Miguel Hernández" width="130" height="36" loading="lazy" decoding="async"></a>
       <span>&copy; {{ site.time | date: "%Y" }} Universidad Miguel Hernández de Elche</span>
     </div>
   </div>

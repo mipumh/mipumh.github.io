@@ -35,6 +35,11 @@ ASIGNATURAS = {
     3028: ("Trabajo fin de máster", "trabajo-fin-de-master"),
 }
 
+# Correcciones de la dirección del máster sobre la guía oficial (código: persona responsable)
+RESPONSABLES = {
+    3023: {"id": "persona_171479", "nombre_umh": "MARIN SANCHIZ, CRISTIAN RAMON"},
+}
+
 DOCUMENTOS = {
     "memoria.pdf": "Memoria verificada del título",
     "memoria_aneca.pdf": "Informe de verificación (ANECA)",
@@ -198,10 +203,23 @@ def asignatura(codigo):
         "objetivos": labels(d, "_x_asignatura_tiene_objetivos"),
         "unidades": labels(d, "_x_asignatura_tienen_unidades_didacticas"),
         "evaluacion_html": clean_html(first(d, "_x_evaluacion_asignatura")),
-        "responsables": people(d, "_x_asignatura_tiene_responsable"),
+        "responsables": [RESPONSABLES[codigo]] if codigo in RESPONSABLES
+                        else people(d, "_x_asignatura_tiene_responsable"),
         "profesorado": sorted(profesorado.values(), key=lambda p: p["nombre_umh"]),
         "guia_url": BASE + "/contenido/Estudios/:asi_m_%d/datos_es.html" % codigo,
     }
+
+
+def guardar_retrato(contenido, destino, lado=240):
+    """Recorte cuadrado de 240 px (se muestra a 120 px como máximo)."""
+    import io
+    from PIL import Image, ImageOps
+    im = ImageOps.exif_transpose(Image.open(io.BytesIO(contenido))).convert("RGB")
+    w, h = im.size
+    s = min(w, h)
+    x, y = (w - s) // 2, max(0, int((h - s) * 0.25))
+    im.crop((x, y, x + s, y + s)).resize((lado, lado), Image.LANCZOS).save(
+        destino, "JPEG", quality=80, optimize=True, progressive=True)
 
 
 def persona(pid):
@@ -214,8 +232,7 @@ def persona(pid):
         with urllib.request.urlopen(BASE + foto, timeout=60) as r:
             contenido = r.read()
         if len(contenido) > 4000:  # sin foto, umh.es devuelve su logotipo (~3 KB)
-            with open(destino, "wb") as f:
-                f.write(contenido)
+            guardar_retrato(contenido, destino)
             foto_local = pid + ".jpg"
     return {
         "id": pid,

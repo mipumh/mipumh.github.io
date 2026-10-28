@@ -93,7 +93,7 @@ a {
 .aviso {
   background: $mint; color: $ink; font-size: .95rem;
   a:not(.btn) { color: $ink; text-decoration-color: $ink; }
-  .fa-circle-info { color: $ink; }
+  .icon { color: $ink; }
 }
 
 // Secciones
@@ -286,8 +286,8 @@ a.card-plain, .card-link-wrap { display: block; color: inherit; transition: bord
   .breadcrumb { font-size: .85rem; margin-bottom: 1rem; }
 }
 .page-body { padding-top: 3rem; padding-bottom: 4rem; }
-.intertitulo { font-weight: 800; font-family: $display; font-size: 1.2rem; line-height: 1.2; letter-spacing: -0.01em; margin: 2.75rem 0 .9rem; padding-top: 1.5rem; border-top: 1px solid $line; }
-.prose > .intertitulo:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
+.prose h2.intertitulo, .intertitulo { font-weight: 800; font-family: $display; font-size: 1.2rem; line-height: 1.2; letter-spacing: -0.01em; margin: 2.75rem 0 .9rem; padding-top: 1.5rem; border-top: 1px solid $line; }
+.prose > .intertitulo:first-child, .prose h2.intertitulo:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
 .prose {
   overflow-wrap: break-word;
   line-height: 1.7;
@@ -365,6 +365,9 @@ section[id] { scroll-margin-top: 90px; }
   a:hover { text-decoration-color: $mint; }
   .articulo-meta { display: block; font-size: .88rem; color: $muted; margin-top: .25rem; }
 }
+
+.icon { display: inline-block; vertical-align: -0.2em; flex-shrink: 0; }
+.card-plain .icon.mb-3 { display: block; }
 
 // Pie
 .site-footer { background: $ink; color: #d7dbe0; padding: 3.5rem 0 2rem; margin-top: 0;

@@ -19,7 +19,7 @@ layout: default
     <div class="col-lg-8 prose">
       {% if a.interes_profesional != "" %}<p class="lead">{{ a.interes_profesional }}</p>{% endif %}
       {%- if a.unidades.size > 0 %}
-      <p class="intertitulo">Contenidos</p>
+      <h2 class="intertitulo">Contenidos</h2>
       <ol>{% for u in a.unidades %}<li>{{ u }}</li>{% endfor %}</ol>
       {%- endif %}
       {{ content }}

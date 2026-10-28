@@ -8,14 +8,14 @@ description: "Admisión al Máster Universitario en Innovación en Periodismo (U
 {%- assign t = site.data.umh.titulo -%}
 <p class="edicion"><strong>Edición 2026/27 en curso.</strong> Las fechas de preinscripción para 2027/28 se publicarán aquí y en <a href="{{ site.inc.preinscripcion_umh }}">estudios.umh.es</a>.</p>
 
-<p class="intertitulo">Requisitos de acceso</p>
+<h2 class="intertitulo">Requisitos de acceso</h2>
 <ul>
   <li><strong>Título de Grado o Máster</strong> español o de un país del Espacio Europeo de Educación Superior.</li>
   <li><strong>Títulos de otros países</strong>: sin homologación, previa comprobación del nivel de formación por la UMH.</li>
   <li><strong>Estudiantes de Grado</strong> a los que solo falte el TFG y hasta 9 ECTS (<a href="https://estudios.umh.es/acceso/masters/admision-condicionada-a-master-universitario/">admisión condicionada</a>).</li>
 </ul>
 
-<p class="intertitulo">Criterios de admisión</p>
+<h2 class="intertitulo">Criterios de admisión</h2>
 <p>Si hay más candidaturas que las {{ t.plazas }} plazas, una comisión las pondera así:</p>
 <div class="criterios">
 {%- for c in site.data.admision.criterios %}
@@ -27,7 +27,7 @@ description: "Admisión al Máster Universitario en Innovación en Periodismo (U
 {%- endfor %}
 </div>
 
-<p class="intertitulo">Pasos</p>
+<h2 class="intertitulo">Pasos</h2>
 <ol>
   <li><a href="https://universite.umh.es/preins_postgrado/master/listado">Preinscripción en línea</a> en los plazos de la UMH (<a href="https://estudios.umh.es/acceso/masters/instrucciones-de-preinscripcion-master-universitario/">instrucciones</a>).</li>
   <li>Publicación de las listas de admisión en <a href="{{ site.inc.preinscripcion_umh }}">estudios.umh.es</a>.</li>
@@ -35,7 +35,7 @@ description: "Admisión al Máster Universitario en Innovación en Periodismo (U
 </ol>
 <p>Con estudios extranjeros: <a href="https://estudios.umh.es/acceso/masters/acceso-con-estudios-universitarios-extranjeros/">acceso con títulos extranjeros</a>. <a href="{{ site.inc.tasas }}">Tasas</a> · <a href="{{ site.inc.becas }}">Becas</a>.</p>
 
-<p class="intertitulo">Preguntas frecuentes</p>
+<h2 class="intertitulo">Preguntas frecuentes</h2>
 <div class="faq">
 {%- for f in site.data.faq %}
   <details>

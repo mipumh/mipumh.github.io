@@ -1,7 +1,7 @@
 {%- for aviso in site.data.avisos %}
 <div class="aviso" data-fin="{{ aviso.fecha_fin | date_to_xmlschema }}" role="note">
   <div class="container py-2 d-flex gap-2 align-items-center">
-    <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+    {% include icon.html n="info" %}
     <p class="mb-0 text-truncate">{{ aviso.texto }}{% if aviso.enlace %} · <a href="{{ aviso.enlace }}">Participa</a>{% endif %}</p>
   </div>
 </div>

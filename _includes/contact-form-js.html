@@ -1,18 +1,35 @@
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4.4.1/dist/email.min.js"></script>
 <script>
-  emailjs.init("52HcKHByl7j4-hQbC");
-  document.querySelectorAll('.js-contact-form').forEach(function (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var boton = form.querySelector('[type=submit]');
-      boton.disabled = true;
-      emailjs.sendForm('service_rnihpc9', 'template_575uf2w', form).then(function () {
-        form.querySelector('.js-contact-ok').hidden = false;
-        form.reset();
-      }, function (error) {
-        console.error(error);
-        alert('No se ha podido enviar el mensaje. Escríbenos a {{ site.inc.email }}.');
-      }).finally(function () { boton.disabled = false; });
+  // EmailJS se descarga solo cuando alguien va a usar un formulario de contacto
+  (function () {
+    var cargado = null;
+    function cargar() {
+      if (!cargado) cargado = new Promise(function (ok, ko) {
+        var s = document.createElement('script');
+        s.src = 'https://cdn.jsdelivr.net/npm/@emailjs/browser@4.4.1/dist/email.min.js';
+        s.onload = function () { emailjs.init('52HcKHByl7j4-hQbC'); ok(); };
+        s.onerror = ko;
+        document.head.appendChild(s);
+      });
+      return cargado;
+    }
+    var modal = document.getElementById('modal-info');
+    if (modal) modal.addEventListener('show.bs.modal', cargar);
+    document.querySelectorAll('.js-contact-form').forEach(function (form) {
+      form.addEventListener('focusin', cargar, { once: true });
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var boton = form.querySelector('[type=submit]');
+        boton.disabled = true;
+        cargar().then(function () {
+          return emailjs.sendForm('service_rnihpc9', 'template_575uf2w', form);
+        }).then(function () {
+          form.querySelector('.js-contact-ok').hidden = false;
+          form.reset();
+        }, function (error) {
+          console.error(error);
+          alert('No se ha podido enviar el mensaje. Escríbenos a {{ site.inc.email }}.');
+        }).finally(function () { boton.disabled = false; });
+      });
     });
-  });
+  })();
 </script>
