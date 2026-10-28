@@ -1,34 +1,73 @@
-# Egresados. Puestos de 2014-2016: revisar vigencia antes de ampliar (ver _mejora_avap/pendientes.md).
+# Egresados por promoción (curso en que defendieron el TFM, según el listado de TFM de la Facultad).
+# Solo personas que ya figuraban públicamente en la web o en la revista. Puesto: el último conocido.
+# foto: ruta dentro de /images.
 testimonios:
   - nombre: Ana Juan Montero
     promocion: 2014/15
     puesto: Directora de Tachas y Metal
-    foto: Ana Juan Montero.jpg
+    foto: alumni/ana-juan-montero.jpg
     cita: >-
       El MIP me abrió las puertas al emprendimiento, a lanzarme en solitario y crear mi empresa sin miedo,
       con profesionalidad y con todas las herramientas necesarias para formar parte del sector de la comunicación.
 promociones:
-  - promocion: "2015/16"
+  - promocion: "2023/24"
     personas:
+      - nombre: Silvia Cobo
+        puesto: Comunicación digital, Blanquerna
+        proyecto: Repítemelo otra vez
+        foto: ponentes/silvia-cobo.jpg
+  - promocion: "2022/23"
+    personas:
+      - nombre: Jorge Gascón
+        puesto: Responsable de Accesibilidad digital, UMH
+        proyecto: Tinta Inclusiva
+      - nombre: Manuel Arenas
+        puesto: Periodista, El Periódico
+        proyecto: Implícame en la Gran BCN
+        foto: ponentes/manuel-arenas.jpg
+  - promocion: "2021/22"
+    personas:
+      - nombre: Beatriz Lara
+        puesto: Comunidad, Maldita
+        proyecto: FAQAdulting
+        foto: ponentes/beatriz-lara.jpg
+      - nombre: Sara Belled
+        puesto: Periodista visual, Colpisa
+        proyecto: Smartform
+        foto: ponentes/sara-belled.jpg
+      - nombre: Heriberto Araújo
+        proyecto: Grado y Medio
+        foto: ponentes/heriberto-araujo.jpg
+      - nombre: David Soler
+        proyecto: África Mundi
+  - promocion: "2020/21"
+    personas:
+      - nombre: Viriato Monterde
+        puesto: Fundador y director, 960 Pixels Comunicación
+        proyecto: 960 Data
+        foto: ponentes/viriato-monterde.jpg
   - promocion: "2014/15"
     personas:
-      - nombre: Neus Blasco
-        puesto: "Periodista · Enlaire Ràdio"
-        foto: "Neus Blasco.jpg"
-      - nombre: Juan Diego Rocamora
-        puesto: "Community Manager · Proyecto VegaViajeros"
-        foto: "Juan Diego Rocamora.jpg"
       - nombre: Ana Juan Montero
-        puesto: "Directora · Tachas y Metal"
-        foto: "Ana Juan Montero.jpg"
+        puesto: Directora, Tachas y Metal
+        proyecto: TachasyMetal
+        foto: alumni/ana-juan-montero.jpg
+      - nombre: Neus Blasco
+        puesto: Periodista, Enlaire Ràdio
+        proyecto: Enlaire Ràdio
+        foto: alumni/neus-blasco.jpg
+      - nombre: Juan Diego Rocamora
+        puesto: Community manager, VegaViajeros
+        proyecto: Vega Viajeros
+        foto: alumni/juan-diego-rocamora.jpg
   - promocion: "2013/14"
     personas:
       - nombre: Isabel Ferrández Fructuoso
-        puesto: "Consultora de Marketing Online y SEO · Fabrica Online"
-        foto: "Isabel Ferrández Fructuoso.jpg"
+        puesto: Consultora de marketing online y SEO, Fabrica Online
+        foto: alumni/isabel-ferrandez-fructuoso.jpg
       - nombre: Rocío Morales
-        puesto: "Social Media y Content Marketing · Bilnea"
-        foto: "Rocío Morales.jpg"
+        puesto: Social media y content marketing, Bilnea
+        foto: alumni/rocio-morales.jpg
       - nombre: Salvador Campello
-        puesto: "Editor · TeleElx.es"
-        foto: "Salvador Campello.jpg"
+        puesto: Editor, TeleElx.es
+        foto: alumni/salvador-campello.jpg

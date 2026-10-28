@@ -1,0 +1,12 @@
+{%- assign p = include.p -%}
+{%- if p.foto -%}{%- capture foto %}{{ site.baseurl }}/images/{{ p.foto }}{% endcapture -%}{%- else -%}{%- assign foto = nil -%}{%- endif -%}
+<div class="col-sm-6">
+  <div class="card-plain ponente-mini">
+    {% include avatar.html nombre=p.nombre foto=foto %}
+    <div>
+      <p class="nombre mb-0">{{ p.nombre }}</p>
+      {% if p.puesto %}<p class="cargo mb-0">{{ p.puesto }}</p>{% endif %}
+      {% if p.proyecto %}<p class="cargo mb-0">TFM: <em>{{ p.proyecto }}</em></p>{% endif %}
+    </div>
+  </div>
+</div>
