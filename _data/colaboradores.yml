@@ -1,7 +1,7 @@
 # Instituciones colaboradoras (logos en images/colaboradores; sin logo se muestra el nombre).
 - nombre: Asociación de Informadores de Elche
-  url:
-  logo:
+  url: https://informadoreselche.com/
+  logo: informadores-elche.png
 - nombre: Asociación de Periodistas de la Provincia de Alicante (APPA)
   url: https://www.periodistasalicante.es/
   logo: appa.png
