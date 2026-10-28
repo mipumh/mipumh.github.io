@@ -1,0 +1,34 @@
+{%- assign c = site.data.carteles -%}
+<section class="section carteles-section" id="nos-visitan-curso" aria-labelledby="carteles-titulo">
+  <div class="container">
+    <div class="section-head d-flex flex-wrap justify-content-between align-items-end gap-3">
+      <div>
+        <p class="eyebrow">Nos visitan · curso {{ c.curso }}</p>
+        <h2 id="carteles-titulo" class="mb-0">Clases con profesionales</h2>
+      </div>
+      <a class="more-link" href="{{ site.baseurl }}/nos-visitan.html">Todos los ponentes desde 2020</a>
+    </div>
+  </div>
+  <div class="carteles" tabindex="0" aria-label="Carteles de las clases del curso {{ c.curso }}">
+    {%- assign lista = c.carteles | reverse -%}
+    {%- for p in lista %}
+    <figure class="cartel" data-fecha="{{ p.fecha }}">
+      <img src="{{ site.baseurl }}/images/carteles/{{ p.imagen }}" width="900" height="999" loading="lazy"
+           alt="Cartel: clase online con {{ p.nombre }}, {{ p.cargo }}, el {{ p.fecha | date: '%-d/%-m/%Y' }}">
+      <figcaption class="visually-hidden">{{ p.nombre }} · {{ p.cargo }}</figcaption>
+    </figure>
+    {%- endfor %}
+  </div>
+</section>
+<script>
+  // Marca la próxima clase (la fecha más cercana igual o posterior a hoy)
+  (function () {
+    var hoy = new Date(); hoy.setHours(0, 0, 0, 0);
+    var proxima = null;
+    document.querySelectorAll('.cartel[data-fecha]').forEach(function (el) {
+      var f = new Date(el.dataset.fecha + 'T00:00:00');
+      if (f >= hoy && (!proxima || f < proxima.f)) proxima = { el: el, f: f };
+    });
+    if (proxima) proxima.el.classList.add('cartel-proxima');
+  })();
+</script>

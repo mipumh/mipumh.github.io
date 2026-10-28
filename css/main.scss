@@ -304,6 +304,20 @@ section[id] { scroll-margin-top: 90px; }
 .umh-link:hover .umh-logo { opacity: 1; }
 @media (max-width: 1199.98px) { .umh-link { margin: 1.5rem 0 0; padding: 0; border: 0; } }
 
+.section-head.d-flex { max-width: none; }
+.carteles-section { padding-bottom: 3.5rem; }
+// Carteles de Nos visitan (carrusel con desplazamiento horizontal)
+.carteles { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-inline: 16px;
+  padding: .9rem 16px 1rem; scrollbar-width: thin;
+  @media (min-width: 1200px) { padding-inline: calc((100vw - 1140px) / 2 + 12px); scroll-padding-inline: calc((100vw - 1140px) / 2 + 12px); }
+}
+.cartel { flex: 0 0 clamp(240px, 26vw, 320px); margin: 0; scroll-snap-align: start; position: relative;
+  img { width: 100%; height: auto; display: block; border-radius: 6px; transition: transform .3s ease; }
+  &:hover img { transform: translateY(-4px); }
+}
+.cartel-proxima::before { content: "Próxima clase"; position: absolute; top: -.7rem; left: .75rem; z-index: 1;
+  background: $ink; color: $paper; font-size: .75rem; font-weight: 700; padding: .2rem .65rem; border-radius: 999px; }
+
 // Pie
 .site-footer { background: $ink; color: #d7dbe0; padding: 3.5rem 0 2rem; margin-top: 0;
   a:not(.btn) { color: $paper; }

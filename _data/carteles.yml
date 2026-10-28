@@ -1,0 +1,28 @@
+# Carteles de las clases con ponentes invitados del curso en marcha (images/carteles/).
+# Orden cronológico. fecha en formato AAAA-MM-DD.
+curso: 2026/27
+carteles:
+  - nombre: Javier Drovetto
+    cargo: Editor de Comunidad, La Nación (Argentina)
+    fecha: 2026-10-05
+    imagen: javier-drovetto.jpg
+  - nombre: José Luis Rojas
+    cargo: Profesor Titular, Universidad de Sevilla
+    fecha: 2026-10-10
+    imagen: jose-luis-rojas.jpg
+  - nombre: Iker Barinaga
+    cargo: Director de Producto, Grupo Vocento
+    fecha: 2026-10-13
+    imagen: iker-barinaga.jpg
+  - nombre: Rafael Vega
+    cargo: Profesor y creador de El Deportivo
+    fecha: 2026-10-15
+    imagen: rafael-vega.jpg
+  - nombre: Lucía González
+    cargo: Directora de El HuffPost
+    fecha: 2026-10-26
+    imagen: lucia-gonzalez.jpg
+  - nombre: Silvia Cobo
+    cargo: Comunicación, Blanquerna
+    fecha: 2026-11-02
+    imagen: silvia-cobo.jpg
