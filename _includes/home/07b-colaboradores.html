@@ -1,0 +1,18 @@
+<section class="section" id="colaboradores" aria-labelledby="colaboradores-titulo">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Colaboran con el máster</p>
+      <h2 id="colaboradores-titulo">Instituciones colaboradoras</h2>
+    </div>
+    <ul class="colabs">
+      {%- for c in site.data.colaboradores %}
+      <li>
+        {%- if c.url %}<a class="colab" href="{{ c.url }}" title="{{ c.nombre }}">{% else %}<span class="colab">{% endif %}
+        {%- if c.logo %}<img class="colab-logo" src="{{ site.baseurl }}/images/colaboradores/{{ c.logo }}" alt="{{ c.nombre }}" loading="lazy" decoding="async">
+        {%- else %}<span class="colab-nombre">{{ c.nombre }}</span>{% endif %}
+        {%- if c.url %}</a>{% else %}</span>{% endif %}
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>

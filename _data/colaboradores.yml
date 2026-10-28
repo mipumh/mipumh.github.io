@@ -1,0 +1,16 @@
+# Instituciones colaboradoras (logos en images/colaboradores; sin logo se muestra el nombre).
+- nombre: Asociación de Informadores de Elche
+  url:
+  logo:
+- nombre: Asociación de Periodistas de la Provincia de Alicante (APPA)
+  url: https://www.periodistasalicante.es/
+  logo: appa.png
+- nombre: Asociación de Entidades Periodísticas Argentinas (ADEPA)
+  url: https://adepa.org.ar/
+  logo: adepa.svg
+- nombre: Asociación Colombiana de Medios de Información (AMI)
+  url: https://ami.org.co/
+  logo: ami-colombia.png
+- nombre: Asociación Nacional de la Prensa de Chile (ANP)
+  url: https://www.anp.cl/
+  logo: anp-chile.png

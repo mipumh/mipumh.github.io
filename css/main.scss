@@ -409,6 +409,23 @@ section[id] { scroll-margin-top: 90px; }
   .figura { font-size: .82rem; line-height: 1.35; margin-bottom: 0 !important; }
 }
 
+// Instituciones colaboradoras (logos en gris que recuperan el color al pasar el ratón)
+.colabs { list-style: none; padding: 0; margin: 0; display: grid; gap: 1px; background: $line; border: 1px solid $line;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  @media (min-width: 768px) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  @media (min-width: 1200px) { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  li { background: $paper; }
+}
+.colab { display: flex; align-items: center; justify-content: center; min-height: 140px; padding: 1.5rem 1.25rem; height: 100%;
+  text-decoration: none; color: inherit; transition: background .2s ease; }
+.colab:hover, .colab:focus-visible { background: $gray-bg; }
+.colab-logo { width: auto; height: auto; max-width: 160px; max-height: 64px; object-fit: contain;
+  filter: grayscale(1) opacity(.55); mix-blend-mode: multiply; transition: filter .25s ease, transform .25s ease; }
+.colab:hover .colab-logo, .colab:focus-visible .colab-logo { filter: grayscale(0) opacity(1); transform: scale(1.04); }
+.colab-nombre { font-family: $display; font-weight: 800; font-size: 1.05rem; line-height: 1.2; letter-spacing: -0.015em;
+  text-align: center; color: $muted; transition: color .2s ease; }
+.colab:hover .colab-nombre { color: $ink; }
+
 // Pie
 .site-footer { background: $ink; color: #d7dbe0; padding: 3.5rem 0 2rem; margin-top: 0;
   a:not(.btn) { color: $paper; }
