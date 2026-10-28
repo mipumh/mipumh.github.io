@@ -11,14 +11,28 @@ testimonios:
 promociones:
 - promocion: 2025/26
   personas:
-  - nombre: Lola Bernabeu Gomez
+  - nombre: Lola Bernabeu Gómez
     proyecto: Iris
-  - nombre: Angela Bei Cazorla Garcia
+  - nombre: Antonio Bravo Alcaina
+    proyecto: Identidades
+  - nombre: Ángela Bei Cazorla García
     proyecto: Arte contado
-  - nombre: Pablo Garcia Saez
+  - nombre: Leire Cortés Lorente
+    proyecto: La brecha digital
+  - nombre: Candela Cuerda
+    proyecto: Cine con perspectiva
+  - nombre: Pablo García Sáez
     proyecto: Pulso competitivo
-  - nombre: Pedro Jesus Vidal Abellan
+  - nombre: María del Mar García-Romeu Lozano
+    proyecto: Seven News
+  - nombre: Nicolás López López
+    proyecto: Lo no dicho
+  - nombre: Esther López Rubio
+    proyecto: Prisma
+  - nombre: Pedro Jesús Vidal Abellán
     proyecto: Fútbol, limón y barro
+  - nombre: Alejandro Muñoz Fernández
+    proyecto: Garoe.studio
 - promocion: 2024/25
   personas:
   - nombre: Sandra Arreaza Navarro
