@@ -9,7 +9,7 @@
       <a class="more-link" href="{{ site.baseurl }}/nos-visitan.html">Todos los ponentes</a>
     </div>
     <div class="carteles">
-    {%- assign lista = c.carteles | reverse -%}
+    {%- assign lista = c.carteles | sort: "fecha" | reverse -%}
     {%- for p in lista %}
     <figure class="cartel" data-fecha="{{ p.fecha }}">
       <img src="{{ site.baseurl }}/images/carteles/{{ p.imagen }}" width="640" height="710" loading="lazy" decoding="async"
