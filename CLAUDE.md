@@ -2,7 +2,7 @@
 
 Web del **Máster Universitario en Innovación en Periodismo (UMH)**. Jekyll en GitHub Pages (gema `github-pages` 223, Jekyll 3.9), Bootstrap 5.3 por CDN y una hoja propia en `css/main.scss`. La revista vive en otro repo (`../blog`, publicada en `https://mip.umh.es/blog/`) y comparte el menú.
 
-Rama de trabajo del rediseño: `rediseno-avap`. `master` es la web publicada antigua.
+El rediseño (rama `rediseno-avap`) se fusionó en `master` el 28/10/2026 y la rama se eliminó: `master` es la web publicada. Las ramas de trabajo no se suben a GitHub.
 
 ## Estructura de URL
 

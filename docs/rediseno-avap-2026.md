@@ -44,4 +44,4 @@ Recorrido de los cambios hechos entre el 26 y el 28 de octubre de 2026 en la ram
 
 - Permisos de egresados antes de volver a publicar la página.
 - CV de los docentes (bloque `cv:` en `_profesorado/*.md`), LinkedIn del máster, «IBerperia», fotos de 74 ponentes.
-- Fusionar `rediseno-avap` en `master` (y la rama homónima de la revista) cuando se apruebe.
+- Web fusionada en `master` y publicada el 28/10/2026; falta la revista (`../blog`, rama `rediseno-avap`).
