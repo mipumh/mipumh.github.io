@@ -347,8 +347,16 @@ section[id] { scroll-margin-top: 90px; }
   summary:hover::after { border-color: $ink; }
   details[open] summary::after { transform: rotate(45deg); background: $mint; border-color: $mint; }
   .faq-respuesta { padding: 0 3.5rem 1.25rem 0; color: #2b2f36; }
+  @media (max-width: 575.98px) { .faq-respuesta { padding-right: 0; } }
   .faq-respuesta p:last-child { margin-bottom: 0; }
 }
+.faq-temas { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1rem;
+  a { border: 1px solid $line; border-radius: 999px; padding: .35rem .9rem; font-size: .9rem; font-weight: 600;
+    color: $ink; text-decoration: none; }
+  a:hover, a:focus-visible { background: $mint; border-color: $mint; }
+}
+.faq-temas + .intertitulo, .prose .faq + .intertitulo { scroll-margin-top: 6rem; }
+.prose .intertitulo[id] { scroll-margin-top: 6rem; }
 
 
 .criterios { border-top: 1px solid $ink; }

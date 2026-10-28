@@ -52,6 +52,7 @@ exclude:
   - verdu
   - ejemplo_carteles.png
   - _mejora_avap
+  - para_faq
   - _tools
   - README.md
   - Gemfile

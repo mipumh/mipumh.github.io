@@ -37,11 +37,6 @@ description: "Admisión al Máster Universitario en Innovación en Periodismo (U
 <p>Con estudios extranjeros: <a href="https://estudios.umh.es/acceso/masters/acceso-con-estudios-universitarios-extranjeros/">acceso con títulos extranjeros</a>. <a href="{{ site.inc.tasas }}">Tasas</a> · <a href="{{ site.inc.becas }}">Becas</a>.</p>
 
 <h2 class="intertitulo" id="faq">Preguntas frecuentes</h2>
-<div class="faq">
-{%- for f in site.data.faq %}
-  <details>
-    <summary>{{ f.pregunta }}</summary>
-    <div class="faq-respuesta">{{ f.respuesta | markdownify }}</div>
-  </details>
-{%- endfor %}
-</div>
+{%- assign g = site.data.faq | where: "id", "admision" | first %}
+{% include faq-grupo.html g=g %}
+<p class="mt-3"><a href="{{ site.baseurl }}/preguntas-frecuentes/">Todas las preguntas frecuentes</a>: clases, precio, becas, prácticas y estudios extranjeros.</p>

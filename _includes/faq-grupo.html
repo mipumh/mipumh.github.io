@@ -1,0 +1,18 @@
+{%- comment -%}Un bloque de preguntas frecuentes. Parámetro: g (grupo de _data/faq.yml).
+Rellena %precio_credito% y %precio_total% con los datos oficiales de _data/umh.{%- endcomment -%}
+{%- assign t = site.data.umh.titulo -%}
+{%- assign cent = t.precio_credito.primera | times: 100 | times: t.creditos.total | round -%}
+{%- assign euros = cent | divided_by: 100 -%}
+{%- assign miles = euros | divided_by: 1000 -%}
+{%- assign resto = euros | modulo: 1000 | prepend: "00" | slice: -3, 3 -%}
+{%- assign decimales = cent | modulo: 100 | prepend: "0" | slice: -2, 2 -%}
+{%- capture precio_total %}{% if miles > 0 %}{{ miles }}.{{ resto }}{% else %}{{ euros }}{% endif %},{{ decimales }}{% endcapture -%}
+{%- assign precio_credito = t.precio_credito.primera | append: "" | replace: ".", "," -%}
+<div class="faq">
+{%- for f in include.g.preguntas %}
+  <details>
+    <summary>{{ f.pregunta }}</summary>
+    <div class="faq-respuesta">{{ f.respuesta | replace: "%precio_credito%", precio_credito | replace: "%precio_total%", precio_total | markdownify }}</div>
+  </details>
+{%- endfor %}
+</div>

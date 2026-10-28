@@ -34,7 +34,13 @@ Recorrido de los cambios hechos entre el 26 y el 28 de octubre de 2026 en la ram
 - URL jerárquicas sin `.html`: `/plan-de-estudios/<asignatura>/`, `/profesorado/<docente>/`, `/admision/`… (sin redirecciones desde las antiguas); títulos con «máster online» y «título oficial»; enlaces de la revista actualizados.
 - Analytics GA4 (`G-BEL40TFYNP`) con Consent Mode v2 y aviso de cookies en web y revista.
 
-## 5. Pendiente
+## 5. Preguntas frecuentes (28/10)
+
+- Página `/preguntas-frecuentes/` con 36 preguntas en siete temas (el máster, clases, admisión, estudiantes de fuera de España, precio y becas, prácticas y TFM, contacto). Salen de unos 260 correos de respuesta a candidatos (2022-2026), redactadas de nuevo y contrastadas con la ficha oficial y estudios.umh.es (tasas, exenciones, formas de pago, acceso con títulos extranjeros).
+- Admisión muestra solo el bloque de admisión; menú móvil, pie, formulario y vías de contacto enlazan a la página nueva.
+- Sin marcado FAQPage: Google retiró ese resultado enriquecido en mayo de 2026.
+
+## 6. Pendiente
 
 - Permisos de egresados antes de volver a publicar la página.
 - CV de los docentes (bloque `cv:` en `_profesorado/*.md`), LinkedIn del máster, «IBerperia», fotos de 74 ponentes.

@@ -7,7 +7,7 @@ Rama de trabajo del rediseño: `rediseno-avap`. `master` es la web publicada ant
 ## Estructura de URL
 
 URL jerárquicas en castellano, sin `.html` (la página padre se llama igual que su directorio):
-`/plan-de-estudios/` › `/plan-de-estudios/<asignatura>/` · `/profesorado/` › `/profesorado/<docente>/` · `/admision/` · `/nos-visitan/` · `/practicas/` · `/calidad/`.
+`/plan-de-estudios/` › `/plan-de-estudios/<asignatura>/` · `/profesorado/` › `/profesorado/<docente>/` · `/admision/` · `/preguntas-frecuentes/` · `/nos-visitan/` · `/practicas/` · `/calidad/`.
 Los ficheros de página se llaman igual (`plan-de-estudios.md`, `profesorado.md`, `admision.md`…); las colecciones fijan su `permalink` en `_config.yml`. Para el `<title>` se puede usar `seo_title` en el front matter (p. ej. «Admisión y preinscripción»).
 
 ## Compilar y comprobar
@@ -33,7 +33,8 @@ LC_ALL=en_US.UTF-8 htmlproofer ./_site --disable-external --allow-hash-href --em
 | Premio Vicente Verdú | `images/premios/`, `_data/premio_verdu.yml` | Originales en `CARTELES PREMIADOS/` (fuera de git) → JPG 600 px |
 | Entidades de prácticas / instituciones colaboradoras | `_data/entidades.yml`, `_data/colaboradores.yml`, `images/colaboradores/` | A mano |
 | Egresados por promoción | `_data/egresados.yml` | Listados de TFM de la Facultad: **solo nombre y título**, nunca NIF ni notas |
-| Admisión, FAQ, hitos (RUCT), avisos, menú | `_data/admision.yml`, `faq.yml`, `hitos.yml`, `avisos.yml`, `navigation.yml` | A mano. `navigation.yml` se copia también a `../blog/_data/` |
+| Preguntas frecuentes (`/preguntas-frecuentes/`; el bloque `admision` sale también en Admisión) | `_data/faq.yml` | A mano, por temas. Salen de las consultas reales por correo (buzón en `para_faq/`, local y fuera de git: datos personales). El precio se escribe como `%precio_credito%` / `%precio_total%` y se rellena desde `_data/umh` |
+| Admisión, hitos (RUCT), avisos, menú | `_data/admision.yml`, `hitos.yml`, `avisos.yml`, `navigation.yml` | A mano. `navigation.yml` se copia también a `../blog/_data/` |
 | Profesorado (fichas, CV AVAP) | `_profesorado/*.md` | A mano: bloque `cv:`; asignaturas salen de `_data/umh` |
 
 ## Reglas

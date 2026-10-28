@@ -1,16 +1,105 @@
-# Preguntas frecuentes públicas. Solo respuestas respaldadas por la ficha oficial del título.
-# Pendiente: incorporar la FAQ del campus virtual (ver _mejora_avap/pendientes.md).
-- pregunta: ¿Tengo que ir a Elche en algún momento?
-  respuesta: "No. La modalidad es a distancia: la docencia es 100% en línea y no se requiere presencialidad."
-- pregunta: ¿Qué horario tienen las clases?
-  respuesta: "Las clases grabadas se siguen de forma asíncrona. Hay una clase en directo en Google Meet todos los lunes de 18:00 a 19:00 y, en algunas asignaturas, una sesión colaborativa un jueves por la tarde al mes. Consulta el [calendario de clases](https://calendar.google.com/calendar/embed?src=mip%40umh.es&ctz=Europe%2FMadrid)."
-- pregunta: ¿Puedo acceder con un título de fuera de España?
-  respuesta: Sí. Los títulos de sistemas ajenos al Espacio Europeo de Educación Superior no necesitan homologación, pero la UMH comprueba que acreditan un nivel de formación equivalente al Grado y que en su país dan acceso a estudios de posgrado.
-- pregunta: ¿Qué nivel de inglés necesito?
-  respuesta: Se requiere como mínimo un nivel B1 del Marco Común Europeo de Referencia para las Lenguas. La formación o dominio del inglés pondera entre el 20% y el 40% en la admisión.
-- pregunta: Ya trabajo en un medio. ¿Puedo convalidar las prácticas?
-  respuesta: "Las prácticas externas (8 ECTS) pueden reconocerse por experiencia profesional acreditada, previa solicitud. Consulta el [procedimiento de reconocimiento de créditos](https://estudios.umh.es/reconocimiento-creditos/master-experiencia-profesional-y-laboral/)."
-- pregunta: ¿Cuántas asignaturas optativas tengo que cursar?
-  respuesta: Hay que cursar 12 ECTS optativos, es decir, dos de las tres asignaturas optativas de 6 ECTS del segundo semestre.
-- pregunta: ¿El máster da acceso al doctorado?
-  respuesta: "Sí. Es un título oficial que habilita para el acceso al doctorado, por ejemplo al [Programa de Doctorado en Ciencias Sociales y Jurídicas](https://doctoradosocialesyjuridicas.umh.es/) de la UMH."
+# Preguntas frecuentes del máster, agrupadas por tema (página /preguntas-frecuentes/).
+# Salen de las consultas reales que recibe el máster por correo (2022-2026) y se contrastan
+# con la ficha oficial (_data/umh) y las páginas de estudios.umh.es. Nada de importes que
+# cambien cada curso salvo %precio_credito% y %precio_total%, que se rellenan desde _data/umh.
+# El grupo con id "admision" se muestra también en /admision/.
+
+- tema: El máster
+  id: el-master
+  preguntas:
+    - pregunta: ¿Es un título oficial?
+      respuesta: "Sí. Es un Máster Universitario oficial de la Universidad Miguel Hernández, inscrito en el Registro de Universidades, Centros y Títulos (RUCT). Consulta la [ficha oficial](https://www.umh.es/contenido/Estudios/:tit_m_182/datos_es.html)."
+    - pregunta: ¿A quién va dirigido?
+      respuesta: "A graduados y profesionales del periodismo y la comunicación que quieren diseñar y lanzar proyectos informativos digitales: nuevos medios, productos, audiencias, datos o modelos de negocio. También a quien quiere ponerse al día sin dejar su trabajo."
+    - pregunta: ¿Cuánto dura?
+      respuesta: "Un curso académico, 60 ECTS. Empieza a finales de septiembre o principios de octubre y termina en junio. Las fechas exactas están en el [calendario de clases](https://calendar.google.com/calendar/embed?src=mip%40umh.es&ctz=Europe%2FMadrid)."
+    - pregunta: ¿Puedo hacerlo en dos años?
+      respuesta: "Sí, con [matrícula a tiempo parcial](https://estudios.umh.es/matricula-parcial-masteres-universitarios/). Lo habitual es dejar para el segundo año las asignaturas del proyecto (Diseño y planificación, Desarrollo y lanzamiento) y el TFM. Te ayudamos a repartirlo."
+    - pregunta: ¿El máster da acceso al doctorado?
+      respuesta: "Sí. Como título oficial, da acceso al doctorado, por ejemplo al [Programa de Doctorado en Ciencias Sociales y Jurídicas](https://doctoradosocialesyjuridicas.umh.es/) de la UMH, que fija sus propios criterios de admisión."
+
+- tema: Modalidad y clases
+  id: clases
+  preguntas:
+    - pregunta: ¿Tengo que ir a Elche en algún momento?
+      respuesta: "No. Todo el máster es en línea, también las prácticas si las haces en remoto y la defensa del TFM. Si coincides por aquí, puedes pasar a vernos, pero es opcional."
+    - pregunta: ¿Cómo son las clases?
+      respuesta: "Cada asignatura tiene vídeos, materiales y foros en el campus virtual, que sigues a tu ritmo. Además, hay una clase en directo por Google Meet todos los lunes de 18:00 a 19:00 (hora peninsular española) y, en algunas asignaturas, una sesión colaborativa un jueves por la tarde al mes. Las asignaturas se cursan de forma escalonada, una tras otra."
+    - pregunta: ¿Es obligatorio conectarse a la clase de los lunes?
+      respuesta: "La asistencia cuenta, porque es el momento de encuentro con profesorado y compañeros. Si un día no puedes, la clase queda grabada: verla y participar en el foro compensa en parte la falta. Las sesiones colaborativas de los jueves no se graban."
+    - pregunta: ¿Hay exámenes?
+      respuesta: "No. La evaluación es continua: ejercicios prácticos, participación en foros y en las clases, y el proyecto final. Cada [guía docente](https://www.umh.es/contenido/Estudios/:tit_m_182/datos_es.html) detalla cómo se evalúa la asignatura."
+    - pregunta: ¿Puedo compaginarlo con un trabajo?
+      respuesta: "Sí, está pensado para eso: solo hay una hora semanal en directo y el resto se sigue a demanda. Si vas justo de tiempo, puedes repartirlo en dos años."
+
+- tema: Admisión y preinscripción
+  id: admision
+  preguntas:
+    - pregunta: ¿Qué necesito para entrar?
+      respuesta: "Un título universitario oficial de Grado o Licenciatura, o equivalente. Si ya tienes un máster oficial, también sirve. Un título propio o un máster no oficial no da acceso por sí solo, aunque puede valorarse como mérito."
+    - pregunta: ¿Puedo entrar si no he estudiado Periodismo?
+      respuesta: "Sí, puede acceder cualquier titulado universitario. Solo si hay más solicitudes que plazas se ordenan las candidaturas, y entonces puntúan más Periodismo, después Comunicación Audiovisual y Publicidad, y después otras carreras. Ver [criterios de admisión](/admision/)."
+    - pregunta: ¿Hay prueba de acceso o entrevista?
+      respuesta: "No. La admisión se decide con la documentación que presentas en la preinscripción: título, expediente, experiencia profesional e inglés."
+    - pregunta: ¿Qué nivel de inglés necesito?
+      respuesta: "Se pide un nivel B1. No necesitas un certificado oficial si el inglés aparece en tu expediente o si estudiaste la carrera en inglés. Cuenta un 20% en la valoración cuando hay más solicitudes que plazas."
+    - pregunta: ¿Cuándo es la preinscripción?
+      respuesta: "El primer plazo suele ir de marzo a junio. Si quedan plazas, la UMH abre un segundo plazo en julio y, algunos cursos, otro extraordinario hasta septiembre. Las fechas exactas se publican en [estudios.umh.es](https://estudios.umh.es/acceso/masters/instrucciones-de-preinscripcion-master-universitario/). No hay matrícula fuera de plazo."
+    - pregunta: ¿Cómo me preinscribo?
+      respuesta: "En la [aplicación de preinscripción](https://universite.umh.es/preins_postgrado/master/listado) de la UMH, subiendo cada documento en PDF (si son varias páginas, en un único archivo). Lee antes las [instrucciones](https://estudios.umh.es/acceso/masters/instrucciones-de-preinscripcion-master-universitario/): si falta algo, te lo pedirán en el plazo de subsanación."
+    - pregunta: ¿Puedo preinscribirme si aún no he terminado la carrera?
+      respuesta: "Sí, si estudias en España o en otro país del Espacio Europeo de Educación Superior y solo te falta el TFG y hasta 9 ECTS ([admisión condicionada](https://estudios.umh.es/acceso/masters/admision-condicionada-a-master-universitario/)). No podrás obtener el título de máster hasta tener el de grado. Con títulos de fuera de Europa hay que tener ya el título y el certificado académico legalizados."
+    - pregunta: ¿Qué pasa después de preinscribirme?
+      respuesta: "La UMH valora todas las solicitudes del plazo a la vez y publica listas provisionales y definitivas. Si te admiten, abonas la reserva de plaza y recibes por SMS o correo un PIN para hacer la [matrícula](https://estudios.umh.es/matriculacion/matricula-de-masters/). La reserva de plaza, con carácter general, no se devuelve si luego no te matriculas."
+    - pregunta: ¿Puedo incorporarme con el curso empezado?
+      respuesta: "Solo si sigue abierto algún plazo oficial de preinscripción. Si es así, las clases grabadas te permiten ponerte al día con las primeras semanas."
+
+- tema: Estudiantes de fuera de España
+  id: internacional
+  preguntas:
+    - pregunta: ¿Puedo cursarlo desde mi país?
+      respuesta: "Sí. Es 100% en línea, así que no necesitas venir a España ni para las clases ni para las prácticas, que puedes hacer en una entidad de tu país."
+    - pregunta: ¿Tengo que homologar mi título?
+      respuesta: "No. La UMH comprueba que tu título equivale a un grado español y da acceso a posgrado en tu país (estudio de equivalencia, con tasa). Necesitas el título y el certificado académico legalizados (Apostilla de La Haya o vía diplomática) y traducción jurada si no están en español. Detalles en [acceso con estudios extranjeros](https://estudios.umh.es/acceso/masters/acceso-con-estudios-universitarios-extranjeros/)."
+    - pregunta: ¿Qué tiene que incluir el certificado académico?
+      respuesta: "Todas las asignaturas cursadas, sus créditos y calificaciones, el total de créditos superados y la duración de los estudios en cursos académicos. Si estudiaste en Europa, puedes aportar el Suplemento Europeo al Título."
+    - pregunta: Mi sistema de notas es distinto. ¿Qué nota media pongo?
+      respuesta: "Puedes aportar la declaración de equivalencia de nota media de estudios extranjeros que emite el Ministerio. Solo es imprescindible si hay más solicitudes que plazas."
+    - pregunta: ¿Cuánto cuesta si no soy residente en España?
+      respuesta: "El estudiantado extranjero no residente de fuera de la Unión Europea paga el doble del precio por crédito. Los nacionales de un país de la UE pagan el precio general. Consulta la [tabla de tasas](https://estudios.umh.es/importe-tasas-matricula-master-universitario/) del curso."
+
+- tema: Precio, pago y becas
+  id: precio
+  preguntas:
+    - pregunta: ¿Cuánto cuesta el máster?
+      respuesta: "El crédito cuesta %precio_credito% € en primera matrícula: %precio_total% € por los 60 créditos, más algunas tasas administrativas. Es un precio público que fija cada año la Generalitat Valenciana ([tasas](https://estudios.umh.es/importe-tasas-matricula-master-universitario/))."
+    - pregunta: ¿Puedo pagar a plazos?
+      respuesta: "Sí. Puedes pagar con tarjeta, Bizum o en el banco en uno o dos plazos (el segundo, en abril), o domiciliar el pago en varios plazos con una cuenta española o de la zona SEPA. Si vives fuera de la zona SEPA, elige el pago en uno o dos plazos. Más en [formas de pago](https://estudios.umh.es/formas-de-pago-de-la-matricula/)."
+    - pregunta: ¿Hay becas?
+      respuesta: "El máster no tiene becas propias. Puedes optar a las [becas del Ministerio y de la Generalitat](https://estudios.umh.es/becas/), que exigen residencia en España."
+    - pregunta: ¿Hay descuentos?
+      respuesta: "Sí, los oficiales: exención total con una discapacidad igual o superior al 33%, y bonificación del 50% o exención para familias numerosas y monoparentales, entre otros casos. Consulta [exenciones y bonificaciones](https://estudios.umh.es/exenciones-y-bonificaciones-master-universitario/)."
+    - pregunta: ¿Y si me matriculo y no puedo seguir?
+      respuesta: "Puedes pedir la [anulación de matrícula](https://estudios.umh.es/anulacion-matricula/) en los plazos que fija la UMH. Avísanos también a nosotros."
+
+- tema: Prácticas y TFM
+  id: practicas-tfm
+  preguntas:
+    - pregunta: ¿Dónde hago las prácticas?
+      respuesta: "Donde vivas, en España o en otro país, en presencial o en remoto. Puedes proponer el medio o la empresa que prefieras y la UMH firma el convenio con ella; también puedes elegir entre las [entidades colaboradoras](/practicas/). Tendrás un tutor en la universidad y otro en la entidad."
+    - pregunta: Ya trabajo en un medio. ¿Puedo convalidar las prácticas?
+      respuesta: "Sí. Las prácticas (8 ECTS) se reconocen por experiencia profesional acreditada con tu vida laboral y certificados de empresa. Se solicita una vez matriculado, en el plazo que abre la UMH al inicio de curso: [reconocimiento de créditos](https://estudios.umh.es/reconocimiento-creditos/master-experiencia-profesional-y-laboral/)."
+    - pregunta: ¿Cuántas asignaturas optativas tengo que cursar?
+      respuesta: "Dos de las tres optativas del segundo semestre (12 ECTS). Puedes matricularte de las tres, pero no hace falta y la carga de trabajo es alta."
+    - pregunta: ¿En qué consiste el Trabajo Fin de Máster?
+      respuesta: "En un proyecto periodístico propio: una memoria y un prototipo (web o aplicación) de un producto o servicio informativo. Lo defiendes en línea ante un tribunal, en directo o con un vídeo."
+    - pregunta: ¿Cómo pido el título al terminar?
+      respuesta: "Con el máster superado, solicitas la [expedición del título](https://estudios.umh.es/expedicion-titulos/expedicion-titulos-oficiales/titulos-oficiales/) en la UMH."
+
+- tema: Contacto
+  id: contacto
+  preguntas:
+    - pregunta: ¿Puedo hablar con la dirección antes de decidirme?
+      respuesta: "Sí. [Reserva una videollamada](https://calendar.app.google/vuQ9w5xuUrsymFZh9) o escríbenos a [mip@umh.es](mailto:mip@umh.es) y te respondemos las dudas académicas."
+    - pregunta: ¿A quién pregunto por la documentación, la matrícula o el pago?
+      respuesta: "Al Servicio de Gestión de Estudios de la UMH, que es quien revisa la documentación y gestiona la matrícula: [consulte.umh.es](https://consulte.umh.es/). Si se atasca algo, escríbenos y te ayudamos a desbloquearlo."
