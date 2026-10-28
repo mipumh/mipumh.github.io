@@ -42,5 +42,5 @@ LC_ALL=en_US.UTF-8 htmlproofer ./_site --disable-external --allow-hash-href --em
 ## Pendiente
 
 - Analytics desactivado: el ID `UA-32796571-1` (web) y `UA-38906933-1` (revista) no recogen datos desde 2023. Falta un ID `G-` de GA4 (`site.inc.analytics.google` en `_config.yml`).
-- Permisos de egresados; LinkedIn del máster; «IBerperia» en instituciones; erratas de numeración en los carteles del premio Verdú.
+- Permisos de egresados; LinkedIn del máster; «IBerperia» en instituciones.
 - Detalle en `docs/rediseno-avap-2026.md` y en `_mejora_avap/pendientes.md` (local, fuera de git).

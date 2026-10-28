@@ -35,5 +35,5 @@ Recorrido de los cambios hechos entre el 26 y el 28 de octubre de 2026 en la ram
 
 - **Analytics:** desactivado; los IDs `UA-` de la web y de la revista no recogen datos desde 2023. Hace falta un ID `G-` de GA4.
 - Permisos de egresados antes de volver a publicar la página.
-- CV de los docentes (bloque `cv:` en `_profesorado/*.md`), LinkedIn del máster, «IBerperia», fotos de 74 ponentes, erratas en la numeración de los carteles del premio Verdú.
+- CV de los docentes (bloque `cv:` en `_profesorado/*.md`), LinkedIn del máster, «IBerperia», fotos de 74 ponentes.
 - Fusionar `rediseno-avap` en `master` (y la rama homónima de la revista) cuando se apruebe.
