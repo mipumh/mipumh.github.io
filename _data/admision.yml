@@ -1,13 +1,10 @@
-# Copiado de la ficha oficial (umh.es, campo «Admisión»). Revisar si cambia _data/umh/titulo.json → admision_html.
+# Criterios de admisión y su peso (dirección del máster). Están dentro de los rangos
+# de la memoria verificada: titulación 25-60 %, experiencia 20-40 %, inglés 20-40 %.
 criterios:
-  - criterio: Titulación de acceso
-    min: 25
-    max: 60
-    nota: "Periodismo, hasta el 60 %; Comunicación Audiovisual o Publicidad y RR. PP., hasta el 40 %; otras titulaciones de Ciencias Sociales y Jurídicas, hasta el 30 %; resto de titulaciones, hasta el 25 %. Ranking por expediente."
-  - criterio: Experiencia profesional en el ámbito del máster
-    min: 20
-    max: 40
-  - criterio: Formación o dominio del inglés
-    min: 20
-    max: 40
-    nota: "Se requiere como mínimo un nivel B1 del Marco Común Europeo de Referencia."
+  - criterio: Grado en Periodismo, Comunicación o afín
+    peso: 60
+  - criterio: Experiencia profesional en medios o comunicación
+    peso: 20
+  - criterio: Dominio del inglés
+    peso: 20
+    nota: Nivel mínimo B1.

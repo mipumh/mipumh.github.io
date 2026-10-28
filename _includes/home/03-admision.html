@@ -20,13 +20,15 @@
       <div class="col-lg-6">
         <div class="card-plain">
           <h3 class="h5">Criterios de admisión</h3>
+          <div class="criterios">
           {%- for c in site.data.admision.criterios %}
-          <div class="ponderacion">
-            <div class="ponderacion-label"><span>{{ c.criterio }}</span><span>{{ c.min }}–{{ c.max }}&nbsp;%</span></div>
-            <div class="bar" role="img" aria-label="Entre el {{ c.min }} y el {{ c.max }} por ciento"><span style="left:0;width:{{ c.min }}%"></span><span class="rango" style="left:{{ c.min }}%;width:{{ c.max | minus: c.min }}%"></span></div>
-          </div>
+            <div class="criterio">
+              <span class="criterio-peso">{{ c.peso }}&nbsp;%</span>
+              <span class="criterio-texto"><strong>{{ c.criterio }}</strong>{% if c.nota %}<br><span class="small text-muted">{{ c.nota }}</span>{% endif %}</span>
+              <span class="criterio-barra" aria-hidden="true"><span style="width:{{ c.peso }}%"></span></span>
+            </div>
           {%- endfor %}
-          <p class="small text-muted mb-0">Inglés: nivel mínimo B1.</p>
+          </div>
         </div>
       </div>
     </div>

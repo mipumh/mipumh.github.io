@@ -17,14 +17,14 @@ description: "Admisión al Máster Universitario en Innovación en Periodismo (U
 
 <p class="intertitulo">Criterios de admisión</p>
 <p>Si hay más candidaturas que las {{ t.plazas }} plazas, una comisión las pondera así:</p>
-<div class="table-responsive">
-<table class="table">
-  <tbody>
-    <tr><td><strong>Titulación</strong><br><span class="small text-muted">Periodismo hasta 60 % · CAV o Publicidad hasta 40 % · otras CC. Sociales y Jurídicas hasta 30 % · resto hasta 25 %</span></td><td class="text-nowrap">25–60 %</td></tr>
-    <tr><td><strong>Experiencia profesional</strong> en el ámbito del máster</td><td class="text-nowrap">20–40 %</td></tr>
-    <tr><td><strong>Inglés</strong> (mínimo B1)</td><td class="text-nowrap">20–40 %</td></tr>
-  </tbody>
-</table>
+<div class="criterios">
+{%- for c in site.data.admision.criterios %}
+  <div class="criterio">
+    <span class="criterio-peso">{{ c.peso }}&nbsp;%</span>
+    <span class="criterio-texto"><strong>{{ c.criterio }}</strong>{% if c.nota %}<br><span class="small text-muted">{{ c.nota }}</span>{% endif %}</span>
+    <span class="criterio-barra" aria-hidden="true"><span style="width:{{ c.peso }}%"></span></span>
+  </div>
+{%- endfor %}
 </div>
 
 <p class="intertitulo">Pasos</p>

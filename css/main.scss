@@ -350,6 +350,14 @@ section[id] { scroll-margin-top: 90px; }
 .modal-content { border-radius: 12px; border: 0; }
 .modal-header { border-bottom: 0; padding-bottom: 0; }
 
+.criterios { border-top: 1px solid $ink; }
+.criterio { display: grid; grid-template-columns: 5.5rem 1fr; gap: .25rem 1rem; align-items: center; padding: 1rem 0; border-bottom: 1px solid $line;
+  .criterio-peso { font-family: $display; font-weight: 800; font-size: 2rem; letter-spacing: -0.03em; line-height: 1; }
+  .criterio-texto { line-height: 1.35; }
+  .criterio-barra { grid-column: 1 / -1; height: 6px; background: $line; border-radius: 99px; overflow: hidden; }
+  .criterio-barra span { display: block; height: 100%; background: $mint; }
+}
+
 // Pie
 .site-footer { background: $ink; color: #d7dbe0; padding: 3.5rem 0 2rem; margin-top: 0;
   a:not(.btn) { color: $paper; }
