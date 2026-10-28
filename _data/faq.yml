@@ -1,7 +1,7 @@
 # Preguntas frecuentes del máster, agrupadas por tema (página /preguntas-frecuentes/).
 # Salen de las consultas reales que recibe el máster por correo (2022-2026) y se contrastan
 # con la ficha oficial (_data/umh) y las páginas de estudios.umh.es. Nada de importes que
-# cambien cada curso salvo %precio_credito% y %precio_total%, que se rellenan desde _data/umh.
+# cambien cada curso (salvo la tasa de equivalencia, 155,22 € en 2026/27: revisar cada año) salvo %precio_credito%, %precio_total% y %precio_total_doble%, que se rellenan desde _data/umh.
 # El grupo con id "admision" se muestra también en /admision/.
 
 - tema: El máster
@@ -60,19 +60,25 @@
     - pregunta: ¿Puedo cursarlo desde mi país?
       respuesta: "Sí. Es 100% en línea, así que no necesitas venir a España ni para las clases ni para las prácticas, que puedes hacer en una entidad de tu país."
     - pregunta: ¿Tengo que homologar mi título?
-      respuesta: "No. La UMH comprueba que tu título equivale a un grado español y da acceso a posgrado en tu país (estudio de equivalencia, con tasa). Necesitas el título y el certificado académico legalizados (Apostilla de La Haya o vía diplomática) y traducción jurada si no están en español. Detalles en [acceso con estudios extranjeros](https://estudios.umh.es/acceso/masters/acceso-con-estudios-universitarios-extranjeros/)."
+      respuesta: "No. La UMH comprueba que tu título equivale a un grado español y da acceso a posgrado en tu país mediante un estudio de equivalencia, con una tasa de 155,22 € que se paga durante la preinscripción ([recibo](https://universite.umh.es/recibos/obtenerDatosReb.asp?selTipreb=61&selSubtipreb=19)). Necesitas el título y el certificado académico legalizados (Apostilla de La Haya o vía diplomática) y traducción jurada si no están en español. Detalles en [acceso con estudios extranjeros](https://estudios.umh.es/acceso/masters/acceso-con-estudios-universitarios-extranjeros/)."
     - pregunta: ¿Qué tiene que incluir el certificado académico?
       respuesta: "Todas las asignaturas cursadas, sus créditos y calificaciones, el total de créditos superados y la duración de los estudios en cursos académicos. Si estudiaste en Europa, puedes aportar el Suplemento Europeo al Título."
     - pregunta: Mi sistema de notas es distinto. ¿Qué nota media pongo?
       respuesta: "Puedes aportar la declaración de equivalencia de nota media de estudios extranjeros que emite el Ministerio. Solo es imprescindible si hay más solicitudes que plazas."
     - pregunta: ¿Cuánto cuesta si no soy residente en España?
-      respuesta: "El estudiantado extranjero no residente de fuera de la Unión Europea paga el doble del precio por crédito. Los nacionales de un país de la UE pagan el precio general. Consulta la [tabla de tasas](https://estudios.umh.es/importe-tasas-matricula-master-universitario/) del curso."
+      respuesta: "El estudiantado extranjero no residente de fuera de la Unión Europea paga el doble del precio por crédito (%precio_total_doble% € por los 60 créditos). Si tu título es de fuera del Espacio Europeo de Educación Superior, suma la tasa del estudio de equivalencia (155,22 €). Los nacionales de un país de la UE pagan el precio general. Consulta la [tabla de tasas](https://estudios.umh.es/importe-tasas-matricula-master-universitario/) del curso."
 
 - tema: Precio, pago y becas
   id: precio
   preguntas:
     - pregunta: ¿Cuánto cuesta el máster?
-      respuesta: "El crédito cuesta %precio_credito% € en primera matrícula: %precio_total% € por los 60 créditos, más algunas tasas administrativas. Es un precio público que fija cada año la Generalitat Valenciana ([tasas](https://estudios.umh.es/importe-tasas-matricula-master-universitario/))."
+      respuesta: |
+        El crédito cuesta %precio_credito% € en primera matrícula: %precio_total% € por los 60 créditos, más algunas tasas administrativas. Es un precio público que fija cada año la Generalitat Valenciana ([tasas](https://estudios.umh.es/importe-tasas-matricula-master-universitario/)).
+
+        **Si eres estudiante extranjero, cuesta más:**
+
+        - Si no eres residente en España ni nacional de un país de la Unión Europea, pagas el doble por crédito: %precio_total_doble% € por los 60 créditos.
+        - Si accedes con un título de fuera del Espacio Europeo de Educación Superior sin homologar ni declaración de equivalencia del Ministerio, durante la preinscripción debes pagar además la tasa del estudio de equivalencia: 155,22 €. Puedes [descargar el recibo aquí](https://universite.umh.es/recibos/obtenerDatosReb.asp?selTipreb=61&selSubtipreb=19) o desde la propia preinscripción.
     - pregunta: ¿Puedo pagar a plazos?
       respuesta: "Sí. Puedes pagar con tarjeta, Bizum o en el banco en uno o dos plazos (el segundo, en abril), o domiciliar el pago en varios plazos con una cuenta española o de la zona SEPA. Si vives fuera de la zona SEPA, elige el pago en uno o dos plazos. Más en [formas de pago](https://estudios.umh.es/formas-de-pago-de-la-matricula/)."
     - pregunta: ¿Hay becas?
