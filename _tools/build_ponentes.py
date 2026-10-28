@@ -20,6 +20,8 @@ ROOT = os.path.join(os.path.dirname(__file__), "..")
 FUENTE = os.path.join(ROOT, "_mejora_avap", "ponentes_invitados_MIP_2021-2026.csv")
 CONFERENCIAS = os.path.join(ROOT, "..", "blog", "_conferencias", "*.md")
 SALIDA = os.path.join(ROOT, "_data", "ponentes.csv")
+# Ponentes de ediciones anteriores sin fecha, añadidos a mano por la dirección
+EXTRA = os.path.join(os.path.dirname(__file__), "ponentes_extra.csv")
 
 NOMBRES = {
     "José A. Navas": "José A. Navas",
@@ -148,8 +150,14 @@ def desde_conferencias():
     return filas
 
 
+def desde_extra():
+    with open(EXTRA, encoding="utf-8") as f:
+        return [fila("", "", r["ponente"], r["cargo"], "", r["asignatura"], "Externo")
+                for r in csv.DictReader(f)]
+
+
 def main():
-    filas = desde_conferencias() + desde_csv()
+    filas = desde_conferencias() + desde_csv() + desde_extra()
     vistas = set()
     unicas = []
     for f in filas:
