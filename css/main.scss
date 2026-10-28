@@ -548,9 +548,16 @@ section[id] { scroll-margin-top: 90px; }
 
 // Lo último en la revista (portada): imagen cuadrada y foto del autor
 .revista-card { display: block; height: 100%; color: $ink; text-decoration: none;
-  .revista-img { width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 12px; display: block; margin-bottom: 1rem;
-    background: $line; transition: transform .3s ease; }
-  &:hover .revista-img { transform: translateY(-4px); }
+  // Dúo-tono menta con trama de puntos, como los carteles; al pasar el ratón recupera el color
+  .revista-figura { position: relative; display: block; aspect-ratio: 1 / 1; border-radius: 12px; overflow: hidden; margin-bottom: 1rem;
+    background: $mint; transition: transform .3s ease; }
+  .revista-figura::after { content: ""; position: absolute; inset: 0; pointer-events: none; transition: opacity .3s ease;
+    background-image: radial-gradient(rgba(11, 11, 11, .16) 1px, transparent 1.4px); background-size: 5px 5px; mix-blend-mode: multiply; }
+  .revista-img { width: 100%; height: 100%; object-fit: cover; display: block;
+    filter: grayscale(1) brightness(1.35) contrast(.95); mix-blend-mode: multiply; transition: filter .3s ease; }
+  &:hover .revista-figura { transform: translateY(-4px); }
+  &:hover .revista-img, &:focus-visible .revista-img { filter: none; mix-blend-mode: normal; }
+  &:hover .revista-figura::after, &:focus-visible .revista-figura::after { opacity: 0; }
   &:hover h3 { text-decoration: underline; text-decoration-color: $mint; text-decoration-thickness: 3px; text-underline-offset: 4px; }
 }
 .revista-meta { display: flex; align-items: center; gap: .55rem; font-size: .85rem; color: #5b6470; margin-bottom: .5rem;

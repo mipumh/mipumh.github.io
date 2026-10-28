@@ -27,7 +27,12 @@
         var a = document.createElement('a');
         a.className = 'revista-card';
         a.href = p.url;
-        if (p.image) a.append(img(ruta(p.image), 'revista-img', 600));
+        if (p.image) {
+          var fig = document.createElement('span');
+          fig.className = 'revista-figura';
+          fig.append(img(ruta(p.image), 'revista-img', 600));
+          a.append(fig);
+        }
         var meta = document.createElement('p');
         meta.className = 'revista-meta';
         if (p.author_image) meta.append(img(ruta(p.author_image), 'revista-avatar', 32));
