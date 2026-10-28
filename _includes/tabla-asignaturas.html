@@ -9,7 +9,7 @@
       {%- assign resp = a.responsables | first -%}
       {%- assign doc = site.profesorado | where: "umh_id", resp.id | first %}
       <tr>
-        <td><a href="{{ site.baseurl }}/asignaturas/{{ a.slug }}.html">{{ a.nombre }}</a></td>
+        <td><a href="{{ site.baseurl }}/plan-de-estudios/{{ a.slug }}/">{{ a.nombre }}</a></td>
         <td class="text-end">{{ a.ects | replace: ".", "," }}</td>
         <td><span class="pill{% if a.caracter == 'Optativa' %} pill-mint{% endif %}">{{ a.caracter | replace: "Trabajo Fin Máster", "Trabajo fin de máster" | replace: "Prácticas Externas", "Prácticas externas" }}</span></td>
         <td class="d-none d-md-table-cell small">{% if doc %}<a href="{{ doc.url }}">{{ doc.nombre }}</a>{% endif %}</td>

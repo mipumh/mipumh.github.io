@@ -31,9 +31,11 @@ Recorrido de los cambios hechos entre el 26 y el 28 de octubre de 2026 en la ram
 - Font Awesome sustituido por SVG en línea; EmailJS solo al usar un formulario; menos pesos tipográficos.
 - Meta descripción por página, imagen social propia (1200×630), JSON-LD (programa, universidad, web, migas de pan, Person, Course), H1 y H2 correctos, sitemap con 31 URL.
 
+- URL jerárquicas sin `.html`: `/plan-de-estudios/<asignatura>/`, `/profesorado/<docente>/`, `/admision/`… (sin redirecciones desde las antiguas); títulos con «máster online» y «título oficial»; enlaces de la revista actualizados.
+- Analytics GA4 (`G-BEL40TFYNP`) con Consent Mode v2 y aviso de cookies en web y revista.
+
 ## 5. Pendiente
 
-- **Analytics:** desactivado; los IDs `UA-` de la web y de la revista no recogen datos desde 2023. Hace falta un ID `G-` de GA4.
 - Permisos de egresados antes de volver a publicar la página.
 - CV de los docentes (bloque `cv:` en `_profesorado/*.md`), LinkedIn del máster, «IBerperia», fotos de 74 ponentes.
 - Fusionar `rediseno-avap` en `master` (y la rama homónima de la revista) cuando se apruebe.

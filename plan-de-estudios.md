@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Plan de estudios
-permalink: /planestudios.html
+seo_title: "Plan de estudios: asignaturas y créditos"
+permalink: /plan-de-estudios/
 lead: 60 ECTS en un curso académico, a distancia.
 description: "Plan de estudios del Máster Universitario en Innovación en Periodismo (UMH): 60 ECTS a distancia, asignaturas, metodología, TFM y salidas profesionales."
 ---
@@ -27,7 +28,7 @@ description: "Plan de estudios del Máster Universitario en Innovación en Perio
 <p><a href="{{ site.inc.calendario }}">Calendario de clases</a> · <a href="https://www.umh.es/contenido/PDI/:calendario/datos_es.html">Calendario académico UMH</a></p>
 
 <h2 class="intertitulo" id="tfm">Trabajo Fin de Máster</h2>
-<p>Diseño y lanzamiento, real o planificado, de un producto o servicio periodístico. Se entrega una memoria y un prototipo (web o aplicación beta) y se defiende ante una comisión. <a href="{{ site.baseurl }}/asignaturas/trabajo-fin-de-master.html">Más sobre el TFM</a>.</p>
+<p>Diseño y lanzamiento, real o planificado, de un producto o servicio periodístico. Se entrega una memoria y un prototipo (web o aplicación beta) y se defiende ante una comisión. <a href="{{ site.baseurl }}/plan-de-estudios/trabajo-fin-de-master/">Más sobre el TFM</a>.</p>
 
 <h2 class="intertitulo" id="salidas">Salidas profesionales</h2>
 <ul>
@@ -38,6 +39,6 @@ description: "Plan de estudios del Máster Universitario en Innovación en Perio
 <p>El título da acceso al <a href="{{ site.inc.doctorado }}">Doctorado en Ciencias Sociales y Jurídicas</a>.</p>
 
 <h2 class="intertitulo">Coordinación</h2>
-<p>Dirección: <a href="{{ site.baseurl }}/profesorado/miguel-carvajal.html">Miguel Carvajal Prieto</a> · Subdirección: <a href="{{ site.baseurl }}/profesorado/jose-maria-valero.html">José María Valero Pastor</a> · <a href="mailto:{{ site.inc.email }}">{{ site.inc.email }}</a></p>
+<p>Dirección: <a href="{{ site.baseurl }}/profesorado/miguel-carvajal/">Miguel Carvajal Prieto</a> · Subdirección: <a href="{{ site.baseurl }}/profesorado/jose-maria-valero/">José María Valero Pastor</a> · <a href="mailto:{{ site.inc.email }}">{{ site.inc.email }}</a></p>
 
 <p class="small text-muted">Competencias, perfil de ingreso y guías docentes: <a href="{{ t.ficha_url }}">ficha oficial del título en umh.es</a>.</p>

@@ -2,7 +2,7 @@
 layout: page
 title: Profesorado
 description: "Profesorado del Máster Universitario en Innovación en Periodismo de la UMH: claustro, asignaturas que imparte y últimos artículos científicos."
-permalink: /profesores.html
+permalink: /profesorado/
 wide: true
 lead: Claustro según las guías docentes oficiales de la UMH.
 ---
@@ -25,4 +25,4 @@ lead: Claustro según las guías docentes oficiales de la UMH.
 {%- endfor %}
 </div>
 
-<p>Además, cada curso participan profesionales invitados: consulta <a href="{{ site.baseurl }}/nos-visitan.html">Nos visitan</a>.</p>
+<p>Además, cada curso participan profesionales invitados: consulta <a href="{{ site.baseurl }}/nos-visitan/">Nos visitan</a>.</p>

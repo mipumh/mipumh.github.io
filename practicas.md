@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Prácticas externas
-permalink: /practicas.html
+permalink: /practicas/
 lead: 8 ECTS y 200 horas en un medio o empresa de comunicación.
 description: "Prácticas externas del Máster Universitario en Innovación en Periodismo (UMH): 200 horas, procedimiento, reconocimiento y entidades colaboradoras."
 ---

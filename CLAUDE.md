@@ -4,6 +4,12 @@ Web del **Máster Universitario en Innovación en Periodismo (UMH)**. Jekyll en 
 
 Rama de trabajo del rediseño: `rediseno-avap`. `master` es la web publicada antigua.
 
+## Estructura de URL
+
+URL jerárquicas en castellano, sin `.html` (la página padre se llama igual que su directorio):
+`/plan-de-estudios/` › `/plan-de-estudios/<asignatura>/` · `/profesorado/` › `/profesorado/<docente>/` · `/admision/` · `/nos-visitan/` · `/practicas/` · `/calidad/`.
+Los ficheros de página se llaman igual (`plan-de-estudios.md`, `profesorado.md`, `admision.md`…); las colecciones fijan su `permalink` en `_config.yml`. Para el `<title>` se puede usar `seo_title` en el front matter (p. ej. «Admisión y preinscripción»).
+
 ## Compilar y comprobar
 
 ```sh
@@ -41,6 +47,6 @@ LC_ALL=en_US.UTF-8 htmlproofer ./_site --disable-external --allow-hash-href --em
 
 ## Pendiente
 
-- Analytics desactivado: el ID `UA-32796571-1` (web) y `UA-38906933-1` (revista) no recogen datos desde 2023. Falta un ID `G-` de GA4 (`site.inc.analytics.google` en `_config.yml`).
+- Analytics: GA4 `G-BEL40TFYNP` (flujo «MIP - GA4») en `inc.analytics.ga4` de `_config.yml` (web y revista), con Consent Mode v2 y aviso de cookies (`_includes/analytics.html`). `jekyll serve` no relee `_config.yml`: reiniciar al cambiarlo.
 - Permisos de egresados; LinkedIn del máster; «IBerperia» en instituciones.
 - Detalle en `docs/rediseno-avap-2026.md` y en `_mejora_avap/pendientes.md` (local, fuera de git).

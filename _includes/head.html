@@ -1,7 +1,8 @@
+{%- comment -%}Título: seo_title si existe (términos de búsqueda), si no el de la página{%- endcomment -%}
 {%- if page.title and page.url != "/" -%}
-  {%- capture titulo %}{{ page.title }} · {{ site.inc.short_title }} (UMH){% endcapture -%}
+  {%- capture titulo %}{{ page.seo_title | default: page.title }} · {{ site.inc.short_title }} (UMH){% endcapture -%}
 {%- else -%}
-  {%- capture titulo %}{{ site.inc.title }} · Universidad Miguel Hernández{% endcapture -%}
+  {%- capture titulo %}{{ site.inc.seo_title }}{% endcapture -%}
 {%- endif -%}
 {%- comment -%}Descripción: la de la página o, en las colecciones, una construida con sus datos{%- endcomment -%}
 {%- assign descripcion = page.description -%}

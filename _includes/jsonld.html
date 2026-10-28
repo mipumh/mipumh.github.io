@@ -37,8 +37,8 @@
 {%- else %}
 {%- comment -%}Ruta de navegación{%- endcomment -%}
 {%- assign padre = nil -%}
-{%- if page.collection == "asignaturas" -%}{%- assign padre_nombre = "Plan de estudios" -%}{%- assign padre_url = "/planestudios.html" -%}
-{%- elsif page.collection == "profesorado" -%}{%- assign padre_nombre = "Profesorado" -%}{%- assign padre_url = "/profesores.html" -%}
+{%- if page.collection == "asignaturas" -%}{%- assign padre_nombre = "Plan de estudios" -%}{%- assign padre_url = "/plan-de-estudios/" -%}
+{%- elsif page.collection == "profesorado" -%}{%- assign padre_nombre = "Profesorado" -%}{%- assign padre_url = "/profesorado/" -%}
 {%- else -%}{%- assign padre_nombre = nil -%}{%- endif %}
 <script type="application/ld+json">
 {

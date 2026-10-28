@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Calidad y transparencia
-permalink: /calidad.html
+permalink: /calidad/
 lead: "Documentación oficial del título en la UMH."
 description: Documentación oficial del Máster Universitario en Innovación en Periodismo (UMH) sobre verificación, seguimiento, acreditación, resultados y garantía de calidad.
 ---

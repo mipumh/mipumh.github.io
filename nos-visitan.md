@@ -2,7 +2,7 @@
 layout: page
 title: Nos visitan
 description: "Periodistas, editores y emprendedores de medios que han dado clase en el Máster Universitario en Innovación en Periodismo de la UMH, agrupados por asignatura."
-permalink: /nos-visitan.html
+permalink: /nos-visitan/
 wide: true
 lead: "Profesionales que han participado en las asignaturas del máster."
 ---
@@ -17,7 +17,7 @@ lead: "Profesionales que han participado en las asignaturas del máster."
   <div class="d-flex flex-wrap justify-content-between align-items-end gap-2 mb-3">
     <div>
       <p class="eyebrow mb-1">{{ a.semestre }}.º semestre · Ponentes que nos han visitado</p>
-      <h2 class="h3 mb-0"><a href="{{ site.baseurl }}/asignaturas/{{ a.slug }}.html">{{ a.nombre }}</a></h2>
+      <h2 class="h3 mb-0"><a href="{{ site.baseurl }}/plan-de-estudios/{{ a.slug }}/">{{ a.nombre }}</a></h2>
     </div>
   </div>
   <div class="row g-3">

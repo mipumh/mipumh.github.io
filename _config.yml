@@ -2,7 +2,8 @@ inc:
   title:        "Máster Universitario en Innovación en Periodismo"
   short_title:  "Máster en Innovación en Periodismo"
   subtitle:     "Título oficial de la Universidad Miguel Hernández · modalidad a distancia"
-  description:  "Máster Universitario en Innovación en Periodismo de la Universidad Miguel Hernández de Elche: título oficial de 60 ECTS en modalidad a distancia, orientado al desarrollo de proyectos periodísticos innovadores."
+  seo_title:    "Máster online en Innovación en Periodismo · Título oficial UMH"
+  description:  "Máster oficial online en Innovación en Periodismo de la UMH: 60 ECTS a distancia para diseñar y lanzar proyectos de periodismo digital, datos, producto y audiencias."
   logo:         logo.jpg
   og_image:     og-mip.jpg
   email:        mip@umh.es
@@ -28,10 +29,10 @@ lang: es
 collections:
   profesorado:
     output: true
-    permalink: /profesorado/:name.html
+    permalink: /profesorado/:name/
   asignaturas:
     output: true
-    permalink: /asignaturas/:name.html
+    permalink: /plan-de-estudios/:name/
 
 defaults:
   - scope: { type: profesorado }

@@ -19,7 +19,7 @@
     {%- for s in g.items %}
     <li data-curso="{{ s.curso }}" data-asig="{{ s.slug_asignatura }}">
       {% if s.titulo.size > 0 %}<span class="sesion-titulo">{{ s.titulo }}</span>{% endif %}
-      <span class="sesion-meta">{% if s.asignatura.size > 0 %}<a href="{{ site.baseurl }}/asignaturas/{{ s.slug_asignatura }}.html">{{ s.asignatura }}</a> · {% endif %}{% if s.fecha.size > 0 %}<time datetime="{{ s.fecha_iso }}">{{ s.fecha }}</time>{% else %}Curso {{ s.curso }}{% endif %}{% if s.cargo.size > 0 and s.cargo != cargo %} · {{ s.cargo }}{% endif %}</span>
+      <span class="sesion-meta">{% if s.asignatura.size > 0 %}<a href="{{ site.baseurl }}/plan-de-estudios/{{ s.slug_asignatura }}/">{{ s.asignatura }}</a> · {% endif %}{% if s.fecha.size > 0 %}<time datetime="{{ s.fecha_iso }}">{{ s.fecha }}</time>{% else %}Curso {{ s.curso }}{% endif %}{% if s.cargo.size > 0 and s.cargo != cargo %} · {{ s.cargo }}{% endif %}</span>
     </li>
     {%- endfor %}
   </ul>

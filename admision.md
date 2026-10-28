@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Admisión
-permalink: /preinscripcion.html
+seo_title: "Admisión y preinscripción"
+permalink: /admision/
 lead: Requisitos, criterios y pasos para entrar en el máster.
 description: "Admisión al Máster Universitario en Innovación en Periodismo (UMH): requisitos, criterios de admisión, preinscripción, tasas, becas y preguntas frecuentes."
 ---

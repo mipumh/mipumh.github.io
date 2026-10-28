@@ -6,7 +6,7 @@ layout: default
 {%- include docente-foto.html d=d -%}
 <header class="page-header">
   <div class="container">
-    <nav aria-label="Ruta"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="{{ site.baseurl }}/">Inicio</a></li><li class="breadcrumb-item"><a href="{{ site.baseurl }}/profesores.html">Profesorado</a></li><li class="breadcrumb-item active" aria-current="page">{{ d.nombre }}</li></ol></nav>
+    <nav aria-label="Ruta"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="{{ site.baseurl }}/">Inicio</a></li><li class="breadcrumb-item"><a href="{{ site.baseurl }}/profesorado/">Profesorado</a></li><li class="breadcrumb-item active" aria-current="page">{{ d.nombre }}</li></ol></nav>
     <div class="d-flex gap-4 align-items-center">
       {% include avatar.html nombre=d.nombre foto=foto_docente clase="avatar-lg" %}
       <div>
