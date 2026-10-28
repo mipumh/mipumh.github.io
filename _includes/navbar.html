@@ -10,7 +10,7 @@
       </button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="menu" aria-labelledby="menu-titulo">
         <div class="offcanvas-header">
-          <span class="offcanvas-title h5" id="menu-titulo">{{ site.inc.short_title }}</span>
+          <span class="offcanvas-title" id="menu-titulo"><strong>MIP</strong> · Máster en Innovación en Periodismo</span>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
         </div>
         <div class="offcanvas-body align-items-xl-center">
@@ -23,8 +23,27 @@
             <li class="nav-item"><a class="nav-link{% if activo %} active{% endif %}"{% if activo %} aria-current="page"{% endif %} href="{{ item.url }}">{{ item.titulo }}</a></li>
             {%- endfor %}
           </ul>
-          <button type="button" class="btn btn-dark ms-xl-3 mt-3 mt-xl-0" data-bs-toggle="modal" data-bs-target="#modal-info">¿Hablamos?</button>
-          <a class="umh-link" href="https://www.umh.es" aria-label="Universidad Miguel Hernández de Elche"><img class="umh-logo" src="{{ site.baseurl }}/images/logo-umh.png" alt="UMH" width="126" height="35"></a>
+          {%- comment -%}Escritorio: botón y logo UMH en la barra{%- endcomment %}
+          <button type="button" class="btn btn-dark ms-3 d-none d-xl-inline-block" data-bs-toggle="modal" data-bs-target="#modal-info">¿Hablamos?</button>
+          <a class="umh-link d-none d-xl-inline-flex" href="https://www.umh.es" aria-label="Universidad Miguel Hernández de Elche"><img class="umh-logo" src="{{ site.baseurl }}/images/logo-umh.png" alt="UMH" width="126" height="35"></a>
+          {%- comment -%}Móvil y tableta: información práctica en el panel{%- endcomment %}
+          <div class="menu-extra d-xl-none">
+            <button type="button" class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#modal-info">¿Hablamos?</button>
+            <dl class="menu-info">
+              <div><dt>Edición en curso</dt><dd>2026/27 (oct.–may.)</dd></div>
+              <div><dt>Clase en directo</dt><dd>Lunes, 18–19 h</dd></div>
+              <div><dt>Contacto</dt><dd><a href="mailto:{{ site.inc.email }}">{{ site.inc.email }}</a></dd></div>
+              <div><dt>Admisión</dt><dd><a href="{{ site.baseurl }}/preinscripcion.html">Requisitos y plazos</a></dd></div>
+            </dl>
+            <div class="menu-pie">
+              <p class="menu-redes mb-0">
+                <a href="https://twitter.com/{{ site.inc.twitter }}" aria-label="X / Twitter">{% include icon.html n="x" s=20 %}</a>
+                <a href="https://www.facebook.com/{{ site.inc.facebook }}" aria-label="Facebook">{% include icon.html n="facebook" s=20 %}</a>
+                <a href="{{ site.inc.revista }}feed.xml" aria-label="RSS de la revista">{% include icon.html n="rss" s=20 %}</a>
+              </p>
+              <a href="https://www.umh.es" aria-label="Universidad Miguel Hernández de Elche"><img class="menu-umh" src="{{ site.baseurl }}/images/logo-umh.png" alt="UMH" width="108" height="30" loading="lazy" decoding="async"></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
