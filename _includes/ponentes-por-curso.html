@@ -8,6 +8,9 @@
 <p class="eyebrow mt-3">{% if c.name != "" %}Curso {{ c.name }}{% else %}Ediciones anteriores{% endif %}</p>
 <div class="row g-3 mb-3">{% for s in c.items %}{% include ponente-mini.html s=s %}{% endfor %}</div>
 {%- else %}
+{%- if forloop.index == 2 %}
+<p class="eyebrow mt-4">Ponentes de cursos anteriores</p>
+{%- endif %}
 <details class="curso-plegable">
   <summary>{% if c.name != "" %}Curso {{ c.name }}{% else %}Ediciones anteriores{% endif %} <span class="pill">{{ c.size }}</span></summary>
   <div class="row g-3 mt-1">{% for s in c.items %}{% include ponente-mini.html s=s %}{% endfor %}</div>
