@@ -2,6 +2,7 @@
 nombre: José Vicente Castaño Berenguer
 title: José Vicente Castaño Berenguer
 grupo: umh
+portal_id: 2182527
 orden: 11
 umh_id: persona_129150
 figura: Profesor Asociado

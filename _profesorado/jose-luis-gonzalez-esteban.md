@@ -2,6 +2,7 @@
 nombre: José Luis González Esteban
 title: José Luis González Esteban
 grupo: umh
+portal_id: 2182040
 orden: 4
 umh_id: persona_143936
 figura: Catedrático de Universidad

@@ -2,6 +2,7 @@
 nombre: Alba García Ortega
 title: Alba García Ortega
 grupo: umh
+portal_id: 2181417
 orden: 6
 foto: /images/profesorado/alba-garcia-ortega.jpg
 umh_id: persona_173031

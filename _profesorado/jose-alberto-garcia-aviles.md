@@ -2,6 +2,7 @@
 nombre: José Alberto García Avilés
 title: José Alberto García Avilés
 grupo: umh
+portal_id: 2181724
 orden: 4
 umh_id: persona_129152
 figura: Catedrático de Universidad

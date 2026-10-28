@@ -22,6 +22,18 @@ layout: default
       <h2>Docencia en el máster</h2>
       {% include docente-asignaturas.html d=d %}
 
+      {%- assign slug = d.slug | default: d.url | split: "/" | last | remove: ".html" -%}
+      {%- assign pub = site.data.publicaciones[slug] -%}
+      {%- if pub and pub.articulos.size > 0 %}
+      <h2>Últimos artículos científicos</h2>
+      <ul class="articulos">
+        {%- for a in pub.articulos %}
+        <li><a href="{{ a.url }}">{{ a.titulo }}</a><span class="articulo-meta"><em>{{ a.revista }}</em> · {{ a.anyo }}</span></li>
+        {%- endfor %}
+      </ul>
+      <p><a class="more-link" href="{{ pub.publicaciones }}">Ver todas sus publicaciones</a></p>
+      {%- endif %}
+
       {%- assign cv = d.cv %}
       {%- if cv.formacion or cv.docencia or cv.investigacion or cv.experiencia or cv.resultados.size > 0 %}
       <h2>Currículum breve</h2>
@@ -46,6 +58,8 @@ layout: default
         </dl>
         <div class="d-grid gap-2">
           {% if pdi.umh_url %}<a class="btn btn-outline-dark btn-sm" href="{{ pdi.umh_url }}">Página en umh.es</a>{% endif %}
+          {%- assign pubside = site.data.publicaciones[slug] %}
+          {% if pubside %}<a class="btn btn-outline-dark btn-sm" href="{{ pubside.perfil }}">Portal de Investigación UMH</a>{% endif %}
           {% if d.orcid %}<a class="btn btn-outline-dark btn-sm" href="https://orcid.org/{{ d.orcid }}">ORCID</a>{% endif %}
           {% if d.scholar %}<a class="btn btn-outline-dark btn-sm" href="{{ d.scholar }}">Google Scholar</a>{% endif %}
           {% if pdi.email %}<a class="btn btn-outline-dark btn-sm" href="mailto:{{ pdi.email }}">{{ pdi.email }}</a>{% endif %}

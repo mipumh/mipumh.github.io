@@ -2,6 +2,7 @@
 nombre: Alicia de Lara González
 title: Alicia de Lara González
 grupo: umh
+portal_id: 2182321
 orden: 5
 umh_id: persona_137194
 figura: Profesora Titular de Universidad

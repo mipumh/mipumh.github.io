@@ -2,6 +2,7 @@
 nombre: Cristian Ramón Marín Sanchiz
 title: Cristian Ramón Marín Sanchiz
 grupo: umh
+portal_id: 2181934
 orden: 8
 foto: /images/profesorado/cristian-marin.jpg
 umh_id: persona_171479

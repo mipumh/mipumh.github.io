@@ -2,6 +2,7 @@
 nombre: Miguel Carvajal Prieto
 title: Miguel Carvajal Prieto
 grupo: umh
+portal_id: 2181487
 orden: 1
 umh_id: persona_136403
 figura: Catedrático de Universidad
