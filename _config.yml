@@ -48,6 +48,7 @@ exclude:
   - docs
   - carteles_escaparate
   - CARTELES PREMIADOS
+  - verdu
   - ejemplo_carteles.png
   - _mejora_avap
   - _tools
