@@ -328,13 +328,20 @@ section[id] { scroll-margin-top: 90px; }
 
 .section-head.d-flex { max-width: none; }
 .carteles-section { padding-bottom: 3.5rem; }
-// Carteles de Nos visitan: rejilla de 4 alineada con el contenedor
-.carteles { display: grid; gap: 20px; grid-template-columns: repeat(2, minmax(0, 1fr)); padding-top: .9rem;
-  @media (min-width: 992px) { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-}
-.cartel { margin: 0; position: relative;
+// Carteles de Nos visitan: fila en movimiento, como el Premio Verdú
+.carteles { overflow: hidden; padding: .9rem 0 .5rem; }
+.carteles-track { display: flex; width: max-content; animation: premios 70s linear infinite; }
+.carteles:hover .carteles-track, .carteles:focus-within .carteles-track { animation-play-state: paused; }
+.carteles-lista { display: flex; gap: 20px; list-style: none; margin: 0; padding: 0 10px; }
+.cartel { flex: 0 0 clamp(200px, 22vw, 280px); margin: 0; position: relative;
   img { width: 100%; height: auto; display: block; border-radius: 6px; transition: transform .3s ease; }
   &:hover img { transform: translateY(-4px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .carteles { overflow-x: auto; scroll-snap-type: x mandatory; }
+  .carteles-track { animation: none; }
+  .carteles-lista[aria-hidden] { display: none; }
+  .cartel { scroll-snap-align: start; }
 }
 .cartel-proxima::before { content: "Próxima clase"; position: absolute; top: -.7rem; left: .75rem; z-index: 1;
   background: $ink; color: $paper; font-size: .75rem; font-weight: 700; padding: .2rem .65rem; border-radius: 999px; }
