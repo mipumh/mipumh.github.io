@@ -13,7 +13,7 @@ Recorrido de los cambios hechos entre el 26 y el 28 de octubre de 2026 en la ram
 ## 2. Diseño (27/10)
 
 - Hero negro con ilustración animada (SVG/CSS, respeta *reduced motion*), cinta de materias, tipografía Inter Tight, logo UMH como en ComunIA.
-- Se probó una variante tipo primary.studio (`rediseno-escaparate`); se eligió la del hero negro.
+- Se probó una variante tipo primary.studio; se descartó (rama eliminada) y se eligió la del hero negro.
 - Textos recortados ~30%; ruta de navegación en todas las subpáginas; intertítulos en negrita.
 
 ## 3. Contenidos (28/10)
