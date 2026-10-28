@@ -350,8 +350,6 @@ section[id] { scroll-margin-top: 90px; }
   .faq-respuesta p:last-child { margin-bottom: 0; }
 }
 
-.modal-content { border-radius: 12px; border: 0; }
-.modal-header { border-bottom: 0; padding-bottom: 0; }
 
 .criterios { border-top: 1px solid $ink; }
 .criterio { display: grid; grid-template-columns: 5.5rem 1fr; gap: .25rem 1rem; align-items: center; padding: 1rem 0; border-bottom: 1px solid $line;
@@ -456,6 +454,51 @@ section[id] { scroll-margin-top: 90px; }
   &[hidden] { display: none; }
 }
 .cookies-botones { display: flex; gap: .5rem; justify-content: flex-end; }
+
+// Contacto: ventana ¿Hablamos? y bloque de portada
+.btn-mint { --bs-btn-bg: #{$mint}; --bs-btn-border-color: #{$mint}; --bs-btn-color: #{$ink}; --bs-btn-hover-bg: #{$ink}; --bs-btn-hover-border-color: #{$ink}; --bs-btn-hover-color: #{$paper}; --bs-btn-active-bg: #{$ink}; --bs-btn-active-color: #{$paper}; }
+.hablamos { border: 0; border-radius: 16px; overflow: hidden; position: relative; }
+.hablamos-cerrar { position: absolute; top: 1rem; right: 1rem; z-index: 2; }
+.hablamos-panel { background: $mint; padding: clamp(1.5rem, 4vw, 2.75rem);
+  .eyebrow { color: $ink; }
+  .vias a { background: rgba(255, 255, 255, .55); }
+  .vias a:hover { background: $paper; }
+}
+.hablamos-titulo { font-family: $display; font-weight: 900; font-size: clamp(2.4rem, 5vw, 3.4rem); line-height: .95; letter-spacing: -0.04em; margin-bottom: 1rem; }
+.hablamos-datos { list-style: none; padding: 0; margin: 1.5rem 0; display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; font-size: .85rem;
+  strong { display: block; font-family: $display; font-size: 1.35rem; font-weight: 800; letter-spacing: -0.02em; }
+}
+.hablamos-form { padding: clamp(1.5rem, 4vw, 2.75rem); padding-top: clamp(2.5rem, 5vw, 3rem); }
+.vias { list-style: none; padding: 0; margin: 0 0 1.25rem; display: grid; gap: .5rem;
+  a { display: flex; gap: .85rem; align-items: center; padding: .75rem .9rem; border-radius: 10px; text-decoration: none; color: inherit; transition: background .2s; }
+  span { display: flex; flex-direction: column; line-height: 1.3; font-size: .88rem; }
+  strong { font-size: .98rem; }
+}
+.temas { border: 0; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: .4rem;
+  legend { width: 100%; float: none; font-size: 1rem; font-weight: 500; margin-bottom: .5rem; }
+  .tema { display: inline-block; cursor: pointer; border: 1px solid $line; border-radius: 999px; padding: .35rem .85rem; font-size: .88rem; font-weight: 600; transition: all .15s; }
+  .tema:hover { border-color: $ink; }
+  .btn-check:checked + .tema { background: $ink; border-color: $ink; color: $paper; }
+  .btn-check:focus-visible + .tema { outline: 3px solid $mint; outline-offset: 2px; }
+}
+.contact-form .form-control { border-radius: 10px; padding: .65rem .85rem; }
+.contact-form .form-control:focus { border-color: $ink; box-shadow: 0 0 0 3px rgba(61, 240, 196, .5); }
+.form-error { color: #b42318; }
+.contact-ok { padding: 2rem; border-radius: 12px; background: $mint-soft; }
+.contact-ok-titulo { font-family: $display; font-weight: 800; font-size: 1.5rem; margin-bottom: .5rem; }
+.contacto { 
+  .contacto-titulo { font-size: clamp(2.2rem, 5vw, 3.4rem); line-height: 1; letter-spacing: -0.04em; font-weight: 900; }
+  .lead { color: #d7dbe0; }
+  .vias a { background: rgba(255, 255, 255, .06); color: $paper; }
+  .vias a:hover { background: rgba(61, 240, 196, .15); }
+  .vias .icon { color: $mint; }
+  .contacto-direccion { color: #b8bec6; }
+}
+.section-ink .contacto-card a:not(.btn) { color: $ink; }
+.contacto-card { background: $paper; color: $ink; border-radius: 16px; padding: clamp(1.25rem, 3vw, 2rem);
+  a:not(.btn) { color: $ink; }
+  .text-muted { color: $muted !important; }
+}
 
 // Pie
 .site-footer { background: $ink; color: #d7dbe0; padding: 3.5rem 0 2rem; margin-top: 0;

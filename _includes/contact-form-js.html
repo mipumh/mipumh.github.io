@@ -15,20 +15,30 @@
     var modal = document.getElementById('modal-info');
     if (modal) modal.addEventListener('show.bs.modal', cargar);
     document.querySelectorAll('.js-contact-form').forEach(function (form) {
+      var ok = form.nextElementSibling;
+      var error = form.querySelector('.form-error');
       form.addEventListener('focusin', cargar, { once: true });
       form.addEventListener('submit', function (e) {
         e.preventDefault();
+        if (!form.checkValidity()) { form.classList.add('was-validated'); error.hidden = false; return; }
+        error.hidden = true;
         var boton = form.querySelector('[type=submit]');
-        boton.disabled = true;
+        var texto = form.querySelector('[name=message]');
+        var original = texto.value;
+        var tema = (form.querySelector('[name=tema]:checked') || {}).value || '';
+        var pais = form.querySelector('[name=pais]').value;
+        // La plantilla de EmailJS solo recibe el mensaje: se le añaden tema y país
+        texto.value = 'Tema: ' + tema + (pais ? '\nPaís: ' + pais : '') + '\n\n' + original;
+        boton.disabled = true; boton.textContent = 'Enviando…';
         cargar().then(function () {
           return emailjs.sendForm('service_rnihpc9', 'template_575uf2w', form);
         }).then(function () {
-          form.querySelector('.js-contact-ok').hidden = false;
-          form.reset();
-        }, function (error) {
-          console.error(error);
-          alert('No se ha podido enviar el mensaje. Escríbenos a {{ site.inc.email }}.');
-        }).finally(function () { boton.disabled = false; });
+          form.hidden = true; ok.hidden = false; form.reset();
+        }, function (err) {
+          console.error(err);
+          texto.value = original;
+          alert('No se ha podido enviar la consulta. Escríbenos a {{ site.inc.email }}.');
+        }).finally(function () { boton.disabled = false; boton.textContent = 'Enviar consulta'; });
       });
     });
   })();

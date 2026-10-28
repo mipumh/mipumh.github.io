@@ -1,18 +1,15 @@
-<section class="section" id="contacto" aria-labelledby="contacto-titulo">
+<section class="section section-ink contacto" id="contacto" aria-labelledby="contacto-titulo">
   <div class="container">
     <div class="row g-4 g-lg-5">
       <div class="col-lg-5">
         <p class="eyebrow">Contacto</p>
-        <h2 id="contacto-titulo">¿Tienes dudas?</h2>
-        <dl>
-          <dt>Dirección del máster</dt><dd><a href="{{ site.baseurl }}/profesorado/miguel-carvajal.html">Miguel Carvajal Prieto</a></dd>
-          <dt>Subdirección</dt><dd><a href="{{ site.baseurl }}/profesorado/jose-maria-valero.html">José María Valero Pastor</a></dd>
-          <dt>Correo</dt><dd><a href="mailto:{{ site.inc.email }}">{{ site.inc.email }}</a></dd>
-        </dl>
-        <a class="btn btn-outline-dark" href="{{ site.inc.cita }}">{% include icon.html n="phone" c="me-2" %}Reserva una llamada</a>
+        <h2 id="contacto-titulo" class="contacto-titulo">¿Tienes dudas? Hablamos.</h2>
+        <p class="lead">Cuéntanos tu caso y te orientamos sobre admisión, plan de estudios, becas o prácticas.</p>
+        {% include contacto-vias.html %}
+        <p class="small contacto-direccion">Dirección: <a href="{{ site.baseurl }}/profesorado/miguel-carvajal.html">Miguel Carvajal Prieto</a> · Subdirección: <a href="{{ site.baseurl }}/profesorado/jose-maria-valero.html">José María Valero Pastor</a></p>
       </div>
       <div class="col-lg-7">
-        <div class="card-plain">{% include contact-form.html id="contacto" %}</div>
+        <div class="contacto-card">{% include contact-form.html id="contacto" %}</div>
       </div>
     </div>
   </div>

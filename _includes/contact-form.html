@@ -1,18 +1,45 @@
-{%- comment -%}Formulario de contacto (EmailJS). include.id distingue cada instancia en la página.{%- endcomment -%}
+{%- comment -%}Formulario de contacto (EmailJS). include.id distingue cada instancia en la página.
+Tema y país se añaden al mensaje al enviar (la plantilla de EmailJS solo usa from_name, reply_to y message).{%- endcomment -%}
 {%- assign fid = include.id | default: "cf" -%}
-<form class="contact-form js-contact-form">
-  <div class="mb-3">
-    <label class="form-label" for="{{ fid }}-nombre">Nombre y apellidos</label>
-    <input type="text" class="form-control" id="{{ fid }}-nombre" name="from_name" autocomplete="name" required>
+<form class="contact-form js-contact-form" novalidate>
+  <fieldset class="temas mb-3">
+    <legend class="form-label">¿Sobre qué quieres preguntar?</legend>
+    {%- assign temas = "Admisión y plazos|Plan de estudios|Precio y becas|Prácticas|Otra consulta" | split: "|" %}
+    {%- for t in temas %}
+    <input type="radio" class="btn-check" name="tema" id="{{ fid }}-tema-{{ forloop.index }}" value="{{ t }}"{% if forloop.first %} checked{% endif %}>
+    <label class="tema" for="{{ fid }}-tema-{{ forloop.index }}">{{ t }}</label>
+    {%- endfor %}
+  </fieldset>
+  <div class="row g-3">
+    <div class="col-sm-6">
+      <label class="form-label" for="{{ fid }}-nombre">Nombre y apellidos</label>
+      <input type="text" class="form-control" id="{{ fid }}-nombre" name="from_name" autocomplete="name" required>
+    </div>
+    <div class="col-sm-6">
+      <label class="form-label" for="{{ fid }}-email">Correo electrónico</label>
+      <input type="email" class="form-control" id="{{ fid }}-email" name="reply_to" autocomplete="email" required>
+    </div>
+    <div class="col-12">
+      <label class="form-label" for="{{ fid }}-pais">País <span class="text-muted">(opcional)</span></label>
+      <input type="text" class="form-control" id="{{ fid }}-pais" name="pais" autocomplete="country-name">
+    </div>
+    <div class="col-12">
+      <label class="form-label" for="{{ fid }}-mensaje">Tu pregunta</label>
+      <textarea class="form-control" id="{{ fid }}-mensaje" name="message" rows="4" required placeholder="Cuéntanos tu formación y qué te gustaría saber"></textarea>
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="{{ fid }}-privacidad" required>
+        <label class="form-check-label small" for="{{ fid }}-privacidad">Acepto que la UMH use estos datos solo para responder a mi consulta (<a href="https://www.umh.es/contenido/Universidad/:AvisoLegal/datos_es.html">aviso legal y privacidad</a>).</label>
+      </div>
+    </div>
   </div>
-  <div class="mb-3">
-    <label class="form-label" for="{{ fid }}-email">Correo electrónico</label>
-    <input type="email" class="form-control" id="{{ fid }}-email" name="reply_to" autocomplete="email" required>
+  <div class="d-flex flex-wrap align-items-center gap-3 mt-3">
+    <button type="submit" class="btn btn-dark btn-lg">Enviar consulta</button>
   </div>
-  <div class="mb-3">
-    <label class="form-label" for="{{ fid }}-mensaje">¿Qué te gustaría saber?</label>
-    <textarea class="form-control" id="{{ fid }}-mensaje" name="message" rows="4" required></textarea>
-  </div>
-  <button type="submit" class="btn btn-dark">Enviar</button>
-  <p class="mt-3 mb-0 js-contact-ok" role="status" hidden><strong>¡Gracias!</strong> Hemos recibido tu mensaje y te responderemos lo antes posible.</p>
+  <p class="form-error small mt-2 mb-0" role="alert" hidden>Revisa los campos marcados y acepta la política de privacidad.</p>
 </form>
+<div class="contact-ok" role="status" hidden>
+  <p class="contact-ok-titulo">¡Gracias! Hemos recibido tu consulta.</p>
+  <p class="mb-0">Te escribiremos desde <strong>{{ site.inc.email }}</strong>. Mientras tanto, puedes repasar las <a href="{{ site.baseurl }}/preinscripcion.html#faq">preguntas frecuentes</a>.</p>
+</div>

@@ -1,13 +1,22 @@
 <div class="modal fade" id="modal-info" tabindex="-1" aria-labelledby="modal-info-titulo" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <p class="modal-title h4" id="modal-info-titulo">¿Hablamos?</p>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-      </div>
-      <div class="modal-body">
-        <p class="small text-muted">Te respondemos desde <a href="mailto:{{ site.inc.email }}">{{ site.inc.email }}</a>. También puedes <a href="{{ site.inc.cita }}">reservar una llamada</a>.</p>
-        {% include contact-form.html id="modal" %}
+  <div class="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-md-down">
+    <div class="modal-content hablamos">
+      <button type="button" class="btn-close hablamos-cerrar" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      <div class="row g-0">
+        <div class="col-lg-5 hablamos-panel">
+          <p class="eyebrow">Máster en Innovación en Periodismo</p>
+          <p class="hablamos-titulo" id="modal-info-titulo">¿Hablamos?</p>
+          <p>Resolvemos tus dudas sobre el máster, la admisión o las prácticas. Te responde la dirección del máster.</p>
+          <ul class="hablamos-datos">
+            <li><strong>Octubre 2027</strong>próximo curso</li>
+            <li><strong>60 ECTS</strong>un curso académico</li>
+            <li><strong>100%</strong>en línea</li>
+          </ul>
+          {% include contacto-vias.html %}
+        </div>
+        <div class="col-lg-7 hablamos-form">
+          {% include contact-form.html id="modal" %}
+        </div>
       </div>
     </div>
   </div>
