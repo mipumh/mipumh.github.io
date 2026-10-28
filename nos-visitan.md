@@ -15,7 +15,7 @@ lead: "Profesionales que han participado en las asignaturas del máster."
 <section class="visitas-asignatura" id="{{ a.slug }}">
   <div class="d-flex flex-wrap justify-content-between align-items-end gap-2 mb-3">
     <div>
-      <p class="eyebrow mb-1">{{ a.semestre }}.º semestre · {{ grupo.size }} {% if grupo.size == 1 %}ponente{% else %}ponentes{% endif %}</p>
+      <p class="eyebrow mb-1">{{ a.semestre }}.º semestre · Ponentes que nos han visitado</p>
       <h2 class="h3 mb-0"><a href="{{ site.baseurl }}/asignaturas/{{ a.slug }}.html">{{ a.nombre }}</a></h2>
     </div>
   </div>
@@ -41,43 +41,3 @@ lead: "Profesionales que han participado en las asignaturas del máster."
 </section>
 {%- endif %}
 {%- endfor %}
-
-{%- if site.data.ponentes_anteriores %}
-<h2 id="anteriores" class="mt-5">Han pasado por el máster (ediciones anteriores)</h2>
-<ul class="row list-unstyled g-2">
-{%- for p in site.data.ponentes_anteriores %}
-  <li class="col-sm-6 col-lg-4"><strong>{{ p.nombre }}</strong>{% if p.medio %} · <span class="text-muted">{{ p.medio }}</span>{% endif %}</li>
-{%- endfor %}
-</ul>
-{%- endif %}
-
-<script>
-  (function () {
-    var curso = document.getElementById('f-curso');
-    var asig = document.getElementById('f-asig');
-    var cols = document.querySelectorAll('.ponente-col');
-    function filtrar() {
-      var visibles = 0;
-      cols.forEach(function (col) {
-        var card = col.firstElementChild;
-        var ok = true;
-        // Con ambos filtros, la persona debe tener una sesión de esa asignatura en ese curso
-        var sesiones = card.querySelectorAll('.sesiones li');
-        if (curso.value || asig.value) {
-          ok = Array.prototype.some.call(sesiones, function (li) {
-            return (!curso.value || li.dataset.curso === curso.value) && (!asig.value || li.dataset.asig === asig.value);
-          });
-        }
-        sesiones.forEach(function (li) {
-          li.hidden = !!((curso.value && li.dataset.curso !== curso.value) || (asig.value && li.dataset.asig !== asig.value));
-        });
-        col.hidden = !ok;
-        if (ok) visibles++;
-      });
-      document.getElementById('f-resultado').textContent = visibles + ' profesionales';
-      document.getElementById('sin-resultados').hidden = visibles > 0;
-    }
-    curso.addEventListener('change', filtrar);
-    asig.addEventListener('change', filtrar);
-  })();
-</script>

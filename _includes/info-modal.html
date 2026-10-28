@@ -1,0 +1,20 @@
+<div class="modal fade" id="modal-info" tabindex="-1" aria-labelledby="modal-info-titulo" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title h4" id="modal-info-titulo">Solicita información</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p class="small text-muted">Te respondemos desde <a href="mailto:{{ site.inc.email }}">{{ site.inc.email }}</a>. También puedes <a href="{{ site.inc.cita }}">reservar una llamada</a>.</p>
+        {% include contact-form.html id="modal" %}
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  // /#solicita-informacion abre el formulario
+  document.addEventListener('DOMContentLoaded', function () {
+    if (location.hash === '#solicita-informacion') bootstrap.Modal.getOrCreateInstance(document.getElementById('modal-info')).show();
+  });
+</script>

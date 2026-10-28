@@ -1,15 +1,18 @@
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4.4.1/dist/email.min.js"></script>
 <script>
   emailjs.init("52HcKHByl7j4-hQbC");
-  document.getElementById('contact-form').addEventListener('submit', function (e) {
-    e.preventDefault();
-    var form = this;
-    emailjs.sendForm('service_rnihpc9', 'template_575uf2w', form).then(function () {
-      document.getElementById('thank-you-message').hidden = false;
-      form.reset();
-    }, function (error) {
-      console.error(error);
-      alert('No se ha podido enviar el mensaje. Escríbenos a {{ site.inc.email }}.');
+  document.querySelectorAll('.js-contact-form').forEach(function (form) {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var boton = form.querySelector('[type=submit]');
+      boton.disabled = true;
+      emailjs.sendForm('service_rnihpc9', 'template_575uf2w', form).then(function () {
+        form.querySelector('.js-contact-ok').hidden = false;
+        form.reset();
+      }, function (error) {
+        console.error(error);
+        alert('No se ha podido enviar el mensaje. Escríbenos a {{ site.inc.email }}.');
+      }).finally(function () { boton.disabled = false; });
     });
   });
 </script>

@@ -3,7 +3,7 @@
     <div class="container">
       <a class="navbar-brand d-flex align-items-center gap-2" href="{{ site.baseurl }}/">
         <img src="{{ site.baseurl }}/images/{{ site.inc.logo }}" alt="" width="36" height="36">
-        <span class="brand-text"><strong>MIP</strong><span class="d-none d-sm-inline d-xl-none d-xxl-inline"> · Innovación en Periodismo</span></span>
+        <span class="brand-text"><strong>MIP</strong><span class="d-none d-sm-inline d-xl-none"> · Innovación en Periodismo</span></span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-controls="menu" aria-label="Abrir menú">
         <span class="navbar-toggler-icon"></span>
@@ -15,7 +15,7 @@
         </div>
         <div class="offcanvas-body align-items-xl-center">
           <ul class="navbar-nav ms-xl-auto">
-            {%- for item in site.data.navigation %}
+            {%- for item in site.data.navigation offset: 1 %}
             {%- assign activo = false -%}
             {%- if page.url == item.url -%}{%- assign activo = true -%}{%- endif -%}
             {%- if item.url == "/profesores.html" and page.collection == "profesorado" -%}{%- assign activo = true -%}{%- endif -%}
@@ -23,7 +23,8 @@
             <li class="nav-item"><a class="nav-link{% if activo %} active{% endif %}"{% if activo %} aria-current="page"{% endif %} href="{{ item.url }}">{{ item.titulo }}</a></li>
             {%- endfor %}
           </ul>
-          <a class="btn btn-dark ms-xl-3 mt-3 mt-xl-0" href="{{ site.baseurl }}/preinscripcion.html">Preinscripción</a>
+          <button type="button" class="btn btn-outline-dark ms-xl-3 mt-3 mt-xl-0" data-bs-toggle="modal" data-bs-target="#modal-info">Solicita información</button>
+          <a class="btn btn-dark ms-xl-2 mt-2 mt-xl-0" href="{{ site.baseurl }}/preinscripcion.html">Preinscripción</a>
           <a class="umh-link" href="https://www.umh.es" aria-label="Universidad Miguel Hernández de Elche"><img class="umh-logo" src="{{ site.baseurl }}/images/logo-umh.png" alt="UMH" width="126" height="35"></a>
         </div>
       </div>

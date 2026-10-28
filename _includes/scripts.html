@@ -5,5 +5,6 @@
     if (new Date(el.dataset.fin) < new Date()) el.remove();
   });
 </script>
-{% if page.contact_form %}{% include contact-form-js.html %}{% endif %}
+{% include info-modal.html %}
+{% include contact-form-js.html %}
 {% if site.inc.analytics.google %}{% include _google-analytics.html %}{% endif %}

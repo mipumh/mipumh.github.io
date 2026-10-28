@@ -76,6 +76,7 @@ a {
 
 // Cabecera
 .site-header {
+  .btn { white-space: nowrap; }
   background: $paper;
   border-bottom: 1px solid $line;
   .navbar { padding: .6rem 0; }
@@ -314,6 +315,11 @@ section[id] { scroll-margin-top: 90px; }
 .umh-logo { width: 104px; height: auto; filter: brightness(0); opacity: .75; transition: opacity .2s; }
 .umh-link:hover .umh-logo { opacity: 1; }
 @media (max-width: 1199.98px) { .umh-link { margin: 1.5rem 0 0; padding: 0; border: 0; } }
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .umh-link { display: none; }
+  .site-header .nav-link { font-size: .88rem; padding: .5rem .45rem !important; }
+  .site-header .btn { padding: .45rem .95rem; font-size: .92rem; }
+}
 
 .section-head.d-flex { max-width: none; }
 .carteles-section { padding-bottom: 3.5rem; }
@@ -341,6 +347,9 @@ section[id] { scroll-margin-top: 90px; }
   .faq-respuesta { padding: 0 3.5rem 1.25rem 0; color: #2b2f36; }
   .faq-respuesta p:last-child { margin-bottom: 0; }
 }
+
+.modal-content { border-radius: 12px; border: 0; }
+.modal-header { border-bottom: 0; padding-bottom: 0; }
 
 // Pie
 .site-footer { background: $ink; color: #d7dbe0; padding: 3.5rem 0 2rem; margin-top: 0;
