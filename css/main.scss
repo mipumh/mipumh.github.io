@@ -486,16 +486,17 @@ section[id] { scroll-margin-top: 90px; }
 .form-error { color: #b42318; }
 .contact-ok { padding: 2rem; border-radius: 12px; background: $mint-soft; }
 .contact-ok-titulo { font-family: $display; font-weight: 800; font-size: 1.5rem; margin-bottom: .5rem; }
-.contacto { 
+.contacto {
+  .eyebrow { color: $muted; }
   .contacto-titulo { font-size: clamp(2.2rem, 5vw, 3.4rem); line-height: 1; letter-spacing: -0.04em; font-weight: 900; }
-  .lead { color: #d7dbe0; }
-  .vias a { background: rgba(255, 255, 255, .06); color: $paper; }
-  .vias a:hover { background: rgba(61, 240, 196, .15); }
-  .vias .icon { color: $mint; }
-  .contacto-direccion { color: #b8bec6; }
+  .lead { color: #2b2f36; }
+  .vias a { background: $paper; border: 1px solid $line; }
+  .vias a:hover { border-color: $ink; }
+  .vias .icon { color: $ink; }
+  .contacto-direccion { color: $muted; }
 }
 .section-ink .contacto-card a:not(.btn) { color: $ink; }
-.contacto-card { background: $paper; color: $ink; border-radius: 16px; padding: clamp(1.25rem, 3vw, 2rem);
+.contacto-card { background: $paper; color: $ink; border-radius: 16px; padding: clamp(1.25rem, 3vw, 2rem); border: 1px solid $line; box-shadow: 0 10px 30px rgba(0, 0, 0, .05);
   a:not(.btn) { color: $ink; }
   .text-muted { color: $muted !important; }
 }
