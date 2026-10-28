@@ -1,5 +1,8 @@
-<ul class="entidades">
-  {%- for e in site.data.entidades %}
-  <li><strong>{{ e.nombre }}</strong><span>{{ e.tipo }}</span></li>
-  {%- endfor %}
-</ul>
+<div class="entidades-wrap">
+  <ul class="entidades">
+    {%- for e in site.data.entidades %}
+    <li><strong>{{ e.nombre }}</strong><span>{{ e.tipo }}</span></li>
+    {%- endfor %}
+  </ul>
+  <p class="entidades-mas"><a class="more-link" href="https://observatorio.umh.es/empresas/">Catálogo de empresas con convenio de prácticas (Observatorio Ocupacional UMH)</a></p>
+</div>
