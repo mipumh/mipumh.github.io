@@ -20,7 +20,7 @@ description: "Admisión al Máster Universitario en Innovación en Periodismo (U
 <div class="criterios">
 {%- for c in site.data.admision.criterios %}
   <div class="criterio">
-    <span class="criterio-peso">{{ c.peso }}&nbsp;%</span>
+    <span class="criterio-peso">{{ c.peso }}%</span>
     <span class="criterio-texto"><strong>{{ c.criterio }}</strong>{% if c.nota %}<br><span class="small text-muted">{{ c.nota }}</span>{% endif %}</span>
     <span class="criterio-barra" aria-hidden="true"><span style="width:{{ c.peso }}%"></span></span>
   </div>

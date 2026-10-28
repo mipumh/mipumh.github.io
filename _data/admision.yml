@@ -1,5 +1,5 @@
 # Criterios de admisión y su peso (dirección del máster). Están dentro de los rangos
-# de la memoria verificada: titulación 25-60 %, experiencia 20-40 %, inglés 20-40 %.
+# de la memoria verificada: titulación 25-60%, experiencia 20-40%, inglés 20-40%.
 criterios:
   - criterio: Grado en Periodismo, Comunicación o afín
     peso: 60
