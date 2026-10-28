@@ -1,5 +1,7 @@
 ---
 layout: page
+# Oculta hasta revisar los permisos de publicación de los egresados
+published: false
 title: Egresados
 permalink: /egresados.html
 redirect_from: /alumni.html
