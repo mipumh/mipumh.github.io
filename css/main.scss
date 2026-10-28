@@ -337,11 +337,14 @@ section[id] { scroll-margin-top: 90px; }
   img { width: 100%; height: auto; display: block; border-radius: 6px; transition: transform .3s ease; }
   &:hover img { transform: translateY(-4px); }
 }
-@media (prefers-reduced-motion: reduce) {
-  .carteles { overflow-x: auto; scroll-snap-type: x mandatory; }
+// En pantallas táctiles (o con movimiento reducido) no hay animación: desplazamiento horizontal nativo con imán
+@media (prefers-reduced-motion: reduce), (hover: none) {
+  .carteles { overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-left: 16px; overscroll-behavior-x: contain; scrollbar-width: none; }
+  .carteles::-webkit-scrollbar { display: none; }
   .carteles-track { animation: none; }
+  .carteles-lista { padding: 0 16px; }
   .carteles-lista[aria-hidden] { display: none; }
-  .cartel { scroll-snap-align: start; }
+  .cartel { scroll-snap-align: start; flex-basis: clamp(200px, 62vw, 280px); }
 }
 .cartel-proxima::before { content: "Próxima clase"; position: absolute; top: -.7rem; left: .75rem; z-index: 1;
   background: $ink; color: $paper; font-size: .75rem; font-weight: 700; padding: .2rem .65rem; border-radius: 999px; }
@@ -458,11 +461,13 @@ section[id] { scroll-margin-top: 90px; }
   a:hover .premio-ganador { text-decoration: underline; text-decoration-color: $mint; text-underline-offset: 4px; }
 }
 @keyframes premios { to { transform: translateX(-50%); } }
-@media (prefers-reduced-motion: reduce) {
-  .premios { overflow-x: auto; scroll-snap-type: x mandatory; }
+@media (prefers-reduced-motion: reduce), (hover: none) {
+  .premios { overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-left: 16px; overscroll-behavior-x: contain; scrollbar-width: none; }
+  .premios::-webkit-scrollbar { display: none; }
   .premios-track { animation: none; }
+  .premios-lista { padding: 0 16px; }
   .premios-lista[aria-hidden] { display: none; }
-  .premio-card { scroll-snap-align: start; }
+  .premio-card { scroll-snap-align: start; flex-basis: clamp(220px, 70vw, 300px); }
 }
 
 // Aviso de cookies
