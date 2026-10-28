@@ -3,39 +3,44 @@ layout: page
 title: Nos visitan
 permalink: /nos-visitan.html
 wide: true
-lead: "Profesionales invitados a las asignaturas, con el cargo que tenían en su visita."
+lead: "Profesionales que han participado en las asignaturas del máster."
 ---
 {%- assign publicables = site.data.ponentes | where: "publicar", "si" -%}
 {%- assign personas = publicables | group_by: "slug_ponente" -%}
-{%- assign cursos = publicables | group_by: "curso" -%}
 
-
-<div class="filtros">
-  <div class="row g-2 align-items-center">
-    <div class="col-sm-4 col-lg-3">
-      <label class="visually-hidden" for="f-curso">Curso</label>
-      <select class="form-select" id="f-curso">
-        <option value="">Todos los cursos</option>
-        {%- for c in cursos %}<option value="{{ c.name }}">{{ c.name }}</option>{% endfor %}
-      </select>
+{%- for a in site.data.umh.asignaturas %}
+{%- assign sesiones = publicables | where: "slug_asignatura", a.slug -%}
+{%- if sesiones.size > 0 %}
+{%- assign grupo = sesiones | group_by: "slug_ponente" %}
+<section class="visitas-asignatura" id="{{ a.slug }}">
+  <div class="d-flex flex-wrap justify-content-between align-items-end gap-2 mb-3">
+    <div>
+      <p class="eyebrow mb-1">{{ a.semestre }}.º semestre · {{ grupo.size }} {% if grupo.size == 1 %}ponente{% else %}ponentes{% endif %}</p>
+      <h2 class="h3 mb-0"><a href="{{ site.baseurl }}/asignaturas/{{ a.slug }}.html">{{ a.nombre }}</a></h2>
     </div>
-    <div class="col-sm-8 col-lg-5">
-      <label class="visually-hidden" for="f-asig">Asignatura</label>
-      <select class="form-select" id="f-asig">
-        <option value="">Todas las asignaturas</option>
-        {%- for a in site.data.umh.asignaturas %}{% if a.codigo < 3027 %}<option value="{{ a.slug }}">{{ a.nombre }}</option>{% endif %}{% endfor %}
-      </select>
-    </div>
-    <div class="col-lg-4 text-lg-end small text-muted" id="f-resultado" aria-live="polite">{{ personas.size }} profesionales · {{ publicables.size }} sesiones</div>
   </div>
-</div>
-
-<div class="row g-3" id="ponentes">
-{%- for g in personas %}
-  <div class="col-md-6 col-xl-4 ponente-col">{% include ponente-card.html g=g %}</div>
+  <div class="row g-3">
+    {%- for g in grupo %}
+    {%- assign persona = personas | where: "name", g.name | first -%}
+    {%- assign cargo = "" -%}
+    {%- for x in persona.items -%}{%- if cargo == "" and x.cargo.size > 0 -%}{%- assign cargo = x.cargo -%}{%- endif -%}{%- endfor -%}
+    {%- assign p = g.items | first -%}
+    {%- assign foto = site.data.fotos_ponentes[g.name] -%}
+    {%- if foto -%}{%- capture foto %}{{ site.baseurl }}/images/ponentes/{{ foto }}{% endcapture -%}{%- endif %}
+    <div class="col-sm-6 col-lg-4 col-xl-3">
+      <div class="card-plain ponente-mini">
+        {% include avatar.html nombre=p.ponente foto=foto tipo=p.tipo %}
+        <div>
+          <p class="nombre mb-0">{{ p.ponente }}</p>
+          {% if cargo != "" %}<p class="cargo mb-0">{{ cargo }}</p>{% endif %}
+        </div>
+      </div>
+    </div>
+    {%- endfor %}
+  </div>
+</section>
+{%- endif %}
 {%- endfor %}
-</div>
-<p id="sin-resultados" class="mt-4" hidden>No hay sesiones con esos filtros.</p>
 
 {%- if site.data.ponentes_anteriores %}
 <h2 id="anteriores" class="mt-5">Han pasado por el máster (ediciones anteriores)</h2>

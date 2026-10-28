@@ -245,6 +245,12 @@ a.card-plain, .card-link-wrap { display: block; color: inherit; transition: bord
   .sesion-meta { color: $muted; font-size: .82rem; }
 }
 
+.visitas-asignatura { padding: 2rem 0; border-top: 1px solid $line;
+  &:first-of-type { border-top: 0; padding-top: 0; }
+  .prose & h2, h2 { border-top: 0; padding-top: 0; margin-top: 0; }
+  h2 a { text-decoration: none; }
+  h2 a:hover { text-decoration: underline; text-decoration-color: $mint; }
+}
 .ponente-mini { display: flex; gap: .8rem; align-items: center; padding: 1rem;
   .avatar { width: 48px; height: 48px; font-size: 1rem; }
   .nombre { font-weight: 700; line-height: 1.25; }
