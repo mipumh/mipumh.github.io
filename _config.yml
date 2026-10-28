@@ -44,6 +44,8 @@ plugins:
   - jekyll-sitemap
 
 exclude:
+  - CLAUDE.md
+  - docs
   - carteles_escaparate
   - CARTELES PREMIADOS
   - ejemplo_carteles.png
