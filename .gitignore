@@ -11,3 +11,6 @@ ejemplo_carteles.png
 CARTELES PREMIADOS/
 verdu/
 para_faq/
+# Egresados: datos de estudiantes, fuera del repo público hasta revisar permisos (se conservan en local)
+_data/egresados.yml
+images/alumni/
