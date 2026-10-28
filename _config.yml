@@ -20,7 +20,7 @@ inc:
   twitter:      mipumh
   facebook:     mipumh
   analytics:
-    google: false   # el ID UA- dejó de recoger datos en 2023; poner aquí un ID G- de GA4
+    ga4: ""   # ID de medición de GA4 (G-…) de la propiedad 386593196. Vacío = sin analítica
 
 url: https://mip.umh.es
 lang: es

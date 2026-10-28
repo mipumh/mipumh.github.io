@@ -33,6 +33,7 @@
     <div class="footer-bottom small">
       <a class="foot-umh" href="https://www.umh.es/"><img src="{{ site.baseurl }}/images/logo-umh.png" alt="Universidad Miguel Hernández" width="130" height="36" loading="lazy" decoding="async"></a>
       <span>&copy; {{ site.time | date: "%Y" }} Universidad Miguel Hernández de Elche</span>
+      {% if site.inc.analytics.ga4 and site.inc.analytics.ga4 != "" %}<a href="#cookies" data-abrir-cookies>Configurar cookies</a>{% endif %}
     </div>
   </div>
 </footer>

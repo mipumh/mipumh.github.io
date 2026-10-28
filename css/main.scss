@@ -449,6 +449,14 @@ section[id] { scroll-margin-top: 90px; }
   .premio-card { scroll-snap-align: start; }
 }
 
+// Aviso de cookies
+.cookies { position: fixed; z-index: 1080; left: 16px; right: 16px; bottom: 16px; max-width: 460px; background: $paper;
+  border: 1px solid $line; border-radius: 12px; box-shadow: 0 12px 32px rgba(0, 0, 0, .15); padding: 1rem 1.1rem; font-size: .9rem;
+  p { margin-bottom: .75rem; line-height: 1.45; }
+  &[hidden] { display: none; }
+}
+.cookies-botones { display: flex; gap: .5rem; justify-content: flex-end; }
+
 // Pie
 .site-footer { background: $ink; color: #d7dbe0; padding: 3.5rem 0 2rem; margin-top: 0;
   a:not(.btn) { color: $paper; }
