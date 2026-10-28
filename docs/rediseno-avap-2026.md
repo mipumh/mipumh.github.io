@@ -40,7 +40,11 @@ Recorrido de los cambios hechos entre el 26 y el 28 de octubre de 2026 en la ram
 - Admisión muestra solo el bloque de admisión; menú móvil, pie, formulario y vías de contacto enlazan a la página nueva.
 - Sin marcado FAQPage: Google retiró ese resultado enriquecido en mayo de 2026.
 
-## 6. Pendiente
+## 6. Buscador (29/10)
+
+- Lupa en el menú (y tecla `/`): busca en la web (`buscar.json`, 147 entradas, 32 KB, generado por Jekyll) y en la revista (`/blog/search.json`). JS propio, sin librerías; los índices se cargan al abrir el buscador.
+
+## 7. Pendiente
 
 - Permisos de egresados antes de volver a publicar la página.
 - CV de los docentes (bloque `cv:` en `_profesorado/*.md`), LinkedIn del máster, «IBerperia», fotos de 74 ponentes.

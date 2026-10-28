@@ -564,3 +564,27 @@ section[id] { scroll-margin-top: 90px; }
   .revista-avatar { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
 }
 
+// Buscador (lupa del menú)
+.btn-icon { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; flex-shrink: 0;
+  border: 1px solid $line; border-radius: 50%; background: $paper; color: $ink; padding: 0; transition: background .2s, border-color .2s;
+  &:hover, &:focus-visible { background: $mint; border-color: $mint; }
+}
+.buscador {
+  .modal-content { border: 0; border-radius: 16px; }
+  .modal-header { gap: 1rem; border-bottom: 1px solid $line; padding: 1rem 1.25rem; }
+  .buscador-form { flex: 1; display: flex; align-items: center; gap: .75rem; }
+  .buscador-form input { flex: 1; border: 0; outline: 0; font-size: 1.2rem; background: transparent; color: $ink; min-width: 0; }
+  .buscador-form input::-webkit-search-cancel-button { display: none; }
+  .modal-body { padding: .5rem 1.25rem 1.5rem; min-height: 8rem; }
+  .buscador-ayuda { color: $muted; margin: 1rem 0 0; }
+  kbd { background: $gray-bg; color: $ink; border: 1px solid $line; font-size: .8rem; padding: .05rem .4rem; }
+  .buscador-grupo { font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: $muted; margin: 1.25rem 0 .25rem; }
+  .buscador-lista { list-style: none; margin: 0; padding: 0; }
+  .buscador-lista a { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: .7rem 0;
+    border-bottom: 1px solid $line; text-decoration: none; color: $ink; }
+  .buscador-titulo { font-family: $display; font-weight: 700; font-size: 1.05rem; line-height: 1.3; }
+  .buscador-tipo { flex-shrink: 0; font-size: .75rem; font-weight: 600; color: $muted; background: $gray-bg; border-radius: 999px; padding: .15rem .6rem; }
+  .buscador-lista a:hover .buscador-titulo, .buscador-lista a:focus-visible .buscador-titulo {
+    text-decoration: underline; text-decoration-color: $mint; text-decoration-thickness: 3px; text-underline-offset: 4px; }
+}
+

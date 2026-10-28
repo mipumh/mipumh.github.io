@@ -1,0 +1,74 @@
+{%- comment -%}Buscador de la web y la revista (lupa del menú o tecla /). Índices: /buscar.json y /blog/search.json, cargados al abrir.{%- endcomment -%}
+<div class="modal fade buscador" id="modal-buscar" tabindex="-1" aria-labelledby="buscar-titulo" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable modal-fullscreen-sm-down">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="visually-hidden" id="buscar-titulo">Buscar en el máster y en la revista</h2>
+        <form class="buscador-form" role="search" action="#" onsubmit="return false">
+          {% include icon.html n="search" s=22 %}
+          <input type="search" id="buscar-q" placeholder="Buscar asignaturas, profesorado, dudas, artículos…" aria-label="Buscar" autocomplete="off" spellcheck="false">
+        </form>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <div id="buscar-res" aria-live="polite"><p class="buscador-ayuda">Escribe al menos dos letras. Atajo: tecla <kbd>/</kbd>.</p></div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  (function () {
+    var modal = document.getElementById('modal-buscar'), q = document.getElementById('buscar-q'), res = document.getElementById('buscar-res');
+    var web = null, revista = [], cargando = null;
+    function norm(s) { return (s || '').toString().normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
+    function cargar() {
+      if (cargando) return cargando;
+      var j = function (u) { return fetch(u).then(function (r) { return r.json(); }).catch(function () { return []; }); };
+      cargando = Promise.all([j('{{ site.baseurl }}/buscar.json'), j('/blog/search.json')]).then(function (d) {
+        web = d[0].map(function (e) { return { t: e.t, u: e.u, k: e.k, a: norm(e.t), b: norm(e.x) }; });
+        revista = d[1].map(function (e) { return { t: e.title, u: e.url, k: e.date, a: norm(e.title), b: norm(e.author + ' ' + e.excerpt) }; });
+      });
+      return cargando;
+    }
+    function buscar(lista, palabras, max) {
+      return lista.map(function (e) {
+        var p = 0;
+        for (var i = 0; i < palabras.length; i++) {
+          if (e.a.indexOf(palabras[i]) > -1) p += 2; else if (e.b.indexOf(palabras[i]) > -1) p += 1; else return null;
+        }
+        return { e: e, p: p };
+      }).filter(Boolean).sort(function (x, y) { return y.p - x.p; }).slice(0, max).map(function (r) { return r.e; });
+    }
+    function grupo(titulo, items) {
+      var h = document.createElement('h3'); h.className = 'buscador-grupo'; h.textContent = titulo;
+      var ol = document.createElement('ol'); ol.className = 'buscador-lista';
+      items.forEach(function (e) {
+        var li = document.createElement('li'), a = document.createElement('a'), t = document.createElement('span'), k = document.createElement('span');
+        a.href = e.u; t.className = 'buscador-titulo'; t.textContent = e.t; k.className = 'buscador-tipo'; k.textContent = e.k;
+        a.append(t, k); li.append(a); ol.append(li);
+      });
+      return [h, ol];
+    }
+    function pintar() {
+      var texto = norm(q.value).trim();
+      res.textContent = '';
+      if (texto.length < 2) { res.innerHTML = '<p class="buscador-ayuda">Escribe al menos dos letras. Atajo: tecla <kbd>/</kbd>.</p>'; return; }
+      var palabras = texto.split(/\s+/).map(function (p) { return p.length > 4 ? p.replace(/e?s$/, '') : p; }), w = buscar(web, palabras, 8), r = buscar(revista, palabras, 5);
+      if (!w.length && !r.length) { res.innerHTML = '<p class="buscador-ayuda">Sin resultados. Prueba con otra palabra o consulta las <a href="{{ site.baseurl }}/preguntas-frecuentes/">preguntas frecuentes</a>.</p>'; return; }
+      if (w.length) res.append.apply(res, grupo('En la web', w));
+      if (r.length) res.append.apply(res, grupo('En la revista', r));
+    }
+    q.addEventListener('input', function () { cargar().then(pintar); });
+    q.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Enter') { var a = res.querySelector('.buscador-lista a'); if (a) location.href = a.href; }
+    });
+    modal.addEventListener('show.bs.modal', cargar);
+    modal.addEventListener('shown.bs.modal', function () { q.focus(); q.select(); });
+    document.addEventListener('keydown', function (ev) {
+      var t = ev.target.tagName;
+      if (ev.key === '/' && !ev.ctrlKey && !ev.metaKey && t !== 'INPUT' && t !== 'TEXTAREA' && !ev.target.isContentEditable) {
+        ev.preventDefault(); bootstrap.Modal.getOrCreateInstance(modal).show();
+      }
+    });
+  })();
+</script>

@@ -1,0 +1,31 @@
+---
+layout: null
+sitemap: false
+---
+{%- comment -%}Índice del buscador de la web (_includes/buscador.html). Se genera solo con los datos de la web.
+t: título · u: URL · k: tipo · x: texto en el que también se busca{%- endcomment -%}
+{%- assign umh = site.data.umh.asignaturas -%}
+[
+{%- for p in site.pages -%}
+  {%- if p.title and p.url != "/404.html" and p.layout -%}
+  {"t": {{ p.title | jsonify }}, "u": {{ p.url | prepend: site.baseurl | jsonify }}, "k": "Página", "x": {{ p.description | default: p.lead | strip_html | jsonify }}},
+  {%- endif -%}
+{%- endfor -%}
+{%- for a in site.asignaturas -%}
+  {%- assign o = umh | where: "codigo", a.codigo | first -%}
+  {"t": {{ o.nombre | default: a.title | jsonify }}, "u": {{ a.url | prepend: site.baseurl | jsonify }}, "k": "Asignatura", "x": {{ o.interes_profesional | append: " " | append: o.caracter | strip_html | jsonify }}},
+{%- endfor -%}
+{%- for d in site.profesorado -%}
+  {"t": {{ d.nombre | default: d.title | jsonify }}, "u": {{ d.url | prepend: site.baseurl | jsonify }}, "k": "Profesorado", "x": {{ d.figura | default: d.institucion | append: " " | append: d.cargo | jsonify }}},
+{%- endfor -%}
+{%- for g in site.data.faq -%}
+  {%- for f in g.preguntas -%}
+  {"t": {{ f.pregunta | jsonify }}, "u": "{{ site.baseurl }}/preguntas-frecuentes/#{{ g.id }}", "k": "Pregunta", "x": {{ f.respuesta | remove: "%precio_total_doble%" | remove: "%precio_total%" | remove: "%precio_credito%" | markdownify | strip_html | strip_newlines | jsonify }}},
+  {%- endfor -%}
+{%- endfor -%}
+{%- for b in site.data.nos_visitan -%}
+  {%- for p in b.ponentes -%}
+  {"t": {{ p.nombre | jsonify }}, "u": "{{ site.baseurl }}/nos-visitan/#{{ b.asignatura }}", "k": "Ponente", "x": {{ p.cargo | jsonify }}}{% unless forloop.last and forloop.parentloop.last %},{% endunless %}
+  {%- endfor -%}
+{%- endfor -%}
+]

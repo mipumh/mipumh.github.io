@@ -34,6 +34,7 @@ LC_ALL=en_US.UTF-8 htmlproofer ./_site --disable-external --allow-hash-href --em
 | Entidades de prácticas / instituciones colaboradoras | `_data/entidades.yml`, `_data/colaboradores.yml`, `images/colaboradores/` | A mano |
 | Egresados por promoción | `_data/egresados.yml`, `images/alumni/` (**solo en local**, en `.gitignore`: el repo es público) | Listados de TFM de la Facultad: **solo nombre y título**, nunca NIF ni notas. Volver a versionarlos solo con los permisos revisados |
 | Preguntas frecuentes (`/preguntas-frecuentes/`; el bloque `admision` sale también en Admisión) | `_data/faq.yml` | A mano, por temas. Salen de las consultas reales por correo (buzón en `para_faq/`, local y fuera de git: datos personales). El precio se escribe como `%precio_credito%` / `%precio_total%` y se rellena desde `_data/umh` |
+| Buscador (lupa del menú, tecla `/`) | `buscar.json` (se genera solo con páginas, asignaturas, profesorado, FAQ y ponentes) + `/blog/search.json` de la revista; interfaz en `_includes/buscador.html` | Nada: se actualiza al compilar |
 | Admisión, hitos (RUCT), avisos, menú | `_data/admision.yml`, `hitos.yml`, `avisos.yml`, `navigation.yml` | A mano. `navigation.yml` se copia también a `../blog/_data/` |
 | Profesorado (fichas, CV AVAP) | `_profesorado/*.md` | A mano: bloque `cv:`; asignaturas salen de `_data/umh` |
 
