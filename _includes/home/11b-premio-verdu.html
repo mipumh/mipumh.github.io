@@ -1,0 +1,27 @@
+<section class="section section-ink premio" id="premio-verdu" aria-labelledby="premio-titulo">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Premio Vicente Verdú de Periodismo e Innovación</p>
+      <h2 id="premio-titulo">Responsables académicos del jurado</h2>
+      <p class="mb-0">Lo convoca la <a href="https://informadoreselche.com/">Asociación de Informadores de Elche</a> con el Ayuntamiento de Elche. El profesorado del máster acompaña al jurado y acoge los encuentros con los premiados.</p>
+    </div>
+  </div>
+  <div class="premios" aria-label="Trabajos premiados">
+    <div class="premios-track">
+      {%- for vuelta in (1..2) %}
+      <ul class="premios-lista"{% if vuelta == 2 %} aria-hidden="true"{% endif %}>
+        {%- for p in site.data.premio_verdu %}
+        <li class="premio-card">
+          <a href="{{ p.url }}"{% if vuelta == 2 %} tabindex="-1"{% endif %}>
+            <img src="{{ site.baseurl }}/images/premios/vicente-verdu-{{ p.anyo }}.jpg" width="600" height="600" loading="lazy" decoding="async" alt="{% if vuelta == 1 %}Cartel del premio {{ p.anyo }}: {{ p.ganadores }}, {{ p.medio }}{% endif %}">
+            <span class="premio-meta">{{ p.edicion }}.ª edición · {{ p.anyo }}</span>
+            <span class="premio-ganador">{{ p.ganadores }}</span>
+            <span class="premio-trabajo">{{ p.medio }} · {{ p.trabajo }}</span>
+          </a>
+        </li>
+        {%- endfor %}
+      </ul>
+      {%- endfor %}
+    </div>
+  </div>
+</section>

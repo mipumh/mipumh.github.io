@@ -44,6 +44,9 @@ plugins:
   - jekyll-sitemap
 
 exclude:
+  - carteles_escaparate
+  - CARTELES PREMIADOS
+  - ejemplo_carteles.png
   - _mejora_avap
   - _tools
   - README.md
