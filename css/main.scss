@@ -369,6 +369,10 @@ section[id] { scroll-margin-top: 90px; }
 .icon { display: inline-block; vertical-align: -0.2em; flex-shrink: 0; }
 .card-plain .icon.mb-3 { display: block; }
 
+.section-mint .testimonio { border-left-color: $ink; }
+.section-mint .more-link { text-decoration-color: $ink; }
+.section-mint .eyebrow { color: $ink; }
+
 // Pie
 .site-footer { background: $ink; color: #d7dbe0; padding: 3.5rem 0 2rem; margin-top: 0;
   a:not(.btn) { color: $paper; }
