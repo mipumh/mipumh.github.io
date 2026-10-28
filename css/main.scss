@@ -160,6 +160,11 @@ a {
   span::after { content: "●"; color: $mint; font-size: .6rem; vertical-align: middle; margin-left: 3rem; }
 }
 @keyframes cinta { to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce), (hover: none), (pointer: coarse), (max-width: 991.98px) {
+  .cinta { overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none; }
+  .cinta::-webkit-scrollbar { display: none; }
+  .cinta-track { animation: none; }
+}
 .edicion {
   border-left: 4px solid $mint; padding: .25rem 0 .25rem 1rem; margin: 0 0 2rem;
 }
@@ -337,8 +342,8 @@ section[id] { scroll-margin-top: 90px; }
   img { width: 100%; height: auto; display: block; border-radius: 6px; transition: transform .3s ease; }
   &:hover img { transform: translateY(-4px); }
 }
-// En pantallas táctiles (o con movimiento reducido) no hay animación: desplazamiento horizontal nativo con imán
-@media (prefers-reduced-motion: reduce), (hover: none) {
+// En pantallas táctiles o estrechas (o con movimiento reducido) no hay animación: desplazamiento horizontal nativo con imán
+@media (prefers-reduced-motion: reduce), (hover: none), (pointer: coarse), (max-width: 991.98px) {
   .carteles { overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-left: 16px; overscroll-behavior-x: contain; scrollbar-width: none; }
   .carteles::-webkit-scrollbar { display: none; }
   .carteles-track { animation: none; }
@@ -461,7 +466,7 @@ section[id] { scroll-margin-top: 90px; }
   a:hover .premio-ganador { text-decoration: underline; text-decoration-color: $mint; text-underline-offset: 4px; }
 }
 @keyframes premios { to { transform: translateX(-50%); } }
-@media (prefers-reduced-motion: reduce), (hover: none) {
+@media (prefers-reduced-motion: reduce), (hover: none), (pointer: coarse), (max-width: 991.98px) {
   .premios { overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-left: 16px; overscroll-behavior-x: contain; scrollbar-width: none; }
   .premios::-webkit-scrollbar { display: none; }
   .premios-track { animation: none; }
@@ -540,3 +545,15 @@ section[id] { scroll-margin-top: 90px; }
   .hero { padding: 3rem 0 2.5rem; }
   .hero-datos { gap: .5rem 1.25rem; }
 }
+
+// Lo último en la revista (portada): imagen cuadrada y foto del autor
+.revista-card { display: block; height: 100%; color: $ink; text-decoration: none;
+  .revista-img { width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 12px; display: block; margin-bottom: 1rem;
+    background: $line; transition: transform .3s ease; }
+  &:hover .revista-img { transform: translateY(-4px); }
+  &:hover h3 { text-decoration: underline; text-decoration-color: $mint; text-decoration-thickness: 3px; text-underline-offset: 4px; }
+}
+.revista-meta { display: flex; align-items: center; gap: .55rem; font-size: .85rem; color: #5b6470; margin-bottom: .5rem;
+  .revista-avatar { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+}
+

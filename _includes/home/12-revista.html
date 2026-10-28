@@ -9,25 +9,39 @@
   </div>
 </section>
 <script>
-  // Últimas entradas de la revista (/blog, mismo dominio). Si no se pueden leer, la sección no se muestra.
-  fetch('/blog/search.json').then(function (r) { return r.json(); }).then(function (posts) {
-    var box = document.getElementById('revista-posts');
-    posts.slice(0, 3).forEach(function (p) {
-      var col = document.createElement('div');
-      col.className = 'col-md-4';
-      var a = document.createElement('a');
-      a.className = 'card-plain card-link-wrap';
-      a.href = p.url;
-      var meta = document.createElement('p');
-      meta.className = 'small text-muted mb-2';
-      meta.textContent = p.date + (p.author ? ' · ' + p.author : '');
-      var h = document.createElement('h3');
-      h.className = 'h5 mb-0';
-      h.textContent = p.title;
-      a.append(meta, h);
-      col.append(a);
-      box.append(col);
-    });
-    if (posts.length) document.getElementById('revista').hidden = false;
-  }).catch(function () {});
+  // Últimas entradas de la revista (/blog/search.json, mismo dominio): se actualiza sola al publicar en la revista.
+  // Si no se pueden leer, la sección no se muestra.
+  (function () {
+    function ruta(u) { return !u ? '' : /^https?:/.test(u) || u.indexOf('/blog/') === 0 ? u : '/blog' + (u[0] === '/' ? '' : '/') + u; }
+    function img(src, cls, w, alt) {
+      var i = document.createElement('img');
+      i.src = src; i.className = cls; i.width = w; i.height = w; i.alt = alt || '';
+      i.loading = 'lazy'; i.decoding = 'async';
+      return i;
+    }
+    fetch('/blog/search.json').then(function (r) { return r.json(); }).then(function (posts) {
+      var box = document.getElementById('revista-posts');
+      posts.slice(0, 3).forEach(function (p) {
+        var col = document.createElement('div');
+        col.className = 'col-md-4';
+        var a = document.createElement('a');
+        a.className = 'revista-card';
+        a.href = p.url;
+        if (p.image) a.append(img(ruta(p.image), 'revista-img', 600));
+        var meta = document.createElement('p');
+        meta.className = 'revista-meta';
+        if (p.author_image) meta.append(img(ruta(p.author_image), 'revista-avatar', 32));
+        var txt = document.createElement('span');
+        txt.textContent = (p.author ? p.author + ' · ' : '') + p.date;
+        meta.append(txt);
+        var h = document.createElement('h3');
+        h.className = 'h5 mb-0';
+        h.textContent = p.title;
+        a.append(meta, h);
+        col.append(a);
+        box.append(col);
+      });
+      if (posts.length) document.getElementById('revista').hidden = false;
+    }).catch(function () {});
+  })();
 </script>
