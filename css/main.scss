@@ -279,16 +279,22 @@ a.card-plain, .card-link-wrap { display: block; color: inherit; transition: bord
   .breadcrumb { font-size: .85rem; margin-bottom: 1rem; }
 }
 .page-body { padding-top: 3rem; padding-bottom: 4rem; }
-.intertitulo { font-weight: 800; font-family: $display; font-size: 1.15rem; letter-spacing: -0.01em; margin: 2.25rem 0 .6rem; padding-top: 1.25rem; border-top: 1px solid $line; }
+.intertitulo { font-weight: 800; font-family: $display; font-size: 1.2rem; line-height: 1.2; letter-spacing: -0.01em; margin: 2.75rem 0 .9rem; padding-top: 1.5rem; border-top: 1px solid $line; }
 .prose > .intertitulo:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
 .prose {
   overflow-wrap: break-word;
-  h2 { font-size: 1.75rem; margin: 2.5rem 0 1rem; padding-top: 1rem; border-top: 1px solid $line; }
+  line-height: 1.7;
+  h2 { font-size: 1.75rem; line-height: 1.15; margin: 2.75rem 0 1rem; padding-top: 1.25rem; border-top: 1px solid $line; }
   h2:first-child { margin-top: 0; border-top: 0; padding-top: 0; }
-  h3 { font-size: 1.3rem; margin: 2rem 0 .75rem; }
-  ul li { margin-bottom: .35rem; }
+  h3 { font-size: 1.3rem; line-height: 1.2; margin: 2rem 0 .75rem; }
+  p { margin-bottom: 1.1rem; }
+  ul, ol { padding-left: 1.25rem; margin-bottom: 1.25rem; }
+  li { margin-bottom: .55rem; }
+  li::marker { color: $muted; }
   table { width: 100%; margin-bottom: 1.5rem; }
-  .table { font-size: .95rem; }
+  .table { font-size: .95rem; line-height: 1.5; }
+  .table td { padding: .85rem .5rem; vertical-align: top; }
+  .table-responsive .table { margin-bottom: 0; }
 }
 .side-box { top: 90px; border: 1px solid $line; border-radius: 12px; padding: 1.5rem; }
 
@@ -316,6 +322,20 @@ section[id] { scroll-margin-top: 90px; }
 }
 .cartel-proxima::before { content: "Próxima clase"; position: absolute; top: -.7rem; left: .75rem; z-index: 1;
   background: $ink; color: $paper; font-size: .75rem; font-weight: 700; padding: .2rem .65rem; border-radius: 999px; }
+
+// Preguntas frecuentes
+.faq { border-top: 1px solid $ink; margin-top: .5rem;
+  details { border-bottom: 1px solid $line; }
+  summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 1.5rem;
+    padding: 1.1rem 0; font-weight: 600; font-size: 1.05rem; line-height: 1.35; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; flex-shrink: 0; width: 2rem; height: 2rem; border-radius: 50%; border: 1px solid $line;
+    display: inline-flex; align-items: center; justify-content: center; font-size: 1.2rem; font-weight: 400; transition: transform .2s, background .2s; }
+  summary:hover::after { border-color: $ink; }
+  details[open] summary::after { transform: rotate(45deg); background: $mint; border-color: $mint; }
+  .faq-respuesta { padding: 0 3.5rem 1.25rem 0; color: #2b2f36; }
+  .faq-respuesta p:last-child { margin-bottom: 0; }
+}
 
 // Pie
 .site-footer { background: $ink; color: #d7dbe0; padding: 3.5rem 0 2rem; margin-top: 0;

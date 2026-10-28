@@ -36,11 +36,11 @@ description: "Admisión al Máster Universitario en Innovación en Periodismo (U
 <p>Con estudios extranjeros: <a href="https://estudios.umh.es/acceso/masters/acceso-con-estudios-universitarios-extranjeros/">acceso con títulos extranjeros</a>. <a href="{{ site.inc.tasas }}">Tasas</a> · <a href="{{ site.inc.becas }}">Becas</a>.</p>
 
 <p class="intertitulo">Preguntas frecuentes</p>
-<div class="accordion" id="faq-acc">
+<div class="faq">
 {%- for f in site.data.faq %}
-  <div class="accordion-item">
-    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-{{ forloop.index }}" aria-expanded="false" aria-controls="faq-{{ forloop.index }}">{{ f.pregunta }}</button></h3>
-    <div id="faq-{{ forloop.index }}" class="accordion-collapse collapse" data-bs-parent="#faq-acc"><div class="accordion-body">{{ f.respuesta | markdownify }}</div></div>
-  </div>
+  <details>
+    <summary>{{ f.pregunta }}</summary>
+    <div class="faq-respuesta">{{ f.respuesta | markdownify }}</div>
+  </details>
 {%- endfor %}
 </div>
