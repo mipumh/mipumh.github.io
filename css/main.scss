@@ -264,7 +264,6 @@ a.card-plain, .card-link-wrap { display: block; color: inherit; transition: bord
 .filtros { position: sticky; top: 64px; z-index: 5; background: $paper; padding: 1rem 0; border-bottom: 1px solid $line; margin-bottom: 2rem;
   .form-select { border-radius: 999px; }
 }
-.contador-cursos { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1.5rem; }
 
 .testimonio { border-left: 4px solid $mint; padding-left: 1.25rem;
   blockquote { font-family: $display; font-size: 1.2rem; line-height: 1.45; }

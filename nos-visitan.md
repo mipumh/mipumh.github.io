@@ -9,11 +9,6 @@ lead: "Profesionales invitados a las asignaturas, con el cargo que tenían en su
 {%- assign personas = publicables | group_by: "slug_ponente" -%}
 {%- assign cursos = publicables | group_by: "curso" -%}
 
-<div class="contador-cursos" aria-label="Sesiones por curso">
-{%- for c in cursos %}
-  <span class="pill">{{ c.size }} sesiones en {{ c.name }}</span>
-{%- endfor %}
-</div>
 
 <div class="filtros">
   <div class="row g-2 align-items-center">
