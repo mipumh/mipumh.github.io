@@ -99,9 +99,10 @@
       cargo: "Consultor en IA"
     - nombre: "Miguel Núñez"
       slug: miguel-nunez
+      cargo: "Jefe de fidelización e IA en El Confidencial"
     - nombre: "Antonio Ortiz"
       slug: antonio-ortiz
-      cargo: "Fidelización e IA en El Confidencial"
+      cargo: "Analista tecnológico"
     - nombre: "José Carlos Sánchez"
       slug: jose-carlos-sanchez
       cargo: "Responsable de inteligencia en Prodigioso Volcán"
@@ -113,7 +114,7 @@
       cargo: "Cofundador de Journo"
     - nombre: "David Corral"
       slug: david-corral
-      cargo: "RTVE"
+      cargo: "Responsable de Relaciones Internacionales y Cooperación de RTVE"
     - nombre: "Miguel Dobrich"
       slug: miguel-dobrich
       cargo: "Responsable de Dobcast y Periodismo Roboto"
