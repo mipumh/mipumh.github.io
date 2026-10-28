@@ -6,10 +6,9 @@
         <p class="eyebrow">Nos visitan · curso {{ c.curso }}</p>
         <h2 id="carteles-titulo" class="mb-0">Clases con profesionales</h2>
       </div>
-      <a class="more-link" href="{{ site.baseurl }}/nos-visitan.html">Todos los ponentes desde 2020</a>
+      <a class="more-link" href="{{ site.baseurl }}/nos-visitan.html">Todos los ponentes</a>
     </div>
-  </div>
-  <div class="carteles">
+    <div class="carteles">
     {%- assign lista = c.carteles | reverse -%}
     {%- for p in lista %}
     <figure class="cartel" data-fecha="{{ p.fecha }}">
@@ -18,6 +17,7 @@
       <figcaption class="visually-hidden">{{ p.nombre }} · {{ p.cargo }}</figcaption>
     </figure>
     {%- endfor %}
+    </div>
   </div>
 </section>
 <script>

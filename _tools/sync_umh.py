@@ -137,6 +137,11 @@ def titulo():
             "tfm": number(d, "_x_creditos_ECTS_trabajo_fin_master"),
         },
         "duracion": first(d, "_x_duracion_estudio"),
+        # Precio público por crédito ECTS: 1.ª matrícula y 2.ª y sucesivas
+        "precio_credito": {
+            "primera": number(d, "_x_precio_credito_ECTS_convocatoria_1"),
+            "segunda": number(d, "_x_precio_credito_ECTS_convocatoria_2"),
+        },
         "orientacion": first(d, "_x_orientacion_master"),
         "plan": first(d, "_x_plan_anyo"),
         "profesion_regulada": first(d, "_x_profesion_regulada"),

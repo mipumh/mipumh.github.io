@@ -7,23 +7,28 @@
       <p class="eyebrow text-dark">Ficha oficial</p>
       <h2 id="datos-titulo">El título en datos</h2>
     </div>
+    {%- assign h = site.data.hitos -%}
+    {%- assign ediciones = t.curso_academico | minus: h.primer_curso | plus: 1 -%}
     <dl class="datos-grid mb-4">
       <div><dt>Modalidad</dt><dd>{{ t.modalidad | downcase | capitalize }}</dd></div>
       <div><dt>Créditos</dt><dd>{{ t.creditos.total }} ECTS</dd></div>
       <div><dt>Plazas</dt><dd>{{ t.plazas }}</dd></div>
       <div><dt>Duración</dt><dd>{{ t.duracion | capitalize }}</dd></div>
+      <div><dt>Ediciones</dt><dd>{{ ediciones }}.ª en {{ t.curso_academico }}/{{ t.curso_academico | plus: 1 | append: "" | slice: 2, 2 }}</dd></div>
+      <div><dt>Egresados</dt><dd>{{ h.egresados }} desde {{ h.primer_curso | plus: 1 }}</dd></div>
+      <div><dt>Precio por crédito</dt><dd>{{ t.precio_credito.primera | append: "" | replace: ".", "," }}&nbsp;€</dd></div>
       <div><dt>Idioma</dt><dd>Castellano</dd></div>
       <div><dt>Orientación</dt><dd>{{ t.orientacion }}</dd></div>
       <div><dt>Rama</dt><dd>{{ t.rama }}</dd></div>
       <div><dt>Centro</dt><dd>{{ t.centro }}</dd></div>
-      <div><dt>Código RUCT</dt><dd>{{ t.ruct.codigo }}</dd></div>
       <div><dt>Doctorado</dt><dd>Da acceso</dd></div>
     </dl>
+    <p class="hitos mb-4">Verificado el {{ h.verificacion | date: "%d/%m/%Y" }} · Implantado en el curso {{ h.primer_curso }}/{{ h.primer_curso | plus: 1 | append: "" | slice: 2, 2 }} · Plan de estudios en el BOE el {{ h.boe_plan | date: "%d/%m/%Y" }} · Acreditación renovada en {{ h.acreditaciones | join: " y " }} · Precio de 1.ª matrícula; <a href="{{ site.inc.tasas }}">tasas</a></p>
     <div class="doc-links">
       <a href="{{ t.ficha_url }}">Ficha oficial</a>
       <a href="{{ t.ruct.url }}">RUCT</a>
       {% if memoria %}<a href="{{ memoria.url }}">Memoria verificada</a>{% endif %}
-      {% if renovacion %}<a href="{{ renovacion.url }}">Renovación de la acreditación (2020)</a>{% endif %}
+      {% if renovacion %}<a href="{{ renovacion.url }}">Informe de renovación de la acreditación</a>{% endif %}
     </div>
   </div>
 </section>

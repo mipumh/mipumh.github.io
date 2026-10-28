@@ -11,6 +11,10 @@
     "tfm": 10
   },
   "duracion": "1 curso académico",
+  "precio_credito": {
+    "primera": 35.34,
+    "segunda": 56.51
+  },
   "orientacion": "Profesional",
   "plan": "2013",
   "profesion_regulada": "NO",
@@ -173,5 +177,5 @@
       "url": "https://www.umh.es/pdf-verificado/182/2013/789_resultados_titulo.pdf"
     }
   ],
-  "descargado": "2026-10-26"
+  "descargado": "2026-10-28"
 }

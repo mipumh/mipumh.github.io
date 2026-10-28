@@ -167,11 +167,12 @@ a {
   grid-template-columns: repeat(2, 1fr);
   border: 1px solid rgba(11, 11, 11, .2);
   @media (min-width: 768px) { grid-template-columns: repeat(3, 1fr); }
-  @media (min-width: 1200px) { grid-template-columns: repeat(5, 1fr); }
+  @media (min-width: 1200px) { grid-template-columns: repeat(4, 1fr); }
   > div { background: $mint; padding: 1.1rem 1.2rem; }
   dt { font-size: .75rem; text-transform: uppercase; letter-spacing: .07em; font-weight: 700; }
   dd { margin: .25rem 0 0; font-family: $display; font-size: 1.3rem; font-weight: 700; line-height: 1.2; }
 }
+.hitos { font-size: .92rem; a { text-decoration-color: $ink; } }
 .doc-links a { margin-right: 1.25rem; font-weight: 600; text-decoration-color: $ink; display: inline-block; margin-bottom: .4rem; }
 
 .datos-mini {
@@ -322,9 +323,9 @@ section[id] { scroll-margin-top: 90px; }
 
 .section-head.d-flex { max-width: none; }
 .carteles-section { padding-bottom: 3.5rem; }
-// Carteles de Nos visitan (carrusel con desplazamiento horizontal)
-.carteles { display: grid; gap: 24px; grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 1000px; margin: 0 auto; padding: .9rem 16px 0;
-  @media (min-width: 768px) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+// Carteles de Nos visitan: rejilla de 4 alineada con el contenedor
+.carteles { display: grid; gap: 20px; grid-template-columns: repeat(2, minmax(0, 1fr)); padding-top: .9rem;
+  @media (min-width: 992px) { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 .cartel { margin: 0; position: relative;
   img { width: 100%; height: auto; display: block; border-radius: 6px; transition: transform .3s ease; }
