@@ -413,7 +413,6 @@ section[id] { scroll-margin-top: 90px; }
 .colabs { list-style: none; padding: 0; margin: 0; display: grid; gap: 1px; background: $line; border: 1px solid $line;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   @media (min-width: 768px) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  @media (min-width: 1200px) { grid-template-columns: repeat(5, minmax(0, 1fr)); }
   li { background: $paper; }
 }
 .colab { display: flex; align-items: center; justify-content: center; min-height: 140px; padding: 1.5rem 1.25rem; height: 100%;
