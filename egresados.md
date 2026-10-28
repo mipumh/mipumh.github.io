@@ -4,7 +4,6 @@ layout: page
 published: false
 title: Egresados
 permalink: /egresados.html
-redirect_from: /alumni.html
 lead: "Más de 270 estudiantes desde 2014. Algunos de ellos y el proyecto con el que terminaron el máster."
 description: "Egresados del Máster Universitario en Innovación en Periodismo (UMH) por promoción: dónde trabajan y qué proyecto desarrollaron en su Trabajo Fin de Máster."
 ---
