@@ -35,7 +35,7 @@ description: "Admisión al Máster Universitario en Innovación en Periodismo (U
 </ol>
 <p>Con estudios extranjeros: <a href="https://estudios.umh.es/acceso/masters/acceso-con-estudios-universitarios-extranjeros/">acceso con títulos extranjeros</a>. <a href="{{ site.inc.tasas }}">Tasas</a> · <a href="{{ site.inc.becas }}">Becas</a>.</p>
 
-<h2 class="intertitulo">Preguntas frecuentes</h2>
+<h2 class="intertitulo" id="faq">Preguntas frecuentes</h2>
 <div class="faq">
 {%- for f in site.data.faq %}
   <details>
