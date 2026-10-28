@@ -1,10 +1,10 @@
 {%- assign d = include.d -%}
 {%- include docente-foto.html d=d -%}
-<a class="card-plain card-link-wrap docente-card" href="{{ d.url }}">
+<a class="card-plain card-link-wrap docente-card{% if include.compacta %} docente-card-compacta{% endif %}" href="{{ d.url }}">
   {% include avatar.html nombre=d.nombre foto=foto_docente %}
   <div>
     <h3>{{ d.nombre }}</h3>
     <p class="figura mb-1">{% if d.cargo %}<strong>{{ d.cargo }}</strong> · {% endif %}{{ d.figura | default: d.institucion }}</p>
-    {% include docente-asignaturas.html d=d %}
+    {% unless include.compacta %}{% include docente-asignaturas.html d=d %}{% endunless %}
   </div>
 </a>

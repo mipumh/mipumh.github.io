@@ -401,6 +401,12 @@ section[id] { scroll-margin-top: 90px; }
 }
 .menu-umh { width: 108px; height: auto; filter: brightness(0); opacity: .75; display: block; }
 
+.card-link-wrap.docente-card-compacta { display: flex; gap: .9rem; align-items: center; padding: 1rem 1.1rem;
+  .avatar { width: 56px; height: 56px; }
+  h3 { font-size: 1rem; line-height: 1.25; margin-bottom: .2rem; }
+  .figura { font-size: .82rem; line-height: 1.35; margin-bottom: 0 !important; }
+}
+
 // Pie
 .site-footer { background: $ink; color: #d7dbe0; padding: 3.5rem 0 2rem; margin-top: 0;
   a:not(.btn) { color: $paper; }

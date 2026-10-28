@@ -7,7 +7,7 @@
     </div>
     <div class="row g-3">
       {%- for d in claustro %}
-      <div class="col-md-6 col-xl-4">{% include docente-card.html d=d %}</div>
+      <div class="col-sm-6 col-lg-4 col-xl-3">{% include docente-card.html d=d compacta=true %}</div>
       {%- endfor %}
     </div>
     <p class="mt-4 mb-0"><a class="more-link" href="{{ site.baseurl }}/profesores.html">Todo el profesorado</a></p>
