@@ -21,14 +21,11 @@
   </div>
 </section>
 <script>
-  // Marca la próxima clase (la fecha más cercana igual o posterior a hoy)
+  // Marca todas las clases que aún no se han celebrado
   (function () {
     var hoy = new Date(); hoy.setHours(0, 0, 0, 0);
-    var proxima = null;
     document.querySelectorAll('.cartel[data-fecha]').forEach(function (el) {
-      var f = new Date(el.dataset.fecha + 'T00:00:00');
-      if (f >= hoy && (!proxima || f < proxima.f)) proxima = { el: el, f: f };
+      if (new Date(el.dataset.fecha + 'T00:00:00') >= hoy) el.classList.add('cartel-proxima');
     });
-    if (proxima) proxima.el.classList.add('cartel-proxima');
   })();
 </script>
