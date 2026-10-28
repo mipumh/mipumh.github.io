@@ -90,9 +90,9 @@ a {
 }
 
 .aviso {
-  background: $ink; color: $paper; font-size: .95rem;
-  a:not(.btn) { color: $paper; text-decoration-color: $mint; }
-  .fa-circle-info { color: $mint; }
+  background: $mint; color: $ink; font-size: .95rem;
+  a:not(.btn) { color: $ink; text-decoration-color: $ink; }
+  .fa-circle-info { color: $ink; }
 }
 
 // Secciones
@@ -307,11 +307,10 @@ section[id] { scroll-margin-top: 90px; }
 .section-head.d-flex { max-width: none; }
 .carteles-section { padding-bottom: 3.5rem; }
 // Carteles de Nos visitan (carrusel con desplazamiento horizontal)
-.carteles { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-inline: 16px;
-  padding: .9rem 16px 1rem; scrollbar-width: thin;
-  @media (min-width: 1200px) { padding-inline: calc((100vw - 1140px) / 2 + 12px); scroll-padding-inline: calc((100vw - 1140px) / 2 + 12px); }
+.carteles { display: grid; gap: 24px; grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 1000px; margin: 0 auto; padding: .9rem 16px 0;
+  @media (min-width: 768px) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
-.cartel { flex: 0 0 clamp(240px, 26vw, 320px); margin: 0; scroll-snap-align: start; position: relative;
+.cartel { margin: 0; position: relative;
   img { width: 100%; height: auto; display: block; border-radius: 6px; transition: transform .3s ease; }
   &:hover img { transform: translateY(-4px); }
 }

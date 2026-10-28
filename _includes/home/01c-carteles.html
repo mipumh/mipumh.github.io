@@ -9,7 +9,7 @@
       <a class="more-link" href="{{ site.baseurl }}/nos-visitan.html">Todos los ponentes desde 2020</a>
     </div>
   </div>
-  <div class="carteles" tabindex="0" aria-label="Carteles de las clases del curso {{ c.curso }}">
+  <div class="carteles">
     {%- assign lista = c.carteles | reverse -%}
     {%- for p in lista %}
     <figure class="cartel" data-fecha="{{ p.fecha }}">
