@@ -27,7 +27,7 @@ LC_ALL=en_US.UTF-8 htmlproofer ./_site --disable-external --allow-hash-href --em
 |---|---|---|
 | Ficha oficial, guías docentes, PDI y precio por crédito (umh.es) | `_data/umh/*.json`, `images/profesorado/` | `python3 _tools/sync_umh.py` (JSON público `get_dataJson.py?item=:tit_m_182`). Correcciones de la dirección en `RESPONSABLES` del script (p. ej. 3023 → Marín) |
 | Últimos 4 artículos científicos del claustro | `_data/publicaciones.json` | `python3 _tools/sync_publicaciones.py` (Portal de Investigación UMH con Chrome sin interfaz; `portal_id` en `_profesorado/*.md`) |
-| Ponentes invitados (Nos visitan, asignaturas) | `_data/ponentes.csv` | `python3 _tools/build_ponentes.py` (lee `_mejora_avap/`, `../blog/_conferencias` y `_tools/ponentes_extra.csv`) |
+| Ponentes invitados (Nos visitan, asignaturas) | `_data/nos_visitan.yml` (página Nos visitan, listado y cargos de la dirección), `_data/ponentes.csv` (sesiones por curso en las asignaturas) | `python3 _tools/build_ponentes.py` (lee `_mejora_avap/`, `../blog/_conferencias` y `_tools/ponentes_extra.csv`) |
 | Fotos de ponentes | `images/ponentes/<slug>.jpg`, `_data/fotos_ponentes.yml` | A mano, 240×240 px |
 | Carteles de clases del curso | `images/carteles/`, `_data/carteles.yml` | PNG original en `carteles_escaparate/` (fuera de git) → JPG 640 px |
 | Premio Vicente Verdú | `images/premios/`, `_data/premio_verdu.yml` | Originales en `CARTELES PREMIADOS/` (fuera de git) → JPG 600 px |

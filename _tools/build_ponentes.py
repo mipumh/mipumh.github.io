@@ -22,6 +22,8 @@ CONFERENCIAS = os.path.join(ROOT, "..", "blog", "_conferencias", "*.md")
 SALIDA = os.path.join(ROOT, "_data", "ponentes.csv")
 # Ponentes de ediciones anteriores sin fecha, añadidos a mano por la dirección
 EXTRA = os.path.join(os.path.dirname(__file__), "ponentes_extra.csv")
+# Listado curado de «Nos visitan»: sus cargos completan las sesiones que no lo tienen
+NOS_VISITAN = os.path.join(ROOT, "_data", "nos_visitan.yml")
 
 NOMBRES = {
     "José A. Navas": "José A. Navas",
@@ -39,6 +41,10 @@ NOMBRES = {
     "Pablo Fernández Delkader": "Pablo Fernández",
     "Àlex Badia": "Alex Badía",
     "Cristian R. Marín": "Cristian Ramón Marín Sanchiz",
+    "Demófilo": "Demófilo Peláez",
+    "Rubén Mínguez (Nogor Digital)": "Rubén Mínguez",
+    "Eva Belmonte (Civio)": "Eva Belmonte",
+    "Ana López Jiménez": "Ana López",
 }
 
 # Grafía o identidad sin confirmar: no se publican hasta que lo confirme el director
@@ -156,8 +162,22 @@ def desde_extra():
                 for r in csv.DictReader(f)]
 
 
+def cargos_curados():
+    import yaml
+    cargos = {}
+    for bloque in yaml.safe_load(open(NOS_VISITAN, encoding="utf-8")):
+        for p in bloque["ponentes"]:
+            if p.get("cargo"):
+                cargos.setdefault(p["slug"], p["cargo"])
+    return cargos
+
+
 def main():
     filas = desde_conferencias() + desde_csv() + desde_extra()
+    cargos = cargos_curados()
+    for f in filas:
+        if not f["cargo"] and f["tipo"] == "persona":
+            f["cargo"] = cargos.get(f["slug_ponente"], "")
     vistas = set()
     unicas = []
     for f in filas:

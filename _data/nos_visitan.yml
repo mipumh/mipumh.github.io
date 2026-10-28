@@ -1,0 +1,269 @@
+# Ponentes de «Nos visitan», ordenados y con el cargo que fija la dirección (28/10/2026).
+# Manda sobre _data/ponentes.csv en la página /nos-visitan/; build_ponentes.py usa estos cargos
+# para completar las sesiones sin cargo. slug = nombre de la foto en _data/fotos_ponentes.yml.
+
+- asignatura: audiencia  # La audiencia en el proceso periodístico
+  ponentes:
+    - nombre: "Lucía González"
+      slug: lucia-gonzalez
+      cargo: "Subdirectora de El País"
+    - nombre: "Silvia Cobo"
+      slug: silvia-cobo
+      cargo: "Periodista, Repítemelo otra vez"
+    - nombre: "Manuel Arenas"
+      slug: manuel-arenas
+      cargo: "Coordinador de la sección Gran Barcelona"
+    - nombre: "Charo Marcos"
+      slug: charo-marcos
+      cargo: "Fundadora de Kloshletter"
+    - nombre: "Germán Frassa"
+      slug: german-frassa
+      cargo: "Experto en desarrollo de producto"
+    - nombre: "Sebastián Auyanet"
+      slug: sebastian-auyanet
+      cargo: "Publisher en NowThis News y consultor de medios"
+    - nombre: "Mari Luz Peinado"
+      slug: mari-luz-peinado
+      cargo: "Estrategia digital, El País"
+    - nombre: "Beatriz Lara"
+      slug: beatriz-lara
+      cargo: "Editora en Maldita Educa"
+
+- asignatura: contenido-producto-servicio  # El periodismo como contenido, producto y servicio
+  ponentes:
+    - nombre: "Marina Dragonetti"
+      slug: marina-dragonetti
+      cargo: "Jefa de Producto en Clarín"
+    - nombre: "José Luis Rojas"
+      slug: jose-luis-rojas
+      cargo: "Investigador, Universidad de Sevilla"
+    - nombre: "Efrén Lemus"
+      slug: efren-lemus
+      cargo: "Periodista, El Faro"
+    - nombre: "Carlos Cabrera"
+      slug: carlos-cabrera
+      cargo: "Editor, Revista Nazarenos"
+    - nombre: "Brenda Valverde"
+      slug: brenda-valverde
+      cargo: "Coordinadora de nuevas narrativas en EL PAÍS Lab"
+    - nombre: "Esteban Ordóñez"
+      slug: esteban-ordonez
+      cargo: "Redactor y guionista en «Lo de Évole»"
+    - nombre: "Soraya Aybar"
+      slug: soraya-aybar
+      cargo: "Periodista freelance"
+    - nombre: "Nelly Luna Amancio"
+      slug: nelly-luna-amancio
+      cargo: "Editora general, Ojo Público"
+    - nombre: "Pere Rusiñol"
+      slug: pere-rusinol
+      cargo: "Fundador de Alternativas Económicas y Mongolia"
+
+- asignatura: modelos-de-negocio  # Nuevos modelos de negocio
+  ponentes:
+    - nombre: "Juan Candela"
+      slug: juan-candela
+      cargo: "Director de Negocio en Las Provincias"
+    - nombre: "José A. Navas"
+      slug: jose-a-navas
+      cargo: "Product Manager de suscripciones en El Confidencial"
+    - nombre: "Sara Acosta"
+      slug: sara-acosta
+      cargo: "Cofundadora de Ballena Blanca"
+    - nombre: "Agus Morales"
+      slug: agus-morales
+      cargo: "Cofundador de Revista 5W"
+    - nombre: "Gabriela Pintos"
+      slug: gabriela-pintos
+      cargo: "Subgerente de Clarín e Infobae; mentora independiente"
+    - nombre: "Charo Marcos"
+      slug: charo-marcos
+      cargo: "Fundadora de Kloshletter"
+    - nombre: "Marta Gesto"
+      slug: marta-gesto
+      cargo: "Directora general de infoLibre"
+    - nombre: "Javi Ivànyez"
+      slug: javi-ivanyez
+      cargo: "Fundador y editor de Eh!"
+    - nombre: "Daniel M. Guerrero"
+      slug: daniel-m-guerrero
+      cargo: "Jefe de Estrategia, El Español"
+    - nombre: "Ismael Nafría"
+      slug: ismael-nafria
+      cargo: "Autor de Tendenci@s"
+
+- asignatura: impacto-tecnologia  # El impacto de la tecnología en el periodismo
+  ponentes:
+    - nombre: "Álvaro Liuzzi"
+      slug: alvaro-liuzzi
+      cargo: "Consultor en IA"
+    - nombre: "Miguel Núñez"
+      slug: miguel-nunez
+    - nombre: "Antonio Ortiz"
+      slug: antonio-ortiz
+      cargo: "Fidelización e IA en El Confidencial"
+    - nombre: "José Carlos Sánchez"
+      slug: jose-carlos-sanchez
+      cargo: "Responsable de inteligencia en Prodigioso Volcán"
+    - nombre: "David Llorente"
+      slug: david-llorente
+      cargo: "CEO de Narrativa"
+    - nombre: "Demófilo Peláez"
+      slug: demofilo-pelaez
+      cargo: "Cofundador de Journo"
+    - nombre: "David Corral"
+      slug: david-corral
+      cargo: "RTVE"
+    - nombre: "Miguel Dobrich"
+      slug: miguel-dobrich
+      cargo: "Responsable de Dobcast y Periodismo Roboto"
+    - nombre: "Pablo Fernández"
+      slug: pablo-fernandez
+      cargo: "Director adjunto de Prisa Audio"
+    - nombre: "Antonio Delgado"
+      slug: antonio-delgado
+      cargo: "Cofundador, Datadista"
+    - nombre: "Ana López"
+      slug: ana-lopez
+      cargo: "Periodista móvil"
+
+- asignatura: diseno-planificacion-proyectos  # Diseño y planificación de proyectos periodísticos
+  ponentes:
+    - nombre: "Pablo Hamada"
+      slug: pablo-hamada
+      cargo: "Jefe de Audiencias, La Gaceta de Tucumán"
+    - nombre: "Mario Vidal"
+      slug: mario-vidal
+      cargo: "Jefe de Innovación de El Español"
+    - nombre: "Fermín Elizari"
+      slug: fermin-elizari
+      cargo: "Responsable de Comunidades, Relevo"
+    - nombre: "Rafa Vega"
+      slug: rafa-vega
+      cargo: "Profesor en EUSA y creador de El Deportivo"
+    - nombre: "David Soler"
+      slug: david-soler
+      cargo: "Fundador de África Mundi"
+    - nombre: "Sara Belled"
+      slug: sara-belled
+      cargo: "Redactora jefa de Narrativas en Colpisa-Vocento"
+    - nombre: "Diego Masjoan"
+      slug: diego-masjoan
+      cargo: "Periodista de El Litoral"
+    - nombre: "Marisa Picó"
+      slug: marisa-pico
+      cargo: "Profesora de oratoria"
+    - nombre: "Iker Barinaga"
+      slug: iker-barinaga
+      cargo: "Director de Producto, Grupo Vocento"
+
+- asignatura: desarrollo-lanzamiento-proyectos  # Desarrollo y lanzamiento de proyectos periodísticos
+  ponentes:
+    - nombre: "Rubén Mínguez"
+      slug: ruben-minguez
+      cargo: "Cofundador, Nogor Digital"
+    - nombre: "Carlos Cabrera"
+      slug: carlos-cabrera
+      cargo: "Editor, Revista Nazarenos"
+    - nombre: "Carlos Tur"
+      slug: carlos-tur
+      cargo: "Distribución de contenidos en ElDesmarque"
+    - nombre: "Borja Ventura"
+      slug: borja-ventura
+      cargo: "Profesor, CEU"
+    - nombre: "Hugo Cerezo"
+      slug: hugo-cerezo
+      cargo: "Subdirector de Relevo"
+    - nombre: "Marc Menchén"
+      slug: marc-menchen
+      cargo: "Cofundador de 2Playbook"
+    - nombre: "Esther Alonso"
+      slug: esther-alonso
+      cargo: "Directora de Marketing y Desarrollo en eldiario.es"
+    - nombre: "Marta Caparrós"
+      slug: marta-caparros
+      cargo: "Jefa de vídeo internacional en EFE"
+
+- asignatura: narrativas-periodismo-datos  # Nuevas narrativas multimedia y periodismo de datos
+  ponentes:
+    - nombre: "Mariano Zafra"
+      slug: mariano-zafra
+      cargo: "Editor visual en Reuters"
+    - nombre: "Victòria Oliveres"
+      slug: victoria-oliveres
+      cargo: "Periodista de datos en 3CatInfo"
+    - nombre: "Martín González"
+      slug: martin-gonzalez
+      cargo: "Periodista visual en The Economist"
+    - nombre: "Laura Navarro"
+      slug: laura-navarro
+      cargo: "Periodista visual en El País"
+    - nombre: "Eva Belmonte"
+      slug: eva-belmonte
+      cargo: "Cofundadora de Civio"
+    - nombre: "Miriam Hernanz"
+      slug: miriam-hernanz
+      cargo: "Directora audiovisual en Prisa Media"
+    - nombre: "Emma Esser"
+      slug: emma-esser
+      cargo: "Periodista visual en ABC"
+    - nombre: "Kiko Llaneras"
+      slug: kiko-llaneras
+      cargo: "Periodista de datos en El País"
+    - nombre: "Guillermo Gil"
+      slug: guillermo-gil
+      cargo: "Periodista en Valencia Plaza"
+    - nombre: "Borja Andrino"
+      slug: borja-andrino
+      cargo: "Periodista de datos en El País"
+    - nombre: "Alex Badía"
+      slug: alex-badia
+      cargo: "Documentales en Barret Films"
+    - nombre: "Daniele Grasso"
+      slug: daniele-grasso
+      cargo: "Periodista de El País"
+    - nombre: "Antonio Delgado"
+      slug: antonio-delgado
+      cargo: "Cofundador, Datadista"
+    - nombre: "Ana Tudela"
+      slug: ana-tudela
+      cargo: "Cofundadora, Datadista"
+
+- asignatura: redes-sociales  # El periodismo en las redes sociales
+  ponentes:
+    - nombre: "Dayanara Champa"
+      slug: dayanara-champa
+      cargo: "Maldita"
+    - nombre: "Alberto Pachano"
+      slug: alberto-pachano
+      cargo: "Managing Director en We Are Social"
+    - nombre: "Diego Campoy"
+      slug: diego-campoy
+      cargo: "Periodista en DAZN"
+    - nombre: "Mauricio Cabrera"
+      slug: mauricio-cabrera
+      cargo: "Consultor de contenidos en Storybaker"
+    - nombre: "Juan Corellano"
+      slug: juan-corellano
+      cargo: "Redactor en La Media Inglesa"
+
+- asignatura: diseno-web-programacion  # Diseño web avanzado e introducción a la programación
+  ponentes:
+    - nombre: "Jesús Jornet"
+      slug: jesus-jornet
+      cargo: "UX Research, freelance"
+    - nombre: "Pablo Caño Sterck"
+      slug: pablo-cano-sterck
+      cargo: "CEO, Sterck"
+    - nombre: "Irene Beitia"
+      slug: irene-beitia
+      cargo: "Senior Product Designer, DesignOps Foundation"
+    - nombre: "Núria Monmany"
+      slug: nuria-monmany
+      cargo: "Digital Product Designer"
+    - nombre: "Irene de Pablo"
+      slug: irene-de-pablo
+      cargo: "Diseño de producto en El Confidencial"
+    - nombre: "Juan Ramón Martín San Román"
+      slug: juan-ramon-martin-san-roman
+      cargo: "Profesor, Universidad de Salamanca"

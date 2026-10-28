@@ -6,13 +6,10 @@ permalink: /nos-visitan/
 wide: true
 lead: "Profesionales que han participado en las asignaturas del máster."
 ---
-{%- assign publicables = site.data.ponentes | where: "publicar", "si" -%}
-{%- assign personas = publicables | group_by: "slug_ponente" -%}
-
+{%- comment -%}Listado curado por la dirección (_data/nos_visitan.yml), por asignatura{%- endcomment -%}
 {%- for a in site.data.umh.asignaturas %}
-{%- assign sesiones = publicables | where: "slug_asignatura", a.slug -%}
-{%- if sesiones.size > 0 %}
-{%- assign grupo = sesiones | group_by: "slug_ponente" %}
+{%- assign bloque = site.data.nos_visitan | where: "asignatura", a.slug | first -%}
+{%- if bloque and bloque.ponentes.size > 0 %}
 <section class="visitas-asignatura" id="{{ a.slug }}">
   <div class="d-flex flex-wrap justify-content-between align-items-end gap-2 mb-3">
     <div>
@@ -21,19 +18,15 @@ lead: "Profesionales que han participado en las asignaturas del máster."
     </div>
   </div>
   <div class="row g-3">
-    {%- for g in grupo %}
-    {%- assign persona = personas | where: "name", g.name | first -%}
-    {%- assign cargo = "" -%}
-    {%- for x in persona.items -%}{%- if cargo == "" and x.cargo.size > 0 -%}{%- assign cargo = x.cargo -%}{%- endif -%}{%- endfor -%}
-    {%- assign p = g.items | first -%}
-    {%- assign foto = site.data.fotos_ponentes[g.name] -%}
+    {%- for p in bloque.ponentes %}
+    {%- assign foto = site.data.fotos_ponentes[p.slug] -%}
     {%- if foto -%}{%- capture foto %}{{ site.baseurl }}/images/ponentes/{{ foto }}{% endcapture -%}{%- endif %}
     <div class="col-sm-6 col-lg-4 col-xl-3">
       <div class="card-plain ponente-mini">
-        {% include avatar.html nombre=p.ponente foto=foto tipo=p.tipo %}
+        {% include avatar.html nombre=p.nombre foto=foto tipo="persona" %}
         <div>
-          <p class="nombre mb-0">{{ p.ponente }}</p>
-          {% if cargo != "" %}<p class="cargo mb-0">{{ cargo }}</p>{% endif %}
+          <p class="nombre mb-0">{{ p.nombre }}</p>
+          {% if p.cargo %}<p class="cargo mb-0">{{ p.cargo }}</p>{% endif %}
         </div>
       </div>
     </div>
