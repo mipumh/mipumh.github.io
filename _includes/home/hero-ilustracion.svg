@@ -19,20 +19,20 @@
   <g class="ilus-phone" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">
     <rect class="a-panel" x="290" y="130" width="168" height="280" rx="24" fill="#fff"/>
     <rect class="a-notch" x="350" y="142" width="48" height="6" rx="3" fill="#d9d9d9"/>
-    <text class="a-et e1" x="308" y="178" fill="#0b0b0b">Calidad</text>
-    <line class="a-lin" x1="310" y1="194" x2="436" y2="194" stroke="#0b0b0b" stroke-width="3" stroke-linecap="round" stroke-dasharray="0 7"/>
+    <text class="a-et e1" x="308" y="172" fill="#0b0b0b">Calidad</text>
+    <path class="a-lin" d="M312 214 L330 208 L348 210 L366 200 L384 196 L402 188 L420 184 L436 176" fill="none" stroke="#0b0b0b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 9"/>
     <g class="a-et e2">
-      <text x="308" y="226" fill="#0b0b0b">Audiencia</text>
-      <circle class="a-live a-punto" cx="436" cy="222" r="5" fill="#3df0c4"/>
+      <text x="308" y="244" fill="#0b0b0b">Audiencia</text>
+      <circle class="a-live a-punto" cx="436" cy="240" r="5" fill="#3df0c4"/>
     </g>
     <g class="chart">
-      <rect class="a-sube b1" x="310" y="242" width="18" height="70" rx="3" fill="#0b0b0b"/>
-      <rect class="a-sube b2" x="336" y="242" width="18" height="70" rx="3" fill="#0b0b0b"/>
-      <rect class="a-sube b3" x="362" y="242" width="18" height="70" rx="3" fill="#0b0b0b"/>
-      <rect class="a-sube b4" x="388" y="242" width="18" height="70" rx="3" fill="#0b0b0b"/>
-      <rect class="a-sube b5 a-destaca" x="414" y="242" width="18" height="70" rx="3" fill="#3df0c4"/>
+      <rect class="a-sube b1" x="310" y="256" width="18" height="60" rx="3" fill="#0b0b0b"/>
+      <rect class="a-sube b2" x="336" y="256" width="18" height="60" rx="3" fill="#0b0b0b"/>
+      <rect class="a-sube b3" x="362" y="256" width="18" height="60" rx="3" fill="#0b0b0b"/>
+      <rect class="a-sube b4" x="388" y="256" width="18" height="60" rx="3" fill="#0b0b0b"/>
+      <rect class="a-sube b5 a-destaca" x="414" y="256" width="18" height="60" rx="3" fill="#3df0c4"/>
     </g>
-    <rect class="a-base" x="310" y="320" width="122" height="2" fill="#e4e7e5"/>
+    <rect class="a-base" x="310" y="322" width="122" height="2" fill="#e4e7e5"/>
     <text class="a-et e3" x="308" y="358" fill="#0b0b0b">Negocio</text>
   </g>
   <!-- Etapas del proyecto -->
