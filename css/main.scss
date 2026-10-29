@@ -141,6 +141,27 @@ a {
 .a-step { opacity: 0; animation: etapa 9s infinite; }
 .s1 { animation-delay: 0s; } .s2 { animation-delay: 3s; } .s3 { animation-delay: 6s; }
 .ilus-phone { animation: flotar 6s ease-in-out infinite; }
+// Panel del móvil (bucle de 9 s sin retardos, para que todo vuelva a empezar a la vez):
+// Calidad y línea de puntos → Audiencia y barras → Negocio → el panel pasa a menta
+.a-et { opacity: 0; animation: 9s ease-out infinite; }
+.e1 { animation-name: et-calidad; } .e2 { animation-name: et-audiencia; } .e3 { animation-name: et-negocio; }
+.a-lin { transform-origin: left center; animation: puntos 9s ease-out infinite; }
+.a-sube { transform-origin: bottom center; animation: subir 9s cubic-bezier(.2, .7, .2, 1) infinite; }
+.b1 { --h: .35; } .b2 { --h: .55; animation-delay: .1s; } .b3 { --h: .45; animation-delay: .2s; }
+.b4 { --h: .75; animation-delay: .3s; } .b5 { --h: 1; animation-delay: .4s; }
+.a-panel { animation: panel 9s ease infinite; }
+.a-destaca { animation-name: subir, destaca; animation-duration: 9s; animation-iteration-count: infinite; }
+.a-punto { animation: latir 1.6s ease-in-out infinite, punto 9s ease infinite; }
+.a-base, .a-notch { animation: base 9s ease infinite; }
+@keyframes et-calidad { 0%, 4% { opacity: 0; } 8%, 90% { opacity: 1; } 95%, 100% { opacity: 0; } }
+@keyframes puntos { 0%, 8% { transform: scaleX(0); } 15%, 90% { transform: scaleX(1); } 95%, 100% { transform: scaleX(0); } }
+@keyframes et-audiencia { 0%, 17% { opacity: 0; } 21%, 90% { opacity: 1; } 95%, 100% { opacity: 0; } }
+@keyframes subir { 0%, 21% { transform: scaleY(0); } 30%, 90% { transform: scaleY(var(--h)); } 95%, 100% { transform: scaleY(0); } }
+@keyframes et-negocio { 0%, 36% { opacity: 0; } 40%, 90% { opacity: 1; } 95%, 100% { opacity: 0; } }
+@keyframes panel { 0%, 46% { fill: #fff; } 52%, 90% { fill: #{$mint}; } 96%, 100% { fill: #fff; } }
+@keyframes destaca { 0%, 46% { fill: #{$mint}; } 52%, 90% { fill: #fff; } 96%, 100% { fill: #{$mint}; } }
+@keyframes punto { 0%, 46% { fill: #{$mint}; } 52%, 90% { fill: #{$ink}; } 96%, 100% { fill: #{$mint}; } }
+@keyframes base { 0%, 46% { fill: #e4e7e5; } 52%, 90% { fill: #{$ink}; } 96%, 100% { fill: #e4e7e5; } }
 @keyframes maquetar { 0% { transform: scaleX(0); } 10%, 88% { transform: scaleX(1); } 96%, 100% { transform: scaleX(0); } }
 @keyframes aparecer { 0%, 3% { transform: scale(.6); opacity: 0; } 12%, 88% { transform: scale(1); opacity: 1; } 96%, 100% { transform: scale(.6); opacity: 0; } }
 @keyframes crecer { 0% { transform: translateY(0) scaleY(0); } 14%, 86% { transform: scaleY(var(--h)); } 96%, 100% { transform: scaleY(0); } }
@@ -150,7 +171,9 @@ a {
 @media (prefers-reduced-motion: reduce) {
   .hero-ilus *, .cinta-track { animation: none !important; }
   .a-step { opacity: 0; } .s3 { opacity: 1; }
-  .a-grow { transform: scaleY(var(--h)); }
+  .a-grow, .a-sube { transform: scaleY(var(--h)); }
+  .a-et { opacity: 1; }
+  .a-panel { fill: $mint; } .a-destaca { fill: #fff; } .a-punto { fill: $ink; } .a-base, .a-notch { fill: $ink; }
 }
 
 // Cinta de materias

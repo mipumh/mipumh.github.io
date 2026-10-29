@@ -1,5 +1,5 @@
 <svg class="hero-ilus" viewBox="0 0 480 430" role="img" aria-labelledby="ilus-t" xmlns="http://www.w3.org/2000/svg">
-  <title id="ilus-t">Un proyecto periodístico toma forma: de la página web a los datos de audiencia</title>
+  <title id="ilus-t">Un proyecto periodístico toma forma: calidad, audiencia y negocio</title>
   <!-- Navegador: la pieza se maqueta -->
   <g class="ilus-win">
     <rect x="20" y="30" width="320" height="300" rx="16" fill="#161616" stroke="#2c2c2c"/>
@@ -15,20 +15,25 @@
     <rect class="a-bar d5" x="44" y="272" width="240" height="8" rx="4" fill="#4a4a4a"/>
     <rect class="a-bar d6" x="44" y="288" width="200" height="8" rx="4" fill="#4a4a4a"/>
   </g>
-  <!-- Móvil: la audiencia responde -->
-  <g class="ilus-phone">
-    <rect x="290" y="130" width="168" height="280" rx="24" fill="#fff"/>
-    <rect x="350" y="142" width="48" height="6" rx="3" fill="#d9d9d9"/>
-    <text x="308" y="178" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#0b0b0b">Audiencia</text>
-    <circle class="a-live" cx="436" cy="174" r="5" fill="#3df0c4"/>
-    <g class="chart">
-      <rect class="a-grow g1" x="310" y="300" width="18" height="70" rx="3" fill="#0b0b0b"/>
-      <rect class="a-grow g2" x="336" y="300" width="18" height="70" rx="3" fill="#0b0b0b"/>
-      <rect class="a-grow g3" x="362" y="300" width="18" height="70" rx="3" fill="#0b0b0b"/>
-      <rect class="a-grow g4" x="388" y="300" width="18" height="70" rx="3" fill="#0b0b0b"/>
-      <rect class="a-grow g5" x="414" y="300" width="18" height="70" rx="3" fill="#3df0c4"/>
+  <!-- Móvil: calidad, audiencia y negocio; al final el panel pasa a menta -->
+  <g class="ilus-phone" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">
+    <rect class="a-panel" x="290" y="130" width="168" height="280" rx="24" fill="#fff"/>
+    <rect class="a-notch" x="350" y="142" width="48" height="6" rx="3" fill="#d9d9d9"/>
+    <text class="a-et e1" x="308" y="178" fill="#0b0b0b">Calidad</text>
+    <line class="a-lin" x1="310" y1="194" x2="436" y2="194" stroke="#0b0b0b" stroke-width="3" stroke-linecap="round" stroke-dasharray="0 7"/>
+    <g class="a-et e2">
+      <text x="308" y="226" fill="#0b0b0b">Audiencia</text>
+      <circle class="a-live a-punto" cx="436" cy="222" r="5" fill="#3df0c4"/>
     </g>
-    <rect x="310" y="380" width="122" height="2" fill="#e4e7e5"/>
+    <g class="chart">
+      <rect class="a-sube b1" x="310" y="242" width="18" height="70" rx="3" fill="#0b0b0b"/>
+      <rect class="a-sube b2" x="336" y="242" width="18" height="70" rx="3" fill="#0b0b0b"/>
+      <rect class="a-sube b3" x="362" y="242" width="18" height="70" rx="3" fill="#0b0b0b"/>
+      <rect class="a-sube b4" x="388" y="242" width="18" height="70" rx="3" fill="#0b0b0b"/>
+      <rect class="a-sube b5 a-destaca" x="414" y="242" width="18" height="70" rx="3" fill="#3df0c4"/>
+    </g>
+    <rect class="a-base" x="310" y="320" width="122" height="2" fill="#e4e7e5"/>
+    <text class="a-et e3" x="308" y="358" fill="#0b0b0b">Negocio</text>
   </g>
   <!-- Etapas del proyecto -->
   <g class="ilus-chip" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">
