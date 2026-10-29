@@ -9,7 +9,7 @@
   </div>
 </section>
 <script>
-  // Últimas entradas de la revista (/blog/search.json, mismo dominio): se actualiza sola al publicar en la revista.
+  // Últimas entradas de la revista (mismo dominio): se actualiza sola al publicar en la revista.
   // Si no se pueden leer, la sección no se muestra.
   (function () {
     function ruta(u) { return !u ? '' : /^https?:/.test(u) || u.indexOf('/blog/') === 0 ? u : '/blog' + (u[0] === '/' ? '' : '/') + u; }
@@ -19,7 +19,9 @@
       i.loading = 'lazy'; i.decoding = 'async';
       return i;
     }
-    fetch('/blog/search.json').then(function (r) { return r.json(); }).then(function (posts) {
+    // /blog/ultimas.json: las 3 últimas entradas (~1 KB). Si aún no existe, el índice completo (/blog/search.json, ~150 KB)
+    function leer(u) { return fetch(u).then(function (r) { if (!r.ok) throw r; return r.json(); }); }
+    leer('/blog/ultimas.json').catch(function () { return leer('/blog/search.json'); }).then(function (posts) {
       var box = document.getElementById('revista-posts');
       posts.slice(0, 3).forEach(function (p) {
         var col = document.createElement('div');

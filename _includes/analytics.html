@@ -1,6 +1,6 @@
 {%- comment -%}
 GA4 con Consent Mode v2. Sin ID en _config.yml (inc.analytics.ga4) no se carga nada.
-Por defecto todo denegado: GA4 no guarda cookies hasta que el visitante acepta en el aviso.
+Por defecto todo denegado; gtag.js no se descarga hasta que el visitante acepta en el aviso.
 {%- endcomment -%}
 {%- assign ga4 = site.inc.analytics.ga4 -%}
 {%- if ga4 and ga4 != "" %}
@@ -16,7 +16,15 @@ Por defecto todo denegado: GA4 no guarda cookies hasta que el visitante acepta e
   gtag('js', new Date());
   gtag('config', '{{ ga4 }}', { anonymize_ip: true });
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ ga4 }}"></script>
+<script>
+  // gtag.js (~170 KB) solo se descarga si el visitante acepta las cookies o ya las aceptó antes
+  function mipCargarGA() {
+    if (window.mipGA) return; window.mipGA = true;
+    var s = document.createElement('script'); s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id={{ ga4 }}';
+    document.head.appendChild(s);
+  }
+  if (mipConsent === 'si') mipCargarGA();
+</script>
 <div class="cookies" id="cookies" role="dialog" aria-live="polite" aria-label="Aviso de cookies" hidden>
   <p>Usamos cookies de analítica (Google Analytics) para saber qué contenidos son útiles. Solo se activan si las aceptas. <a href="https://www.umh.es/contenido/Universidad/:MasInfoCookies/datos_es.html">Más información</a></p>
   <div class="cookies-botones">
@@ -33,6 +41,7 @@ Por defecto todo denegado: GA4 no guarda cookies hasta que el visitante acepta e
       if (!v) return;
       try { localStorage.setItem('mip-cookies', v); } catch (err) {}
       gtag('consent', 'update', { analytics_storage: v === 'si' ? 'granted' : 'denied' });
+      if (v === 'si') mipCargarGA();
       aviso.hidden = true;
     });
     document.querySelectorAll('[data-abrir-cookies]').forEach(function (a) {
