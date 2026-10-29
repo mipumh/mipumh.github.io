@@ -35,7 +35,7 @@ curso,fecha,fecha_iso,ponente,slug_ponente,cargo,titulo,asignatura,slug_asignatu
 2024/25,10/03/2025,2025-03-10,Martín González,martin-gonzalez,Periodista visual en The Economist,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
 2024/25,03/03/2025,2025-03-03,Victòria Oliveres,victoria-oliveres,Periodista de datos en 3CatInfo,,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
 2024/25,24/02/2025,2025-02-24,Silvia Cobo,silvia-cobo,"Periodista, Repítemelo otra vez",,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
-2024/25,20/01/2025,2025-01-20,Alejandra Llorente,alejandra-llorente,,Innovar en la comercialización de marcas,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,no
+2024/25,20/01/2025,2025-01-20,Alejandra Lorente,alejandra-lorente,Fractional CMO,Innovar en la comercialización de marcas,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
 2024/25,13/01/2025,2025-01-13,José A. Navas,jose-a-navas,Product manager de suscripciones en El Confidencial,Gestión de producto en El Confidencial,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
 2024/25,16/12/2024,2024-12-16,José Luis Rojas,jose-luis-rojas,"Investigador, Universidad de Sevilla",Innovar en periodismo deportivo,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
 2024/25,09/12/2024,2024-12-09,Efrén Lemus,efren-lemus,"Periodista, El Faro",Innovación en periodismo de investigación: el caso de El Faro,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
@@ -146,7 +146,9 @@ curso,fecha,fecha_iso,ponente,slug_ponente,cargo,titulo,asignatura,slug_asignatu
 2021/22,,,David Corral,david-corral,Area de Innovación de RTVE,La transformación de la RTVE pública,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
 2021/22,,,Pere Rusiñol,pere-rusinol,Fundador de Alternativas Económicas y Mongolia,Crear medios independientes en la era digital,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
 2021/22,,,Juan Ramón Martín San Román,juan-ramon-martin-san-roman,"Profesor, Universidad de Salamanca",Usabilidad y experiencia de usuario en medios,Diseño web avanzado e introducción a la programación,diseno-web-programacion,Externo,persona,si
+2021/22,,,Antonio Delgado,antonio-delgado,"Cofundador, Datadista",,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
 2021/22,,,Mari Luz Peinado,mari-luz-peinado,"Estrategia digital, El País",,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
+2021/22,,,Ana López,ana-lopez,Periodista móvil,,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
 2020/21,24/05/2021,2021-05-24,Esther Alonso,esther-alonso,Directora de Marketing y Desarrollo (eldiario.es),Estrategia de marketing: el caso de eldiario.es,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
 2020/21,17/05/2021,2021-05-17,Marta Caparrós,marta-caparros,Jefa de vídeo internacional en EFE,Defensa de un proyecto con vídeo,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
 2020/21,29/03/2021,2021-03-29,Ismael Nafría,ismael-nafria,Director de National Geographic,Cómo crear una newsletter de éxito,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
@@ -158,10 +160,8 @@ curso,fecha,fecha_iso,ponente,slug_ponente,cargo,titulo,asignatura,slug_asignatu
 2020/21,15/02/2021,2021-02-15,Daniele Grasso,daniele-grasso,Periodista de El País,Gestión de equipos y desarrollo de proyectos con datos,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
 2020/21,10/01/2021,2021-01-10,Nelly Luna Amancio,nelly-luna-amancio,Editora general Ojo Publico,Estudio de caso de Ojo Público,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
 2020/21,12/12/2020,2020-12-12,Javi Ivànyez,javi-ivanyez,Fundador y editor de Eh!,Modelo de negocio de periodismo distribuido: el caso de Eh!,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
-,,,Antonio Delgado,antonio-delgado,"Cofundador, Datadista",,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
+2020/21,,,Daniel M. Guerrero,daniel-m-guerrero,"Jefe de Estrategia, El Español",,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
 ,,,Antonio Delgado,antonio-delgado,"Cofundador, Datadista",,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
 ,,,Marisa Picó,marisa-pico,Profesora de oratoria,,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
-,,,Daniel M. Guerrero,daniel-m-guerrero,"Jefe de Estrategia, El Español",,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
 ,,,Iker Barinaga,iker-barinaga,"Director de Producto, Grupo Vocento",,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
-,,,Ana López,ana-lopez,Periodista móvil,,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
 ,,,Ana Tudela,ana-tudela,"Cofundadora, Datadista",,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si

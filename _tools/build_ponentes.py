@@ -45,13 +45,14 @@ NOMBRES = {
     "Rubén Mínguez (Nogor Digital)": "Rubén Mínguez",
     "Eva Belmonte (Civio)": "Eva Belmonte",
     "Ana López Jiménez": "Ana López",
+    "Alejandra Llorente": "Alejandra Lorente",
 }
 
 # Grafía o identidad sin confirmar: no se publican hasta que lo confirme el director
-NOMBRES_PENDIENTES = {"Loraine Morales", "Mar Marique", "Alejandra Llorente"}
+NOMBRES_PENDIENTES = {"Loraine Morales", "Mar Marique"}
 NO_PUBLICAR = {"Irene Gómez Peña", "Reporteros Sin Fronteras (sesión con varios ponentes)"}
 # Cargo (y en su caso título) copiados de otro cartel: se publica solo el nombre
-SIN_CARGO = {("José A. Navas", "2025/26"), ("Alejandra Llorente", None), ("Germán Frassa", None),
+SIN_CARGO = {("José A. Navas", "2025/26"), ("Alejandra Lorente", None), ("Germán Frassa", None),
              ("Quique Ribera", None), ("Roberto Prada", None)}
 SIN_TITULO = {"Germán Frassa"}
 ORGANIZACIONES = {"Act2ality"}

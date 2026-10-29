@@ -91,6 +91,9 @@
     - nombre: "Ismael Nafría"
       slug: ismael-nafria
       cargo: "Autor de Tendenci@s"
+    - nombre: "Alejandra Lorente"
+      slug: alejandra-lorente
+      cargo: "Fractional CMO"
 
 - asignatura: impacto-tecnologia  # El impacto de la tecnología en el periodismo
   ponentes:
