@@ -6,16 +6,16 @@
   ponentes:
     - nombre: "Lucía González"
       slug: lucia-gonzalez
-      cargo: "Subdirectora de El País"
+      cargo: "Subdirectora de El País / Directora de The HuffPost"
     - nombre: "Silvia Cobo"
       slug: silvia-cobo
       cargo: "Periodista, Repítemelo otra vez"
     - nombre: "Manuel Arenas"
       slug: manuel-arenas
-      cargo: "Coordinador de la sección Gran Barcelona"
+      cargo: "Coordinador de la sección Gran Barcelona / Jefe de Sección de Audiencias de El Periódico"
     - nombre: "Charo Marcos"
       slug: charo-marcos
-      cargo: "Fundadora de Kloshletter"
+      cargo: "Fundadora de Kloshletter / Directora de Mujer Hoy (Vocento)"
     - nombre: "Germán Frassa"
       slug: german-frassa
       cargo: "Experto en desarrollo de producto"
@@ -78,7 +78,7 @@
       cargo: "Subgerente de Clarín e Infobae; mentora independiente"
     - nombre: "Charo Marcos"
       slug: charo-marcos
-      cargo: "Fundadora de Kloshletter"
+      cargo: "Fundadora de Kloshletter / Directora de Mujer Hoy (Vocento)"
     - nombre: "Marta Gesto"
       slug: marta-gesto
       cargo: "Directora general de infoLibre"

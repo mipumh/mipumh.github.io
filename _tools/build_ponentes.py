@@ -55,6 +55,8 @@ SIN_CARGO = {("José A. Navas", "2025/26"), ("Alejandra Llorente", None), ("Germ
              ("Quique Ribera", None), ("Roberto Prada", None)}
 SIN_TITULO = {"Germán Frassa"}
 ORGANIZACIONES = {"Act2ality"}
+# Cargo actualizado por la dirección: el de nos_visitan.yml se aplica también a sus sesiones anteriores
+CARGO_ACTUAL = {"Lucía González", "Manuel Arenas", "Charo Marcos"}
 # Profesorado del máster: sus sesiones no son de ponentes invitados
 CLAUSTRO = {"José María Valero Pastor", "Cristian Ramón Marín Sanchiz"}
 
@@ -158,7 +160,7 @@ def desde_conferencias():
 
 def desde_extra():
     with open(EXTRA, encoding="utf-8") as f:
-        return [fila("", "", r["ponente"], r["cargo"], "", r["asignatura"], "Externo")
+        return [fila(r.get("curso") or "", "", r["ponente"], r["cargo"], "", r["asignatura"], "Externo")
                 for r in csv.DictReader(f)]
 
 
@@ -176,7 +178,9 @@ def main():
     filas = desde_conferencias() + desde_csv() + desde_extra()
     cargos = cargos_curados()
     for f in filas:
-        if not f["cargo"] and f["tipo"] == "persona":
+        if f["ponente"] in CARGO_ACTUAL and cargos.get(f["slug_ponente"]):
+            f["cargo"] = cargos[f["slug_ponente"]]
+        elif not f["cargo"] and f["tipo"] == "persona":
             f["cargo"] = cargos.get(f["slug_ponente"], "")
     vistas = set()
     unicas = []

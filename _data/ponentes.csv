@@ -20,9 +20,9 @@ curso,fecha,fecha_iso,ponente,slug_ponente,cargo,titulo,asignatura,slug_asignatu
 2025/26,24/11/2025,2025-11-24,Miguel Núñez,miguel-nunez,Jefe de fidelización e IA en El Confidencial,,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
 2025/26,20/11/2025,2025-11-20,Antonio Ortiz,antonio-ortiz,Analista tecnológico,,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
 2025/26,17/11/2025,2025-11-17,José Carlos Sánchez,jose-carlos-sanchez,Responsable de inteligencia en Prodigioso Volcán,,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
-2025/26,03/11/2025,2025-11-03,Lucía González,lucia-gonzalez,Subdirectora de El País,Desarrollo de audiencias en el entorno de la IA,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
+2025/26,03/11/2025,2025-11-03,Lucía González,lucia-gonzalez,Subdirectora de El País / Directora de The HuffPost,Desarrollo de audiencias en el entorno de la IA,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
 2025/26,27/10/2025,2025-10-27,Silvia Cobo,silvia-cobo,"Periodista, Repítemelo otra vez",,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
-2025/26,20/10/2025,2025-10-20,Manuel Arenas,manuel-arenas,Coordinador de la sección Gran Barcelona,,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
+2025/26,20/10/2025,2025-10-20,Manuel Arenas,manuel-arenas,Coordinador de la sección Gran Barcelona / Jefe de Sección de Audiencias de El Periódico,,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
 2025/26,13/10/2025,2025-10-13,Pablo Hamada,pablo-hamada,"Jefe de Audiencias, La Gaceta de Tucumán",Mentalidad startup para innovar en periodismo,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
 2025/26,,,Roberto Prada,roberto-prada,,Caso de estudio de creación de contenido: Sabe a Alicante,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,UMH (fuera del claustro del máster),persona,si
 2024/25,28/05/2025,2025-05-28,Ismael Nafría,ismael-nafria,Autor de Tendenci@s,Claves de la innovación en boletines,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
@@ -40,8 +40,8 @@ curso,fecha,fecha_iso,ponente,slug_ponente,cargo,titulo,asignatura,slug_asignatu
 2024/25,16/12/2024,2024-12-16,José Luis Rojas,jose-luis-rojas,"Investigador, Universidad de Sevilla",Innovar en periodismo deportivo,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
 2024/25,09/12/2024,2024-12-09,Efrén Lemus,efren-lemus,"Periodista, El Faro",Innovación en periodismo de investigación: el caso de El Faro,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
 2024/25,09/12/2024,2024-12-09,Carlos Cabrera,carlos-cabrera,"Editor, Revista Nazarenos",Caso de estudio de periodismo especializado: Revista Nazarenos,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
-2024/25,04/11/2024,2024-11-04,Lucía González,lucia-gonzalez,Subdirectora de El País,,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
-2024/25,28/10/2024,2024-10-28,Charo Marcos,charo-marcos,Fundadora de Kloshletter,El estudio de la audiencia desde la innovación emprendedora,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
+2024/25,04/11/2024,2024-11-04,Lucía González,lucia-gonzalez,Subdirectora de El País / Directora de The HuffPost,,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
+2024/25,28/10/2024,2024-10-28,Charo Marcos,charo-marcos,Fundadora de Kloshletter / Directora de Mujer Hoy (Vocento),El estudio de la audiencia desde la innovación emprendedora,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
 2024/25,07/10/2024,2024-10-07,Silvia Cobo,silvia-cobo,"Periodista, Repítemelo otra vez",,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
 2024/25,07/10/2024,2024-10-07,Pia Supervielle,pia-supervielle,,,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
 2024/25,,,José Carlos Sánchez,jose-carlos-sanchez,Responsable de inteligencia en Prodigioso Volcán,,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
@@ -74,8 +74,8 @@ curso,fecha,fecha_iso,ponente,slug_ponente,cargo,titulo,asignatura,slug_asignatu
 2023/24,29/11/2023,2023-11-29,Brenda Valverde,brenda-valverde,Coordinadora de nuevas narrativas en El País (LAB),Nuevas narrativas en un diario generalista: El País,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
 2023/24,27/11/2023,2023-11-27,David Llorente,david-llorente,CEO de Narrativa,,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
 2023/24,20/11/2023,2023-11-20,Ana Valacco,ana-valacco,,,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
-2023/24,06/11/2023,2023-11-06,Lucía González,lucia-gonzalez,Subdirectora de La Vanguardia,Desarrollo de audiencias en el entorno de la IA,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
-2023/24,30/10/2023,2023-10-30,Charo Marcos,charo-marcos,Fundadora de Kloshletter,El estudio de la audiencia desde la innovación emprendedora,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
+2023/24,06/11/2023,2023-11-06,Lucía González,lucia-gonzalez,Subdirectora de El País / Directora de The HuffPost,Desarrollo de audiencias en el entorno de la IA,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
+2023/24,30/10/2023,2023-10-30,Charo Marcos,charo-marcos,Fundadora de Kloshletter / Directora de Mujer Hoy (Vocento),El estudio de la audiencia desde la innovación emprendedora,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
 2023/24,25/10/2023,2023-10-25,David Corral,david-corral,RTVE,Aplicación de la IA en RTVE,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
 2023/24,19/10/2023,2023-10-19,Andrea Aldana,andrea-aldana,Reportera freelance; columnista en El Espectador,Innovar en periodismo y obsolescencia informativa,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
 2023/24,19/10/2023,2023-10-19,Loraine Morales,loraine-morales,Editora de El Toque,Periodismo de datos y migraciones en Cuba,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,no
@@ -91,7 +91,7 @@ curso,fecha,fecha_iso,ponente,slug_ponente,cargo,titulo,asignatura,slug_asignatu
 2022/23,12/12/2022,2022-12-12,Esteban Ordóñez,esteban-ordonez,Redactor y guionista en «Lo de Évole»,La producción audiovisual: nuevos formatos en TV,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
 2022/23,25/11/2022,2022-11-25,Soraya Aybar,soraya-aybar,Periodista freelance,La cobertura especializada en África Mundi,"El periodismo como contenido, producto y servicio",contenido-producto-servicio,Externo,persona,si
 2022/23,23/11/2022,2022-11-23,Alex Barredo,alex-barredo,,,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
-2022/23,23/11/2022,2022-11-23,Charo Marcos,charo-marcos,Fundadora de Kloshletter,,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
+2022/23,23/11/2022,2022-11-23,Charo Marcos,charo-marcos,Fundadora de Kloshletter / Directora de Mujer Hoy (Vocento),,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
 2022/23,23/11/2022,2022-11-23,Susana Martinez,susana-martinez,,,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
 2022/23,21/11/2022,2022-11-21,Miguel Dobrich,miguel-dobrich,Responsable de Dobcast y Periodismo Roboto,Periodismo tecnológico y con datos abiertos,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
 2022/23,21/11/2022,2022-11-21,David Llorente,david-llorente,CEO de Narrativa,Inteligencia artificial para la transformación del periodismo,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
@@ -138,7 +138,7 @@ curso,fecha,fecha_iso,ponente,slug_ponente,cargo,titulo,asignatura,slug_asignatu
 2021/22,07/02/2022,2022-02-07,Mauricio Cabrera,mauricio-cabrera,Consultor de contenidos en Storybaker,La economía de la creator economy,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
 2021/22,24/01/2022,2022-01-24,Marta Gesto,marta-gesto,Directora de Content Factory en Vocento,Branded content en Vocento,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
 2021/22,17/01/2022,2022-01-17,José A. Navas,jose-a-navas,Product manager de suscripciones en El Confidencial,Gestión de producto en El Confidencial,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
-2021/22,14/11/2021,2021-11-14,Lucía González,lucia-gonzalez,Editora de El País,Desarrollo de audiencias en El País,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
+2021/22,14/11/2021,2021-11-14,Lucía González,lucia-gonzalez,Subdirectora de El País / Directora de The HuffPost,Desarrollo de audiencias en El País,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
 2021/22,13/10/2021,2021-10-13,Diego Masjoan,diego-masjoan,Periodista de El Litoral,La audiencia joven de El Litoral: estrategia en Instagram,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
 2021/22,10/10/2021,2021-10-10,Luis Pereyra,luis-pereyra,Periodista,La transformación de Letra P,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
 2021/22,,,Carla Serrano,carla-serrano,Emprendedora,"Veggies World, desarrollo de productos periodísticos",Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
@@ -146,6 +146,7 @@ curso,fecha,fecha_iso,ponente,slug_ponente,cargo,titulo,asignatura,slug_asignatu
 2021/22,,,David Corral,david-corral,Area de Innovación de RTVE,La transformación de la RTVE pública,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
 2021/22,,,Pere Rusiñol,pere-rusinol,Fundador de Alternativas Económicas y Mongolia,Crear medios independientes en la era digital,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
 2021/22,,,Juan Ramón Martín San Román,juan-ramon-martin-san-roman,"Profesor, Universidad de Salamanca",Usabilidad y experiencia de usuario en medios,Diseño web avanzado e introducción a la programación,diseno-web-programacion,Externo,persona,si
+2021/22,,,Mari Luz Peinado,mari-luz-peinado,"Estrategia digital, El País",,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
 2020/21,24/05/2021,2021-05-24,Esther Alonso,esther-alonso,Directora de Marketing y Desarrollo (eldiario.es),Estrategia de marketing: el caso de eldiario.es,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
 2020/21,17/05/2021,2021-05-17,Marta Caparrós,marta-caparros,Jefa de vídeo internacional en EFE,Defensa de un proyecto con vídeo,Desarrollo y lanzamiento de proyectos periodísticos,desarrollo-lanzamiento-proyectos,Externo,persona,si
 2020/21,29/03/2021,2021-03-29,Ismael Nafría,ismael-nafria,Director de National Geographic,Cómo crear una newsletter de éxito,El periodismo en las redes sociales,redes-sociales,Externo,persona,si
@@ -161,7 +162,6 @@ curso,fecha,fecha_iso,ponente,slug_ponente,cargo,titulo,asignatura,slug_asignatu
 ,,,Antonio Delgado,antonio-delgado,"Cofundador, Datadista",,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
 ,,,Marisa Picó,marisa-pico,Profesora de oratoria,,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
 ,,,Daniel M. Guerrero,daniel-m-guerrero,"Jefe de Estrategia, El Español",,Nuevos modelos de negocio,modelos-de-negocio,Externo,persona,si
-,,,Mari Luz Peinado,mari-luz-peinado,"Estrategia digital, El País",,La audiencia en el proceso periodístico,audiencia,Externo,persona,si
 ,,,Iker Barinaga,iker-barinaga,"Director de Producto, Grupo Vocento",,Diseño y planificación de proyectos periodísticos,diseno-planificacion-proyectos,Externo,persona,si
 ,,,Ana López,ana-lopez,Periodista móvil,,El impacto de la tecnología en el periodismo,impacto-tecnologia,Externo,persona,si
 ,,,Ana Tudela,ana-tudela,"Cofundadora, Datadista",,Nuevas narrativas multimedia y periodismo de datos,narrativas-periodismo-datos,Externo,persona,si
