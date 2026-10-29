@@ -142,7 +142,7 @@ a {
 .s1 { animation-delay: 0s; } .s2 { animation-delay: 3s; } .s3 { animation-delay: 6s; }
 .ilus-phone { animation: flotar 6s ease-in-out infinite; }
 // Panel del móvil (bucle de 9 s sin retardos, para que todo vuelva a empezar a la vez):
-// Calidad y línea de puntos que crece desde abajo → Audiencia y barras → Negocio → el panel pasa a menta
+// un solo gráfico: Calidad y la línea de 5 puntos crecen → Audiencia y las barras debajo → Negocio y el panel pasa a menta
 .a-et { opacity: 0; animation: 9s ease-out infinite; }
 .e1 { animation-name: et-calidad; } .e2 { animation-name: et-audiencia; } .e3 { animation-name: et-negocio; }
 .a-lin { transform-origin: bottom center; animation: puntos 9s cubic-bezier(.2, .7, .2, 1) infinite; }
