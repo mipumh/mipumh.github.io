@@ -29,7 +29,7 @@ LC_ALL=en_US.UTF-8 htmlproofer ./_site --disable-external --allow-hash-href --em
 | Últimos 4 artículos científicos del claustro | `_data/publicaciones.json` | `python3 _tools/sync_publicaciones.py` (Portal de Investigación UMH con Chrome sin interfaz; `portal_id` en `_profesorado/*.md`) |
 | Ponentes invitados (Nos visitan, asignaturas) | `_data/nos_visitan.yml` (página Nos visitan, listado y cargos de la dirección), `_data/ponentes.csv` (sesiones por curso en las asignaturas) | `python3 _tools/build_ponentes.py` (lee `_mejora_avap/`, `../blog/_conferencias` y `_tools/ponentes_extra.csv`) |
 | Fotos de ponentes | `images/ponentes/<slug>.jpg`, `_data/fotos_ponentes.yml` | A mano, 240×240 px |
-| Carteles de clases del curso | `images/carteles/`, `_data/carteles.yml` | PNG original en `carteles_escaparate/` (fuera de git) → JPG 640 px |
+| Carteles de clases del curso | `images/carteles/`, `_data/carteles.yml` | PNG original en `carteles_escaparate/` (fuera de git) → JPG 640 px; después `python3 _tools/carteles_tamanos.py` (versiones de 320 y 480 px para el `srcset`) |
 | Premio Vicente Verdú | `images/premios/`, `_data/premio_verdu.yml` | Originales en `CARTELES PREMIADOS/` (fuera de git) → JPG 600 px |
 | Entidades de prácticas / instituciones colaboradoras | `_data/entidades.yml`, `_data/colaboradores.yml`, `images/colaboradores/` | A mano |
 | Egresados por promoción | `_data/egresados.yml`, `images/alumni/` (**solo en local**, en `.gitignore`: el repo es público) | Listados de TFM de la Facultad: **solo nombre y título**, nunca NIF ni notas. Volver a versionarlos solo con los permisos revisados |

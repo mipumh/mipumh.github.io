@@ -16,7 +16,9 @@
     <ul class="carteles-lista"{% if vuelta == 2 %} aria-hidden="true"{% endif %}>
       {%- for p in lista %}
       <li class="cartel" data-fecha="{{ p.fecha }}">
-        <img src="{{ site.baseurl }}/images/carteles/{{ p.imagen }}" width="640" height="710" loading="lazy" decoding="async"
+        {%- assign base = p.imagen | remove: ".jpg" | prepend: "/images/carteles/" | prepend: site.baseurl %}
+        <img src="{{ base }}.jpg" srcset="{{ base }}-320.jpg 320w, {{ base }}-480.jpg 480w, {{ base }}.jpg 640w"
+             sizes="(max-width: 991.98px) min(62vw, 280px), min(22vw, 280px)" width="640" height="710" loading="lazy" decoding="async"
              alt="{% if vuelta == 1 %}Cartel: clase online con {{ p.nombre }}, {{ p.cargo }}, el {{ p.fecha | date: '%-d/%-m/%Y' }}{% endif %}">
       </li>
       {%- endfor %}
