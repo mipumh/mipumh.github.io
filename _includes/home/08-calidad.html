@@ -9,9 +9,9 @@
         <a class="btn btn-light" href="{{ site.baseurl }}/calidad/">Calidad y transparencia</a>
       </div>
       <div class="col-lg-6">
-        <ul class="doc-list mb-0">
+        <ul class="docs-calidad mb-0">
           {%- for d in t.documentos %}{% unless d.url contains "dipticos" %}
-          <li><a href="{{ d.url }}">{{ d.nombre }}</a><span class="doc-anyo">{{ d.anyo }}</span></li>
+          <li><a href="{{ d.url }}"><span class="doc-nombre">{{ d.nombre }}</span><span class="doc-anyo">{{ d.anyo }}</span>{% include icon.html n="arrow" s=18 %}</a></li>
           {%- endunless %}{% endfor %}
         </ul>
       </div>
