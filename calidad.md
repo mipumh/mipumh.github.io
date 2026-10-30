@@ -8,6 +8,8 @@ description: Documentación oficial del Máster Universitario en Innovación en 
 {%- assign t = site.data.umh.titulo -%}
 <p class="lead">{% include frase-acreditacion.html %}</p>
 
+{% include cifras.html %}
+
 <h2 id="registro">Datos de registro</h2>
 <ul>
   <li>Denominación: <strong>{{ t.nombre }}</strong></li>

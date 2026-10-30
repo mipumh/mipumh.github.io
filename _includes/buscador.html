@@ -1,17 +1,27 @@
 {%- comment -%}Buscador de la web y la revista (lupa del menú o tecla /). Índices: /buscar.json y /blog/search.json, cargados al abrir.{%- endcomment -%}
 <div class="modal fade buscador" id="modal-buscar" tabindex="-1" aria-labelledby="buscar-titulo" aria-hidden="true">
-  <div class="modal-dialog modal-lg modal-dialog-scrollable modal-fullscreen-sm-down">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h2 class="visually-hidden" id="buscar-titulo">Buscar en el máster y en la revista</h2>
-        <form class="buscador-form" role="search" action="#" onsubmit="return false">
-          {% include icon.html n="search" s=22 %}
-          <input type="search" id="buscar-q" placeholder="Buscar asignaturas, profesorado, dudas, artículos…" aria-label="Buscar" autocomplete="off" spellcheck="false">
-        </form>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-      </div>
-      <div class="modal-body">
-        <div id="buscar-res" aria-live="polite"><p class="buscador-ayuda">Escribe al menos dos letras. Atajo: tecla <kbd>/</kbd>.</p></div>
+  <div class="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-md-down">
+    <div class="modal-content hablamos buscador-caja">
+      <button type="button" class="btn-close hablamos-cerrar" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      <div class="row g-0">
+        <div class="col-lg-5 hablamos-panel">
+          <p class="eyebrow">Máster en Innovación en Periodismo</p>
+          <h2 class="hablamos-titulo" id="buscar-titulo">¿Qué buscas?</h2>
+          <p class="buscador-intro">En la web del máster y en los artículos de la Revista de Innovación en Periodismo.</p>
+          <form class="buscador-form" role="search" action="#" onsubmit="return false">
+            {% include icon.html n="search" s=22 %}
+            <input type="search" id="buscar-q" placeholder="Asignaturas, profesorado, dudas…" aria-label="Buscar" autocomplete="off" spellcheck="false">
+          </form>
+          <div class="temas buscador-sugerencias" aria-label="Búsquedas frecuentes">
+            {%- assign sugerencias = "Admisión,Precio,Prácticas,TFM,Profesorado,Inteligencia artificial" | split: "," -%}
+            {%- for s in sugerencias %}
+            <button type="button" class="tema">{{ s }}</button>
+            {%- endfor %}
+          </div>
+        </div>
+        <div class="col-lg-7 hablamos-form buscador-resultados">
+          <div id="buscar-res" aria-live="polite"><p class="buscador-ayuda">Escribe al menos dos letras o elige una búsqueda frecuente. Atajo: tecla <kbd>/</kbd>.</p></div>
+        </div>
       </div>
     </div>
   </div>
@@ -52,7 +62,7 @@
     function pintar() {
       var texto = norm(q.value).trim();
       res.textContent = '';
-      if (texto.length < 2) { res.innerHTML = '<p class="buscador-ayuda">Escribe al menos dos letras. Atajo: tecla <kbd>/</kbd>.</p>'; return; }
+      if (texto.length < 2) { res.innerHTML = '<p class="buscador-ayuda">Escribe al menos dos letras o elige una búsqueda frecuente. Atajo: tecla <kbd>/</kbd>.</p>'; return; }
       var palabras = texto.split(/\s+/).map(function (p) { return p.length > 4 ? p.replace(/e?s$/, '') : p; }), w = buscar(web, palabras, 8), r = buscar(revista, palabras, 5);
       if (!w.length && !r.length) { res.innerHTML = '<p class="buscador-ayuda">Sin resultados. Prueba con otra palabra o consulta las <a href="{{ site.baseurl }}/preguntas-frecuentes/">preguntas frecuentes</a>.</p>'; return; }
       if (w.length) res.append.apply(res, grupo('En la web', w));
@@ -62,8 +72,11 @@
     q.addEventListener('keydown', function (ev) {
       if (ev.key === 'Enter') { var a = res.querySelector('.buscador-lista a'); if (a) location.href = a.href; }
     });
+    modal.querySelectorAll('.buscador-sugerencias .tema').forEach(function (b) {
+      b.addEventListener('click', function () { q.value = b.textContent; cargar().then(pintar); });
+    });
     modal.addEventListener('show.bs.modal', cargar);
-    modal.addEventListener('shown.bs.modal', function () { q.focus(); q.select(); });
+    modal.addEventListener('shown.bs.modal', function () { if (window.matchMedia('(min-width: 768px)').matches) { q.focus(); q.select(); } });
     document.addEventListener('keydown', function (ev) {
       var t = ev.target.tagName;
       if (ev.key === '/' && !ev.ctrlKey && !ev.metaKey && t !== 'INPUT' && t !== 'TEXTAREA' && !ev.target.isContentEditable) {

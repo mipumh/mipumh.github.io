@@ -1,0 +1,195 @@
+# El máster en cifras (Calidad › #cifras)
+# Fuentes: Tablas 3 y 4 del dosier de renovación de la acreditación (SGQ UMH, curso 2025/26)
+# e Informes de Revisión de Resultados (IRR) 2020/21–2024/25. Escalas: no mezclar 0–10 con 1–5.
+# null = sin dato (no existe o no alcanzó tasa de respuesta válida).
+
+actualizado: "30/10/2026"
+ultimo_cerrado: "2024/25"
+plazas: 32
+
+cursos: ["2020/21", "2021/22", "2022/23", "2023/24", "2024/25", "2025/26", "2026/27"]
+
+# Cursos con datos aún no cerrados (se dibujan rayados y con la etiqueta «provisional»)
+provisional: ["2026/27"]
+nota_provisional: "2026/27: preinscripciones y estudiantes matriculados a 30/10/2026, a falta del cierre oficial del curso."
+
+destacados:
+  - { valor: "98,34%", etiqueta: "Tasa de éxito", detalle: "Créditos superados sobre evaluados" }
+  - { valor: "99%", etiqueta: "Tasa de eficiencia", detalle: "Previsto en la memoria: 95%" }
+  - { valor: "9,8", unidad: "/10", etiqueta: "Satisfacción con el profesorado", detalle: "Encuesta de estudiantes" }
+  - { valor: "90%", etiqueta: "Inserción laboral", detalle: "Titulados con empleo" }
+  - { valor: "100%", etiqueta: "Empleadores satisfechos", detalle: "En todos los cursos de la serie" }
+
+bloques:
+  - id: demanda
+    titulo: "Demanda y matrícula"
+    graficos:
+      - id: nuevo-ingreso
+        titulo: "Estudiantes de nuevo ingreso"
+        tipo: barras
+        unidad: ""
+        referencia: { valor: 32, etiqueta: "Plazas ofertadas: 32" }
+        valores: [29, 30, 31, 21, 12, 11, 16]
+        fuente: "Tabla 4 (SGQ); 2026/27, registro de matrícula del máster"
+      - id: oferta-demanda
+        titulo: "Solicitudes sobre plazas ofertadas"
+        tipo: barras
+        unidad: "%"
+        referencia: { valor: 100, etiqueta: "100%: tantas solicitudes como plazas" }
+        valores: [85.94, 112, 187.5, 109, 128, 61, 100]
+        fuente: "IRR, indicador 179; 2025/26, Tabla 4 (SGQ); 2026/27, 32 preinscripciones para 32 plazas"
+      - id: procedencia
+        titulo: "Estudiantes de otras provincias"
+        hasta: "2025/26"
+        tipo: linea
+        unidad: "%"
+        min: 0
+        max: 100
+        valores: [77.41, 75.76, 87.88, 70.37, 78.57, null, null]
+        fuente: "IRR, indicador 234"
+
+  - id: resultados
+    hasta: "2025/26"   # sin el curso en marcha
+    titulo: "Resultados académicos"
+    graficos:
+      - id: exito
+        titulo: "Tasa de éxito"
+        tipo: linea
+        unidad: "%"
+        min: 0
+        max: 100
+        valores: [null, 97.1, 93.11, 98.49, 98.34, null, null]
+        fuente: "IRR, indicador 232"
+      - id: rendimiento
+        titulo: "Tasa de rendimiento"
+        tipo: linea
+        unidad: "%"
+        min: 0
+        max: 100
+        valores: [86.7, 85.2, 84, 91, 86.5, null, null]
+        fuente: "Tabla 4 (SGQ)"
+      - id: eficiencia
+        titulo: "Tasa de eficiencia"
+        tipo: linea
+        unidad: "%"
+        min: 0
+        max: 100
+        referencia: { valor: 95, etiqueta: "Previsto en la memoria: 95%" }
+        valores: [98.4, 98, 96, 95.8, 99, null, null]
+        fuente: "Tabla 4 (SGQ)"
+      - id: graduacion
+        titulo: "Tasa de graduación"
+        tipo: linea
+        unidad: "%"
+        min: 0
+        max: 100
+        referencia: { valor: 100, etiqueta: "Previsto en la memoria: 100%" }
+        valores: [81, 82.8, 83.3, 80.6, 71.4, null, null]
+        fuente: "Tabla 4 (SGQ)"
+      - id: abandono
+        titulo: "Tasa de abandono"
+        tipo: linea
+        unidad: "%"
+        min: 0
+        max: 100
+        referencia: { valor: 5, etiqueta: "Previsto en la memoria: 5%" }
+        valores: [14.3, 14.3, 10.3, 16.7, 19.4, null, null]
+        fuente: "Tabla 4 (SGQ)"
+
+  - id: satisfaccion
+    hasta: "2025/26"   # sin el curso en marcha
+    titulo: "Satisfacción"
+    graficos:
+      - id: sat-titulo
+        titulo: "Estudiantes con el título (1 a 5)"
+        tipo: linea
+        unidad: ""
+        min: 1
+        max: 5
+        valores: [4.56, 4.6, 4.5, 4.6, null, null, null]
+        fuente: "Tabla 4 (SGQ), indicador 194"
+      - id: sat-profesorado
+        titulo: "Estudiantes con el profesorado (0 a 10)"
+        tipo: linea
+        unidad: ""
+        min: 0
+        max: 10
+        valores: [8.6, 8.7, 8.34, 9.35, 9.8, null, null]
+        fuente: "IRR, indicador 111"
+      - id: sat-recursos
+        titulo: "Estudiantes con los recursos (1 a 5)"
+        tipo: linea
+        unidad: ""
+        min: 1
+        max: 5
+        valores: [4.53, 4.5, 4.03, 4.37, 5, null, null]
+        fuente: "Tabla 4 (SGQ), indicador 195"
+      - id: sat-egresados
+        titulo: "Egresados con el título (1 a 5)"
+        tipo: linea
+        unidad: ""
+        min: 1
+        max: 5
+        valores: [4.38, 4.23, 3.89, 3.73, 4.2, null, null]
+        fuente: "Tabla 4 (SGQ), indicador 196"
+      - id: sat-empleadores
+        titulo: "Empleadores con los titulados"
+        tipo: linea
+        unidad: "%"
+        min: 0
+        max: 100
+        valores: [100, 100, 100, 100, 100, null, null]
+        fuente: "Tabla 4 (SGQ), indicador 61"
+
+  - id: empleo
+    hasta: "2025/26"   # sin el curso en marcha
+    titulo: "Egresados: empleo y doctorado"
+    graficos:
+      - id: insercion
+        titulo: "Titulados con empleo"
+        tipo: linea
+        unidad: "%"
+        min: 0
+        max: 100
+        valores: [92.86, 100, 100, 90, 90, null, null]
+        fuente: "IRR, indicador 59 (Observatorio Ocupacional UMH)"
+      - id: nivel
+        titulo: "Con empleo de nivel igual o superior a sus estudios"
+        tipo: linea
+        unidad: "%"
+        min: 0
+        max: 100
+        valores: [38.46, 0, 15, 66.67, 100, null, null]
+        fuente: "IRR, indicador 60"
+      - id: doctores
+        titulo: "Egresados que se han doctorado"
+        tipo: cifra
+        valor: "17"
+        texto: "egresados del máster han defendido su tesis doctoral, varios de ellos hoy profesores del propio máster."
+        enlace: { texto: "Programa de Doctorado en Ciencias Sociales y Jurídicas", url: "https://doctoradosocialesyjuridicas.umh.es/" }
+        fuente: "Registro de la dirección del máster (octubre de 2026)"
+
+  - id: profesorado
+    hasta: "2025/26"   # sin el curso en marcha
+    titulo: "Profesorado"
+    graficos:
+      - id: pdi-total
+        titulo: "Profesorado que imparte docencia"
+        tipo: barras
+        unidad: ""
+        valores: [4, 6, 7, 9, 9, 7, null]
+        fuente: "Tablas 1 y 3 (SGQ)"
+      - id: pdi-doctor
+        titulo: "Profesorado doctor"
+        tipo: linea
+        unidad: "%"
+        min: 0
+        max: 100
+        valores: [null, 100, 100, 88.89, 88.89, 100, null]
+        fuente: "Tabla 3 (SGQ)"
+      - id: sexenios
+        titulo: "Sexenios de investigación del claustro"
+        tipo: barras
+        unidad: ""
+        valores: [null, 10, 9, 14, 13, 10, null]
+        fuente: "Tabla 3 (SGQ)"
